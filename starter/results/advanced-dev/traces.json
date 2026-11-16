@@ -1,0 +1,1621 @@
+[
+  {
+    "query_id": "adv_dev_tab_01",
+    "split": "dev",
+    "category": "Table",
+    "question": "According to Table 1.1, how many boiler explosions and people killed were recorded per 10,000 steam boilers in Germany between 1882 and 1892?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "In Germany, 2.2 boiler explosions and 1.4 people killed were recorded per 10,000 steam boilers between 1882 and 1892 [wdr2025-p074-table-1_1].",
+    "citations": [
+      "wdr2025-p074-table-1_1"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "According to Table 1.1, how many boiler explosions and people killed were recorded per 10,000 steam boilers in Germany between 1882 and 1892?",
+        "filter": null,
+        "results": [
+          {
+            "id": "wdr2025-p074-table-1_1",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 74,
+            "chunk_type": "table",
+            "chapter": "Tables",
+            "section": "Table 1.1 Risks from steam boilers varied widely across countries in the late 1800s because of very different approaches to safety",
+            "bbox": [
+              300.1700134277344,
+              76.309326171875,
+              506.0444030761719,
+              354.5412902832031
+            ],
+            "image_crop": "data/advanced/images/crop_p074_table_1_1.png",
+            "text": "### [TABLE 1.1] Table 1.1  Risks from steam boilers varied \nwidely across countries in the late 1800s \nbecause of very different approaches to \nsafety\nPer 10,000 steam boilers, 1882–92\nCOUNTRY\nNUMBER OF \nEXPLOSIONS\nNUMBER \nOF PEOPLE\nKILLED\nUnited Statesa\n20\n29\nUnited Kingdom\n4.9\n2.4\nFrance\n4.8\n4.7\nGermany\n2.2\n1.4\nSources: Crum 1910, 17–18; Hunter 1985; MTPTC 1988; \nThurston 1907, 717.\na. The widespread use of steam boilers in remote \nsawmills, employing low-quality machinery with \nminimal oversight regarding safety, contributed to the \ngreater frequency of explosions of steam boilers in the \nUnited States.\nLocation: Page 74 | Chapter: Tables",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03279
+          },
+          {
+            "id": "wdr2025-p074-table01",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 74,
+            "chunk_type": "table",
+            "chapter": "Tables",
+            "section": "Table 1.1 Risks from steam boilers varied widely across countries in the late 1800s because of very different approaches to safety",
+            "bbox": [
+              300.17401123046875,
+              158.20001220703125,
+              509.924077351888,
+              272.3041730608259
+            ],
+            "text": "### [TABLE] widely across countries in the late 1800s  because of very different approaches to  safety  Per 10,000 steam boilers, 1882–92\n| COUNTRY | NUMBEROF EXPLOSIONS | NUMBER OFPEOPLE KILLED |\n| --- | --- | --- |\n| UnitedStatesa | 20 | 29 |\n| UnitedKingdom | 49 . | 24 . |\n| France | 48 . | 47 . |\n| Germany | 22 . | 14 . |\nLocation: Page 74 | Chapter: Tables",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03226
+          },
+          {
+            "id": "wdr2025-p074-para004",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 74,
+            "chunk_type": "text",
+            "chapter": "Tables",
+            "section": "Table 1.1 Risks from steam boilers varied widely across countries in the late 1800s because of very different approaches to safety",
+            "bbox": [
+              300.0,
+              375.0299987792969,
+              510.6999206542969,
+              414.94000244140625
+            ],
+            "text": "[Tables | Page 74]\nboilers exploded in a single month in the United States as did in a year in Germany, despite similar numbers of steam engines (refer to table 1.1).",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.0315
+          }
+        ],
+        "context": "[wdr2025-p074-table-1_1 | World_Development_Report_2025.pdf | page 74]\n### [TABLE 1.1] Table 1.1  Risks from steam boilers varied \nwidely across countries in the late 1800s \nbecause of very different approaches to \nsafety\nPer 10,000 steam boilers, 1882–92\nCOUNTRY\nNUMBER OF \nEXPLOSIONS\nNUMBER \nOF PEOPLE\nKILLED\nUnited Statesa\n20\n29\nUnited Kingdom\n4.9\n2.4\nFrance\n4.8\n4.7\nGermany\n2.2\n1.4\nSources: Crum 1910, 17–18; Hunter 1985; MTPTC 1988; \nThurston 1907, 717.\na. The widespread use of steam boilers in remote \nsawmills, employing low-quality machinery with \nminimal oversight regarding safety, contributed to the \ngreater frequency of explosions of steam boilers in the \nUnited States.\nLocation: Page 74 | Chapter: Tables\n\n[wdr2025-p074-table01 | World_Development_Report_2025.pdf | page 74]\n### [TABLE] widely across countries in the late 1800s  because of very different approaches to  safety  Per 10,000 steam boilers, 1882–92\n| COUNTRY | NUMBEROF EXPLOSIONS | NUMBER OFPEOPLE KILLED |\n| --- | --- | --- |\n| UnitedStatesa | 20 | 29 |\n| UnitedKingdom | 49 . | 24 . |\n| France | 48 . | 47 . |\n| Germany | 22 . | 14 . |\nLocation: Page 74 | Chapter: Tables\n\n[wdr2025-p074-para004 | World_Development_Report_2025.pdf | page 74]\n[Tables | Page 74]\nboilers exploded in a single month in the United States as did in a year in Germany, despite similar numbers of steam engines (refer to table 1.1).",
+        "context_ids": [
+          "wdr2025-p074-table-1_1",
+          "wdr2025-p074-table01",
+          "wdr2025-p074-para004"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 8938.61
+  },
+  {
+    "query_id": "adv_dev_tab_02",
+    "split": "dev",
+    "category": "Table",
+    "question": "Based on Table 4.2, what are the initial certification costs for small companies in Germany for meeting the ISO 14001 quality standard?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "The initial certification costs for small companies in Germany for meeting the ISO 14001 quality standard are about US$3,000 (€2,613) [wdr2025-p208-table-4_2].",
+    "citations": [
+      "wdr2025-p208-table-4_2"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Based on Table 4.2, what are the initial certification costs for small companies in Germany for meeting the ISO 14001 quality standard?",
+        "filter": null,
+        "results": [
+          {
+            "id": "wdr2025-p208-para016",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 208,
+            "chunk_type": "text",
+            "chapter": "Tables",
+            "section": "Table 4.2 Examples of certification costs for firms in selected markets for meeting the ISO 14001 quality standard",
+            "bbox": [
+              47.808204650878906,
+              469.99969482421875,
+              516.7181396484375,
+              499.5797119140625
+            ],
+            "text": "[Tables | Page 208]\nTable 4.2 Examples of certification costs for firms in selected markets for meeting the ISO 14001 quality standard",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03279
+          },
+          {
+            "id": "wdr2025-p209-para027",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 209,
+            "chunk_type": "text",
+            "chapter": "Tables",
+            "section": "Table 4.2 Examples of certification costs for firms in selected markets for meeting the ISO 14001 quality standard",
+            "bbox": [
+              47.74939727783203,
+              66.99981689453125,
+              516.6593627929688,
+              96.57981872558594
+            ],
+            "text": "[Tables | Page 209]\nTable 4.2 Examples of certification costs for firms in selected markets for meeting the ISO 14001 quality standard (continued)",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03226
+          },
+          {
+            "id": "wdr2025-p209-table-4_2",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 209,
+            "chunk_type": "table",
+            "chapter": "Tables",
+            "section": "Table 4.2 Examples of certification costs for firms in selected markets for meeting the ISO 14001 quality standard",
+            "bbox": [
+              47.74939727783203,
+              66.99981689453125,
+              533.2279663085938,
+              732.5033569335938
+            ],
+            "image_crop": "data/advanced/images/crop_p209_table_4_2.png",
+            "text": "### [TABLE 4.2] Table 4.2  Examples of certification costs for firms in selected markets for meeting the ISO 14001 \nquality standard (continued)\nStandards for a Better Economy\n177\nLocation: Page 209 | Chapter: Tables",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03175
+          }
+        ],
+        "context": "[wdr2025-p208-para016 | World_Development_Report_2025.pdf | page 208]\n[Tables | Page 208]\nTable 4.2 Examples of certification costs for firms in selected markets for meeting the ISO 14001 quality standard\n\n[wdr2025-p209-para027 | World_Development_Report_2025.pdf | page 209]\n[Tables | Page 209]\nTable 4.2 Examples of certification costs for firms in selected markets for meeting the ISO 14001 quality standard (continued)\n\n[wdr2025-p209-table-4_2 | World_Development_Report_2025.pdf | page 209]\n### [TABLE 4.2] Table 4.2  Examples of certification costs for firms in selected markets for meeting the ISO 14001 \nquality standard (continued)\nStandards for a Better Economy\n177\nLocation: Page 209 | Chapter: Tables",
+        "context_ids": [
+          "wdr2025-p208-para016",
+          "wdr2025-p209-para027",
+          "wdr2025-p209-table-4_2"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Table 4.2 initial certification costs small companies Germany ISO 14001",
+        "filter": null,
+        "results": [
+          {
+            "id": "wdr2025-p208-table-4_2",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 208,
+            "chunk_type": "table",
+            "chapter": "Tables",
+            "section": "Table 4.2 Examples of certification costs for firms in selected markets for meeting the ISO 14001 quality standard",
+            "bbox": [
+              47.808204650878906,
+              469.99969482421875,
+              528.1923217773438,
+              699.6119995117188
+            ],
+            "image_crop": "data/advanced/images/crop_p208_table_4_2.png",
+            "text": "### [TABLE 4.2] Table 4.2  Examples of certification costs for firms in selected markets for meeting the ISO 14001 \nquality standard\nCOUNTRY\nINITIAL CERTIFICATION COSTS\nSURVEILLANCE AND \nRECERTIFICATION COSTS\nDeveloped \ncountries\nGermanya\nSmall companies pay total costs of about \nUS$3,000 (€2,613), larger ones up to \nUS$11,500 (€10,017).\nNot available.\nUnited \nStatesb\nInitial certification costs for small businesses \nwith fewer than 10 employees and a single \nlocation range from US$5,000 to US$8,000. \nThese costs increase with an organization’s \nsize and complexity.\nExternal consultants charge US$500 to \nUS$1,500 per day for additional technical \nassistance. Budget for annual audit costs as \npart of the three-year certification cycle also \nneed to be considered.\n(Table continues next page)\nLocation: Page 208 | Chapter: Tables",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03252
+          },
+          {
+            "id": "wdr2025-p208-para016",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 208,
+            "chunk_type": "text",
+            "chapter": "Tables",
+            "section": "Table 4.2 Examples of certification costs for firms in selected markets for meeting the ISO 14001 quality standard",
+            "bbox": [
+              47.808204650878906,
+              469.99969482421875,
+              516.7181396484375,
+              499.5797119140625
+            ],
+            "text": "[Tables | Page 208]\nTable 4.2 Examples of certification costs for firms in selected markets for meeting the ISO 14001 quality standard",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03227
+          },
+          {
+            "id": "wdr2025-p209-para027",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 209,
+            "chunk_type": "text",
+            "chapter": "Tables",
+            "section": "Table 4.2 Examples of certification costs for firms in selected markets for meeting the ISO 14001 quality standard",
+            "bbox": [
+              47.74939727783203,
+              66.99981689453125,
+              516.6593627929688,
+              96.57981872558594
+            ],
+            "text": "[Tables | Page 209]\nTable 4.2 Examples of certification costs for firms in selected markets for meeting the ISO 14001 quality standard (continued)",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.0315
+          }
+        ],
+        "context": "[wdr2025-p208-para016 | World_Development_Report_2025.pdf | page 208]\n[Tables | Page 208]\nTable 4.2 Examples of certification costs for firms in selected markets for meeting the ISO 14001 quality standard\n\n[wdr2025-p209-para027 | World_Development_Report_2025.pdf | page 209]\n[Tables | Page 209]\nTable 4.2 Examples of certification costs for firms in selected markets for meeting the ISO 14001 quality standard (continued)\n\n[wdr2025-p209-table-4_2 | World_Development_Report_2025.pdf | page 209]\n### [TABLE 4.2] Table 4.2  Examples of certification costs for firms in selected markets for meeting the ISO 14001 \nquality standard (continued)\nStandards for a Better Economy\n177\nLocation: Page 209 | Chapter: Tables\n\n[wdr2025-p208-table-4_2 | World_Development_Report_2025.pdf | page 208]\n### [TABLE 4.2] Table 4.2  Examples of certification costs for firms in selected markets for meeting the ISO 14001 \nquality standard\nCOUNTRY\nINITIAL CERTIFICATION COSTS\nSURVEILLANCE AND \nRECERTIFICATION COSTS\nDeveloped \ncountries\nGermanya\nSmall companies pay total costs of about \nUS$3,000 (€2,613), larger ones up to \nUS$11,500 (€10,017).\nNot available.\nUnited \nStatesb\nInitial certification costs for small businesses \nwith fewer than 10 employees and a single \nlocation range from US$5,000 to US$8,000. \nThese costs increase with an organization’s \nsize and complexity.\nExternal consultants charge US$500 to \nUS$1,500 per day for additional technical \nassistance. Budget for annual audit costs as \npart of the three-year certification cycle also \nneed to be considered.\n(Table continues next page)\nLocation: Page 208 | Chapter: Tables",
+        "context_ids": [
+          "wdr2025-p208-para016",
+          "wdr2025-p209-para027",
+          "wdr2025-p209-table-4_2",
+          "wdr2025-p208-table-4_2"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 5559.09
+  },
+  {
+    "query_id": "adv_dev_tab_03",
+    "split": "dev",
+    "category": "Table",
+    "question": "According to Table 2.1 (Typology of standards), what are the two main legal status options for standards?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "The two main legal status options for standards are Voluntary and Mandatory [wdr2025-p111-table-2_1].",
+    "citations": [
+      "wdr2025-p111-table-2_1"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "According to Table 2.1 (Typology of standards), what are the two main legal status options for standards?",
+        "filter": null,
+        "results": [
+          {
+            "id": "wdr2025-p111-table-2_1",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 111,
+            "chunk_type": "table",
+            "chapter": "Tables",
+            "section": "Table 2.1 Typology of standards",
+            "bbox": [
+              299.9441833496094,
+              76.30999755859375,
+              510.6500549316406,
+              689.6810913085938
+            ],
+            "image_crop": "data/advanced/images/crop_p111_table_2_1.png",
+            "text": "### [TABLE 2.1] Table 2.1  Typology of standards\nDIMENSIONS\nOPTIONS\nLegal status\n•\t Voluntary\n•\t Mandatory\nStakeholders \ninvolved in \nstandards \ndevelopment\n•\t Government\n•\t Private sector\n•\t Civil society, academia, and \nprofessional associations\n•\t International organizations\n•\t Mixed\nExclusiveness\n•\t Open\n•\t Proprietary\nGeographic \nlevel\n•\t International\n•\t Regional\n•\t National\n•\t Subnational\n•\t Organization\nTarget\n•\t People\n•\t Processes\n•\t Organizations and systems\n•\t Products and services\nCore function\n•\t Measurement\n•\t Compatibility\n•\t Quality (for example, \nperformance, safety)\nSources: WDR 2025 team, based on de Vries 1998; OECD \nand ITC 2024.\nNote: The list of options included in the table is not \nexhaustive.\nStandards can also be classified according to the \ntypes of stakeholders involved in developing them \n(for example, government, private sector, or civil \nsociety). Standards developed by the government \nare often referred to as public standards, whereas \nprivate standards are developed by private or \nmultistakeholder \nentities \nand \nare \ntypically \nvoluntary.\nLocation: Page 111 | Chapter: Tables",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03227
+          },
+          {
+            "id": "wdr2025-p111-table01",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 111,
+            "chunk_type": "table",
+            "chapter": "Tables",
+            "section": "Table 2.1 Typology of standards",
+            "bbox": [
+              299.94000244140625,
+              102.20001220703125,
+              508.6266682942708,
+              506.54605865478516
+            ],
+            "text": "### [TABLE] Table 2.1  Typology of standards\n| DIMENSIONS | OPTIONS |\n| --- | --- |\n| Legalstatus | • Voluntary • Mandatory |\n| Stakeholders involvedin standards development | • Government • Privatesector • Civilsociety academia and , , professionalassociations • Internationalorganizations • Mixed |\n| Exclusiveness | • Open • Proprietary |\n| Geographic level | • International • Regional • National • Subnational • Organization |\n| Target | • People • Processes • Organizationsandsystems • Productsandservices |\n| Corefunction | • Measurement • Compatibility • Quality(forexample , performance safety) , |\nLocation: Page 111 | Chapter: Tables",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03128
+          },
+          {
+            "id": "wdr2025-p111-para001",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 111,
+            "chunk_type": "text",
+            "chapter": "Tables",
+            "section": "Table 2.1 Typology of standards",
+            "bbox": [
+              67.5050048828125,
+              128.60000610351562,
+              278.2151184082031,
+              336.510009765625
+            ],
+            "text": "[Tables | Page 111]\nIt is helpful to distinguish among the various types of standards discussed in the Report that fall under the broad definition just presented. Table 2.1 presents a typology. Importantly, com­ pliance with standards may be either voluntary or mandatory. Although many are voluntary, standards become mandatory when enshrined into law. Voluntary standards can also be legally binding when they are included in contractual obligations. The Report highlights that both voluntary and mandatory standards play a criti­ cal role for development, and that policy makers must clearly distinguish between them, because they serve different functions and pose distinct policy challenges.",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03077
+          }
+        ],
+        "context": "[wdr2025-p111-table-2_1 | World_Development_Report_2025.pdf | page 111]\n### [TABLE 2.1] Table 2.1  Typology of standards\nDIMENSIONS\nOPTIONS\nLegal status\n•\t Voluntary\n•\t Mandatory\nStakeholders \ninvolved in \nstandards \ndevelopment\n•\t Government\n•\t Private sector\n•\t Civil society, academia, and \nprofessional associations\n•\t International organizations\n•\t Mixed\nExclusiveness\n•\t Open\n•\t Proprietary\nGeographic \nlevel\n•\t International\n•\t Regional\n•\t National\n•\t Subnational\n•\t Organization\nTarget\n•\t People\n•\t Processes\n•\t Organizations and systems\n•\t Products and services\nCore function\n•\t Measurement\n•\t Compatibility\n•\t Quality (for example, \nperformance, safety)\nSources: WDR 2025 team, based on de Vries 1998; OECD \nand ITC 2024.\nNote: The list of options included in the table is not \nexhaustive.\nStandards can also be classified according to the \ntypes of stakeholders involved in developing them \n(for example, government, private sector, or civil \nsociety). Standards developed by the government \nare often referred to as public standards, whereas \nprivate standards are developed by private or \nmultistakeholder \nentities \nand \nare \ntypically \nvoluntary.\nLocation: Page 111 | Chapter: Tables\n\n[wdr2025-p111-table01 | World_Development_Report_2025.pdf | page 111]\n### [TABLE] Table 2.1  Typology of standards\n| DIMENSIONS | OPTIONS |\n| --- | --- |\n| Legalstatus | • Voluntary • Mandatory |\n| Stakeholders involvedin standards development | • Government • Privatesector • Civilsociety academia and , , professionalassociations • Internationalorganizations • Mixed |\n| Exclusiveness | • Open • Proprietary |\n| Geographic level | • International • Regional • National • Subnational • Organization |\n| Target | • People • Processes • Organizationsandsystems • Productsandservices |\n| Corefunction | • Measurement • Compatibility • Quality(forexample , performance safety) , |\nLocation: Page 111 | Chapter: Tables\n\n[wdr2025-p111-para001 | World_Development_Report_2025.pdf | page 111]\n[Tables | Page 111]\nIt is helpful to distinguish among the various types of standards discussed in the Report that fall under the broad definition just presented. Table 2.1 presents a typology. Importantly, com­ pliance with standards may be either voluntary or mandatory. Although many are voluntary, standards become mandatory when enshrined into law. Voluntary standards can also be legally binding when they are included in contractual obligations. The Report highlights that both voluntary and mandatory standards play a criti­ cal role for development, and that policy makers must clearly distinguish between them, because they serve different functions and pose distinct policy challenges.",
+        "context_ids": [
+          "wdr2025-p111-table-2_1",
+          "wdr2025-p111-table01",
+          "wdr2025-p111-para001"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 2370.5
+  },
+  {
+    "query_id": "adv_dev_diag_01",
+    "split": "dev",
+    "category": "Image/Diagram",
+    "question": "According to Figure O.1, what are the three stages along the development trajectory for standards?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "The three stages are Adapt, Align, and Author, as shown in Figure 8.1 [wdr2025-p382-figure-8_1].",
+    "citations": [
+      "wdr2025-p382-figure-8_1"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "According to Figure O.1, what are the three stages along the development trajectory for standards?",
+        "filter": null,
+        "results": [
+          {
+            "id": "wdr2025-p382-para007",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 382,
+            "chunk_type": "text",
+            "chapter": "Figures",
+            "section": "Figure 8.1 Setting standards along the development trajectory",
+            "bbox": [
+              67.5,
+              490.1199951171875,
+              373.2693786621094,
+              504.70001220703125
+            ],
+            "text": "[Figures | Page 382]\nFigure 8.1 Setting standards along the development trajectory",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.032
+          },
+          {
+            "id": "wdr2025-p126-para000",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 126,
+            "chunk_type": "text",
+            "chapter": "Figures",
+            "section": "Figure 2.3 From adapting standards to aligning and then authoring them",
+            "bbox": [
+              67.5,
+              328.8627014160156,
+              278.2100830078125,
+              424.772705078125
+            ],
+            "text": "[Figures | Page 126]\nstandards play a catalytic role in this journey. Figure 2.3 depicts the evolution of standards set­ ting over the different phases of a country’s devel­ opment. Importantly, this trajectory may not progress uniformly across a country, which may be at several different points with respect to changes in the development of standards at the same time.",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.01639
+          },
+          {
+            "id": "wdr2025-p382-figure-8_1",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 382,
+            "chunk_type": "figure",
+            "chapter": "Figures",
+            "section": "Figure 8.1 Setting standards along the development trajectory",
+            "bbox": [
+              67.5,
+              490.1199951171875,
+              508.54168701171875,
+              700.6119995117188
+            ],
+            "image_crop": "data/advanced/images/crop_p382_figure_8_1.png",
+            "text": "### [FIGURE 8.1] Figure 8.1  Setting standards along the development trajectory\nPath to\nhigher\nstandards\nAdapt \nAdapt international standards\nfor the domestic market.\nAlign\nAlign the domestic market\nwith international standards.\nAuthor\nShape international\nstandards with the\nglobal community.\nInternational\nstandards\nDomestic\nstandards\nDevelopment trajectory\nDrive global knowledge\nSource: WDR 2025 team.\nLocation: Page 382 | Chapter: Figures",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.01639
+          }
+        ],
+        "context": "[wdr2025-p382-para007 | World_Development_Report_2025.pdf | page 382]\n[Figures | Page 382]\nFigure 8.1 Setting standards along the development trajectory\n\n[wdr2025-p126-para000 | World_Development_Report_2025.pdf | page 126]\n[Figures | Page 126]\nstandards play a catalytic role in this journey. Figure 2.3 depicts the evolution of standards set­ ting over the different phases of a country’s devel­ opment. Importantly, this trajectory may not progress uniformly across a country, which may be at several different points with respect to changes in the development of standards at the same time.\n\n[wdr2025-p382-figure-8_1 | World_Development_Report_2025.pdf | page 382]\n### [FIGURE 8.1] Figure 8.1  Setting standards along the development trajectory\nPath to\nhigher\nstandards\nAdapt \nAdapt international standards\nfor the domestic market.\nAlign\nAlign the domestic market\nwith international standards.\nAuthor\nShape international\nstandards with the\nglobal community.\nInternational\nstandards\nDomestic\nstandards\nDevelopment trajectory\nDrive global knowledge\nSource: WDR 2025 team.\nLocation: Page 382 | Chapter: Figures",
+        "context_ids": [
+          "wdr2025-p382-para007",
+          "wdr2025-p126-para000",
+          "wdr2025-p382-figure-8_1"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 4028.5
+  },
+  {
+    "query_id": "adv_dev_diag_02",
+    "split": "dev",
+    "category": "Image/Diagram",
+    "question": "In Figure O.3, what are the core components that constitute Quality Infrastructure to ensure compliance with standards?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "The four core components of Quality Infrastructure are: metrology, conformity assessment, accreditation, and standards themselves [wdr2025-p395-para003].",
+    "citations": [
+      "wdr2025-p395-para003"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "In Figure O.3, what are the core components that constitute Quality Infrastructure to ensure compliance with standards?",
+        "filter": null,
+        "results": [
+          {
+            "id": "wdr2025-p039-para008",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 39,
+            "chunk_type": "text",
+            "chapter": "Figures",
+            "section": "Figure O.3 Quality infrastructure ensures compliance with standards",
+            "bbox": [
+              67.560302734375,
+              490.30999755859375,
+              405.6194763183594,
+              504.8900146484375
+            ],
+            "text": "[Figures | Page 39]\nFigure O.3 Quality infrastructure ensures compliance with standards",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.032
+          },
+          {
+            "id": "wdr2025-p152-para003",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 152,
+            "chunk_type": "text",
+            "chapter": "Part 2: Navigating the Complex World of Standards and Using Them Effectively",
+            "section": "3: Reaching the Full Potential of Standards with Quality Infrastructure",
+            "bbox": [
+              299.94000244140625,
+              74.19599914550781,
+              508.3799133300781,
+              123.65994262695312
+            ],
+            "text": "[Part 2: Navigating the Complex World of Standards and Using Them Effectively | Page 152]\nFour core components of quality infrastructure that underpin voluntary and mandatory standards",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03125
+          },
+          {
+            "id": "wdr2025-p039-para001",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 39,
+            "chunk_type": "text",
+            "chapter": "Figures",
+            "section": "Figure O.3 Quality infrastructure ensures compliance with standards",
+            "bbox": [
+              67.55999755859375,
+              116.5999984741211,
+              278.2700500488281,
+              282.510009765625
+            ],
+            "text": "[Figures | Page 39]\nBuilding capacity for compliance with standards is not just about teaching firms to tick the right boxes, it is about wiring an entire system that makes quality the standard. That system of pub­ lic and private institutions is called “quality infra­ structure.” Although it is referred to as a type of infrastructure, it should not be confused with physical structures like roads or bridges. Instead, quality infrastructure serves as the backbone or foundation of quality and consists of four compo­ nents that ensure standards are implemented cor­ rectly and consistently (refer to figure O.3):",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.0311
+          }
+        ],
+        "context": "[wdr2025-p039-para008 | World_Development_Report_2025.pdf | page 39]\n[Figures | Page 39]\nFigure O.3 Quality infrastructure ensures compliance with standards\n\n[wdr2025-p152-para003 | World_Development_Report_2025.pdf | page 152]\n[Part 2: Navigating the Complex World of Standards and Using Them Effectively | Page 152]\nFour core components of quality infrastructure that underpin voluntary and mandatory standards\n\n[wdr2025-p039-para001 | World_Development_Report_2025.pdf | page 39]\n[Figures | Page 39]\nBuilding capacity for compliance with standards is not just about teaching firms to tick the right boxes, it is about wiring an entire system that makes quality the standard. That system of pub­ lic and private institutions is called “quality infra­ structure.” Although it is referred to as a type of infrastructure, it should not be confused with physical structures like roads or bridges. Instead, quality infrastructure serves as the backbone or foundation of quality and consists of four compo­ nents that ensure standards are implemented cor­ rectly and consistently (refer to figure O.3):",
+        "context_ids": [
+          "wdr2025-p039-para008",
+          "wdr2025-p152-para003",
+          "wdr2025-p039-para001"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Four core components of quality infrastructure",
+        "filter": null,
+        "results": [
+          {
+            "id": "wdr2025-p152-para004",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 152,
+            "chunk_type": "text",
+            "chapter": "Part 2: Navigating the Complex World of Standards and Using Them Effectively",
+            "section": "3: Reaching the Full Potential of Standards with Quality Infrastructure",
+            "bbox": [
+              299.94000244140625,
+              132.60000610351562,
+              510.6600036621094,
+              228.50999450683594
+            ],
+            "text": "[Part 2: Navigating the Complex World of Standards and Using Them Effectively | Page 152]\nQuality infrastructure serves a dual purpose: It supports the consistent implementation of vol­ untary standards, and it ensures effective enforce­ ment if standards are made mandatory as part of government regulation. In both cases, the quality infrastructure system relies on four core compo­ nents (refer to figure 3.1):",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03128
+          },
+          {
+            "id": "wdr2025-p152-para003",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 152,
+            "chunk_type": "text",
+            "chapter": "Part 2: Navigating the Complex World of Standards and Using Them Effectively",
+            "section": "3: Reaching the Full Potential of Standards with Quality Infrastructure",
+            "bbox": [
+              299.94000244140625,
+              74.19599914550781,
+              508.3799133300781,
+              123.65994262695312
+            ],
+            "text": "[Part 2: Navigating the Complex World of Standards and Using Them Effectively | Page 152]\nFour core components of quality infrastructure that underpin voluntary and mandatory standards",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.02889
+          },
+          {
+            "id": "wdr2025-p395-para003",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 395,
+            "chunk_type": "text",
+            "chapter": "Figures",
+            "section": "Figure 8.3 Compliance with standards depends on a quality infrastructure system that functions well",
+            "bbox": [
+              300.0,
+              174.60000610351562,
+              510.71002197265625,
+              424.510009765625
+            ],
+            "text": "[Figures | Page 395]\nAs chapter 3 advocates, low- and middle-income countries should invest in a well-functioning system of quality infrastructure, which com­ prises four core interrelated elements: metrol­ ogy, conformity assessment (testing, inspection, and certification), accreditation, and standards themselves (refer to figure 8.3). But how can low- and middle-income countries build qual­ ity infrastructure effectively? As the discussion that follows indicates, they should sequence the development of quality infrastructure accord­ ing to market demand and national priorities; develop capacity for compliance assessment through public-private partnership; and collab­ orate internationally to give stakeholders access to quality infrastructure services, which does not mean that all required capacities must be avail­ able domestically.",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.02804
+          }
+        ],
+        "context": "[wdr2025-p039-para008 | World_Development_Report_2025.pdf | page 39]\n[Figures | Page 39]\nFigure O.3 Quality infrastructure ensures compliance with standards\n\n[wdr2025-p152-para003 | World_Development_Report_2025.pdf | page 152]\n[Part 2: Navigating the Complex World of Standards and Using Them Effectively | Page 152]\nFour core components of quality infrastructure that underpin voluntary and mandatory standards\n\n[wdr2025-p039-para001 | World_Development_Report_2025.pdf | page 39]\n[Figures | Page 39]\nBuilding capacity for compliance with standards is not just about teaching firms to tick the right boxes, it is about wiring an entire system that makes quality the standard. That system of pub­ lic and private institutions is called “quality infra­ structure.” Although it is referred to as a type of infrastructure, it should not be confused with physical structures like roads or bridges. Instead, quality infrastructure serves as the backbone or foundation of quality and consists of four compo­ nents that ensure standards are implemented cor­ rectly and consistently (refer to figure O.3):\n\n[wdr2025-p152-para004 | World_Development_Report_2025.pdf | page 152]\n[Part 2: Navigating the Complex World of Standards and Using Them Effectively | Page 152]\nQuality infrastructure serves a dual purpose: It supports the consistent implementation of vol­ untary standards, and it ensures effective enforce­ ment if standards are made mandatory as part of government regulation. In both cases, the quality infrastructure system relies on four core compo­ nents (refer to figure 3.1):\n\n[wdr2025-p395-para003 | World_Development_Report_2025.pdf | page 395]\n[Figures | Page 395]\nAs chapter 3 advocates, low- and middle-income countries should invest in a well-functioning system of quality infrastructure, which com­ prises four core interrelated elements: metrol­ ogy, conformity assessment (testing, inspection, and certification), accreditation, and standards themselves (refer to figure 8.3). But how can low- and middle-income countries build qual­ ity infrastructure effectively? As the discussion that follows indicates, they should sequence the development of quality infrastructure accord­ ing to market demand and national priorities; develop capacity for compliance assessment through public-private partnership; and collab­ orate internationally to give stakeholders access to quality infrastructure services, which does not mean that all required capacities must be avail­ able domestically.",
+        "context_ids": [
+          "wdr2025-p039-para008",
+          "wdr2025-p152-para003",
+          "wdr2025-p039-para001",
+          "wdr2025-p152-para004",
+          "wdr2025-p395-para003"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 2848.19
+  },
+  {
+    "query_id": "adv_dev_diag_03",
+    "split": "dev",
+    "category": "Image/Diagram",
+    "question": "In Figure B8.2.1, what is the recommended government action if stakeholders do NOT have incentives to develop voluntary standards?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Government provides support as convenor, not standard setter, if stakeholders do NOT have incentives to develop voluntary standards [wdr2025-p384-figure-B8_2_1].",
+    "citations": [
+      "wdr2025-p384-figure-B8_2_1"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "In Figure B8.2.1, what is the recommended government action if stakeholders do NOT have incentives to develop voluntary standards?",
+        "filter": null,
+        "results": [
+          {
+            "id": "wdr2025-p384-figure-B8_2_1",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 384,
+            "chunk_type": "figure",
+            "chapter": "Figures",
+            "section": "Figure B8.2.1 Decision tree for voluntary standards: When they can be left to market forces",
+            "bbox": [
+              82.5,
+              221.30999755859375,
+              466.8639221191406,
+              578.7151489257812
+            ],
+            "image_crop": "data/advanced/images/crop_p384_figure_B8_2_1.png",
+            "text": "### [FIGURE B8.2.1] Figure B8.2.1  Decision tree for voluntary standards: When they can be left to \nmarket forces\n1. Do stakeholders have incentives \nto develop standards? \n(no public-good or free-rider problems)\nGovernment provides support\nas convenor, not standard setter.\nGovernment actions\nDecision points\nGovernment supports\nharmonization, mutual\nrecognition, equivalence,\ncredibility, and so on.a\nGovernment ensures\ncompetition through,\nfor example, general competition\nlaw; principles of fair, reasonable,\nand nondiscriminatory access;\nand governance of\nstandard-essential patents.\nNO\nNO\nNO\nNO\nYES\n2. Are relevant stakeholders involved?\n(no issues with legitimacy or\neffectiveness)\nYES\n3. Is the fragmentation of standards \nnot an issue? \n(no coordination failures)\nYES\n4. Are there no risks to competition? \n(no issues regarding market power)\nThen: Voluntary standards development\nshould be left to market forces.\nLocation: Page 384 | Chapter: Figures",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03227
+          },
+          {
+            "id": "wdr2025-p383-box-8_2",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 383,
+            "chunk_type": "figure",
+            "chapter": "Boxes",
+            "section": "Box 8.2 When to use voluntary standards and when to use mandatory ones",
+            "bbox": [
+              82.5,
+              349.80560302734375,
+              496.1300048828125,
+              576.2901000976562
+            ],
+            "image_crop": "data/advanced/images/crop_p383_box_8_2.png",
+            "text": "### [BOX 8.2] Box 8.2\t When to use voluntary standards and when to use mandatory ones\nA decision tree can help policy makers determine whether and how governments should get \ninvolved in developing voluntary standards (refer to figure B8.2.1). First, if collective action by \nprivate parties fails and no individual stakeholder has an incentive to develop a ­standard—\ndespite its being better for everyone—there may be a need for government involvement. \nHowever, the government should only convene or coordinate stakeholders—possibly by \nfunding national standards bodies—without prescribing the technical content of voluntary \nstandards. Second, if a lack of stakeholder involvement (such as among disadvantaged \ngroups in the population) threatens the legitimacy and effectiveness of standards, the gov­\nernment might need to become more involved. Third, if fragmentation of standards poses \na problem, governments can unify different national standards development organizations \nunder one umbrella or pursue other methods to reduce fragmentation, like fostering mutual \nrecognition arrangements. Finally, government action may be necessary to prevent risks to \ncompetition associated with standards, for instance, if dominant market players use propri­\netary standards to restrict market entry.\nLocation: Page 383 | Chapter: Boxes",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03226
+          },
+          {
+            "id": "wdr2025-p384-para002",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 384,
+            "chunk_type": "text",
+            "chapter": "Figures",
+            "section": "Figure B8.2.1 Decision tree for voluntary standards: When they can be left to market forces",
+            "bbox": [
+              109.88749694824219,
+              278.6419982910156,
+              271.0235290527344,
+              312.1849670410156
+            ],
+            "text": "[Figures | Page 384]\n1. Do stakeholders have incentives to develop standards? (no public-good or free-rider problems)",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03202
+          }
+        ],
+        "context": "[wdr2025-p384-figure-B8_2_1 | World_Development_Report_2025.pdf | page 384]\n### [FIGURE B8.2.1] Figure B8.2.1  Decision tree for voluntary standards: When they can be left to \nmarket forces\n1. Do stakeholders have incentives \nto develop standards? \n(no public-good or free-rider problems)\nGovernment provides support\nas convenor, not standard setter.\nGovernment actions\nDecision points\nGovernment supports\nharmonization, mutual\nrecognition, equivalence,\ncredibility, and so on.a\nGovernment ensures\ncompetition through,\nfor example, general competition\nlaw; principles of fair, reasonable,\nand nondiscriminatory access;\nand governance of\nstandard-essential patents.\nNO\nNO\nNO\nNO\nYES\n2. Are relevant stakeholders involved?\n(no issues with legitimacy or\neffectiveness)\nYES\n3. Is the fragmentation of standards \nnot an issue? \n(no coordination failures)\nYES\n4. Are there no risks to competition? \n(no issues regarding market power)\nThen: Voluntary standards development\nshould be left to market forces.\nLocation: Page 384 | Chapter: Figures\n\n[wdr2025-p383-box-8_2 | World_Development_Report_2025.pdf | page 383]\n### [BOX 8.2] Box 8.2\t When to use voluntary standards and when to use mandatory ones\nA decision tree can help policy makers determine whether and how governments should get \ninvolved in developing voluntary standards (refer to figure B8.2.1). First, if collective action by \nprivate parties fails and no individual stakeholder has an incentive to develop a ­standard—\ndespite its being better for everyone—there may be a need for government involvement. \nHowever, the government should only convene or coordinate stakeholders—possibly by \nfunding national standards bodies—without prescribing the technical content of voluntary \nstandards. Second, if a lack of stakeholder involvement (such as among disadvantaged \ngroups in the population) threatens the legitimacy and effectiveness of standards, the gov­\nernment might need to become more involved. Third, if fragmentation of standards poses \na problem, governments can unify different national standards development organizations \nunder one umbrella or pursue other methods to reduce fragmentation, like fostering mutual \nrecognition arrangements. Finally, government action may be necessary to prevent risks to \ncompetition associated with standards, for instance, if dominant market players use propri­\netary standards to restrict market entry.\nLocation: Page 383 | Chapter: Boxes\n\n[wdr2025-p384-para002 | World_Development_Report_2025.pdf | page 384]\n[Figures | Page 384]\n1. Do stakeholders have incentives to develop standards? (no public-good or free-rider problems)",
+        "context_ids": [
+          "wdr2025-p384-figure-B8_2_1",
+          "wdr2025-p383-box-8_2",
+          "wdr2025-p384-para002"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 2222.67
+  },
+  {
+    "query_id": "adv_dev_chart_01",
+    "split": "dev",
+    "category": "Chart",
+    "question": "According to Figure 7.2, how many workers do the world's 50 largest public sectors employ in total?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "The world's 50 largest public sectors employ more than 360 million workers [wdr2025-p347-para000].",
+    "citations": [
+      "wdr2025-p347-para000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "According to Figure 7.2, how many workers do the world's 50 largest public sectors employ in total?",
+        "filter": null,
+        "results": [
+          {
+            "id": "wdr2025-p347-para000",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 347,
+            "chunk_type": "text",
+            "chapter": "Figures",
+            "section": "Figure 7.2 The world’s 50 largest public sectors employ more than 360 million workers",
+            "bbox": [
+              67.5,
+              76.30999755859375,
+              485.7593078613281,
+              90.88999938964844
+            ],
+            "text": "[Figures | Page 347]\nFigure 7.2 The world’s 50 largest public sectors employ more than 360 million workers",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03279
+          },
+          {
+            "id": "wdr2025-p348-figure-7_3",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 348,
+            "chunk_type": "figure",
+            "chapter": "Figures",
+            "section": "Figure 7.4 Within the same government, public institutions often vary widely in the degree to which  they recruit candidates using standardized, merit-based written examinations",
+            "bbox": [
+              67.5,
+              49.30999755859375,
+              509.23919677734375,
+              302.11199951171875
+            ],
+            "image_crop": "data/advanced/images/crop_p348_figure_7_3.png",
+            "text": "### [FIGURE 7.3] Figure 7.3  The public sector is relatively larger in more highly developed countries\n0\n10\n20\n30\n40\n50\n60\n1,000\n10,000\n100,000\nGDP per capita (2017 US$ at purchasing power parity)\nPublic sector employees (% of total employment)\nSources: WDR 2025 team calculations, based on data from Prosperity (dashboard), World Bank, https://data360.worldbank​\n.org/en/prosperity; Worldwide Bureaucracy Indicators (dashboard), World Bank, https://datacatalog.worldbank.org/search​\n/­dataset/0038132/Worldwide-Bureaucracy-Indicators.\nNote: The figure reports latest data available by country. The share of public sector employment in a country is calculated \nas the total number of public sector employees in the country divided by the country’s total employment. The red line \nrepresents the best-fit curve using a quadratic function.\nLocation: Page 348 | Chapter: Figures",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03175
+          },
+          {
+            "id": "wdr2025-p347-figure-7_2",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 347,
+            "chunk_type": "figure",
+            "chapter": "Figures",
+            "section": "Figure 7.2 The world’s 50 largest public sectors employ more than 360 million workers",
+            "bbox": [
+              67.5,
+              76.30999755859375,
+              509.1363830566406,
+              615.177001953125
+            ],
+            "image_crop": "data/advanced/images/crop_p347_figure_7_2.png",
+            "text": "### [FIGURE 7.2] Figure 7.2  The world’s 50 largest public sectors employ more than 360 million workers\nLow income\nUpper middle income\nLower middle income\nHigh income\nMillion public sector employees\n0\n10\n20\n30\n40 100\n110\nDominican Republic\nTunisia\nAngola\nGreece\nEcuador\nNorway\nTanzania\nColombia\nMorocco\nMyanmar\nDenmark\nSri Lanka\nCzechia\nAustria\nRomania\nPortugal\nHungary\nSwitzerland\nCongo, Dem. Rep.\nPeru\nBelgium\nAustralia\nKazakhstan\nUzbekistan\nIran, Islamic Rep.\nArgentina\nPhilippines\nSouth Africa\nBangladesh\nPoland\nThailand\nCanada\nTürkiye\nViet Nam\nSaudi Arabia\nItaly\nSpain\nPakistan\nMexico\nUkraine\nFrance\nGermany\nUnited Kingdom\nEgypt, Arab Rep.\nBrazil\nIndonesia\nUnited States\nRussian Federation\nIndia\nChina\nSources: WDR 2025 team calculations, based on data from Prosperity (dashboard), World Bank, https://data360.worldbank​\n.org/en/prosperity; Worldwide Bureaucracy Indicators (dashboard), World Bank, https://datacatalog.worldbank.org​\n/­search/dataset/0038132/Worldwide-Bureaucracy-Indicators.\nLocation: Page 347 | Chapter: Figures",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.0315
+          }
+        ],
+        "context": "[wdr2025-p347-para000 | World_Development_Report_2025.pdf | page 347]\n[Figures | Page 347]\nFigure 7.2 The world’s 50 largest public sectors employ more than 360 million workers\n\n[wdr2025-p348-figure-7_3 | World_Development_Report_2025.pdf | page 348]\n### [FIGURE 7.3] Figure 7.3  The public sector is relatively larger in more highly developed countries\n0\n10\n20\n30\n40\n50\n60\n1,000\n10,000\n100,000\nGDP per capita (2017 US$ at purchasing power parity)\nPublic sector employees (% of total employment)\nSources: WDR 2025 team calculations, based on data from Prosperity (dashboard), World Bank, https://data360.worldbank​\n.org/en/prosperity; Worldwide Bureaucracy Indicators (dashboard), World Bank, https://datacatalog.worldbank.org/search​\n/­dataset/0038132/Worldwide-Bureaucracy-Indicators.\nNote: The figure reports latest data available by country. The share of public sector employment in a country is calculated \nas the total number of public sector employees in the country divided by the country’s total employment. The red line \nrepresents the best-fit curve using a quadratic function.\nLocation: Page 348 | Chapter: Figures\n\n[wdr2025-p347-figure-7_2 | World_Development_Report_2025.pdf | page 347]\n### [FIGURE 7.2] Figure 7.2  The world’s 50 largest public sectors employ more than 360 million workers\nLow income\nUpper middle income\nLower middle income\nHigh income\nMillion public sector employees\n0\n10\n20\n30\n40 100\n110\nDominican Republic\nTunisia\nAngola\nGreece\nEcuador\nNorway\nTanzania\nColombia\nMorocco\nMyanmar\nDenmark\nSri Lanka\nCzechia\nAustria\nRomania\nPortugal\nHungary\nSwitzerland\nCongo, Dem. Rep.\nPeru\nBelgium\nAustralia\nKazakhstan\nUzbekistan\nIran, Islamic Rep.\nArgentina\nPhilippines\nSouth Africa\nBangladesh\nPoland\nThailand\nCanada\nTürkiye\nViet Nam\nSaudi Arabia\nItaly\nSpain\nPakistan\nMexico\nUkraine\nFrance\nGermany\nUnited Kingdom\nEgypt, Arab Rep.\nBrazil\nIndonesia\nUnited States\nRussian Federation\nIndia\nChina\nSources: WDR 2025 team calculations, based on data from Prosperity (dashboard), World Bank, https://data360.worldbank​\n.org/en/prosperity; Worldwide Bureaucracy Indicators (dashboard), World Bank, https://datacatalog.worldbank.org​\n/­search/dataset/0038132/Worldwide-Bureaucracy-Indicators.\nLocation: Page 347 | Chapter: Figures",
+        "context_ids": [
+          "wdr2025-p347-para000",
+          "wdr2025-p348-figure-7_3",
+          "wdr2025-p347-figure-7_2"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 29596.85
+  },
+  {
+    "query_id": "adv_dev_chart_02",
+    "split": "dev",
+    "category": "Chart",
+    "question": "What trend does Figure 7.1 show regarding budget execution in countries at lower levels of economic development?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Figure 7.1 shows that countries at lower levels of economic development tend not to spend all the funds they have budgeted [wdr2025-p342-para004].",
+    "citations": [
+      "wdr2025-p342-para004"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "What trend does Figure 7.1 show regarding budget execution in countries at lower levels of economic development?",
+        "filter": null,
+        "results": [
+          {
+            "id": "wdr2025-p342-para004",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 342,
+            "chunk_type": "text",
+            "chapter": "Figures",
+            "section": "Figure 7.1 Countries at lower levels of economic development tend not to spend all the funds they have budgeted",
+            "bbox": [
+              67.49940490722656,
+              399.80999755859375,
+              492.65936279296875,
+              429.3900146484375
+            ],
+            "text": "[Figures | Page 342]\nFigure 7.1 Countries at lower levels of economic development tend not to spend all the funds they have budgeted",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03252
+          },
+          {
+            "id": "wdr2025-p342-figure-7_1",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 342,
+            "chunk_type": "figure",
+            "chapter": "Figures",
+            "section": "Figure 7.1 Countries at lower levels of economic development tend not to spend all the funds they have budgeted",
+            "bbox": [
+              67.49940490722656,
+              399.80999755859375,
+              509.2198791503906,
+              700.9700317382812
+            ],
+            "image_crop": "data/advanced/images/crop_p342_figure_7_1.png",
+            "text": "### [FIGURE 7.1] Figure 7.1  Countries at lower levels of economic development tend not to spend all the \nfunds they have budgeted\n50\n100\n60\n70\n80\n90\n150\n110\n120\n130\n140\n1,000\n10,000\n100,000\nGDP per capita (2017 US$ at purchasing power parity)\nBudget execution rate (% of original approved budget), 2022\nSources: WDR 2025 team calculations, based on data from Primary Government Expenditures as a Proportion of Original \nApproved Budget (%) (data portal), World Bank, https://data.worldbank.org/indicator/GF.XPD.BUDG.ZS; Prosperity \n(dashboard), World Bank, https://data360.worldbank.org/en/prosperity.\nNote: “Budget execution rate” refers to expenditure by primary governments as a proportion of originally approved budgets. \nThe blue line represents complete spending of the allocated budget (that is, 100 percent). Values above the blue line represent \noverspending and those below, underspending. The red line represents the best-fit curve using a quadratic function.\nLocation: Page 342 | Chapter: Figures",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03227
+          },
+          {
+            "id": "wdr2025-p352-para000",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 352,
+            "chunk_type": "text",
+            "chapter": "Figures",
+            "section": "Figure 7.6 Highly developed countries make greater use of merit-based recruitment standards",
+            "bbox": [
+              67.55940246582031,
+              76.30999755859375,
+              500.47930908203125,
+              105.88999938964844
+            ],
+            "text": "[Figures | Page 352]\nFigure 7.5 As countries develop, they put into practice more standards regarding budget transparency",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03128
+          }
+        ],
+        "context": "[wdr2025-p342-para004 | World_Development_Report_2025.pdf | page 342]\n[Figures | Page 342]\nFigure 7.1 Countries at lower levels of economic development tend not to spend all the funds they have budgeted\n\n[wdr2025-p342-figure-7_1 | World_Development_Report_2025.pdf | page 342]\n### [FIGURE 7.1] Figure 7.1  Countries at lower levels of economic development tend not to spend all the \nfunds they have budgeted\n50\n100\n60\n70\n80\n90\n150\n110\n120\n130\n140\n1,000\n10,000\n100,000\nGDP per capita (2017 US$ at purchasing power parity)\nBudget execution rate (% of original approved budget), 2022\nSources: WDR 2025 team calculations, based on data from Primary Government Expenditures as a Proportion of Original \nApproved Budget (%) (data portal), World Bank, https://data.worldbank.org/indicator/GF.XPD.BUDG.ZS; Prosperity \n(dashboard), World Bank, https://data360.worldbank.org/en/prosperity.\nNote: “Budget execution rate” refers to expenditure by primary governments as a proportion of originally approved budgets. \nThe blue line represents complete spending of the allocated budget (that is, 100 percent). Values above the blue line represent \noverspending and those below, underspending. The red line represents the best-fit curve using a quadratic function.\nLocation: Page 342 | Chapter: Figures\n\n[wdr2025-p352-para000 | World_Development_Report_2025.pdf | page 352]\n[Figures | Page 352]\nFigure 7.5 As countries develop, they put into practice more standards regarding budget transparency",
+        "context_ids": [
+          "wdr2025-p342-para004",
+          "wdr2025-p342-figure-7_1",
+          "wdr2025-p352-para000"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 1246.22
+  },
+  {
+    "query_id": "adv_dev_chart_03",
+    "split": "dev",
+    "category": "Chart",
+    "question": "According to Figure 7.8, what happens to the grace periods that government agencies have to pay providers as countries develop?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "As countries develop, they shorten the grace periods government agencies have to pay providers [wdr2025-p354-para002].",
+    "citations": [
+      "wdr2025-p354-para002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "According to Figure 7.8, what happens to the grace periods that government agencies have to pay providers as countries develop?",
+        "filter": null,
+        "results": [
+          {
+            "id": "wdr2025-p354-para002",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 354,
+            "chunk_type": "text",
+            "chapter": "Figures",
+            "section": "Figure 7.8 As countries develop, they shorten the grace periods government agencies have to pay providers",
+            "bbox": [
+              67.55940246582031,
+              242.30999755859375,
+              508.0094909667969,
+              271.8900146484375
+            ],
+            "text": "[Figures | Page 354]\nFigure 7.8 As countries develop, they shorten the grace periods government agencies have to pay providers",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03279
+          },
+          {
+            "id": "wdr2025-p354-para001",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 354,
+            "chunk_type": "text",
+            "chapter": "Figures",
+            "section": "Figure 7.8 As countries develop, they shorten the grace periods government agencies have to pay providers",
+            "bbox": [
+              300.0,
+              77.5999984741211,
+              510.7101135253906,
+              215.50999450683594
+            ],
+            "text": "[Figures | Page 354]\npayments to firms that provide goods, services, and work under government contracts. As coun­ tries develop, they tend to increase the strin­ gency of the grace periods they give themselves to pay providers, making their deadlines (in num­ ber of days) shorter (refer to figure 7.8, panel a). As a result of this adjustment, the percentage of providers paid on time remains relatively con­ stant across levels of country income (refer to figure 7.8, panel b).",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03226
+          },
+          {
+            "id": "wdr2025-p354-para030",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 354,
+            "chunk_type": "text",
+            "chapter": "Figures",
+            "section": "Figure 7.8 As countries develop, they shorten the grace periods government agencies have to pay providers",
+            "bbox": [
+              67.55970001220703,
+              563.6520385742188,
+              504.9035949707031,
+              641.323974609375
+            ],
+            "text": "[Figures | Page 354]\nNote: In panel a, the speed mandated for paying providers under a country’s procurement rules is defined as 30 days minus the maximum number of days allowed based on the national regulation; thus higher scores indicate shorter payment deadlines. Bullets correspond to binned stringency averages by deciles based on GDP per capita. Panel b reports, as a measure of compliance with the grace periods mandated in national procurement rules, the percentage of firms in a country that had a government contract that were paid on time. Whereas data from the World Bank Enterprise Surveys correspond to 2025, data on GDP per capita correspond to 2022, the latest year for which data are available. The red lines represent the best-fit curve using a quadratic function.",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.0315
+          }
+        ],
+        "context": "[wdr2025-p354-para002 | World_Development_Report_2025.pdf | page 354]\n[Figures | Page 354]\nFigure 7.8 As countries develop, they shorten the grace periods government agencies have to pay providers\n\n[wdr2025-p354-para001 | World_Development_Report_2025.pdf | page 354]\n[Figures | Page 354]\npayments to firms that provide goods, services, and work under government contracts. As coun­ tries develop, they tend to increase the strin­ gency of the grace periods they give themselves to pay providers, making their deadlines (in num­ ber of days) shorter (refer to figure 7.8, panel a). As a result of this adjustment, the percentage of providers paid on time remains relatively con­ stant across levels of country income (refer to figure 7.8, panel b).\n\n[wdr2025-p354-para030 | World_Development_Report_2025.pdf | page 354]\n[Figures | Page 354]\nNote: In panel a, the speed mandated for paying providers under a country’s procurement rules is defined as 30 days minus the maximum number of days allowed based on the national regulation; thus higher scores indicate shorter payment deadlines. Bullets correspond to binned stringency averages by deciles based on GDP per capita. Panel b reports, as a measure of compliance with the grace periods mandated in national procurement rules, the percentage of firms in a country that had a government contract that were paid on time. Whereas data from the World Bank Enterprise Surveys correspond to 2025, data on GDP per capita correspond to 2022, the latest year for which data are available. The red lines represent the best-fit curve using a quadratic function.",
+        "context_ids": [
+          "wdr2025-p354-para002",
+          "wdr2025-p354-para001",
+          "wdr2025-p354-para030"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 1590.7
+  },
+  {
+    "query_id": "adv_dev_hop_01",
+    "split": "dev",
+    "category": "Multi-hop",
+    "question": "How did the safety oversight of steam boilers in the United States compare with Germany in the late 1800s, and what was the consequence on boiler explosion rates?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "The United States had higher boiler explosion rates than Germany in the late 1800s due to minimal safety oversight, while Germany had the lowest explosion rates in Europe [wdr2025-p074-table-1_1] [wdr2025-p074-para003].",
+    "citations": [
+      "wdr2025-p074-table-1_1",
+      "wdr2025-p074-para003"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "How did the safety oversight of steam boilers in the United States compare with Germany in the late 1800s, and what was the consequence on boiler explosion rates?",
+        "filter": null,
+        "results": [
+          {
+            "id": "wdr2025-p074-table-1_1",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 74,
+            "chunk_type": "table",
+            "chapter": "Tables",
+            "section": "Table 1.1 Risks from steam boilers varied widely across countries in the late 1800s because of very different approaches to safety",
+            "bbox": [
+              300.1700134277344,
+              76.309326171875,
+              506.0444030761719,
+              354.5412902832031
+            ],
+            "image_crop": "data/advanced/images/crop_p074_table_1_1.png",
+            "text": "### [TABLE 1.1] Table 1.1  Risks from steam boilers varied \nwidely across countries in the late 1800s \nbecause of very different approaches to \nsafety\nPer 10,000 steam boilers, 1882–92\nCOUNTRY\nNUMBER OF \nEXPLOSIONS\nNUMBER \nOF PEOPLE\nKILLED\nUnited Statesa\n20\n29\nUnited Kingdom\n4.9\n2.4\nFrance\n4.8\n4.7\nGermany\n2.2\n1.4\nSources: Crum 1910, 17–18; Hunter 1985; MTPTC 1988; \nThurston 1907, 717.\na. The widespread use of steam boilers in remote \nsawmills, employing low-quality machinery with \nminimal oversight regarding safety, contributed to the \ngreater frequency of explosions of steam boilers in the \nUnited States.\nLocation: Page 74 | Chapter: Tables",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03252
+          },
+          {
+            "id": "wdr2025-p074-para017",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 74,
+            "chunk_type": "text",
+            "chapter": "Tables",
+            "section": "Table 1.1 Risks from steam boilers varied widely across countries in the late 1800s because of very different approaches to safety",
+            "bbox": [
+              300.1744079589844,
+              298.9093017578125,
+              500.1102600097656,
+              354.5412902832031
+            ],
+            "text": "[Tables | Page 74]\na. The widespread use of steam boilers in remote sawmills, employing low-quality machinery with minimal oversight regarding safety, contributed to the greater frequency of explosions of steam boilers in the United States.",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03175
+          },
+          {
+            "id": "wdr2025-p074-para003",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 74,
+            "chunk_type": "text",
+            "chapter": "Tables",
+            "section": "Table 1.1 Risks from steam boilers varied widely across countries in the late 1800s because of very different approaches to safety",
+            "bbox": [
+              67.55999755859375,
+              552.5999755859375,
+              278.27008056640625,
+              690.510009765625
+            ],
+            "text": "[Tables | Page 74]\nThe story differs in other emerging industrial powers of the time. Germany adopted a more centralized approach, and earlier than either France or Great Britain. Prussia enacted legisla­ tion on boiler safety in 1831 and detailed general requirements in its 1845 Industrial Code. As a result, it had the lowest explosion rates for boilers in Europe. In contrast, the United States had the highest rate among industrial countries, followed by France and Great Britain. In fact, as many",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03175
+          }
+        ],
+        "context": "[wdr2025-p074-table-1_1 | World_Development_Report_2025.pdf | page 74]\n### [TABLE 1.1] Table 1.1  Risks from steam boilers varied \nwidely across countries in the late 1800s \nbecause of very different approaches to \nsafety\nPer 10,000 steam boilers, 1882–92\nCOUNTRY\nNUMBER OF \nEXPLOSIONS\nNUMBER \nOF PEOPLE\nKILLED\nUnited Statesa\n20\n29\nUnited Kingdom\n4.9\n2.4\nFrance\n4.8\n4.7\nGermany\n2.2\n1.4\nSources: Crum 1910, 17–18; Hunter 1985; MTPTC 1988; \nThurston 1907, 717.\na. The widespread use of steam boilers in remote \nsawmills, employing low-quality machinery with \nminimal oversight regarding safety, contributed to the \ngreater frequency of explosions of steam boilers in the \nUnited States.\nLocation: Page 74 | Chapter: Tables\n\n[wdr2025-p074-para017 | World_Development_Report_2025.pdf | page 74]\n[Tables | Page 74]\na. The widespread use of steam boilers in remote sawmills, employing low-quality machinery with minimal oversight regarding safety, contributed to the greater frequency of explosions of steam boilers in the United States.\n\n[wdr2025-p074-para003 | World_Development_Report_2025.pdf | page 74]\n[Tables | Page 74]\nThe story differs in other emerging industrial powers of the time. Germany adopted a more centralized approach, and earlier than either France or Great Britain. Prussia enacted legisla­ tion on boiler safety in 1831 and detailed general requirements in its 1845 Industrial Code. As a result, it had the lowest explosion rates for boilers in Europe. In contrast, the United States had the highest rate among industrial countries, followed by France and Great Britain. In fact, as many",
+        "context_ids": [
+          "wdr2025-p074-table-1_1",
+          "wdr2025-p074-para017",
+          "wdr2025-p074-para003"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 4909.38
+  },
+  {
+    "query_id": "adv_dev_hop_02",
+    "split": "dev",
+    "category": "Multi-hop",
+    "question": "Synthesizing Figure O.1 and Figure 8.1, how does a country's standards posture transition from low-income to high-income status?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "A country's standards posture transitions from low-income to high-income status by establishing national standards bodies earlier and increasing productivity, with high-income countries publishing about five times more standards per employee than low-income countries [wdr2025-p193-para000].",
+    "citations": [
+      "wdr2025-p193-para000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Synthesizing Figure O.1 and Figure 8.1, how does a country's standards posture transition from low-income to high-income status?",
+        "filter": null,
+        "results": [
+          {
+            "id": "wdr2025-p193-para000",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 193,
+            "chunk_type": "text",
+            "chapter": "Figures",
+            "section": "Figure S3.1 Establishment of national standards bodies began earlier in high-income countries than in low- and middle-income countries",
+            "bbox": [
+              67.49940490722656,
+              76.30999755859375,
+              268.8695068359375,
+              135.88999938964844
+            ],
+            "text": "[Figures | Page 193]\nFigure S3.1 Establishment of national standards bodies began earlier in high- income countries than in low- and middle- income countries",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03202
+          },
+          {
+            "id": "wdr2025-p193-figure-S3_1",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 193,
+            "chunk_type": "figure",
+            "chapter": "Figures",
+            "section": "Figure S3.1 Establishment of national standards bodies began earlier in high-income countries than in low- and middle-income countries",
+            "bbox": [
+              67.49940490722656,
+              76.30999755859375,
+              278.2101135253906,
+              665.68798828125
+            ],
+            "image_crop": "data/advanced/images/crop_p193_figure_S3_1.png",
+            "text": "### [FIGURE S3.1] Figure S3.1  Establishment of national \nstandards bodies began earlier in high-\nincome countries than in low- and middle-\nincome countries\n0\n10\n20\n30\n40\n45\nCumulative number of countries\n5\n15\n25\n35\n1875\n2025\n2000\n1975\n1950\n1925\n1900\nYear national standards body\nwas established\nHigh income\nUpper middle income\nLower middle income\nLow income\nSource: WDR 2025 team, based on World Bank and \nISO 2025.\nNote: The survey sample includes 116 national standards \nbodies: 13 in low-income countries, 28 in lower-middle-\nincome countries, 34 in upper-middle-income countries, \nand 41 in high-income countries.\nThe number of standards published per employee \ninvolved in standards development also varies \nbased on a country’s income level. National stan­\ndards bodies in high-income countries publish \nabout five times more standards per employee \nthan those in low-income countries. These dif­\nferences in productivity are likely because in \nlow-income countries, employees in national \nstandards bodies develop standards without \nmuch help from other stakeholders, whereas in \nhigher-income countries, industry takes more of a \nleading role, freeing up each employee to develop \nmore standards.\nLocation: Page 193 | Chapter: Figures",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03128
+          },
+          {
+            "id": "wdr2025-p040-para003",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 40,
+            "chunk_type": "text",
+            "chapter": "Figures",
+            "section": "Figure O.4 Lower-income countries depend too much on revenues from services related to assessing conformity with standards",
+            "bbox": [
+              299.93951416015625,
+              76.30999755859375,
+              493.6394348144531,
+              126.88999938964844
+            ],
+            "text": "[Figures | Page 40]\nFigure O.4 Lower-income countries depend too much on revenues from services related to assessing conformity with standards",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.02788
+          }
+        ],
+        "context": "[wdr2025-p193-para000 | World_Development_Report_2025.pdf | page 193]\n[Figures | Page 193]\nFigure S3.1 Establishment of national standards bodies began earlier in high- income countries than in low- and middle- income countries\n\n[wdr2025-p193-figure-S3_1 | World_Development_Report_2025.pdf | page 193]\n### [FIGURE S3.1] Figure S3.1  Establishment of national \nstandards bodies began earlier in high-\nincome countries than in low- and middle-\nincome countries\n0\n10\n20\n30\n40\n45\nCumulative number of countries\n5\n15\n25\n35\n1875\n2025\n2000\n1975\n1950\n1925\n1900\nYear national standards body\nwas established\nHigh income\nUpper middle income\nLower middle income\nLow income\nSource: WDR 2025 team, based on World Bank and \nISO 2025.\nNote: The survey sample includes 116 national standards \nbodies: 13 in low-income countries, 28 in lower-middle-\nincome countries, 34 in upper-middle-income countries, \nand 41 in high-income countries.\nThe number of standards published per employee \ninvolved in standards development also varies \nbased on a country’s income level. National stan­\ndards bodies in high-income countries publish \nabout five times more standards per employee \nthan those in low-income countries. These dif­\nferences in productivity are likely because in \nlow-income countries, employees in national \nstandards bodies develop standards without \nmuch help from other stakeholders, whereas in \nhigher-income countries, industry takes more of a \nleading role, freeing up each employee to develop \nmore standards.\nLocation: Page 193 | Chapter: Figures\n\n[wdr2025-p040-para003 | World_Development_Report_2025.pdf | page 40]\n[Figures | Page 40]\nFigure O.4 Lower-income countries depend too much on revenues from services related to assessing conformity with standards",
+        "context_ids": [
+          "wdr2025-p193-para000",
+          "wdr2025-p193-figure-S3_1",
+          "wdr2025-p040-para003"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 8526.55
+  },
+  {
+    "query_id": "adv_dev_hop_03",
+    "split": "dev",
+    "category": "Multi-hop",
+    "question": "How does quality infrastructure enforcement (Chapter 3) relate to reducing compliance gaps in government procurement quality (Chapter 7)?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Quality infrastructure enforcement (Chapter 3) helps reduce compliance gaps in government procurement quality (Chapter 7) by enabling governments to effectively enforce standards cited in legislation [wdr2025-p155-table-3_1] and improving the quality of government procurement [wdr2025-p353-para002].",
+    "citations": [
+      "wdr2025-p155-table-3_1",
+      "wdr2025-p353-para002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "How does quality infrastructure enforcement (Chapter 3) relate to reducing compliance gaps in government procurement quality (Chapter 7)?",
+        "filter": null,
+        "results": [
+          {
+            "id": "wdr2025-p353-para002",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 353,
+            "chunk_type": "text",
+            "chapter": "Figures",
+            "section": "Figure 7.7 Reducing the compliance gap improves the quality of government procurement",
+            "bbox": [
+              67.5,
+              359.30999755859375,
+              509.58929443359375,
+              373.8900146484375
+            ],
+            "text": "[Figures | Page 353]\nFigure 7.7 Reducing the compliance gap improves the quality of government procurement",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03279
+          },
+          {
+            "id": "wdr2025-p353-para001",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 353,
+            "chunk_type": "text",
+            "chapter": "Figures",
+            "section": "Figure 7.7 Reducing the compliance gap improves the quality of government procurement",
+            "bbox": [
+              299.94000244140625,
+              77.5999984741211,
+              510.6500549316406,
+              327.510009765625
+            ],
+            "text": "[Figures | Page 353]\nReducing compliance gaps requires governments to move beyond isomorphic mimicry: that is, situ­ ations in which they codify governance standards into law but are unable to enforce the standards.45 For example, a government might pass an admin­ istrative law that codifies transparency standards, such as a requirement for annual publication of a budget report, but struggle to publish such reports annually and at scale. Similarly, recruitment standards may require candidates to be assessed through a written examination, but public insti­ tutions may fall short of applying this standard in practice. Reducing such compliance gaps is beneficial. In public procurement, governments with a smaller gap between practices and stan­ dards in procurement tend to have reduced delays in implementation, reduced cost overruns, and better overall project quality (refer to figure 7.7).",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03105
+          },
+          {
+            "id": "wdr2025-p155-table-3_1",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 155,
+            "chunk_type": "table",
+            "chapter": "Part 2: Navigating the Complex World of Standards and Using Them Effectively",
+            "section": "3: Reaching the Full Potential of Standards with Quality Infrastructure",
+            "bbox": [
+              67.49939727783203,
+              71.99981689453125,
+              533.2279663085938,
+              732.5033569335938
+            ],
+            "image_crop": "data/advanced/images/crop_p155_table_3_1.png",
+            "text": "### [TABLE 3.1] Table 3.1  Illustrative examples of functions of quality infrastructure relating to voluntary \nand mandatory standards (continued)\nThe challenge of compliance \ncapacity in low- and middle-\nincome countries\nAs chapter 2 illustrates, greater ambition in \n­standards must be matched with stronger capacity \nfor achieving and assessing compliance with those \nmore ambitious standards. Quality infrastructure\nis key to expanding this capacity. Only if the \nappropriate testing, inspection, certification, and \nother services are available can firms demonstrate \nconformity, build trust with buyers, and access \nregulated or quality-conscious markets. Likewise, \ngovernments can be effective only if they are \nable to enforce compliance with standards cited \nin legislation. Although quality infrastructure is\nReaching the Full Potential of Standards with Quality Infrastructure\n123\nLocation: Page 155 | Chapter: Part 2: Navigating the Complex World of Standards and Using Them Effectively",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.02976
+          }
+        ],
+        "context": "[wdr2025-p353-para002 | World_Development_Report_2025.pdf | page 353]\n[Figures | Page 353]\nFigure 7.7 Reducing the compliance gap improves the quality of government procurement\n\n[wdr2025-p353-para001 | World_Development_Report_2025.pdf | page 353]\n[Figures | Page 353]\nReducing compliance gaps requires governments to move beyond isomorphic mimicry: that is, situ­ ations in which they codify governance standards into law but are unable to enforce the standards.45 For example, a government might pass an admin­ istrative law that codifies transparency standards, such as a requirement for annual publication of a budget report, but struggle to publish such reports annually and at scale. Similarly, recruitment standards may require candidates to be assessed through a written examination, but public insti­ tutions may fall short of applying this standard in practice. Reducing such compliance gaps is beneficial. In public procurement, governments with a smaller gap between practices and stan­ dards in procurement tend to have reduced delays in implementation, reduced cost overruns, and better overall project quality (refer to figure 7.7).\n\n[wdr2025-p155-table-3_1 | World_Development_Report_2025.pdf | page 155]\n### [TABLE 3.1] Table 3.1  Illustrative examples of functions of quality infrastructure relating to voluntary \nand mandatory standards (continued)\nThe challenge of compliance \ncapacity in low- and middle-\nincome countries\nAs chapter 2 illustrates, greater ambition in \n­standards must be matched with stronger capacity \nfor achieving and assessing compliance with those \nmore ambitious standards. Quality infrastructure\nis key to expanding this capacity. Only if the \nappropriate testing, inspection, certification, and \nother services are available can firms demonstrate \nconformity, build trust with buyers, and access \nregulated or quality-conscious markets. Likewise, \ngovernments can be effective only if they are \nable to enforce compliance with standards cited \nin legislation. Although quality infrastructure is\nReaching the Full Potential of Standards with Quality Infrastructure\n123\nLocation: Page 155 | Chapter: Part 2: Navigating the Complex World of Standards and Using Them Effectively",
+        "context_ids": [
+          "wdr2025-p353-para002",
+          "wdr2025-p353-para001",
+          "wdr2025-p155-table-3_1"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 1648.62
+  },
+  {
+    "query_id": "adv_dev_txt_01",
+    "split": "dev",
+    "category": "Text",
+    "question": "What is a 'PISA shock' as defined in Box 5.3 of the report?",
+    "answerable": true,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "What is a 'PISA shock' as defined in Box 5.3 of the report?",
+        "filter": null,
+        "results": [
+          {
+            "id": "wdr2025-p287-para001",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 287,
+            "chunk_type": "text",
+            "chapter": "Boxes",
+            "section": "Box 5.3 Educational reforms spurred by PISA shocks",
+            "bbox": [
+              82.5,
+              120.8635025024414,
+              496.11102294921875,
+              176.7044677734375
+            ],
+            "text": "[Boxes | Page 287]\nA “PISA shock” occurs when disappointing PISA results in a country generate outrage in the media and lead to subsequent educational reform. PISA—the Programme for International Student Assessment—offers an international test that measures 15-year-old students’ ability to apply knowledge and skills in reading, mathematics, and science to real-world contexts.a",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.032
+          },
+          {
+            "id": "wdr2025-p287-box-5_3",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 287,
+            "chunk_type": "figure",
+            "chapter": "Boxes",
+            "section": "Box 5.3 Educational reforms spurred by PISA shocks",
+            "bbox": [
+              82.5,
+              90.24099731445312,
+              496.13470458984375,
+              297.7044677734375
+            ],
+            "image_crop": "data/advanced/images/crop_p287_box_5_3.png",
+            "text": "### [BOX 5.3] Box 5.3\t Educational reforms spurred by PISA shocks\nA “PISA shock” occurs when disappointing PISA results in a country generate outrage in the \nmedia and lead to subsequent educational reform. PISA—the Programme for International \nStudent Assessment—offers an international test that measures 15-year-old students’ ability \nto apply knowledge and skills in reading, mathematics, and science to real-world contexts.a\nThe first PISA results in 2000 showed that students in Germany had performed below \nthe average for member countries of the Organisation for Economic Co-operation and \nDevelopment (OECD), sparking public debate and leading to pressure for educational reforms. \nFurther scrutiny of the results revealed that socioeconomic status and social background \nwere largely related to educational success or failure in German schools.b Following educa­\ntional reforms to address these factors, German students’ scores in reading, mathematics, \nand science significantly increased, surpassing the OECD average, and by 2015, the impact of \nsocioeconomic background on student scores had decreased.c\nLocation: Page 287 | Chapter: Boxes",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03178
+          },
+          {
+            "id": "wdr2025-p287-para003",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 287,
+            "chunk_type": "text",
+            "chapter": "Boxes",
+            "section": "Box 5.3 Educational reforms spurred by PISA shocks",
+            "bbox": [
+              82.5,
+              306.8634948730469,
+              496.1015625,
+              404.698486328125
+            ],
+            "text": "[Boxes | Page 287]\nPeru experienced its own PISA shock in 2012, when front-page news announced that the country’s PISA results had ranked it last among countries completing the assessment. The country’s low test scores led the government to recognize Peru’s immense learning chal­ lenge, and it embarked on a course of educational investment and reforms. The reforms had three pillars: (1) meritocratic reform of teachers’ careers, including coaching; (2) revising the curriculum; and (3) use of data from learning assessments for school planning.d The reforms had a sizable impact on the country’s PISA scores.",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03012
+          }
+        ],
+        "context": "[wdr2025-p287-para001 | World_Development_Report_2025.pdf | page 287]\n[Boxes | Page 287]\nA “PISA shock” occurs when disappointing PISA results in a country generate outrage in the media and lead to subsequent educational reform. PISA—the Programme for International Student Assessment—offers an international test that measures 15-year-old students’ ability to apply knowledge and skills in reading, mathematics, and science to real-world contexts.a\n\n[wdr2025-p287-box-5_3 | World_Development_Report_2025.pdf | page 287]\n### [BOX 5.3] Box 5.3\t Educational reforms spurred by PISA shocks\nA “PISA shock” occurs when disappointing PISA results in a country generate outrage in the \nmedia and lead to subsequent educational reform. PISA—the Programme for International \nStudent Assessment—offers an international test that measures 15-year-old students’ ability \nto apply knowledge and skills in reading, mathematics, and science to real-world contexts.a\nThe first PISA results in 2000 showed that students in Germany had performed below \nthe average for member countries of the Organisation for Economic Co-operation and \nDevelopment (OECD), sparking public debate and leading to pressure for educational reforms. \nFurther scrutiny of the results revealed that socioeconomic status and social background \nwere largely related to educational success or failure in German schools.b Following educa­\ntional reforms to address these factors, German students’ scores in reading, mathematics, \nand science significantly increased, surpassing the OECD average, and by 2015, the impact of \nsocioeconomic background on student scores had decreased.c\nLocation: Page 287 | Chapter: Boxes\n\n[wdr2025-p287-para003 | World_Development_Report_2025.pdf | page 287]\n[Boxes | Page 287]\nPeru experienced its own PISA shock in 2012, when front-page news announced that the country’s PISA results had ranked it last among countries completing the assessment. The country’s low test scores led the government to recognize Peru’s immense learning chal­ lenge, and it embarked on a course of educational investment and reforms. The reforms had three pillars: (1) meritocratic reform of teachers’ careers, including coaching; (2) revising the curriculum; and (3) use of data from learning assessments for school planning.d The reforms had a sizable impact on the country’s PISA scores.",
+        "context_ids": [
+          "wdr2025-p287-para001",
+          "wdr2025-p287-box-5_3",
+          "wdr2025-p287-para003"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "elapsed_ms": 2877.63
+  },
+  {
+    "query_id": "adv_dev_txt_02",
+    "split": "dev",
+    "category": "Text",
+    "question": "How did educational reforms in Germany respond to the 2000 PISA shock according to Box 5.3?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Educational reforms in Germany responded to the 2000 PISA shock by addressing socioeconomic status and social background factors, leading to increased scores and decreased impact of socioeconomic background on student scores [wdr2025-p287-box-5_3].",
+    "citations": [
+      "wdr2025-p287-box-5_3"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "How did educational reforms in Germany respond to the 2000 PISA shock according to Box 5.3?",
+        "filter": null,
+        "results": [
+          {
+            "id": "wdr2025-p287-box-5_3",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 287,
+            "chunk_type": "figure",
+            "chapter": "Boxes",
+            "section": "Box 5.3 Educational reforms spurred by PISA shocks",
+            "bbox": [
+              82.5,
+              90.24099731445312,
+              496.13470458984375,
+              297.7044677734375
+            ],
+            "image_crop": "data/advanced/images/crop_p287_box_5_3.png",
+            "text": "### [BOX 5.3] Box 5.3\t Educational reforms spurred by PISA shocks\nA “PISA shock” occurs when disappointing PISA results in a country generate outrage in the \nmedia and lead to subsequent educational reform. PISA—the Programme for International \nStudent Assessment—offers an international test that measures 15-year-old students’ ability \nto apply knowledge and skills in reading, mathematics, and science to real-world contexts.a\nThe first PISA results in 2000 showed that students in Germany had performed below \nthe average for member countries of the Organisation for Economic Co-operation and \nDevelopment (OECD), sparking public debate and leading to pressure for educational reforms. \nFurther scrutiny of the results revealed that socioeconomic status and social background \nwere largely related to educational success or failure in German schools.b Following educa­\ntional reforms to address these factors, German students’ scores in reading, mathematics, \nand science significantly increased, surpassing the OECD average, and by 2015, the impact of \nsocioeconomic background on student scores had decreased.c\nLocation: Page 287 | Chapter: Boxes",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03252
+          },
+          {
+            "id": "wdr2025-p288-para005",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 288,
+            "chunk_type": "text",
+            "chapter": "Boxes",
+            "section": "Box 5.3 Educational reforms spurred by PISA shocks",
+            "bbox": [
+              82.44000244140625,
+              91.24099731445312,
+              426.8899841308594,
+              107.27899932861328
+            ],
+            "text": "[Boxes | Page 288]\nBox 5.3 Educational reforms spurred by PISA shocks (continued)",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03202
+          },
+          {
+            "id": "wdr2025-p287-para002",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 287,
+            "chunk_type": "text",
+            "chapter": "Boxes",
+            "section": "Box 5.3 Educational reforms spurred by PISA shocks",
+            "bbox": [
+              82.48818969726562,
+              185.86300659179688,
+              496.13470458984375,
+              297.7044677734375
+            ],
+            "text": "[Boxes | Page 287]\nThe first PISA results in 2000 showed that students in Germany had performed below the average for member countries of the Organisation for Economic Co-operation and Development (OECD), sparking public debate and leading to pressure for educational reforms. Further scrutiny of the results revealed that socioeconomic status and social background were largely related to educational success or failure in German schools.b Following educa­ tional reforms to address these factors, German students’ scores in reading, mathematics, and science significantly increased, surpassing the OECD average, and by 2015, the impact of socioeconomic background on student scores had decreased.c",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03175
+          }
+        ],
+        "context": "[wdr2025-p287-box-5_3 | World_Development_Report_2025.pdf | page 287]\n### [BOX 5.3] Box 5.3\t Educational reforms spurred by PISA shocks\nA “PISA shock” occurs when disappointing PISA results in a country generate outrage in the \nmedia and lead to subsequent educational reform. PISA—the Programme for International \nStudent Assessment—offers an international test that measures 15-year-old students’ ability \nto apply knowledge and skills in reading, mathematics, and science to real-world contexts.a\nThe first PISA results in 2000 showed that students in Germany had performed below \nthe average for member countries of the Organisation for Economic Co-operation and \nDevelopment (OECD), sparking public debate and leading to pressure for educational reforms. \nFurther scrutiny of the results revealed that socioeconomic status and social background \nwere largely related to educational success or failure in German schools.b Following educa­\ntional reforms to address these factors, German students’ scores in reading, mathematics, \nand science significantly increased, surpassing the OECD average, and by 2015, the impact of \nsocioeconomic background on student scores had decreased.c\nLocation: Page 287 | Chapter: Boxes\n\n[wdr2025-p288-para005 | World_Development_Report_2025.pdf | page 288]\n[Boxes | Page 288]\nBox 5.3 Educational reforms spurred by PISA shocks (continued)\n\n[wdr2025-p287-para002 | World_Development_Report_2025.pdf | page 287]\n[Boxes | Page 287]\nThe first PISA results in 2000 showed that students in Germany had performed below the average for member countries of the Organisation for Economic Co-operation and Development (OECD), sparking public debate and leading to pressure for educational reforms. Further scrutiny of the results revealed that socioeconomic status and social background were largely related to educational success or failure in German schools.b Following educa­ tional reforms to address these factors, German students’ scores in reading, mathematics, and science significantly increased, surpassing the OECD average, and by 2015, the impact of socioeconomic background on student scores had decreased.c",
+        "context_ids": [
+          "wdr2025-p287-box-5_3",
+          "wdr2025-p288-para005",
+          "wdr2025-p287-para002"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 2779.96
+  },
+  {
+    "query_id": "adv_dev_txt_03",
+    "split": "dev",
+    "category": "Text",
+    "question": "According to the report, what is the role of the metric system in the history of measurement standards in Chapter 1?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "The metric system played a central role in the history of measurement standards, conceived as a tool of emancipation, but relied on authoritarian enforcement [wdr2025-p069-para004].",
+    "citations": [
+      "wdr2025-p069-para004"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "According to the report, what is the role of the metric system in the history of measurement standards in Chapter 1?",
+        "filter": null,
+        "results": [
+          {
+            "id": "wdr2025-p069-para004",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 69,
+            "chunk_type": "text",
+            "chapter": "Part 1: The Measure of Progress: How Standards Have Shaped Order, Trust, and Innovation",
+            "section": "1: A History of Standards",
+            "bbox": [
+              300.0,
+              77.5999984741211,
+              510.7099914550781,
+              257.510009765625
+            ],
+            "text": "[Part 1: The Measure of Progress: How Standards Have Shaped Order, Trust, and Innovation | Page 69]\nthe limits of top-down standardization and the essential role of trade-offs in the development and implementation of standards. Though the metric system became legally required in contracts, taxa­ tion, and education, everyday commerce remained in a hybrid space.35 This duality underscored a central paradox: The metric system, conceived as a tool of emancipation, relied on authoritar­ ian enforcement that alienated the very citizens it purported to empower. Only through decades of state pressure, generational change, and the 1840 reinstatement of mandatory use of the metric sys­ tem did it gain full traction in France.",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03132
+          },
+          {
+            "id": "wdr2025-p068-para006",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 68,
+            "chunk_type": "text",
+            "chapter": "Part 1: The Measure of Progress: How Standards Have Shaped Order, Trust, and Innovation",
+            "section": "1: A History of Standards",
+            "bbox": [
+              299.94000244140625,
+              367.19598388671875,
+              506.135986328125,
+              416.6600036621094
+            ],
+            "text": "[Part 1: The Measure of Progress: How Standards Have Shaped Order, Trust, and Innovation | Page 68]\nThe metric system: The confluence of political and measurement revolutions",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03054
+          },
+          {
+            "id": "wdr2025-p123-para003",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 123,
+            "chunk_type": "text",
+            "chapter": "Boxes",
+            "section": "Box 2.1 Standards for measuring poverty: A trade-off between uniformity and local relevance",
+            "bbox": [
+              300.0,
+              113.30999755859375,
+              510.7100830078125,
+              350.510009765625
+            ],
+            "text": "[Boxes | Page 123]\nMeasurement standards also benefit from a one- size-fits-all approach, because their goal is com­ parability. However, some standards regimes pre-date globalization and have instead served as the foundation for economies and societies, making such standards socially, economically, and politically costly to change. As a result, these regimes may coexist if switching to a common standard is too costly. As discussed in chapter 1, despite the benefits of universally adopting the metric system, several countries still use both the metric and Imperial systems, leading to significant transaction costs. In addition, there is often no agreement on the ideal standards for benchmark­ ing and measuring policy outcomes like achieve­ ments in the areas of education, health, or poverty reduction (refer to box 2.1).",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03041
+          }
+        ],
+        "context": "[wdr2025-p069-para004 | World_Development_Report_2025.pdf | page 69]\n[Part 1: The Measure of Progress: How Standards Have Shaped Order, Trust, and Innovation | Page 69]\nthe limits of top-down standardization and the essential role of trade-offs in the development and implementation of standards. Though the metric system became legally required in contracts, taxa­ tion, and education, everyday commerce remained in a hybrid space.35 This duality underscored a central paradox: The metric system, conceived as a tool of emancipation, relied on authoritar­ ian enforcement that alienated the very citizens it purported to empower. Only through decades of state pressure, generational change, and the 1840 reinstatement of mandatory use of the metric sys­ tem did it gain full traction in France.\n\n[wdr2025-p068-para006 | World_Development_Report_2025.pdf | page 68]\n[Part 1: The Measure of Progress: How Standards Have Shaped Order, Trust, and Innovation | Page 68]\nThe metric system: The confluence of political and measurement revolutions\n\n[wdr2025-p123-para003 | World_Development_Report_2025.pdf | page 123]\n[Boxes | Page 123]\nMeasurement standards also benefit from a one- size-fits-all approach, because their goal is com­ parability. However, some standards regimes pre-date globalization and have instead served as the foundation for economies and societies, making such standards socially, economically, and politically costly to change. As a result, these regimes may coexist if switching to a common standard is too costly. As discussed in chapter 1, despite the benefits of universally adopting the metric system, several countries still use both the metric and Imperial systems, leading to significant transaction costs. In addition, there is often no agreement on the ideal standards for benchmark­ ing and measuring policy outcomes like achieve­ ments in the areas of education, health, or poverty reduction (refer to box 2.1).",
+        "context_ids": [
+          "wdr2025-p069-para004",
+          "wdr2025-p068-para006",
+          "wdr2025-p123-para003"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 1293.89
+  },
+  {
+    "query_id": "adv_dev_unans_01",
+    "split": "dev",
+    "category": "Unanswerable",
+    "question": "What is the exact atmospheric pressure standard adopted on the surface of Mars by the World Bank in 2025?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "What is the exact atmospheric pressure standard adopted on the surface of Mars by the World Bank in 2025?",
+        "filter": null,
+        "results": [
+          {
+            "id": "wdr2025-p304-para023",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 304,
+            "chunk_type": "text",
+            "chapter": "Figures",
+            "section": "Figure 6.2 Higher-income countries are more likely to adopt standards for air pollution and to improve their air quality",
+            "bbox": [
+              67.49700927734375,
+              382.7279968261719,
+              496.88873291015625,
+              460.3999938964844
+            ],
+            "text": "[Figures | Page 304]\nNote: In panel b, the national standard index for particulate matter with a diameter of 2.5 micrometers or less (PM2.5) is constructed by standardizing each country’s actual national standards for PM2.5. A value of 10 represents the most stringent standard, whereas a value of 1 represents the least stringent, and a value of 0 indicates no national standard has been adopted. Data on national standards are sourced from the Air Quality Life Index (AQLI), and air pollution concentrations and GDP per capita are obtained from the World Bank. The World Health Organization (WHO) has set an annual average PM2.5 concentration of 5 micrograms per cubic meter (μg/m³) as its Air Quality Guideline (AQG) and 35 μg/m³ as the Tier 1 interim target.",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03154
+          },
+          {
+            "id": "wdr2025-p347-para026",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 347,
+            "chunk_type": "text",
+            "chapter": "Figures",
+            "section": "Figure 7.2 The world’s 50 largest public sectors employ more than 360 million workers",
+            "bbox": [
+              67.49771118164062,
+              616.5050048828125,
+              509.697998046875,
+              705.177001953125
+            ],
+            "text": "[Figures | Page 347]\nNote: The figure reports the latest data available by country. The overall size of public sector employment in a country is the share of public sector employment in total employment times the overall size of the country’s labor force, with the unemployment rate accounted for. A country’s public sector is the general government and public, or state-owned, enterprises and consists of all institutional units controlled directly or indirectly by the country’s central and subnational governments as well as public corporations that are engaged in market-based activities. Income groups are based on World Bank classifications updated in 2025. The share of public sector employment is estimated based on labor force and household surveys harmonized in the World Bank’s Worldwide Bureaucracy Indicators. The overall size of the labor force is provided through World Bank education statistics. The unemployment rate is measured in World Bank data on the Sustainable Development Goals.",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.01639
+          },
+          {
+            "id": "wdr2025-p312-para025",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 312,
+            "chunk_type": "text",
+            "chapter": "Figures",
+            "section": "Figure 6.5 Countries around the world have adopted standards for fuel economy",
+            "bbox": [
+              89.68260192871094,
+              337.9588928222656,
+              268.41357421875,
+              363.03948974609375
+            ],
+            "text": "[Figures | Page 312]\nStandards for fuel efficiency Standards for emissions of GHGs (right axis)",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.01613
+          }
+        ],
+        "context": "[wdr2025-p304-para023 | World_Development_Report_2025.pdf | page 304]\n[Figures | Page 304]\nNote: In panel b, the national standard index for particulate matter with a diameter of 2.5 micrometers or less (PM2.5) is constructed by standardizing each country’s actual national standards for PM2.5. A value of 10 represents the most stringent standard, whereas a value of 1 represents the least stringent, and a value of 0 indicates no national standard has been adopted. Data on national standards are sourced from the Air Quality Life Index (AQLI), and air pollution concentrations and GDP per capita are obtained from the World Bank. The World Health Organization (WHO) has set an annual average PM2.5 concentration of 5 micrograms per cubic meter (μg/m³) as its Air Quality Guideline (AQG) and 35 μg/m³ as the Tier 1 interim target.\n\n[wdr2025-p347-para026 | World_Development_Report_2025.pdf | page 347]\n[Figures | Page 347]\nNote: The figure reports the latest data available by country. The overall size of public sector employment in a country is the share of public sector employment in total employment times the overall size of the country’s labor force, with the unemployment rate accounted for. A country’s public sector is the general government and public, or state-owned, enterprises and consists of all institutional units controlled directly or indirectly by the country’s central and subnational governments as well as public corporations that are engaged in market-based activities. Income groups are based on World Bank classifications updated in 2025. The share of public sector employment is estimated based on labor force and household surveys harmonized in the World Bank’s Worldwide Bureaucracy Indicators. The overall size of the labor force is provided through World Bank education statistics. The unemployment rate is measured in World Bank data on the Sustainable Development Goals.\n\n[wdr2025-p312-para025 | World_Development_Report_2025.pdf | page 312]\n[Figures | Page 312]\nStandards for fuel efficiency Standards for emissions of GHGs (right axis)",
+        "context_ids": [
+          "wdr2025-p304-para023",
+          "wdr2025-p347-para026",
+          "wdr2025-p312-para025"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "elapsed_ms": 2085.08
+  },
+  {
+    "query_id": "adv_dev_unans_02",
+    "split": "dev",
+    "category": "Unanswerable",
+    "question": "How many total ticket sales did Taylor Swift's Eras Tour generate in Latin America according to Chapter 4 of WDR 2025?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "How many total ticket sales did Taylor Swift's Eras Tour generate in Latin America according to Chapter 4 of WDR 2025?",
+        "filter": null,
+        "results": [
+          {
+            "id": "wdr2025-p370-para022",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 370,
+            "chunk_type": "text",
+            "chapter": "Part 3 Leveraging Standards for Development Outcomes",
+            "section": "7: Standards for Better Governance",
+            "bbox": [
+              299.94000244140625,
+              368.3280029296875,
+              510.4679260253906,
+              400.11199951171875
+            ],
+            "text": "[Part 3 Leveraging Standards for Development Outcomes | Page 370]\nState Capacity in Latin America. University of California Press. Gonulal, Talip, and Shawn Loewen. 2018. “Scaffolding",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03078
+          },
+          {
+            "id": "wdr2025-p040-figure-O_4",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 40,
+            "chunk_type": "figure",
+            "chapter": "Figures",
+            "section": "Figure O.4 Lower-income countries depend too much on revenues from services related to assessing conformity with standards",
+            "bbox": [
+              299.93951416015625,
+              76.30999755859375,
+              507.659423828125,
+              578.6499633789062
+            ],
+            "image_crop": "data/advanced/images/crop_p040_figure_O_4.png",
+            "text": "### [FIGURE O.4] Figure O.4  Lower-income countries \ndepend too much on revenues from \nservices related to assessing conformity \nwith standards\n32\n23\n19\n18\n34\n32\n43\n30\n25\n37\n24\n13\n9\n7\n14\n39\n0\n20\n40\n60\n80\n100\nLow income\nLower middle income\nUpper middle income\nHigh income\nSale of standards (including subscriptions)\nConformity assessment services\n(testing and certification)\nGovernment transfers\nOther\nShare of total revenues of national \nstandards body, 2025 (%)\nSource: WDR 2025 team, based on World Bank and ISO \n2025.\nNote: The figure shows revenue sources of national \nstandards bodies as of 2025. The survey sample includes \n116 national standards bodies: 13 in low-income \ncountries, 28 in lower-middle-income countries, 34 in \nupper-middle-income countries, and 41 in high-income \ncountries. “Other” includes revenues from accreditation, \nmetrology, partnerships or donor funding, and training \nand consulting services. Shares of components within \nbars may not sum exactly to 100 because of rounding.\nLocation: Page 40 | Chapter: Figures",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.02585
+          },
+          {
+            "id": "wdr2025-p143-figure-S2_2",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 143,
+            "chunk_type": "figure",
+            "chapter": "Figures",
+            "section": "Figure S2.2 The number of ISO technical committees and subcommittees increased sharply beginning in  1979, after the Agreement on Technical Barriers to Trade encouraged the use of international standards as the basis for technical regulations",
+            "bbox": [
+              67.49940490722656,
+              240.30999755859375,
+              515.407958984375,
+              618.8099975585938
+            ],
+            "image_crop": "data/advanced/images/crop_p143_figure_S2_2.png",
+            "text": "### [FIGURE S2.2] Figure S2.2  The number of ISO technical committees and subcommittees increased \nsharply beginning in 1979, after the Agreement on Technical Barriers to Trade encouraged \nthe use of international standards as the basis for technical regulations\n1979 Agreement on TBT\n (Tokyo Round)\n1947\n1950\n1953\n1956\n1959\n1962\n1965\n1968\n1971\n1974\n1977\n1980\n1983\n1986\n1989\n1992\n1995\n1998\n2001\n2004\n2007\n2010\n2013\n2016\n2019\n0\n100\n200\n300\n400\n500\n600\n700\n800\n900\n1,000\n50\n150\n250\n350\n450\n550\n650\n750\n850\n950\nCumulative number of technical committees and subcommittees\nLogistics and support services\nSocial and public interest\nTechnology and information\nManufacturing and engineering\nBusiness and management\nPrimary industries and resources\nLaunch of\nUruguay\nRound\nAgreements on\nSPS and TBT\nentered into\nforce\nSource: WDR 2025 team, based on administrative data as of 2024 provided by the International Organization for \nStandardization (ISO).\nLocation: Page 143 | Chapter: Figures",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.02395
+          }
+        ],
+        "context": "[wdr2025-p370-para022 | World_Development_Report_2025.pdf | page 370]\n[Part 3 Leveraging Standards for Development Outcomes | Page 370]\nState Capacity in Latin America. University of California Press. Gonulal, Talip, and Shawn Loewen. 2018. “Scaffolding\n\n[wdr2025-p040-figure-O_4 | World_Development_Report_2025.pdf | page 40]\n### [FIGURE O.4] Figure O.4  Lower-income countries \ndepend too much on revenues from \nservices related to assessing conformity \nwith standards\n32\n23\n19\n18\n34\n32\n43\n30\n25\n37\n24\n13\n9\n7\n14\n39\n0\n20\n40\n60\n80\n100\nLow income\nLower middle income\nUpper middle income\nHigh income\nSale of standards (including subscriptions)\nConformity assessment services\n(testing and certification)\nGovernment transfers\nOther\nShare of total revenues of national \nstandards body, 2025 (%)\nSource: WDR 2025 team, based on World Bank and ISO \n2025.\nNote: The figure shows revenue sources of national \nstandards bodies as of 2025. The survey sample includes \n116 national standards bodies: 13 in low-income \ncountries, 28 in lower-middle-income countries, 34 in \nupper-middle-income countries, and 41 in high-income \ncountries. “Other” includes revenues from accreditation, \nmetrology, partnerships or donor funding, and training \nand consulting services. Shares of components within \nbars may not sum exactly to 100 because of rounding.\nLocation: Page 40 | Chapter: Figures\n\n[wdr2025-p143-figure-S2_2 | World_Development_Report_2025.pdf | page 143]\n### [FIGURE S2.2] Figure S2.2  The number of ISO technical committees and subcommittees increased \nsharply beginning in 1979, after the Agreement on Technical Barriers to Trade encouraged \nthe use of international standards as the basis for technical regulations\n1979 Agreement on TBT\n (Tokyo Round)\n1947\n1950\n1953\n1956\n1959\n1962\n1965\n1968\n1971\n1974\n1977\n1980\n1983\n1986\n1989\n1992\n1995\n1998\n2001\n2004\n2007\n2010\n2013\n2016\n2019\n0\n100\n200\n300\n400\n500\n600\n700\n800\n900\n1,000\n50\n150\n250\n350\n450\n550\n650\n750\n850\n950\nCumulative number of technical committees and subcommittees\nLogistics and support services\nSocial and public interest\nTechnology and information\nManufacturing and engineering\nBusiness and management\nPrimary industries and resources\nLaunch of\nUruguay\nRound\nAgreements on\nSPS and TBT\nentered into\nforce\nSource: WDR 2025 team, based on administrative data as of 2024 provided by the International Organization for \nStandardization (ISO).\nLocation: Page 143 | Chapter: Figures",
+        "context_ids": [
+          "wdr2025-p370-para022",
+          "wdr2025-p040-figure-O_4",
+          "wdr2025-p143-figure-S2_2"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "elapsed_ms": 1164.07
+  },
+  {
+    "query_id": "adv_dev_unans_03",
+    "split": "dev",
+    "category": "Unanswerable",
+    "question": "What is the Bitcoin mining hash rate benchmark mandated by the World Bank for Sub-Saharan African power grids in 2025?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "What is the Bitcoin mining hash rate benchmark mandated by the World Bank for Sub-Saharan African power grids in 2025?",
+        "filter": null,
+        "results": [
+          {
+            "id": "wdr2025-p354-figure-7_8",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 354,
+            "chunk_type": "figure",
+            "chapter": "Figures",
+            "section": "Figure 7.8 As countries develop, they shorten the grace periods government agencies have to pay providers",
+            "bbox": [
+              67.55940246582031,
+              242.30999755859375,
+              508.0094909667969,
+              641.323974609375
+            ],
+            "image_crop": "data/advanced/images/crop_p354_figure_7_8.png",
+            "text": "### [FIGURE 7.8] Figure 7.8  As countries develop, they shorten the grace periods government agencies have \nto pay providers\n−30\n−20\n−10\n0\n10\nDays\na. Mandated speed for\npaying providers\nb. Share of government\nproviders paid on time\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\nGDP per capita\n(2017 US$ at purchasing power parity)\n1,000\n3,000\n10,000\n30,000\nPercent\n1,000\n3,000\n10,000\n30,000\nGDP per capita\n(2017 US$ at purchasing power parity)\nSources: Panel a: WDR 2025 team calculations, based on data collected from national procurement regulations across \n39 countries by the World Bank Enterprise Surveys team. Panel b: World Bank Enterprise Surveys (database), Full Survey \nData, World Bank, https://www.enterprisesurveys.org/en/enterprisesurveys.\nNote: In panel a, the speed mandated for paying providers under a country’s procurement rules is defined as 30 days \nminus the maximum number of days allowed based on the national regulation; thus higher scores indicate shorter \npayment deadlines. Bullets correspond to binned stringency averages by deciles based on GDP per capita. Panel b \nreports, as a measure of compliance with the grace periods mandated in national procurement rules, the percentage of \nfirms in a country that had a government contract that were paid on time. Whereas data from the World Bank Enterprise \nSurveys correspond to 2025, data on GDP per capita correspond to 2022, the latest year for which data are available. \nThe red lines represent the best-fit curve using a quadratic function.\nLocation: Page 354 | Chapter: Figures",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03252
+          },
+          {
+            "id": "wdr2025-p331-para002",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 331,
+            "chunk_type": "text",
+            "chapter": "Part 3 Leveraging Standards for Development Outcomes",
+            "section": "6: Standards for a Better Environment",
+            "bbox": [
+              73.55999755859375,
+              373.6000061035156,
+              278.2701110839844,
+              553.510009765625
+            ],
+            "text": "[Part 3 Leveraging Standards for Development Outcomes | Page 331]\n• Active cooling, particularly through air con­ ditioning, is a highly effective way to adapt to extreme heat but remains energy inten­ sive. As adoption increases, it will increas­ ingly strain power grids, especially in regions with limited electricity infrastructure. In Nigeria, for instance, the federal government approved new minimum energy performance standards for air conditioners in 2025. The standards aim to save 11.5 terawatt-hours of electricity annually and reduce carbon emis­ sions by 39 million tonnes of carbon dioxide by 2040.122",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03128
+          },
+          {
+            "id": "wdr2025-p354-para030",
+            "source_id": "World_Development_Report_2025.pdf",
+            "page": 354,
+            "chunk_type": "text",
+            "chapter": "Figures",
+            "section": "Figure 7.8 As countries develop, they shorten the grace periods government agencies have to pay providers",
+            "bbox": [
+              67.55970001220703,
+              563.6520385742188,
+              504.9035949707031,
+              641.323974609375
+            ],
+            "text": "[Figures | Page 354]\nNote: In panel a, the speed mandated for paying providers under a country’s procurement rules is defined as 30 days minus the maximum number of days allowed based on the national regulation; thus higher scores indicate shorter payment deadlines. Bullets correspond to binned stringency averages by deciles based on GDP per capita. Panel b reports, as a measure of compliance with the grace periods mandated in national procurement rules, the percentage of firms in a country that had a government contract that were paid on time. Whereas data from the World Bank Enterprise Surveys correspond to 2025, data on GDP per capita correspond to 2022, the latest year for which data are available. The red lines represent the best-fit curve using a quadratic function.",
+            "source": "World_Development_Report_2025.pdf",
+            "score": 0.03126
+          }
+        ],
+        "context": "[wdr2025-p354-figure-7_8 | World_Development_Report_2025.pdf | page 354]\n### [FIGURE 7.8] Figure 7.8  As countries develop, they shorten the grace periods government agencies have \nto pay providers\n−30\n−20\n−10\n0\n10\nDays\na. Mandated speed for\npaying providers\nb. Share of government\nproviders paid on time\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\nGDP per capita\n(2017 US$ at purchasing power parity)\n1,000\n3,000\n10,000\n30,000\nPercent\n1,000\n3,000\n10,000\n30,000\nGDP per capita\n(2017 US$ at purchasing power parity)\nSources: Panel a: WDR 2025 team calculations, based on data collected from national procurement regulations across \n39 countries by the World Bank Enterprise Surveys team. Panel b: World Bank Enterprise Surveys (database), Full Survey \nData, World Bank, https://www.enterprisesurveys.org/en/enterprisesurveys.\nNote: In panel a, the speed mandated for paying providers under a country’s procurement rules is defined as 30 days \nminus the maximum number of days allowed based on the national regulation; thus higher scores indicate shorter \npayment deadlines. Bullets correspond to binned stringency averages by deciles based on GDP per capita. Panel b \nreports, as a measure of compliance with the grace periods mandated in national procurement rules, the percentage of \nfirms in a country that had a government contract that were paid on time. Whereas data from the World Bank Enterprise \nSurveys correspond to 2025, data on GDP per capita correspond to 2022, the latest year for which data are available. \nThe red lines represent the best-fit curve using a quadratic function.\nLocation: Page 354 | Chapter: Figures\n\n[wdr2025-p331-para002 | World_Development_Report_2025.pdf | page 331]\n[Part 3 Leveraging Standards for Development Outcomes | Page 331]\n• Active cooling, particularly through air con­ ditioning, is a highly effective way to adapt to extreme heat but remains energy inten­ sive. As adoption increases, it will increas­ ingly strain power grids, especially in regions with limited electricity infrastructure. In Nigeria, for instance, the federal government approved new minimum energy performance standards for air conditioners in 2025. The standards aim to save 11.5 terawatt-hours of electricity annually and reduce carbon emis­ sions by 39 million tonnes of carbon dioxide by 2040.122\n\n[wdr2025-p354-para030 | World_Development_Report_2025.pdf | page 354]\n[Figures | Page 354]\nNote: In panel a, the speed mandated for paying providers under a country’s procurement rules is defined as 30 days minus the maximum number of days allowed based on the national regulation; thus higher scores indicate shorter payment deadlines. Bullets correspond to binned stringency averages by deciles based on GDP per capita. Panel b reports, as a measure of compliance with the grace periods mandated in national procurement rules, the percentage of firms in a country that had a government contract that were paid on time. Whereas data from the World Bank Enterprise Surveys correspond to 2025, data on GDP per capita correspond to 2022, the latest year for which data are available. The red lines represent the best-fit curve using a quadratic function.",
+        "context_ids": [
+          "wdr2025-p354-figure-7_8",
+          "wdr2025-p331-para002",
+          "wdr2025-p354-para030"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "elapsed_ms": 859.21
+  }
+]

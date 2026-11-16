@@ -17,7 +17,7 @@ from dotenv import load_dotenv
 load_dotenv(ROOT / ".env", override=True)
 
 from agentic import run_agent
-from agent_controller import OpenRouterController
+from agent_controller import get_controller, OpenRouterController
 from retrievers import DenseRetriever, LexicalRetriever, HybridRetriever, RerankRetriever
 
 
@@ -84,9 +84,8 @@ def main():
     else:
         raise ValueError(f"Unknown retriever: {args.retriever}")
 
-    # 3. Initialize Controller (reads OPENROUTER_API_KEY and LLM_MODEL from .env)
-    llm_model = os.getenv("LLM_MODEL", "nvidia/nemotron-3.5-super-vl:free")
-    controller = OpenRouterController(model=llm_model, fallback_model=args.fallback_model)
+    # 3. Initialize Controller (reads ANTHROPIC_API_KEY / OPENROUTER_API_KEY and LLM_MODEL from .env)
+    controller = get_controller(fallback_model=args.fallback_model)
 
     # 4. Run Evaluation Loop
     traces = []

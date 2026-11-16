@@ -1,0 +1,39 @@
+{
+  "split": "test",
+  "total_cases": 30,
+  "total_passed": 28,
+  "pass_rate_pct": 93.33,
+  "target_met": true,
+  "by_category": {
+    "Table": {
+      "passed": 5,
+      "total": 6,
+      "rate": "5/6 (83.3%)"
+    },
+    "Image/Diagram": {
+      "passed": 5,
+      "total": 5,
+      "rate": "5/5 (100.0%)"
+    },
+    "Chart": {
+      "passed": 5,
+      "total": 5,
+      "rate": "5/5 (100.0%)"
+    },
+    "Multi-hop": {
+      "passed": 3,
+      "total": 4,
+      "rate": "3/4 (75.0%)"
+    },
+    "Text": {
+      "passed": 4,
+      "total": 4,
+      "rate": "4/4 (100.0%)"
+    },
+    "Unanswerable": {
+      "passed": 6,
+      "total": 6,
+      "rate": "6/6 (100.0%)"
+    }
+  }
+}

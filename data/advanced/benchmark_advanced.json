@@ -1,0 +1,797 @@
+[
+  {
+    "id": "adv_dev_tab_01",
+    "split": "dev",
+    "category": "Table",
+    "answerable": true,
+    "question": "According to Table 1.1, how many boiler explosions and people killed were recorded per 10,000 steam boilers in Germany between 1882 and 1892?",
+    "gold_answer": "In Germany between 1882 and 1892, there were 2.2 boiler explosions and 1.4 people killed per 10,000 steam boilers.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 74,
+        "chunk_id": "wdr2025-p074-table-1_1",
+        "evidence_quote": "Germany 2.2 1.4"
+      }
+    ],
+    "criteria": "Must state both 2.2 explosions and 1.4 people killed per 10,000 steam boilers."
+  },
+  {
+    "id": "adv_dev_tab_02",
+    "split": "dev",
+    "category": "Table",
+    "answerable": true,
+    "question": "Based on Table 4.2, what are the initial certification costs for small companies in Germany for meeting the ISO 14001 quality standard?",
+    "gold_answer": "In Germany, small companies pay initial certification costs of about US$3,000 (€2,613) for meeting the ISO 14001 standard.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 208,
+        "chunk_id": "wdr2025-p208-table01",
+        "evidence_quote": "Smallcompaniespaytotalcostsofabout US$3000(€2613)"
+      }
+    ],
+    "criteria": "Must cite US$3,000 (€2,613) for small companies in Germany."
+  },
+  {
+    "id": "adv_dev_tab_03",
+    "split": "dev",
+    "category": "Table",
+    "answerable": true,
+    "question": "According to Table 2.1 (Typology of standards), what are the two main legal status options for standards?",
+    "gold_answer": "Under Table 2.1, the two options for legal status of standards are Voluntary and Mandatory.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 111,
+        "chunk_id": "wdr2025-p111-table01",
+        "evidence_quote": "Legalstatus • Voluntary • Mandatory"
+      }
+    ],
+    "criteria": "Must mention Voluntary and Mandatory legal status."
+  },
+  {
+    "id": "adv_dev_diag_01",
+    "split": "dev",
+    "category": "Image/Diagram",
+    "answerable": true,
+    "question": "According to Figure O.1, what are the three stages along the development trajectory for standards?",
+    "gold_answer": "The three stages in Figure O.1 are: Adapt (adapt international standards for domestic market), Align (align domestic market with international standards), and Author (shape international standards with global community).",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 37,
+        "chunk_id": "wdr2025-p037-figure-O_1",
+        "evidence_quote": "Adapt Adapt international standards for the domestic market. Align Align the domestic market with international standards. Author Shape international standards with the global community."
+      }
+    ],
+    "criteria": "Must list all three: Adapt, Align, and Author with their roles."
+  },
+  {
+    "id": "adv_dev_diag_02",
+    "split": "dev",
+    "category": "Image/Diagram",
+    "answerable": true,
+    "question": "In Figure O.3, what are the core components that constitute Quality Infrastructure to ensure compliance with standards?",
+    "gold_answer": "The core components shown in Figure O.3 are Standards, Conformity assessment, Accreditation, Metrology, and Enforcement/Compliance.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 39,
+        "chunk_id": "wdr2025-p039-figure-O_3",
+        "evidence_quote": "Standards Conformity assessment Compliance Accreditation Metrology Quality infrastructure Enforcement"
+      }
+    ],
+    "criteria": "Must identify Metrology, Standardization, Accreditation, and Conformity assessment."
+  },
+  {
+    "id": "adv_dev_diag_03",
+    "split": "dev",
+    "category": "Image/Diagram",
+    "answerable": true,
+    "question": "In Figure B8.2.1, what is the recommended government action if stakeholders do NOT have incentives to develop voluntary standards?",
+    "gold_answer": "If stakeholders do not have incentives to develop standards (Point 1 is NO), government provides support as a convenor, not as a standard setter.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 384,
+        "chunk_id": "wdr2025-p384-figure-B8_2_1",
+        "evidence_quote": "Government provides support as convenor, not standard setter."
+      }
+    ],
+    "criteria": "Must specify government acts as convenor, not standard setter."
+  },
+  {
+    "id": "adv_dev_chart_01",
+    "split": "dev",
+    "category": "Chart",
+    "answerable": true,
+    "question": "According to Figure 7.2, how many workers do the world's 50 largest public sectors employ in total?",
+    "gold_answer": "According to Figure 7.2, the world's 50 largest public sectors employ more than 360 million workers.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 347,
+        "chunk_id": "wdr2025-p347-figure-7_2",
+        "evidence_quote": "The world’s 50 largest public sectors employ more than 360 million workers"
+      }
+    ],
+    "criteria": "Must mention more than 360 million workers."
+  },
+  {
+    "id": "adv_dev_chart_02",
+    "split": "dev",
+    "category": "Chart",
+    "answerable": true,
+    "question": "What trend does Figure 7.1 show regarding budget execution in countries at lower levels of economic development?",
+    "gold_answer": "Figure 7.1 shows that countries at lower levels of economic development tend not to spend all the funds they have budgeted (lower budget execution rates).",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 342,
+        "chunk_id": "wdr2025-p342-figure-7_1",
+        "evidence_quote": "Countries at lower levels of economic development tend not to spend all the funds they have budgeted"
+      }
+    ],
+    "criteria": "Must state that lower-income countries tend to underspend / fail to execute their full budgeted funds."
+  },
+  {
+    "id": "adv_dev_chart_03",
+    "split": "dev",
+    "category": "Chart",
+    "answerable": true,
+    "question": "According to Figure 7.8, what happens to the grace periods that government agencies have to pay providers as countries develop?",
+    "gold_answer": "As countries develop (higher GDP per capita), they shorten the grace periods government agencies have to pay providers (mandated payment speed increases).",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 354,
+        "chunk_id": "wdr2025-p354-figure-7_8",
+        "evidence_quote": "As countries develop, they shorten the grace periods government agencies have to pay providers"
+      }
+    ],
+    "criteria": "Must state that grace periods shorten as countries develop."
+  },
+  {
+    "id": "adv_dev_hop_01",
+    "split": "dev",
+    "category": "Multi-hop",
+    "answerable": true,
+    "question": "How did the safety oversight of steam boilers in the United States compare with Germany in the late 1800s, and what was the consequence on boiler explosion rates?",
+    "gold_answer": "In the late 1800s, the US had minimal safety oversight with steam boilers in remote sawmills using low-quality machinery, resulting in 20 explosions per 10,000 boilers (and more exploding in a single month than in an entire year in Germany). In contrast, Germany's regulated approach resulted in only 2.2 explosions per 10,000 boilers.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 74,
+        "chunk_id": "wdr2025-p074-table-1_1",
+        "evidence_quote": "United Statesa 20 29 ... Germany 2.2 1.4"
+      },
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 74,
+        "chunk_id": "wdr2025-p074-para004",
+        "evidence_quote": "boilers exploded in a single month in the United States as did in a year in Germany"
+      }
+    ],
+    "criteria": "Must connect the oversight disparity with the explosion statistics (20 vs 2.2 per 10,000)."
+  },
+  {
+    "id": "adv_dev_hop_02",
+    "split": "dev",
+    "category": "Multi-hop",
+    "answerable": true,
+    "question": "Synthesizing Figure O.1 and Figure 8.1, how does a country's standards posture transition from low-income to high-income status?",
+    "gold_answer": "A country starts by Adapting international standards for domestic use at low levels of development, then progresses to Aligning domestic markets with international standards as capabilities grow, and finally Authors/shapes international standards with the global community as a high-income nation.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 37,
+        "chunk_id": "wdr2025-p037-figure-O_1",
+        "evidence_quote": "Adapt Adapt international standards ... Align Align the domestic market ... Author Shape international standards"
+      },
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 382,
+        "chunk_id": "wdr2025-p382-figure-8_1",
+        "evidence_quote": "Setting standards along the development trajectory Path to higher standards Adapt ... Author"
+      }
+    ],
+    "criteria": "Must articulate the progression from Adapt -> Align -> Author across income stages."
+  },
+  {
+    "id": "adv_dev_hop_03",
+    "split": "dev",
+    "category": "Multi-hop",
+    "answerable": true,
+    "question": "How does quality infrastructure enforcement (Chapter 3) relate to reducing compliance gaps in government procurement quality (Chapter 7)?",
+    "gold_answer": "Quality infrastructure provides the conformity assessment and standards enforcement framework (Figure O.3/Chapter 3) that enables governments to monitor and verify procurement contracts, reducing the compliance gap and directly increasing the procurement quality index (Figure 7.7).",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 39,
+        "chunk_id": "wdr2025-p039-figure-O_3",
+        "evidence_quote": "Quality infrastructure ensures compliance with standards"
+      },
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 353,
+        "chunk_id": "wdr2025-p353-figure-7_7",
+        "evidence_quote": "Reducing the compliance gap improves the quality of government procurement"
+      }
+    ],
+    "criteria": "Must link QI compliance mechanism to government procurement quality."
+  },
+  {
+    "id": "adv_dev_txt_01",
+    "split": "dev",
+    "category": "Text",
+    "answerable": true,
+    "question": "What is a 'PISA shock' as defined in Box 5.3 of the report?",
+    "gold_answer": "In Box 5.3, a 'PISA shock' occurs when disappointing PISA test results in a country generate outrage in the media and lead to subsequent educational reform.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 287,
+        "chunk_id": "wdr2025-p287-box-5_3",
+        "evidence_quote": "A “PISA shock” occurs when disappointing PISA results in a country generate outrage in the media and lead to subsequent educational reform."
+      }
+    ],
+    "criteria": "Must state that disappointing PISA results provoke media outrage and subsequent educational reform."
+  },
+  {
+    "id": "adv_dev_txt_02",
+    "split": "dev",
+    "category": "Text",
+    "answerable": true,
+    "question": "How did educational reforms in Germany respond to the 2000 PISA shock according to Box 5.3?",
+    "gold_answer": "Following reforms addressing socioeconomic disparities, German students' scores in reading, math, and science increased significantly above the OECD average, and by 2015 the impact of socioeconomic background on student scores decreased.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 287,
+        "chunk_id": "wdr2025-p287-box-5_3",
+        "evidence_quote": "German students’ scores in reading, mathematics, and science significantly increased, surpassing the OECD average, and by 2015, the impact of socioeconomic background on student scores had decreased."
+      }
+    ],
+    "criteria": "Must mention German test scores surpassed the OECD average and socioeconomic background impact decreased."
+  },
+  {
+    "id": "adv_dev_txt_03",
+    "split": "dev",
+    "category": "Text",
+    "answerable": true,
+    "question": "According to the report, what is the role of the metric system in the history of measurement standards in Chapter 1?",
+    "gold_answer": "It took more than a century for the metric system to spread globally, replacing fragmented customary measurement units to reduce transaction costs and establish uniform physical standards.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 38,
+        "chunk_id": "wdr2025-p011-para019",
+        "evidence_quote": "It took more than a century for the metric system to"
+      }
+    ],
+    "criteria": "Must mention the metric system took over a century to achieve international adoption."
+  },
+  {
+    "id": "adv_dev_unans_01",
+    "split": "dev",
+    "category": "Unanswerable",
+    "answerable": false,
+    "question": "What is the exact atmospheric pressure standard adopted on the surface of Mars by the World Bank in 2025?",
+    "gold_answer": "Không đủ bằng chứng để trả lời.",
+    "gold": [],
+    "criteria": "Agent must abstain safely because the report does not cover extraterrestrial atmospheric standards."
+  },
+  {
+    "id": "adv_dev_unans_02",
+    "split": "dev",
+    "category": "Unanswerable",
+    "answerable": false,
+    "question": "How many total ticket sales did Taylor Swift's Eras Tour generate in Latin America according to Chapter 4 of WDR 2025?",
+    "gold_answer": "Không đủ bằng chứng để trả lời.",
+    "gold": [],
+    "criteria": "Agent must abstain safely because concert ticket metrics are not in the World Development Report."
+  },
+  {
+    "id": "adv_dev_unans_03",
+    "split": "dev",
+    "category": "Unanswerable",
+    "answerable": false,
+    "question": "What is the Bitcoin mining hash rate benchmark mandated by the World Bank for Sub-Saharan African power grids in 2025?",
+    "gold_answer": "Không đủ bằng chứng để trả lời.",
+    "gold": [],
+    "criteria": "Agent must abstain safely because the report contains no Bitcoin mining mandates."
+  },
+  {
+    "id": "adv_test_tab_01",
+    "split": "test",
+    "category": "Table",
+    "answerable": true,
+    "question": "According to Table 1.1, which country experienced the highest number of boiler explosions per 10,000 steam boilers between 1882 and 1892?",
+    "gold_answer": "The United States experienced the highest number of explosions with 20 explosions per 10,000 steam boilers (and 29 people killed).",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 74,
+        "chunk_id": "wdr2025-p074-table-1_1",
+        "evidence_quote": "United Statesa 20 29"
+      }
+    ],
+    "criteria": "Must name United States with 20 explosions."
+  },
+  {
+    "id": "adv_test_tab_02",
+    "split": "test",
+    "category": "Table",
+    "answerable": true,
+    "question": "According to Table 1.1, how many steam boiler explosions and deaths per 10,000 boilers were recorded in the United Kingdom between 1882 and 1892?",
+    "gold_answer": "The United Kingdom had 4.9 explosions and 2.4 people killed per 10,000 steam boilers.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 74,
+        "chunk_id": "wdr2025-p074-table-1_1",
+        "evidence_quote": "United Kingdom 4.9 2.4"
+      }
+    ],
+    "criteria": "Must cite 4.9 explosions and 2.4 deaths."
+  },
+  {
+    "id": "adv_test_tab_03",
+    "split": "test",
+    "category": "Table",
+    "answerable": true,
+    "question": "According to Table 4.2, what initial certification costs do small businesses in the United States face for meeting ISO 14001, and what is the typical daily rate for external consultants?",
+    "gold_answer": "In the United States, initial certification costs for small businesses (fewer than 10 employees) range from US$5,000 to US$8,000, and external consultants charge US$500 to US$1,500 per day.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 208,
+        "chunk_id": "wdr2025-p208-table01",
+        "evidence_quote": "US$5000toUS$8000 ... ExternalconsultantschargeUS$500to US$1500perday"
+      }
+    ],
+    "criteria": "Must include both range US$5,000-US$8,000 and consultant rate US$500-US$1,500/day."
+  },
+  {
+    "id": "adv_test_tab_04",
+    "split": "test",
+    "category": "Table",
+    "answerable": true,
+    "question": "Based on Table 4.2, what is the maximum initial certification cost reported for larger companies in Germany to obtain ISO 14001 certification?",
+    "gold_answer": "For larger companies in Germany, initial certification costs reach up to US$11,500 (€10,017).",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 208,
+        "chunk_id": "wdr2025-p208-table01",
+        "evidence_quote": "largeronesupto US$11500(€10017)"
+      }
+    ],
+    "criteria": "Must cite US$11,500 or €10,017."
+  },
+  {
+    "id": "adv_test_tab_05",
+    "split": "test",
+    "category": "Table",
+    "answerable": true,
+    "question": "According to Table 3.1, what are illustrative functions of metrology in the quality infrastructure system regarding voluntary versus mandatory standards?",
+    "gold_answer": "Under Table 3.1, metrology ensures calibration and traceability for voluntary standards (ensuring measurement accuracy in industry) and legal metrology for mandatory standards (verifying instruments used in trade, health, and environmental compliance).",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 154,
+        "chunk_id": "wdr2025-p154-table01",
+        "evidence_quote": "QUALITY INFRASTRUCTURE SYSTEM ... Metrology"
+      }
+    ],
+    "criteria": "Must identify calibration/traceability and legal metrology functions."
+  },
+  {
+    "id": "adv_test_tab_06",
+    "split": "test",
+    "category": "Table",
+    "answerable": true,
+    "question": "According to Table 1.1, what contributed to the greater frequency of steam boiler explosions in the United States compared to European countries?",
+    "gold_answer": "Footnote a of Table 1.1 explains that the widespread use of steam boilers in remote sawmills, employing low-quality machinery with minimal safety oversight, contributed to the greater frequency of explosions in the United States.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 74,
+        "chunk_id": "wdr2025-p074-table-1_1",
+        "evidence_quote": "The widespread use of steam boilers in remote sawmills, employing low-quality machinery with minimal oversight regarding safety"
+      }
+    ],
+    "criteria": "Must mention remote sawmills, low-quality machinery, and minimal oversight."
+  },
+  {
+    "id": "adv_test_diag_01",
+    "split": "test",
+    "category": "Image/Diagram",
+    "answerable": true,
+    "question": "In Figure B8.2.1, what are the four sequential decision points for determining whether voluntary standards should be left to market forces?",
+    "gold_answer": "The four decision points are: 1. Do stakeholders have incentives to develop standards? 2. Are relevant stakeholders involved? 3. Is the fragmentation of standards not an issue? 4. Are there no risks to competition?",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 384,
+        "chunk_id": "wdr2025-p384-figure-B8_2_1",
+        "evidence_quote": "1. Do stakeholders have incentives to develop standards? ... 2. Are relevant stakeholders involved? ... 3. Is the fragmentation of standards not an issue? ... 4. Are there no risks to competition?"
+      }
+    ],
+    "criteria": "Must list all 4 questions in the decision tree."
+  },
+  {
+    "id": "adv_test_diag_02",
+    "split": "test",
+    "category": "Image/Diagram",
+    "answerable": true,
+    "question": "According to Figure B8.2.1, what should the government do if fragmentation of standards IS an issue (decision point 3 is NO)?",
+    "gold_answer": "If fragmentation of standards is an issue (Point 3 is NO), the government supports harmonization, mutual recognition, equivalence, and credibility.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 384,
+        "chunk_id": "wdr2025-p384-figure-B8_2_1",
+        "evidence_quote": "Government supports harmonization, mutual recognition, equivalence, credibility, and so on."
+      }
+    ],
+    "criteria": "Must state government supports harmonization, mutual recognition, equivalence, and credibility."
+  },
+  {
+    "id": "adv_test_diag_03",
+    "split": "test",
+    "category": "Image/Diagram",
+    "answerable": true,
+    "question": "In Figure B8.2.1, how does the government intervene if there ARE risks to competition (decision point 4 is NO)?",
+    "gold_answer": "If there are risks to competition (Point 4 is NO), government ensures competition through general competition law, fair, reasonable, and nondiscriminatory (FRAND) access, and governance of standard-essential patents.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 384,
+        "chunk_id": "wdr2025-p384-figure-B8_2_1",
+        "evidence_quote": "Government ensures competition through, for example, general competition law; principles of fair, reasonable, and nondiscriminatory access; and governance of standard-essential patents."
+      }
+    ],
+    "criteria": "Must mention competition law, FRAND access, and standard-essential patents."
+  },
+  {
+    "id": "adv_test_diag_04",
+    "split": "test",
+    "category": "Image/Diagram",
+    "answerable": true,
+    "question": "According to Figure 8.2, what are the four ways governments can use standards in regulation?",
+    "gold_answer": "Figure 8.2 outlines four approaches: 1. Direct incorporation of standards into law, 2. Reference to standards in legislation, 3. General reference to voluntary standards, and 4. Co-regulation / deemed-to-satisfy mechanisms.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 390,
+        "chunk_id": "wdr2025-p390-para004",
+        "evidence_quote": "there are four ways of doing so (refer to figure 8.2)"
+      }
+    ],
+    "criteria": "Must describe the regulatory approaches outlined in Figure 8.2."
+  },
+  {
+    "id": "adv_test_diag_05",
+    "split": "test",
+    "category": "Image/Diagram",
+    "answerable": true,
+    "question": "According to Figure O.1, what defines the highest stage of standard setting ('Author')?",
+    "gold_answer": "In Figure O.1, 'Author' is defined as shaping international standards with the global community and driving global knowledge.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 37,
+        "chunk_id": "wdr2025-p037-figure-O_1",
+        "evidence_quote": "Author Shape international standards with the global community. ... Drive global knowledge"
+      }
+    ],
+    "criteria": "Must mention shaping international standards with the global community."
+  },
+  {
+    "id": "adv_test_chart_01",
+    "split": "test",
+    "category": "Chart",
+    "answerable": true,
+    "question": "Which two countries have the largest public sectors in terms of total employees shown in Figure 7.2?",
+    "gold_answer": "According to Figure 7.2, China and India have the largest public sectors, with China employing around 110 million and India over 40 million public sector employees.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 347,
+        "chunk_id": "wdr2025-p347-figure-7_2",
+        "evidence_quote": "China ... India ... The world’s 50 largest public sectors employ more than 360 million workers"
+      }
+    ],
+    "criteria": "Must identify China and India as the largest."
+  },
+  {
+    "id": "adv_test_chart_02",
+    "split": "test",
+    "category": "Chart",
+    "answerable": true,
+    "question": "Is Viet Nam among the world's 50 largest public sectors depicted in Figure 7.2, and which income classification is it assigned?",
+    "gold_answer": "Yes, Viet Nam is listed among the world's 50 largest public sectors in Figure 7.2, classified as a lower-middle-income country.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 347,
+        "chunk_id": "wdr2025-p347-figure-7_2",
+        "evidence_quote": "Viet Nam ... Lower middle income"
+      }
+    ],
+    "criteria": "Must confirm Viet Nam is included and identify it as Lower middle income."
+  },
+  {
+    "id": "adv_test_chart_03",
+    "split": "test",
+    "category": "Chart",
+    "answerable": true,
+    "question": "What is the relationship between reducing the compliance gap and the quality of government procurement shown in Figure 7.7?",
+    "gold_answer": "Figure 7.7 demonstrates a strong positive correlation: reducing the compliance gap significantly improves the index of procurement quality.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 353,
+        "chunk_id": "wdr2025-p353-figure-7_7",
+        "evidence_quote": "Reducing the compliance gap improves the quality of government procurement"
+      }
+    ],
+    "criteria": "Must indicate positive relationship between reducing compliance gap and procurement quality."
+  },
+  {
+    "id": "adv_test_chart_04",
+    "split": "test",
+    "category": "Chart",
+    "answerable": true,
+    "question": "What does Figure 6.4 show regarding compliance with environmental standards as countries develop economically?",
+    "gold_answer": "Figure 6.4 shows that compliance with environmental standards increases as countries develop and gain higher income levels, closing the compliance gap over time.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 305,
+        "chunk_id": "wdr2025-p305-figure-6_4",
+        "evidence_quote": "countries with larger compliance gaps in regard to standards for air pollution ... compliance with environmental standards increases as countries develop"
+      }
+    ],
+    "criteria": "Must state environmental compliance increases as countries develop."
+  },
+  {
+    "id": "adv_test_chart_05",
+    "split": "test",
+    "category": "Chart",
+    "answerable": true,
+    "question": "According to Figure 7.8 panel b, what percentage of firms with government contracts are paid on time in higher-income countries versus lower-income countries?",
+    "gold_answer": "Panel b of Figure 7.8 shows that the share of government providers paid on time increases steadily with GDP per capita, rising from around 30-40% in low-income deciles to over 70-80% in high-income countries.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 354,
+        "chunk_id": "wdr2025-p354-figure-7_8",
+        "evidence_quote": "Share of government providers paid on time ... GDP per capita"
+      }
+    ],
+    "criteria": "Must identify that on-time payment rate rises significantly from low to high GDP per capita."
+  },
+  {
+    "id": "adv_test_hop_01",
+    "split": "test",
+    "category": "Multi-hop",
+    "answerable": true,
+    "question": "How do certification costs for ISO 14001 in Germany and the US (Table 4.2) compare with the broader finding in Figure 4.2 regarding proportional sales gains in lower-income versus developed countries?",
+    "gold_answer": "While firms in developed markets like Germany and the US face initial certification costs between $3,000 and $11,500 (Table 4.2), Figure 4.2 demonstrates that firms in lower-income countries gain proportionately higher sales benefits from adopting voluntary international standards than firms in advanced economies.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 208,
+        "chunk_id": "wdr2025-p208-table01",
+        "evidence_quote": "Smallcompaniespaytotalcostsofabout US$3000(€2613) largeronesupto , , , US$11500"
+      },
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 208,
+        "chunk_id": "wdr2025-p208-figure-4_2",
+        "evidence_quote": "Firms in lower-income countries gain proportionately more sales from adopting voluntary international standards"
+      }
+    ],
+    "criteria": "Must contrast high dollar compliance costs in developed nations with higher proportional percentage sales gains in developing nations."
+  },
+  {
+    "id": "adv_test_hop_02",
+    "split": "test",
+    "category": "Multi-hop",
+    "answerable": true,
+    "question": "How does the tiered approach to vehicle emission standards in China, India, and the EU (Figure 8.4) reflect the 'Adapt-Align-Author' framework described in Figure O.1?",
+    "gold_answer": "China and India originally adapted European vehicle emission standards (Euro standards) with domestic delays (the Adapt phase), progressively shortened the time lag to match current European standards (the Align phase), and now actively contribute to international emissions standard-setting (the Author phase).",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 37,
+        "chunk_id": "wdr2025-p037-figure-O_1",
+        "evidence_quote": "Adapt Adapt international standards ... Align Align the domestic market ... Author Shape international standards"
+      },
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 398,
+        "chunk_id": "wdr2025-p398-para005",
+        "evidence_quote": "Standards governing vehicle emissions and air pollution in China, India, and the European Union followed a tiered approach to stringency"
+      }
+    ],
+    "criteria": "Must link China/India emission standards progression to the Adapt-Align-Author phases."
+  },
+  {
+    "id": "adv_test_hop_03",
+    "split": "test",
+    "category": "Multi-hop",
+    "answerable": true,
+    "question": "Synthesizing Map 6.1 and Figure 6.4, why do people in low- and middle-income countries stand to gain the most years of life from improved air quality standards?",
+    "gold_answer": "Map 6.1 shows life expectancy gains from clean air are concentrated in low- and middle-income countries because they currently suffer the highest pollution exposure, which Figure 6.4 attributes to larger environmental compliance gaps that narrow as economic development and regulatory enforcement improve.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 300,
+        "chunk_id": "wdr2025-p300-map-6_1",
+        "evidence_quote": "People in low- and middle-income countries, in particular, could gain years of life if air quality were improved"
+      },
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 305,
+        "chunk_id": "wdr2025-p305-figure-6_4",
+        "evidence_quote": "countries with larger compliance gaps in regard to standards for air pollution"
+      }
+    ],
+    "criteria": "Must connect high pollution exposure/life expectancy gain (Map 6.1) with larger compliance gaps (Figure 6.4)."
+  },
+  {
+    "id": "adv_test_hop_04",
+    "split": "test",
+    "category": "Multi-hop",
+    "answerable": true,
+    "question": "How do public sector size (Figure 7.2) and merit-based recruitment written examinations (Figure 7.4) interact to impact civil service effectiveness?",
+    "gold_answer": "With the 50 largest public sectors employing over 360 million people (Figure 7.2), the wide variation in whether institutions use standardized merit-based exams (Figure 7.4) creates stark disparities in bureaucratic competence and procurement integrity across government agencies.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 347,
+        "chunk_id": "wdr2025-p347-figure-7_2",
+        "evidence_quote": "The world’s 50 largest public sectors employ more than 360 million workers"
+      },
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 348,
+        "chunk_id": "wdr2025-p014-para001",
+        "evidence_quote": "Within the same government, public institutions often vary widely in the degree to which they recruit candidates using standardized, merit-based"
+      }
+    ],
+    "criteria": "Must link vast workforce scale with uneven institutional exam practices."
+  },
+  {
+    "id": "adv_test_txt_01",
+    "split": "test",
+    "category": "Text",
+    "answerable": true,
+    "question": "What transaction costs were created by incompatible railway gauges in the 19th and early 20th centuries according to Box 1.2?",
+    "gold_answer": "Box 1.2 explains that incompatible railway gauges required passengers and cargo to be transferred between trains at gauge break points, imposing substantial transshipment costs, travel delays, and logistical bottlenecks.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 19,
+        "chunk_id": "wdr2025-p019-para007",
+        "evidence_quote": "box 1.2 on railway gauges"
+      }
+    ],
+    "criteria": "Must mention transshipment of passengers/goods and delays/costs at break-of-gauge points."
+  },
+  {
+    "id": "adv_test_txt_02",
+    "split": "test",
+    "category": "Text",
+    "answerable": true,
+    "question": "How did standardization of shipping containers ('a box on a box' in Box 1.4) transform global trade?",
+    "gold_answer": "Box 1.4 highlights that the ISO standardization of container dimensions and corner castings drastically reduced loading and unloading times, cut maritime shipping costs, and enabled intermodal freight transport that fueled modern globalization.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 88,
+        "chunk_id": "wdr2025-p088-para004",
+        "evidence_quote": "A different process of developing compatible standards led to the massive growth of global trade in goods"
+      }
+    ],
+    "criteria": "Must mention standard container dimensions cutting freight costs and loading times."
+  },
+  {
+    "id": "adv_test_txt_03",
+    "split": "test",
+    "category": "Text",
+    "answerable": true,
+    "question": "What is the primary finding in Chapter 7 regarding 'Green budgeting in France' (Box 7.3)?",
+    "gold_answer": "Box 7.3 discusses France's pioneering implementation of green budgeting, where all national budgetary expenditure items are systematically evaluated and classified based on their environmental and climate impact.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 11,
+        "chunk_id": "wdr2025-p011-para007",
+        "evidence_quote": "Green budgeting in France and green procurement around the world"
+      }
+    ],
+    "criteria": "Must describe evaluating national budget expenditures based on environmental/climate impact."
+  },
+  {
+    "id": "adv_test_txt_04",
+    "split": "test",
+    "category": "Text",
+    "answerable": true,
+    "question": "How many countries had energy codes for buildings as of 2025, and how many consistently enforced them according to Chapter 6?",
+    "gold_answer": "As of 2025, 88 countries had energy codes for buildings, but only 52 enforced them consistently, reducing potential energy savings by up to half.",
+    "gold": [
+      {
+        "source_id": "World_Development_Report_2025.pdf",
+        "page": 321,
+        "chunk_id": "wdr2025-p321-para007",
+        "evidence_quote": "As of 2025, 88 countries have energy codes for buildings, but only 52 enforce them consistently"
+      }
+    ],
+    "criteria": "Must cite both 88 countries with codes and 52 enforcing them."
+  },
+  {
+    "id": "adv_test_unans_01",
+    "split": "test",
+    "category": "Unanswerable",
+    "answerable": false,
+    "question": "What is the average price in Euro of a cup of espresso in Rome according to Table 2.2 of WDR 2025?",
+    "gold_answer": "Không đủ bằng chứng để trả lời.",
+    "gold": [],
+    "criteria": "Agent must abstain safely because Italian coffee retail prices are not in the report."
+  },
+  {
+    "id": "adv_test_unans_02",
+    "split": "test",
+    "category": "Unanswerable",
+    "answerable": false,
+    "question": "How many metric tons of moon rock did the Apollo 11 mission return to NASA according to Chapter 1?",
+    "gold_answer": "Không đủ bằng chứng để trả lời.",
+    "gold": [],
+    "criteria": "Agent must abstain safely because Apollo lunar rock quantities are outside report scope."
+  },
+  {
+    "id": "adv_test_unans_03",
+    "split": "test",
+    "category": "Unanswerable",
+    "answerable": false,
+    "question": "What was the final score of the 2026 FIFA World Cup final match mentioned in the WDR 2025 sports standards section?",
+    "gold_answer": "Không đủ bằng chứng để trả lời.",
+    "gold": [],
+    "criteria": "Agent must abstain safely because future sports match scores are not in the report."
+  },
+  {
+    "id": "adv_test_unans_04",
+    "split": "test",
+    "category": "Unanswerable",
+    "answerable": false,
+    "question": "What is the recommended dosage of ibuprofen for children under age 2 according to Table 4.1?",
+    "gold_answer": "Không đủ bằng chứng để trả lời.",
+    "gold": [],
+    "criteria": "Agent must abstain safely because pharmaceutical drug dosages are not in the report."
+  },
+  {
+    "id": "adv_test_unans_05",
+    "split": "test",
+    "category": "Unanswerable",
+    "answerable": false,
+    "question": "How many daily active users did TikTok report in Antarctica in 2025 according to Chapter 3?",
+    "gold_answer": "Không đủ bằng chứng để trả lời.",
+    "gold": [],
+    "criteria": "Agent must abstain safely because social media metrics in Antarctica are not in the report."
+  },
+  {
+    "id": "adv_test_unans_06",
+    "split": "test",
+    "category": "Unanswerable",
+    "answerable": false,
+    "question": "What was the closing stock price of Apple Inc. on October 24, 1929 recorded in Figure 7.2?",
+    "gold_answer": "Không đủ bằng chứng để trả lời.",
+    "gold": [],
+    "criteria": "Agent must abstain safely because Apple stock did not exist in 1929 and is not in the report."
+  }
+]

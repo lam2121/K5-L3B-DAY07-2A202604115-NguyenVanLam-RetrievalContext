@@ -1,5 +1,21 @@
-# Day 7 — Agentic RAG: Retrieval & Context Engineering
+# Day 7 — Agentic RAG: Retrieval & Context Engineering + Advanced Multimodal Challenge
+
+# 1. Environment & Utilities
 python-dotenv>=1.0.0
+requests>=2.31.0
+
+# 2. LLM Providers
+anthropic>=0.34.0
+
+# 3. Retrieval & Ranking
 sentence-transformers>=3.0.0
 rank-bm25>=0.2.2
-requests>=2.31.0
+numpy>=1.26.0
+
+# 4. Multimodal PDF Extraction & Ingestion (Advanced Challenge)
+pymupdf>=1.24.0
+pymupdf4llm>=0.0.17
+
+# 5. Vector Database Integration (Day 6 Database Connection)
+psycopg2-binary>=2.9.9
+pgvector>=0.2.5
