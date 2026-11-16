@@ -352,17 +352,18 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       if (pages.length > 1) {
         pages.forEach((p, idx) => {
           const tab = document.createElement('button');
-          tab.className = `text-[10px] font-semibold px-2 py-0.5 rounded transition ${idx === activePageIdx ? 'bg-primary text-white' : 'bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300'}`;
-          tab.textContent = `Trang ${p.page}`;
+          tab.className = `text-[10px] font-semibold px-2 py-0.5 rounded transition ${idx === activePageIdx ? 'bg-primary text-white shadow-xs' : 'bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-300'}`;
+          tab.textContent = p.label || `Trang ${p.page}`;
+          tab.title = p.tag || '';
           tab.onclick = () => { activePageIdx = idx; renderPdf(); };
           tabsEl.appendChild(tab);
         });
       }
 
-      badgeEl.textContent = `Trang ${currentPage.page} / 408`;
+      badgeEl.innerHTML = `<span class="font-bold text-slate-800 dark:text-white">Trang ${currentPage.page} / 408</span> ${currentPage.tag ? '<span class="ml-1.5 px-1.5 py-0.5 bg-emerald-100 text-emerald-800 dark:bg-emerald-900/60 dark:text-emerald-300 rounded text-[10px] font-medium">' + currentPage.tag + '</span>' : ''}`;
       imgEl.src = currentPage.page_img;
       snipBox.className = 'w-full max-w-[620px] mt-3 p-3 bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800/60 rounded-xl text-xs text-amber-900 dark:text-amber-200';
-      snipText.textContent = `"${currentPage.snippet || 'Dữ liệu bằng chứng chuẩn'}"`;
+      snipText.innerHTML = `<div class="font-semibold text-[11px] text-amber-800 dark:text-amber-300 mb-0.5">${currentPage.chunk_id ? '[' + currentPage.chunk_id + '] ' : ''}${currentPage.tag ? '· ' + currentPage.tag : ''}:</div><div class="italic">"${currentPage.snippet || 'Dữ liệu bằng chứng chuẩn'}"</div>`;
 
       // Highlight Box Overlay
       const r = currentPage.rect;
@@ -376,6 +377,14 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         box.style.height = `${height}%`;
         box.style.backgroundColor = 'rgba(254, 240, 138, 0.7)';
         box.style.border = '2px solid #eab308';
+        box.title = currentPage.chunk_id || '';
+
+        if (currentPage.chunk_id) {
+          const pill = document.createElement('span');
+          pill.className = 'absolute -top-4 left-0 px-1 py-0.2 bg-amber-600 text-white text-[9px] font-bold rounded shadow-xs whitespace-nowrap pointer-events-auto';
+          pill.textContent = currentPage.chunk_id;
+          box.appendChild(pill);
+        }
         hlLayer.appendChild(box);
       }
     }
@@ -408,9 +417,49 @@ def generate_viewer():
     for c in test_benchmark:
         qid = c["id"]
         golds = c.get("gold", [])
+        t = trace_map.get(qid, {})
+        agent_cits = t.get("citations", [])
         evidence_pages = []
         crops = []
+        seen_entries = set()
 
+        # Priority 1: Chunks cited by Agent in actual answer
+        for cid in agent_cits:
+            chk = chunk_map.get(cid)
+            if not chk:
+                continue
+            page = chk.get("page")
+            if not page:
+                continue
+
+            bbox = chk.get("bbox", [0, 0, 576, 756])
+            left = round((bbox[0] / 576.0) * 100, 2)
+            top = round((bbox[1] / 756.0) * 100, 2)
+            width = round(((bbox[2] - bbox[0]) / 576.0) * 100, 2)
+            height = round(((bbox[3] - bbox[1]) / 756.0) * 100, 2)
+
+            crop_path = chk.get("image_crop")
+            if crop_path and crop_path not in crops:
+                crops.append(crop_path)
+
+            is_gold = any(g.get("chunk_id") == cid for g in golds)
+            tag = "Dẫn chứng Trùng khớp 100%" if is_gold else "Dẫn chứng Agent Trích dẫn"
+
+            entry_key = (page, cid)
+            if entry_key not in seen_entries:
+                seen_entries.add(entry_key)
+                short_label = cid.replace("wdr2025-", "").replace("figure-", "fig.").upper()
+                evidence_pages.append({
+                    "page": page,
+                    "page_img": f"data/advanced/pdf_pages/page_{page}.jpg",
+                    "chunk_id": cid,
+                    "rect": [left, top, width, height],
+                    "label": f"Trang {page} · {short_label}",
+                    "tag": tag,
+                    "snippet": chk.get("text", "")[:180]
+                })
+
+        # Priority 2: Gold benchmark chunks (for abstained questions or ground-truth comparison)
         for g in golds:
             cid = g.get("chunk_id")
             chk = chunk_map.get(cid, {})
@@ -420,22 +469,28 @@ def generate_viewer():
             top = round((bbox[1] / 756.0) * 100, 2)
             width = round(((bbox[2] - bbox[0]) / 576.0) * 100, 2)
             height = round(((bbox[3] - bbox[1]) / 756.0) * 100, 2)
-            
+
             crop_path = chk.get("image_crop")
             if crop_path and crop_path not in crops:
                 crops.append(crop_path)
 
-            evidence_pages.append({
-                "page": page,
-                "page_img": f"data/advanced/pdf_pages/page_{page}.jpg",
-                "chunk_id": cid,
-                "rect": [left, top, width, height],
-                "snippet": g.get("evidence_quote") or chk.get("text", "")[:120]
-            })
+            entry_key = (page, cid)
+            if entry_key not in seen_entries:
+                seen_entries.add(entry_key)
+                short_label = cid.replace("wdr2025-", "").replace("figure-", "fig.").upper() if cid else f"P{page}"
+                evidence_pages.append({
+                    "page": page,
+                    "page_img": f"data/advanced/pdf_pages/page_{page}.jpg",
+                    "chunk_id": cid or f"gold-p{page}",
+                    "rect": [left, top, width, height],
+                    "label": f"Trang {page} · Ground Truth",
+                    "tag": "Ground-Truth Chuẩn",
+                    "snippet": g.get("evidence_quote") or chk.get("text", "")[:180]
+                })
 
         merged.append({
             "case": c,
-            "trace": trace_map.get(qid, {}),
+            "trace": t,
             "review": rev_map.get(qid, {}),
             "evidence_pages": evidence_pages,
             "crops": crops

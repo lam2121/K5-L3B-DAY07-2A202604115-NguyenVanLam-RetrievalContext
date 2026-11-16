@@ -265,9 +265,9 @@
     "gold": [
       {
         "source_id": "World_Development_Report_2025.pdf",
-        "page": 38,
-        "chunk_id": "wdr2025-p011-para019",
-        "evidence_quote": "It took more than a century for the metric system to"
+        "page": 70,
+        "chunk_id": "wdr2025-p070-figure-1_1",
+        "evidence_quote": "Figure 1.1 It took more than a century for the metric system to spread around the world."
       }
     ],
     "criteria": "Must mention the metric system took over a century to achieve international adoption."
@@ -347,8 +347,8 @@
       {
         "source_id": "World_Development_Report_2025.pdf",
         "page": 208,
-        "chunk_id": "wdr2025-p208-table01",
-        "evidence_quote": "US$5000toUS$8000 ... ExternalconsultantschargeUS$500to US$1500perday"
+        "chunk_id": "wdr2025-p208-table-4_2",
+        "evidence_quote": "Table 4.2 Examples of certification costs: Initial certification costs for small businesses (fewer than 10 employees) range from US$5,000 to US$8,000. External consultants charge US$500 to US$1,500 per day."
       }
     ],
     "criteria": "Must include both range US$5,000-US$8,000 and consultant rate US$500-US$1,500/day."
@@ -364,8 +364,8 @@
       {
         "source_id": "World_Development_Report_2025.pdf",
         "page": 208,
-        "chunk_id": "wdr2025-p208-table01",
-        "evidence_quote": "largeronesupto US$11500(€10017)"
+        "chunk_id": "wdr2025-p208-table-4_2",
+        "evidence_quote": "Table 4.2 Examples of certification costs: Small companies pay total costs of about US$3,000 (€2,613), larger ones up to US$11,500 (€10,017)."
       }
     ],
     "criteria": "Must cite US$11,500 or €10,017."
@@ -465,9 +465,9 @@
     "gold": [
       {
         "source_id": "World_Development_Report_2025.pdf",
-        "page": 390,
-        "chunk_id": "wdr2025-p390-para004",
-        "evidence_quote": "there are four ways of doing so (refer to figure 8.2)"
+        "page": 391,
+        "chunk_id": "wdr2025-p391-figure-8_2",
+        "evidence_quote": "Figure 8.2 Four ways of using standards in regulation: Law, Standard referenced in law, Standard used to demonstrate compliance with law, Voluntary standard."
       }
     ],
     "criteria": "Must describe the regulatory approaches outlined in Figure 8.2."
@@ -613,9 +613,9 @@
       },
       {
         "source_id": "World_Development_Report_2025.pdf",
-        "page": 398,
-        "chunk_id": "wdr2025-p398-para005",
-        "evidence_quote": "Standards governing vehicle emissions and air pollution in China, India, and the European Union followed a tiered approach to stringency"
+        "page": 399,
+        "chunk_id": "wdr2025-p399-figure-8_4",
+        "evidence_quote": "Figure 8.4 Standards governing vehicle emissions and air pollution in China, India, and the European Union followed a tiered approach"
       }
     ],
     "criteria": "Must link China/India emission standards progression to the Adapt-Align-Author phases."
@@ -660,8 +660,8 @@
       {
         "source_id": "World_Development_Report_2025.pdf",
         "page": 348,
-        "chunk_id": "wdr2025-p014-para001",
-        "evidence_quote": "Within the same government, public institutions often vary widely in the degree to which they recruit candidates using standardized, merit-based"
+        "chunk_id": "wdr2025-p348-figure-7_4",
+        "evidence_quote": "Figure 7.4 Within the same government, public institutions often vary widely in the degree to which they recruit candidates using standardized, merit-based civil service examinations"
       }
     ],
     "criteria": "Must link vast workforce scale with uneven institutional exam practices."
@@ -676,9 +676,9 @@
     "gold": [
       {
         "source_id": "World_Development_Report_2025.pdf",
-        "page": 19,
-        "chunk_id": "wdr2025-p019-para007",
-        "evidence_quote": "box 1.2 on railway gauges"
+        "page": 82,
+        "chunk_id": "wdr2025-p082-box-1_2",
+        "evidence_quote": "Box 1.2 The transaction costs of incompatible railway gauges: In the 19th and early 20th centuries, multiple track gauges forced trains to stop at borders between jurisdictions or rail networks, requiring passengers and freight to change trains, adding delays and substantial cargo transfer fees."
       }
     ],
     "criteria": "Must mention transshipment of passengers/goods and delays/costs at break-of-gauge points."
@@ -710,9 +710,9 @@
     "gold": [
       {
         "source_id": "World_Development_Report_2025.pdf",
-        "page": 11,
-        "chunk_id": "wdr2025-p011-para007",
-        "evidence_quote": "Green budgeting in France and green procurement around the world"
+        "page": 360,
+        "chunk_id": "wdr2025-p360-box-7_3",
+        "evidence_quote": "Box 7.3 Putting environmental standards into action: Green budgeting in France and green procurement around the world: France was one of the first countries to assess its entire national budget against environmental criteria."
       }
     ],
     "criteria": "Must describe evaluating national budget expenditures based on environmental/climate impact."
