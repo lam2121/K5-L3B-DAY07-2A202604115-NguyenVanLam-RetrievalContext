@@ -86,7 +86,7 @@ def extract_json(content: str) -> dict[str, Any]:
         raise
 
 
-def normalize_action(parsed: dict[str, Any], context_ids: list[str]) -> dict[str, Any]:
+def normalize_action(parsed: dict[str, Any], context_ids: list[str], default_query: str = "document search") -> dict[str, Any]:
     """Normalize model output action according to Day 7 Controller protocol.
     Guarantees citations appear in answer as [chunk-id] and only valid chunk IDs are cited.
     """
@@ -95,7 +95,7 @@ def normalize_action(parsed: dict[str, Any], context_ids: list[str]) -> dict[str
         q = parsed.get("query", "")
         if isinstance(q, str) and q.strip():
             return {"action": "search", "query": q.strip()}
-        return {"action": "search", "query": "World Development Report 2025"}
+        return {"action": "search", "query": default_query}
 
     if action == "answer":
         raw_ans = parsed.get("answer", "")
@@ -237,7 +237,7 @@ class AnthropicController:
                     parsed = extract_json(content)
                     action = parsed.get("action")
                     if action in ("search", "answer"):
-                        return normalize_action(parsed, context_ids)
+                        return normalize_action(parsed, context_ids, default_query=question)
                 except Exception as e:
                     print(f"\n[Anthropic Attempt {attempt}] Error with {current_model}: {e}")
                     time.sleep(2 ** attempt)
@@ -308,7 +308,7 @@ class OpenRouterController:
                         parsed = extract_json(content)
                         action = parsed.get("action")
                         if action in ("search", "answer"):
-                            return normalize_action(parsed, context_ids)
+                            return normalize_action(parsed, context_ids, default_query=question)
 
                 except urllib.error.HTTPError as e:
                     if e.code == 429 or e.code >= 500:
