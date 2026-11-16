@@ -1,0 +1,1439 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "What license is the textbook College Success published under, and what does it permit?",
+    "strategy": "Dense (all-MiniLM-L6-v2)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 11,
+        "evidence": "College Success is licensed under a Creative Commons Attribution 4.0 International (CC BY) license, which\nmeans that you can distribute, remix, and build upon the content, as long as you provide attribution to\nOpenStax and its content contributors."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p12-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 12,
+        "text": "Format\nYou can access this textbook for free in web view or PDF through openstax.org, and for a low cost in print. About College Success\nCollege Success is designed to meet the course needs of a one-semester course, workshop, or seminar for first\nyear experience or college transition students. FYE programs vary greatly according to institution, so the\ntextbook has been developed to cover the most common concepts, and the open license and flexible formats\nprovide many opportunities for coordinators, instructional designers, and faculty to tailor the material for their\nneeds. This book is an invitation—an invitation to students to step boldly into their college experience. College Success\naddresses the evolving challenges and opportunities of today’s diverse students.",
+        "metadata": {
+          "chapter": 0,
+          "chunk_type": "by_paragraph",
+          "char_length": 776,
+          "chapter_title": "Preface"
+        },
+        "score": 0.5988320004644735,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p24-para002",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 24,
+        "text": "Nevertheless, you are probably taking this course because\nyour college believes that it will help you succeed in college and beyond. Likewise, the reason your professor has\nassigned this book is because it has been designed to give you the best information about how to make your\ntransition to college a little smoother. If you are not convinced just yet of the value of this course and its\ncontent, consider the following questions that you will be encouraged to answer as you learn about how to\nsucceed in college:\n• What will college expect of me in terms of skills, habits, and behaviors, and how can I develop them to\nensure that I am successful? • What do I need to know about how to navigate the process of completing a college degree?",
+        "metadata": {
+          "chapter": 1,
+          "chunk_type": "by_paragraph",
+          "char_length": 742,
+          "chapter_title": "Exploring College"
+        },
+        "score": 0.5650340897606257,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p11-para001",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 11,
+        "text": "Through our\npartnerships with philanthropic foundations and our alliance with other educational resource organizations,\nOpenStax is breaking down the most common barriers to learning and empowering students and instructors\nto succeed. About OpenStax Resources\nCustomization\nCollege Success is licensed under a Creative Commons Attribution 4.0 International (CC BY) license, which\nmeans that you can distribute, remix, and build upon the content, as long as you provide attribution to\nOpenStax and its content contributors. Because our books are openly licensed, you are free to use the entire book or pick and choose the sections\nthat are most relevant to the needs of your course.",
+        "metadata": {
+          "chapter": 0,
+          "chunk_type": "by_paragraph",
+          "char_length": 681,
+          "chapter_title": "Preface"
+        },
+        "score": 0.5134365805661337,
+        "strategy": "dense",
+        "hit": true
+      }
+    ],
+    "context": "[openstax-college-success-p12-para000 | starter/data/College_Success_web.pdf | page 12]\nFormat\nYou can access this textbook for free in web view or PDF through openstax.org, and for a low cost in print. About College Success\nCollege Success is designed to meet the course needs of a one-semester course, workshop, or seminar for first\nyear experience or college transition students. FYE programs vary greatly according to institution, so the\ntextbook has been developed to cover the most common concepts, and the open license and flexible formats\nprovide many opportunities for coordinators, instructional designers, and faculty to tailor the material for their\nneeds. This book is an invitation—an invitation to students to step boldly into their college experience. College Success\naddresses the evolving challenges and opportunities of today’s diverse students.\n\n[openstax-college-success-p24-para002 | starter/data/College_Success_web.pdf | page 24]\nNevertheless, you are probably taking this course because\nyour college believes that it will help you succeed in college and beyond. Likewise, the reason your professor has\nassigned this book is because it has been designed to give you the best information about how to make your\ntransition to college a little smoother. If you are not convinced just yet of the value of this course and its\ncontent, consider the following questions that you will be encouraged to answer as you learn about how to\nsucceed in college:\n• What will college expect of me in terms of skills, habits, and behaviors, and how can I develop them to\nensure that I am successful? • What do I need to know about how to navigate the process of completing a college degree?",
+    "context_ids": [
+      "openstax-college-success-p12-para000",
+      "openstax-college-success-p24-para002"
+    ],
+    "context_chars": 1696,
+    "elapsed_ms": 36.3818000187166,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "What is a syllabus commonly referred to as in college courses?",
+    "strategy": "Dense (all-MiniLM-L6-v2)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 29,
+        "evidence": "A\nsyllabus is often called the “contract of the course” because it contains information about what to\nexpect—from the professor and the student."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p30-para001",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 30,
+        "text": "Syllabus The contract of a course\nthat provides information\nabout course expectations\nand policies\nThe syllabus will provide valuable information that your\nprofessor will assume you have read and understood. Refer\nto it first when you have a question about the course. Table 1.2\nIn addition to its own language, higher education has its own way of doing things. For example, you may be\nfamiliar with what a teacher did when you were in high school, but do you know what a professor does? It\ncertainly seems like they fulfill a very similar role as teachers in high school, but in college professors’ roles are\noften much more diverse.",
+        "metadata": {
+          "chapter": 1,
+          "chunk_type": "by_paragraph",
+          "char_length": 634,
+          "chapter_title": "Exploring College"
+        },
+        "score": 0.7464157364667701,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p29-para001",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 29,
+        "text": "Take, for instance, “office hours.” If you are\nnot in college, you would think that it means the hours of a day that an office is open. If it is your dentist’s\noffice, it may mean Monday through Friday from 8 a.m. to 5 p.m. In college, “office hours” can refer to the\nspecific hours a professor is in her office to meet with students, and those hours may be only a few each day:\nfor example, Mondays and Wednesdays from 1 p.m. until 3 p.m. “Syllabus” is another word that you may not have encountered, but it is one you will soon know very well. A\nsyllabus is often called the “contract of the course” because it contains information about what to\nexpect—from the professor and the student. It is meant to be a roadmap for succeeding in the class.",
+        "metadata": {
+          "chapter": 1,
+          "chunk_type": "by_paragraph",
+          "char_length": 747,
+          "chapter_title": "Exploring College"
+        },
+        "score": 0.6610163043944427,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "openstax-college-success-p29-para002",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 29,
+        "text": "Understanding that office hours are for you to ask your professor questions and the syllabus is the guide for\nwhat you will be doing in the class can make a big difference in your transition to college. The table on\nCommon College Terms, has a brief list of other words that you will want to know when you hear them on\ncampus. Common College Terms, What They Mean, and Why You Need to Know\nTerm What It Means Why You Need to Know\nAttendance\npolicy\nA policy that describes the\nattendance and absence\nexpectations for a class\nProfessors will have different attendance expectations. Read\nyour syllabus to determine which ones penalize you if you\nmiss too many classes.",
+        "metadata": {
+          "chapter": 1,
+          "chunk_type": "by_paragraph",
+          "char_length": 665,
+          "chapter_title": "Exploring College"
+        },
+        "score": 0.5698537768070814,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-college-success-p30-para001 | starter/data/College_Success_web.pdf | page 30]\nSyllabus The contract of a course\nthat provides information\nabout course expectations\nand policies\nThe syllabus will provide valuable information that your\nprofessor will assume you have read and understood. Refer\nto it first when you have a question about the course. Table 1.2\nIn addition to its own language, higher education has its own way of doing things. For example, you may be\nfamiliar with what a teacher did when you were in high school, but do you know what a professor does? It\ncertainly seems like they fulfill a very similar role as teachers in high school, but in college professors’ roles are\noften much more diverse.\n\n[openstax-college-success-p29-para001 | starter/data/College_Success_web.pdf | page 29]\nTake, for instance, “office hours.” If you are\nnot in college, you would think that it means the hours of a day that an office is open. If it is your dentist’s\noffice, it may mean Monday through Friday from 8 a.m. to 5 p.m. In college, “office hours” can refer to the\nspecific hours a professor is in her office to meet with students, and those hours may be only a few each day:\nfor example, Mondays and Wednesdays from 1 p.m. until 3 p.m. “Syllabus” is another word that you may not have encountered, but it is one you will soon know very well. A\nsyllabus is often called the “contract of the course” because it contains information about what to\nexpect—from the professor and the student. It is meant to be a roadmap for succeeding in the class.\n\n[openstax-college-success-p29-para002 | starter/data/College_Success_web.pdf | page 29]\nUnderstanding that office hours are for you to ask your professor questions and the syllabus is the guide for\nwhat you will be doing in the class can make a big difference in your transition to college. The table on\nCommon College Terms, has a brief list of other words that you will want to know when you hear them on\ncampus. Common College Terms, What They Mean, and Why You Need to Know\nTerm What It Means Why You Need to Know\nAttendance\npolicy\nA policy that describes the\nattendance and absence\nexpectations for a class\nProfessors will have different attendance expectations. Read\nyour syllabus to determine which ones penalize you if you\nmiss too many classes.",
+    "context_ids": [
+      "openstax-college-success-p30-para001",
+      "openstax-college-success-p29-para001",
+      "openstax-college-success-p29-para002"
+    ],
+    "context_chars": 2314,
+    "elapsed_ms": 39.97810001601465,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "How do instructional qualifications and teaching preparation differ between secondary school educators and university professors?",
+    "strategy": "Dense (all-MiniLM-L6-v2)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 31,
+        "evidence": "High School Faculty College Faculty\nOften have degrees or certifications in\nteaching in addition to degrees in subject\nmatter\nMost likely have not even taken a course in teaching as part\nof their graduate program"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p31-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 31,
+        "text": "Differences between High School and College Faculty\nHigh School Faculty College Faculty\nOften have degrees or certifications in\nteaching in addition to degrees in subject\nmatter\nMost likely have not even taken a course in teaching as part\nof their graduate program\nResponsibilities include maximizing\nstudent learning and progress in a wide\narray of areas\nResponsibilities include providing students with content and\nan assessment of their mastery of the content\nAre available before or after school or\nduring class if a student has a question\nAre available during office hours or by appointment if a\nstudent needs additional instruction or advice\nCommunicate regularly and welcome\nquestions from parents and families\nabout a student’s progress\nCannot communicate with parents and families of students\nwithout permission because of the Federal Educational\nRights and Privacy Act (FERPA)\nThe relationships you build with your professors will be some of the most important ones you create during\nyour college career.",
+        "metadata": {
+          "chapter": 1,
+          "chunk_type": "by_paragraph",
+          "char_length": 1014,
+          "chapter_title": "Exploring College"
+        },
+        "score": 0.6160841833922504,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "openstax-college-success-p30-para002",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 30,
+        "text": "In addition to teaching, they may also conduct research, mentor graduate students,\nwrite and review research articles, serve on and lead campus committees, serve in regional and national\norganizations in their disciplines, apply for and administer grants, advise students in their major, and serve as\nsponsors for student organizations. You can be assured that their days are far from routine. See the Table on\nDifferences between High School Teachers and College Professors for just a few differences between high\nschool teachers and college professors.",
+        "metadata": {
+          "chapter": 1,
+          "chunk_type": "by_paragraph",
+          "char_length": 554,
+          "chapter_title": "Exploring College"
+        },
+        "score": 0.5520496164378054,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p144-para002",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 144,
+        "text": "Students must often complete core\neducation coursework prior to student teaching and must complete a background check prior to placement in\na school setting. During their student teaching experience, students are usually paired one-on-one with an\nexperienced teacher and have the opportunity to observe that teacher, get to know the students, understand\nthe classroom culture, and participate in lessons as a teaching assistant as needed or appropriate. Much like\nnursing clinicals, this highly supervised fieldwork experience usually progresses to more independent work\nwhen the student teacher is asked to deliver and reflect on a lesson plan of their own design.",
+        "metadata": {
+          "chapter": 4,
+          "chunk_type": "by_paragraph",
+          "char_length": 665,
+          "chapter_title": "Planning Your Academic Pathways"
+        },
+        "score": 0.4928747878252566,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-college-success-p31-para000 | starter/data/College_Success_web.pdf | page 31]\nDifferences between High School and College Faculty\nHigh School Faculty College Faculty\nOften have degrees or certifications in\nteaching in addition to degrees in subject\nmatter\nMost likely have not even taken a course in teaching as part\nof their graduate program\nResponsibilities include maximizing\nstudent learning and progress in a wide\narray of areas\nResponsibilities include providing students with content and\nan assessment of their mastery of the content\nAre available before or after school or\nduring class if a student has a question\nAre available during office hours or by appointment if a\nstudent needs additional instruction or advice\nCommunicate regularly and welcome\nquestions from parents and families\nabout a student’s progress\nCannot communicate with parents and families of students\nwithout permission because of the Federal Educational\nRights and Privacy Act (FERPA)\nThe relationships you build with your professors will be some of the most important ones you create during\nyour college career.\n\n[openstax-college-success-p30-para002 | starter/data/College_Success_web.pdf | page 30]\nIn addition to teaching, they may also conduct research, mentor graduate students,\nwrite and review research articles, serve on and lead campus committees, serve in regional and national\norganizations in their disciplines, apply for and administer grants, advise students in their major, and serve as\nsponsors for student organizations. You can be assured that their days are far from routine. See the Table on\nDifferences between High School Teachers and College Professors for just a few differences between high\nschool teachers and college professors.",
+    "context_ids": [
+      "openstax-college-success-p31-para000",
+      "openstax-college-success-p30-para002"
+    ],
+    "context_chars": 1746,
+    "elapsed_ms": 40.08509998675436,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "Under what condition can an individual exhibit both fixed and growth mindsets simultaneously?",
+    "strategy": "Dense (all-MiniLM-L6-v2)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 60,
+        "evidence": "People may feel\ngreat ability to grow and learn in some areas, like art and communication, but feel more limited in others, such\nas planning and financials. Recognizing these intersections will help you approach new topics and tasks."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p64-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 64,
+        "text": "Figure 2.11 The differences between fixed and growth mindset are clear when aligned to key elements of\nlearning and personality. (Credit: Based on work by Dr. Carol Dweck)\nThe Growth Mindset and Lessons About Failing\nSomething you may have noticed is that a growth mindset would tend to give a learner grit and persistence. If\nyou had learning as your major goal, you would normally keep trying to attain that goal even if it took you\nmultiple attempts. Not only that, but if you learned a little bit more with each try you would see each attempt\nas a success, even if you had not achieved complete mastery of whatever it was you were working to learn. With that in mind, it should come as no surprise that Dr.",
+        "metadata": {
+          "chapter": 2,
+          "chunk_type": "by_paragraph",
+          "char_length": 710,
+          "chapter_title": "Knowing Yourself as a Learner"
+        },
+        "score": 0.7617256750682014,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p63-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 63,
+        "text": "Fixed vs. Growth Mindset\nThe research-based model of these two mindsets and their influence on learning was presented in 1988 by\nCarol Dweck.[7] In Dr. Dweck’s work, she determined that a student’s perception about their own learning\naccompanied by a broader goal of learning had a significant influence on their ability to overcome challenges\nand grow in knowledge and ability. This has become known as the Fixed vs. Growth Mindset model. In this\nmodel, the performance-goal-oriented student is represented by the fixed mindset, while the learning-goal-\noriented student is represented by the growth mindset. In the following graphic, based on Dr. Dweck’s research, you can see how many of the components associated\nwith learning are impacted by these two mindsets. 7 Dweck, C.S. & Leggett, E.L.",
+        "metadata": {
+          "chapter": 2,
+          "chunk_type": "by_paragraph",
+          "char_length": 796,
+          "chapter_title": "Knowing Yourself as a Learner"
+        },
+        "score": 0.6857054994955927,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p66-para001",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 66,
+        "text": "Using the outline presented below, in the far right column, write down how you can\nchange your own behavior for each of the parts of the learning process. What will you do to move from a\nfixed to a growth mindset? For example, say you were trying to learn to play a musical instrument. In the\nChallenges row, you might pursue a growth path by trying to play increasingly more difficult songs rather\nthan sticking to the easy ones you have already mastered. In the Criticism row, you might take someone’s\ncomment about a weakness in timing as a motivation for you to practice with a metronome. For Success\nof others you could take inspiration from a famous musician that is considered a master and study their\ntechniques.",
+        "metadata": {
+          "chapter": 2,
+          "chunk_type": "by_paragraph",
+          "char_length": 720,
+          "chapter_title": "Knowing Yourself as a Learner"
+        },
+        "score": 0.5780903873268702,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-college-success-p64-para000 | starter/data/College_Success_web.pdf | page 64]\nFigure 2.11 The differences between fixed and growth mindset are clear when aligned to key elements of\nlearning and personality. (Credit: Based on work by Dr. Carol Dweck)\nThe Growth Mindset and Lessons About Failing\nSomething you may have noticed is that a growth mindset would tend to give a learner grit and persistence. If\nyou had learning as your major goal, you would normally keep trying to attain that goal even if it took you\nmultiple attempts. Not only that, but if you learned a little bit more with each try you would see each attempt\nas a success, even if you had not achieved complete mastery of whatever it was you were working to learn. With that in mind, it should come as no surprise that Dr.\n\n[openstax-college-success-p63-para000 | starter/data/College_Success_web.pdf | page 63]\nFixed vs. Growth Mindset\nThe research-based model of these two mindsets and their influence on learning was presented in 1988 by\nCarol Dweck.[7] In Dr. Dweck’s work, she determined that a student’s perception about their own learning\naccompanied by a broader goal of learning had a significant influence on their ability to overcome challenges\nand grow in knowledge and ability. This has become known as the Fixed vs. Growth Mindset model. In this\nmodel, the performance-goal-oriented student is represented by the fixed mindset, while the learning-goal-\noriented student is represented by the growth mindset. In the following graphic, based on Dr. Dweck’s research, you can see how many of the components associated\nwith learning are impacted by these two mindsets. 7 Dweck, C.S. & Leggett, E.L.",
+    "context_ids": [
+      "openstax-college-success-p64-para000",
+      "openstax-college-success-p63-para000"
+    ],
+    "context_chars": 1684,
+    "elapsed_ms": 45.48719999729656,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "In Chapter 1, what document serves as a roadmap and contract of expectations between instructor and student?",
+    "strategy": "Dense (all-MiniLM-L6-v2)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 29,
+        "evidence": "A\nsyllabus is often called the “contract of the course” because it contains information about what to\nexpect—from the professor and the student. It is meant to be a roadmap for succeeding in the class."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p30-para001",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 30,
+        "text": "Syllabus The contract of a course\nthat provides information\nabout course expectations\nand policies\nThe syllabus will provide valuable information that your\nprofessor will assume you have read and understood. Refer\nto it first when you have a question about the course. Table 1.2\nIn addition to its own language, higher education has its own way of doing things. For example, you may be\nfamiliar with what a teacher did when you were in high school, but do you know what a professor does? It\ncertainly seems like they fulfill a very similar role as teachers in high school, but in college professors’ roles are\noften much more diverse.",
+        "metadata": {
+          "chapter": 1,
+          "chunk_type": "by_paragraph",
+          "char_length": 634,
+          "chapter_title": "Exploring College"
+        },
+        "score": 0.5999342835614715,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p41-para004",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 41,
+        "text": "The chapter ends with\nresources throughout the text that can help you practice skills and dive deeper into the topics. Chapter 1 Exploring College 31",
+        "metadata": {
+          "chapter": 1,
+          "chunk_type": "by_paragraph",
+          "char_length": 149,
+          "chapter_title": "Exploring College"
+        },
+        "score": 0.5376553906612576,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p33-para003",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 33,
+        "text": "Table 1.3\nSome of What You Will Learn Is “Hidden”\nMany of the college expectations that have been outlined so far may not be considered common knowledge,\nwhich is one reason that so many colleges and universities have classes that help students learn what they\nneed to know to succeed. The term, which was coined by sociologists,[7] describes unspoken, unwritten, or\nunacknowledged (hence, hidden) rules that students are expected to follow that can affect their learning. To\n7 P.P. Bilbao, P. I. Lucido, T. C. Iringan and R. B. Javier. (2008). Curriculum Development. Chapter 1 Exploring College 23",
+        "metadata": {
+          "chapter": 1,
+          "chunk_type": "by_paragraph",
+          "char_length": 599,
+          "chapter_title": "Exploring College"
+        },
+        "score": 0.5102247375913521,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-college-success-p30-para001 | starter/data/College_Success_web.pdf | page 30]\nSyllabus The contract of a course\nthat provides information\nabout course expectations\nand policies\nThe syllabus will provide valuable information that your\nprofessor will assume you have read and understood. Refer\nto it first when you have a question about the course. Table 1.2\nIn addition to its own language, higher education has its own way of doing things. For example, you may be\nfamiliar with what a teacher did when you were in high school, but do you know what a professor does? It\ncertainly seems like they fulfill a very similar role as teachers in high school, but in college professors’ roles are\noften much more diverse.\n\n[openstax-college-success-p41-para004 | starter/data/College_Success_web.pdf | page 41]\nThe chapter ends with\nresources throughout the text that can help you practice skills and dive deeper into the topics. Chapter 1 Exploring College 31\n\n[openstax-college-success-p33-para003 | starter/data/College_Success_web.pdf | page 33]\nTable 1.3\nSome of What You Will Learn Is “Hidden”\nMany of the college expectations that have been outlined so far may not be considered common knowledge,\nwhich is one reason that so many colleges and universities have classes that help students learn what they\nneed to know to succeed. The term, which was coined by sociologists,[7] describes unspoken, unwritten, or\nunacknowledged (hence, hidden) rules that students are expected to follow that can affect their learning. To\n7 P.P. Bilbao, P. I. Lucido, T. C. Iringan and R. B. Javier. (2008). Curriculum Development. Chapter 1 Exploring College 23",
+    "context_ids": [
+      "openstax-college-success-p30-para001",
+      "openstax-college-success-p41-para004",
+      "openstax-college-success-p33-para003"
+    ],
+    "context_chars": 1650,
+    "elapsed_ms": 5.925100005697459,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "How does the textbook define procrastination?",
+    "strategy": "Dense (all-MiniLM-L6-v2)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 92,
+        "evidence": "Simply put, procrastination is the act of delaying some task that needs to be completed. It is something we all\ndo to greater and lesser degrees."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p92-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 92,
+        "text": "Figure 3.6 We can think of many creative ways to procrastinate, but the outcome is often detrimental. (Credit: University of the Fraser Valley / Flickr / Attribution 2.0 Generic (CC BY 2.0))\nSimply put, procrastination is the act of delaying some task that needs to be completed. It is something we all\ndo to greater and lesser degrees. For most people, a little minor procrastination is not a cause for great\nconcern. But there are situations where procrastination can become a serious problem with a lot of risk. These\ninclude: when it becomes a chronic habit, when there are a number of tasks to complete and little time, or\nwhen the task being avoided is very important.",
+        "metadata": {
+          "chapter": 3,
+          "chunk_type": "by_paragraph",
+          "char_length": 674,
+          "chapter_title": "Managing Your Time and Priorities"
+        },
+        "score": 0.706833450104049,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "openstax-college-success-p93-para002",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 93,
+        "text": "The Effects of Procrastination\nIn addition to the causes of procrastination, you must also consider what effects it can have. Again, many of\nthese effects are obvious and commonly understood, but some may not be so obvious and may cause other\nissues. Loss of Time\nThe loss of time as an effect of procrastination is the easiest to identify since the act of avoiding a task comes\ndown to not using time wisely. Procrastination can be thought of as using the time you have to complete a\ntask in ways that do not accomplish what needs to be done. Loss of Goals\nAnother of the more obvious potentially adverse effects of procrastination is the loss of goals. Completing a\ntask leads to achieving a goal. These can be large or small (e.g., from doing well on an assignment to being\nhired for a good job).",
+        "metadata": {
+          "chapter": 3,
+          "chunk_type": "by_paragraph",
+          "char_length": 799,
+          "chapter_title": "Managing Your Time and Priorities"
+        },
+        "score": 0.6878553118026265,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p92-para001",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 92,
+        "text": "Because we all procrastinate from time to time, we usually do not give it much thought, let alone think about\nits causes or effects. Ironically, many of the psychological reasons for why we avoid a given task also keep us\nfrom using critical thinking to understand why procrastination can be extremely detrimental, and in some\ncases difficult to overcome. To succeed at time management, you must understand some of the hurdles that may stand in your way. Procrastination is often one of the biggest. What follows is an overview of procrastination with a few\nsuggestions on how to avoid it. The Reasons behind Procrastination\nThere are several reasons we procrastinate, and a few of them may be surprising.",
+        "metadata": {
+          "chapter": 3,
+          "chunk_type": "by_paragraph",
+          "char_length": 705,
+          "chapter_title": "Managing Your Time and Priorities"
+        },
+        "score": 0.651817751493096,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-college-success-p92-para000 | starter/data/College_Success_web.pdf | page 92]\nFigure 3.6 We can think of many creative ways to procrastinate, but the outcome is often detrimental. (Credit: University of the Fraser Valley / Flickr / Attribution 2.0 Generic (CC BY 2.0))\nSimply put, procrastination is the act of delaying some task that needs to be completed. It is something we all\ndo to greater and lesser degrees. For most people, a little minor procrastination is not a cause for great\nconcern. But there are situations where procrastination can become a serious problem with a lot of risk. These\ninclude: when it becomes a chronic habit, when there are a number of tasks to complete and little time, or\nwhen the task being avoided is very important.\n\n[openstax-college-success-p93-para002 | starter/data/College_Success_web.pdf | page 93]\nThe Effects of Procrastination\nIn addition to the causes of procrastination, you must also consider what effects it can have. Again, many of\nthese effects are obvious and commonly understood, but some may not be so obvious and may cause other\nissues. Loss of Time\nThe loss of time as an effect of procrastination is the easiest to identify since the act of avoiding a task comes\ndown to not using time wisely. Procrastination can be thought of as using the time you have to complete a\ntask in ways that do not accomplish what needs to be done. Loss of Goals\nAnother of the more obvious potentially adverse effects of procrastination is the loss of goals. Completing a\ntask leads to achieving a goal. These can be large or small (e.g., from doing well on an assignment to being\nhired for a good job).",
+    "context_ids": [
+      "openstax-college-success-p92-para000",
+      "openstax-college-success-p93-para002"
+    ],
+    "context_chars": 1651,
+    "elapsed_ms": 55.64310000045225,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "What five steps does the SQ3R reading strategy title stand for?",
+    "strategy": "Dense (all-MiniLM-L6-v2)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 173,
+        "evidence": "The title stands for Survey, Question, Read, Recite, Review, and you can use the\nsteps on virtually any assigned passage."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p173-para005",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 173,
+        "text": "The SQ3R Reading Strategy\nYou may have heard of the SQ3R method for active reading in your early education. This valuable technique is\nperfect for college reading. The title stands for Survey, Question, Read, Recite, Review, and you can use the\nsteps on virtually any assigned passage. Designed by Francis Pleasant Robinson in his 1961 book Effective\nStudy, the active reading strategy gives readers a systematic way to work through any reading material. Chapter 5 Reading and Notetaking 163",
+        "metadata": {
+          "chapter": 5,
+          "chunk_type": "by_paragraph",
+          "char_length": 491,
+          "chapter_title": "Reading and Notetaking"
+        },
+        "score": 0.7299218160736191,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "openstax-college-success-p169-para001",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 169,
+        "text": "They include, not always in this order:\n• bringing any prior knowledge about the topic to the reading session,\n• asking yourself pertinent questions, both orally and in writing, about the content you are reading,\n• inferring and/or implying information from what you read,\n• learning unfamiliar discipline-specific terms,\n• evaluating what you are reading, and eventually,\n• applying what you’re reading to other learning and life situations you encounter. Let’s break these steps into manageable chunks, because you are actually doing quite a lot when you read. Figure 5.4 The six elements of recursive reading should be considered as a circular, not linear, process.",
+        "metadata": {
+          "chapter": 5,
+          "chunk_type": "by_paragraph",
+          "char_length": 668,
+          "chapter_title": "Reading and Notetaking"
+        },
+        "score": 0.5105846977594896,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p182-para003",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 182,
+        "text": "The strategies in this section represent various ways to\n172 Chapter 5 Reading and Notetaking\nThis OpenStax book is available for free at http://cnx.org/content/col30990/1.7",
+        "metadata": {
+          "chapter": 5,
+          "chunk_type": "by_paragraph",
+          "char_length": 173,
+          "chapter_title": "Reading and Notetaking"
+        },
+        "score": 0.4721563873291862,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-college-success-p173-para005 | starter/data/College_Success_web.pdf | page 173]\nThe SQ3R Reading Strategy\nYou may have heard of the SQ3R method for active reading in your early education. This valuable technique is\nperfect for college reading. The title stands for Survey, Question, Read, Recite, Review, and you can use the\nsteps on virtually any assigned passage. Designed by Francis Pleasant Robinson in his 1961 book Effective\nStudy, the active reading strategy gives readers a systematic way to work through any reading material. Chapter 5 Reading and Notetaking 163\n\n[openstax-college-success-p169-para001 | starter/data/College_Success_web.pdf | page 169]\nThey include, not always in this order:\n• bringing any prior knowledge about the topic to the reading session,\n• asking yourself pertinent questions, both orally and in writing, about the content you are reading,\n• inferring and/or implying information from what you read,\n• learning unfamiliar discipline-specific terms,\n• evaluating what you are reading, and eventually,\n• applying what you’re reading to other learning and life situations you encounter. Let’s break these steps into manageable chunks, because you are actually doing quite a lot when you read. Figure 5.4 The six elements of recursive reading should be considered as a circular, not linear, process.\n\n[openstax-college-success-p182-para003 | starter/data/College_Success_web.pdf | page 182]\nThe strategies in this section represent various ways to\n172 Chapter 5 Reading and Notetaking\nThis OpenStax book is available for free at http://cnx.org/content/col30990/1.7",
+    "context_ids": [
+      "openstax-college-success-p173-para005",
+      "openstax-college-success-p169-para001",
+      "openstax-college-success-p182-para003"
+    ],
+    "context_chars": 1606,
+    "elapsed_ms": 37.682399997720495,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "Who created the Cornell Method of notetaking and during which decade was it developed?",
+    "strategy": "Dense (all-MiniLM-L6-v2)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 183,
+        "evidence": "One of the most recognizable notetaking systems is called the Cornell Method, a relatively simple way to take\neffective notes devised by Cornell University education professor Dr. Walter Pauk in the 1940s."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p197-para004",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 197,
+        "text": "This is the book that introduced Pauk’s notetaking\nsuggestions we now call the Cornell Method. It is a bit dated (from the 1940s), but still contains\nsome valuable information. Chapter 5 Reading and Notetaking 187",
+        "metadata": {
+          "chapter": 5,
+          "chunk_type": "by_paragraph",
+          "char_length": 213,
+          "chapter_title": "Reading and Notetaking"
+        },
+        "score": 0.7803941622670119,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p186-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 186,
+        "text": "Figure 5.12 This sample set of notes in the Cornell Method is designed to make sense of a large amount of\ninformation. The process of organizing the notes can help you retain the information more effectively than\nless consistent methods. The main advantage of the Cornell Method is that you are setting yourself up to have organized, workable\nnotes. The neat format helps you move into study-mode without needing to re-copy less organized notes or\nmaking sense of a large mass of information you aren’t sure how to process because you can’t remember key\nideas or what you meant. If you write notes in your classes without any sort of system and later come across\nsomething like “Napoleon—short” in the middle of a glob of notes, what can you do at this point? Is that\nimportant?",
+        "metadata": {
+          "chapter": 5,
+          "chunk_type": "by_paragraph",
+          "char_length": 778,
+          "chapter_title": "Reading and Notetaking"
+        },
+        "score": 0.6948150470036446,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p183-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 183,
+        "text": "take notes in such a way that you are able to study after the initial notetaking session. Cornell Method\nOne of the most recognizable notetaking systems is called the Cornell Method, a relatively simple way to take\neffective notes devised by Cornell University education professor Dr. Walter Pauk in the 1940s. In this system,\nyou take a standard piece of note paper and divide it into three sections by drawing a horizontal line across\nyour paper about one to two inches from the bottom of the page (the summary area) and then drawing a\nvertical line to separate the rest of the page above this bottom area, making the left side about two inches (the\nrecall column) and leaving the biggest area to the right of your vertical line (the notes column).",
+        "metadata": {
+          "chapter": 5,
+          "chunk_type": "by_paragraph",
+          "char_length": 750,
+          "chapter_title": "Reading and Notetaking"
+        },
+        "score": 0.6827453023355284,
+        "strategy": "dense",
+        "hit": true
+      }
+    ],
+    "context": "[openstax-college-success-p197-para004 | starter/data/College_Success_web.pdf | page 197]\nThis is the book that introduced Pauk’s notetaking\nsuggestions we now call the Cornell Method. It is a bit dated (from the 1940s), but still contains\nsome valuable information. Chapter 5 Reading and Notetaking 187\n\n[openstax-college-success-p186-para000 | starter/data/College_Success_web.pdf | page 186]\nFigure 5.12 This sample set of notes in the Cornell Method is designed to make sense of a large amount of\ninformation. The process of organizing the notes can help you retain the information more effectively than\nless consistent methods. The main advantage of the Cornell Method is that you are setting yourself up to have organized, workable\nnotes. The neat format helps you move into study-mode without needing to re-copy less organized notes or\nmaking sense of a large mass of information you aren’t sure how to process because you can’t remember key\nideas or what you meant. If you write notes in your classes without any sort of system and later come across\nsomething like “Napoleon—short” in the middle of a glob of notes, what can you do at this point? Is that\nimportant?\n\n[openstax-college-success-p183-para000 | starter/data/College_Success_web.pdf | page 183]\ntake notes in such a way that you are able to study after the initial notetaking session. Cornell Method\nOne of the most recognizable notetaking systems is called the Cornell Method, a relatively simple way to take\neffective notes devised by Cornell University education professor Dr. Walter Pauk in the 1940s. In this system,\nyou take a standard piece of note paper and divide it into three sections by drawing a horizontal line across\nyour paper about one to two inches from the bottom of the page (the summary area) and then drawing a\nvertical line to separate the rest of the page above this bottom area, making the left side about two inches (the\nrecall column) and leaving the biggest area to the right of your vertical line (the notes column).",
+    "context_ids": [
+      "openstax-college-success-p197-para004",
+      "openstax-college-success-p186-para000",
+      "openstax-college-success-p183-para000"
+    ],
+    "context_chars": 2015,
+    "elapsed_ms": 42.36910000327043,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "Why is attempting to record every word spoken by an instructor during lectures discouraged?",
+    "strategy": "Dense (all-MiniLM-L6-v2)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 180,
+        "evidence": "It is not a good habit to transcribe every single word a speaker utters—even if you have an amazing ability to\ndo that. Most of us don’t have that court-reporter-esque skill level anyway, and if we try, we would end up\nmissing valuable information."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p80-para003",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 80,
+        "text": "On the flip side, most professors who teach lecture classes use technology to give them constant\nfeedback on how well students understand a given subject. If the data suggests more time should be spent,\nthese professors discover this in real time and can adapt the class accordingly. Another instance where class circumstances might heavily influence student learning could be found in the\nclass schedule. If the class was scheduled to meet on Mondays and Wednesdays and the due date for\nassignments was always on Monday, those students would benefit from having the weekend to finalize their\nwork before handing it in. If the class met on a different day, students might not have as much free time just\nbefore handing in the assignment.",
+        "metadata": {
+          "chapter": 2,
+          "chunk_type": "by_paragraph",
+          "char_length": 737,
+          "chapter_title": "Knowing Yourself as a Learner"
+        },
+        "score": 0.46768066565764,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p215-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 215,
+        "text": "Annotating texts or notes is a first-step type of study practice. If you allow it to take up all your time, you may\nwant to think you are fully prepared for an exam because you put in the time. Actually, you need much more\ntime reviewing and retrieving your lessons and ideas from the text or class lecture as well as quizzing yourself\nto accomplish your goal of learning so you can perform well on the exam. Highlighting is a task you can do\nrather easily, and it makes you feel good because you are actively engaging with your text, but true learning\nneeds more steps. MYTH #3: Studying effectively is effortless. There is nothing effortless, or even pleasant at times, about studying.",
+        "metadata": {
+          "chapter": 6,
+          "chunk_type": "by_paragraph",
+          "char_length": 687,
+          "chapter_title": "Studying, Memory, and Test Taking"
+        },
+        "score": 0.4478744924832576,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p195-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 195,
+        "text": "need to indicate in your notes that you worked on a project or whatever other in-class event you experienced\nthat date. Very rarely in a college classroom will you engage in an activity that is not directly related to what you are\nstudying in that course. Even if you enjoyed every minute of the class session and it was an unusual format for\nthat course, you still need to take some notes. Maybe your first note could be to ask yourself why you think the\ninstructor used that unique teaching strategy for the class that day. Was it effective? Was it worth using the\nwhole class time? How will that experience enhance what you are learning in that course?",
+        "metadata": {
+          "chapter": 5,
+          "chunk_type": "by_paragraph",
+          "char_length": 655,
+          "chapter_title": "Reading and Notetaking"
+        },
+        "score": 0.44630016284061386,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-college-success-p80-para003 | starter/data/College_Success_web.pdf | page 80]\nOn the flip side, most professors who teach lecture classes use technology to give them constant\nfeedback on how well students understand a given subject. If the data suggests more time should be spent,\nthese professors discover this in real time and can adapt the class accordingly. Another instance where class circumstances might heavily influence student learning could be found in the\nclass schedule. If the class was scheduled to meet on Mondays and Wednesdays and the due date for\nassignments was always on Monday, those students would benefit from having the weekend to finalize their\nwork before handing it in. If the class met on a different day, students might not have as much free time just\nbefore handing in the assignment.\n\n[openstax-college-success-p215-para000 | starter/data/College_Success_web.pdf | page 215]\nAnnotating texts or notes is a first-step type of study practice. If you allow it to take up all your time, you may\nwant to think you are fully prepared for an exam because you put in the time. Actually, you need much more\ntime reviewing and retrieving your lessons and ideas from the text or class lecture as well as quizzing yourself\nto accomplish your goal of learning so you can perform well on the exam. Highlighting is a task you can do\nrather easily, and it makes you feel good because you are actively engaging with your text, but true learning\nneeds more steps. MYTH #3: Studying effectively is effortless. There is nothing effortless, or even pleasant at times, about studying.\n\n[openstax-college-success-p195-para000 | starter/data/College_Success_web.pdf | page 195]\nneed to indicate in your notes that you worked on a project or whatever other in-class event you experienced\nthat date. Very rarely in a college classroom will you engage in an activity that is not directly related to what you are\nstudying in that course. Even if you enjoyed every minute of the class session and it was an unusual format for\nthat course, you still need to take some notes. Maybe your first note could be to ask yourself why you think the\ninstructor used that unique teaching strategy for the class that day. Was it effective? Was it worth using the\nwhole class time? How will that experience enhance what you are learning in that course?",
+    "context_ids": [
+      "openstax-college-success-p80-para003",
+      "openstax-college-success-p215-para000",
+      "openstax-college-success-p195-para000"
+    ],
+    "context_chars": 2351,
+    "elapsed_ms": 39.148999989265576,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "According to Chapter 3 on time management, what is the definition and common nature of procrastination?",
+    "strategy": "Dense (all-MiniLM-L6-v2)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 92,
+        "evidence": "Simply put, procrastination is the act of delaying some task that needs to be completed. It is something we all\ndo to greater and lesser degrees."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p94-para002",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 94,
+        "text": "Get Organized\nMuch of this chapter is dedicated to defining and explaining the nature of time management. The most\neffective way to combat procrastination is to use time and project management strategies such as schedules,\ngoal setting, and other techniques to get tasks accomplished in a timely manner. Put Aside Distractions\nSeveral of the methods discussed in this chapter deal specifically with distractions. Distractions are time-killers\nand are the primary way people procrastinate. It is too easy to just play a video game a little while longer,\ncheck out social media, or finish watching a movie when we are avoiding a task. Putting aside distractions is\none of the primary functions of setting priorities.",
+        "metadata": {
+          "chapter": 3,
+          "chunk_type": "by_paragraph",
+          "char_length": 714,
+          "chapter_title": "Managing Your Time and Priorities"
+        },
+        "score": 0.7386157795163901,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p92-para001",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 92,
+        "text": "Because we all procrastinate from time to time, we usually do not give it much thought, let alone think about\nits causes or effects. Ironically, many of the psychological reasons for why we avoid a given task also keep us\nfrom using critical thinking to understand why procrastination can be extremely detrimental, and in some\ncases difficult to overcome. To succeed at time management, you must understand some of the hurdles that may stand in your way. Procrastination is often one of the biggest. What follows is an overview of procrastination with a few\nsuggestions on how to avoid it. The Reasons behind Procrastination\nThere are several reasons we procrastinate, and a few of them may be surprising.",
+        "metadata": {
+          "chapter": 3,
+          "chunk_type": "by_paragraph",
+          "char_length": 705,
+          "chapter_title": "Managing Your Time and Priorities"
+        },
+        "score": 0.7278531558301038,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p92-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 92,
+        "text": "Figure 3.6 We can think of many creative ways to procrastinate, but the outcome is often detrimental. (Credit: University of the Fraser Valley / Flickr / Attribution 2.0 Generic (CC BY 2.0))\nSimply put, procrastination is the act of delaying some task that needs to be completed. It is something we all\ndo to greater and lesser degrees. For most people, a little minor procrastination is not a cause for great\nconcern. But there are situations where procrastination can become a serious problem with a lot of risk. These\ninclude: when it becomes a chronic habit, when there are a number of tasks to complete and little time, or\nwhen the task being avoided is very important.",
+        "metadata": {
+          "chapter": 3,
+          "chunk_type": "by_paragraph",
+          "char_length": 674,
+          "chapter_title": "Managing Your Time and Priorities"
+        },
+        "score": 0.6926971153360025,
+        "strategy": "dense",
+        "hit": true
+      }
+    ],
+    "context": "[openstax-college-success-p94-para002 | starter/data/College_Success_web.pdf | page 94]\nGet Organized\nMuch of this chapter is dedicated to defining and explaining the nature of time management. The most\neffective way to combat procrastination is to use time and project management strategies such as schedules,\ngoal setting, and other techniques to get tasks accomplished in a timely manner. Put Aside Distractions\nSeveral of the methods discussed in this chapter deal specifically with distractions. Distractions are time-killers\nand are the primary way people procrastinate. It is too easy to just play a video game a little while longer,\ncheck out social media, or finish watching a movie when we are avoiding a task. Putting aside distractions is\none of the primary functions of setting priorities.\n\n[openstax-college-success-p92-para001 | starter/data/College_Success_web.pdf | page 92]\nBecause we all procrastinate from time to time, we usually do not give it much thought, let alone think about\nits causes or effects. Ironically, many of the psychological reasons for why we avoid a given task also keep us\nfrom using critical thinking to understand why procrastination can be extremely detrimental, and in some\ncases difficult to overcome. To succeed at time management, you must understand some of the hurdles that may stand in your way. Procrastination is often one of the biggest. What follows is an overview of procrastination with a few\nsuggestions on how to avoid it. The Reasons behind Procrastination\nThere are several reasons we procrastinate, and a few of them may be surprising.\n\n[openstax-college-success-p92-para000 | starter/data/College_Success_web.pdf | page 92]\nFigure 3.6 We can think of many creative ways to procrastinate, but the outcome is often detrimental. (Credit: University of the Fraser Valley / Flickr / Attribution 2.0 Generic (CC BY 2.0))\nSimply put, procrastination is the act of delaying some task that needs to be completed. It is something we all\ndo to greater and lesser degrees. For most people, a little minor procrastination is not a cause for great\nconcern. But there are situations where procrastination can become a serious problem with a lot of risk. These\ninclude: when it becomes a chronic habit, when there are a number of tasks to complete and little time, or\nwhen the task being avoided is very important.",
+    "context_ids": [
+      "openstax-college-success-p94-para002",
+      "openstax-college-success-p92-para001",
+      "openstax-college-success-p92-para000"
+    ],
+    "context_chars": 2361,
+    "elapsed_ms": 6.406300002709031,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "How much dedicated time on average is estimated for studying for an exam according to college activity guidelines?",
+    "strategy": "Dense (all-MiniLM-L6-v2)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 101,
+        "evidence": "Study for exam Per\nexam\n90\nminutes\n1–2 hours, depending upon complexity of\nmaterial\nTable 3.5 Time on task for common college activities."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p101-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 101,
+        "text": "Time on Task\nActivity Unit Time on\ntask\nNotes\nStudy for exam Per\nexam\n90\nminutes\n1–2 hours, depending upon complexity of\nmaterial\nTable 3.5 Time on task for common college activities. Again, these are averages, and it does not mean anything if your times are a little slower or a little faster. There is no “right amount of time,” only the time that it takes you to do something so you can accurately plan\nand manage your time. There is also another element to look for in the table. These are differentiations in the similar activities that will\nalso affect the time you spend. A good example of this can be found in the first four rows. Each of these\nactivities involves reading, but you can see that depending on the material being read and its complexity, the\ntime spent can vary greatly.",
+        "metadata": {
+          "chapter": 3,
+          "chunk_type": "by_paragraph",
+          "char_length": 792,
+          "chapter_title": "Managing Your Time and Priorities"
+        },
+        "score": 0.7420224116663731,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "openstax-college-success-p100-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 100,
+        "text": "Below, you will find a table of common college academic activities. This list has been compiled from a large\nnumber of different sources, including colleges, publishers, and professional educators, to help students\nestimate their own time on tasks. The purpose of this table is to both give you a place to begin in your\nestimates and to illustrate how different factors can impact the actual time spent. You will notice that beside each task there is a column for the unit, followed by the average time on task, and a\ncolumn for notes. The unit is whatever is being measured (e.g., pages read, pages written, etc.), and the time\non task is an average time it takes students to do these tasks.",
+        "metadata": {
+          "chapter": 3,
+          "chunk_type": "by_paragraph",
+          "char_length": 692,
+          "chapter_title": "Managing Your Time and Priorities"
+        },
+        "score": 0.7026266661075491,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p13-para001",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 13,
+        "text": "(See below for more information on instructor resources.) In the future, the surveys will\nbe assignable and the results viewable on an individual-course basis. For the survey results featured in the\ntextbook, hundreds of students from a diverse array of colleges and universities provided their feedback to\ninform future students taking the course. Estimated Module Completion Time\nEach section of College Success includes an estimate of the average time needed to read through the material,\nwork on the activities and applications, and—where necessary—explore external websites or watch videos. Each student will engage the material differently, and faculty will likely prioritize or assign certain components\nover others. As a result, the actual time students spend will vary greatly.",
+        "metadata": {
+          "chapter": 0,
+          "chunk_type": "by_paragraph",
+          "char_length": 786,
+          "chapter_title": "Preface"
+        },
+        "score": 0.6155104490384321,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-college-success-p101-para000 | starter/data/College_Success_web.pdf | page 101]\nTime on Task\nActivity Unit Time on\ntask\nNotes\nStudy for exam Per\nexam\n90\nminutes\n1–2 hours, depending upon complexity of\nmaterial\nTable 3.5 Time on task for common college activities. Again, these are averages, and it does not mean anything if your times are a little slower or a little faster. There is no “right amount of time,” only the time that it takes you to do something so you can accurately plan\nand manage your time. There is also another element to look for in the table. These are differentiations in the similar activities that will\nalso affect the time you spend. A good example of this can be found in the first four rows. Each of these\nactivities involves reading, but you can see that depending on the material being read and its complexity, the\ntime spent can vary greatly.\n\n[openstax-college-success-p100-para000 | starter/data/College_Success_web.pdf | page 100]\nBelow, you will find a table of common college academic activities. This list has been compiled from a large\nnumber of different sources, including colleges, publishers, and professional educators, to help students\nestimate their own time on tasks. The purpose of this table is to both give you a place to begin in your\nestimates and to illustrate how different factors can impact the actual time spent. You will notice that beside each task there is a column for the unit, followed by the average time on task, and a\ncolumn for notes. The unit is whatever is being measured (e.g., pages read, pages written, etc.), and the time\non task is an average time it takes students to do these tasks.",
+    "context_ids": [
+      "openstax-college-success-p101-para000",
+      "openstax-college-success-p100-para000"
+    ],
+    "context_chars": 1666,
+    "elapsed_ms": 41.75340000074357,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "When does minor procrastination become a serious concern for students?",
+    "strategy": "Dense (all-MiniLM-L6-v2)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 92,
+        "evidence": "For most people, a little minor procrastination is not a cause for great\nconcern. But there are situations where procrastination can become a serious problem with a lot of risk."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p92-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 92,
+        "text": "Figure 3.6 We can think of many creative ways to procrastinate, but the outcome is often detrimental. (Credit: University of the Fraser Valley / Flickr / Attribution 2.0 Generic (CC BY 2.0))\nSimply put, procrastination is the act of delaying some task that needs to be completed. It is something we all\ndo to greater and lesser degrees. For most people, a little minor procrastination is not a cause for great\nconcern. But there are situations where procrastination can become a serious problem with a lot of risk. These\ninclude: when it becomes a chronic habit, when there are a number of tasks to complete and little time, or\nwhen the task being avoided is very important.",
+        "metadata": {
+          "chapter": 3,
+          "chunk_type": "by_paragraph",
+          "char_length": 674,
+          "chapter_title": "Managing Your Time and Priorities"
+        },
+        "score": 0.6945988026253241,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "openstax-college-success-p94-para001",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 94,
+        "text": "Anyone who has noticed that nagging feeling when they\nknow there is something else they should be doing is familiar with this. On the other hand, some students see that kind of stress as a boost of mental urgency. They put off a task\nuntil they feel that surge of motivation. While this may have worked in the past, they quickly learn that\nprocrastinating when it comes to college work almost always includes an underestimation of the tasks to be\ncompleted— sometimes with disastrous results. Strategies for Psyching Ourselves Out and Managing Procrastination\nNow that you understand a few of the major problems procrastination can produce, let’s look at methods to\nmanage procrastination and get you on to completing the tasks, no matter how unpleasant you think they\nmight be.",
+        "metadata": {
+          "chapter": 3,
+          "chunk_type": "by_paragraph",
+          "char_length": 778,
+          "chapter_title": "Managing Your Time and Priorities"
+        },
+        "score": 0.6546842805892792,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p91-para001",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 91,
+        "text": "Nearly any profession that requires a college degree has with it a level of\nresponsibility that demands higher-level thinking and therefore higher learning. An often-cited example of this\nis the healthcare professional. The learning requirements for that profession are strict because we depend on\nthose graduates for our health and, in some cases, our lives. While not every profession may require the same\nlevel of study needed for healthcare, most do require that colleges maintain a certain level of academic rigor\nto produce graduates who are competent in their fields. 3.3 Procrastination: The Enemy Within\nEstimated completion time: 13 minutes. Questions to consider:\n• Why do we procrastinate? • What are the effects of procrastination? • How can we avoid procrastination?",
+        "metadata": {
+          "chapter": 3,
+          "chunk_type": "by_paragraph",
+          "char_length": 780,
+          "chapter_title": "Managing Your Time and Priorities"
+        },
+        "score": 0.6457922488438047,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-college-success-p92-para000 | starter/data/College_Success_web.pdf | page 92]\nFigure 3.6 We can think of many creative ways to procrastinate, but the outcome is often detrimental. (Credit: University of the Fraser Valley / Flickr / Attribution 2.0 Generic (CC BY 2.0))\nSimply put, procrastination is the act of delaying some task that needs to be completed. It is something we all\ndo to greater and lesser degrees. For most people, a little minor procrastination is not a cause for great\nconcern. But there are situations where procrastination can become a serious problem with a lot of risk. These\ninclude: when it becomes a chronic habit, when there are a number of tasks to complete and little time, or\nwhen the task being avoided is very important.\n\n[openstax-college-success-p94-para001 | starter/data/College_Success_web.pdf | page 94]\nAnyone who has noticed that nagging feeling when they\nknow there is something else they should be doing is familiar with this. On the other hand, some students see that kind of stress as a boost of mental urgency. They put off a task\nuntil they feel that surge of motivation. While this may have worked in the past, they quickly learn that\nprocrastinating when it comes to college work almost always includes an underestimation of the tasks to be\ncompleted— sometimes with disastrous results. Strategies for Psyching Ourselves Out and Managing Procrastination\nNow that you understand a few of the major problems procrastination can produce, let’s look at methods to\nmanage procrastination and get you on to completing the tasks, no matter how unpleasant you think they\nmight be.",
+    "context_ids": [
+      "openstax-college-success-p92-para000",
+      "openstax-college-success-p94-para001"
+    ],
+    "context_chars": 1630,
+    "elapsed_ms": 36.76149999955669,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "In what pedagogical context is Bloom's Taxonomy utilized by educators?",
+    "strategy": "Dense (all-MiniLM-L6-v2)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 47,
+        "evidence": "Bloom’s Taxonomy, and it is often used as a guide for educators when they are determining what students\nshould learn within a course."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p237-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 237,
+        "text": "Creativity doesn't always present itself in the guise of a chart-topping musical hit or other artistic expression. We need creative solutions throughout the workplace—whether board room, emergency room, or classroom. It was no fluke that the 2001 revised Bloom's cognitive taxonomy, originally developed in 1948, placed a new\nword at the apex—create. That is the highest level of thinking skills. As noted in previous chapters, we do all\nneed to use and develop the lower thinking skills that include remembering, applying, and analyzing, but true\nintelligence and successful thinking move beyond these levels to invention. Figure 7.5 Bloom’s Taxonomy is an important learning theory used by psychologists, cognitive scientists,\nand educators to demonstrate levels of thinking.",
+        "metadata": {
+          "chapter": 7,
+          "chunk_type": "by_paragraph",
+          "char_length": 777,
+          "chapter_title": "Thinking"
+        },
+        "score": 0.6216848159291438,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p47-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 47,
+        "text": "by what they allow you to know or do. When classifying learning in this way, people usually agree on six\ndifferent levels of learning. In this next section we will take a detailed look at each of these. In the table below, the cells in the left column each contain one of the main levels of learning, categorized by\nwhat the learning allows you to do. To the right of each category are the “skill acquired” and a set of real-\nworld examples of what those skills might be as applied to a specific topic. This set of categories is called\nBloom’s Taxonomy, and it is often used as a guide for educators when they are determining what students\nshould learn within a course.",
+        "metadata": {
+          "chapter": 2,
+          "chunk_type": "by_paragraph",
+          "char_length": 669,
+          "chapter_title": "Knowing Yourself as a Learner"
+        },
+        "score": 0.49851042688713304,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "openstax-college-success-p13-para003",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 13,
+        "text": "For each chapter, the IRM\nwill contain:\n• Detailed teaching suggestions\n• Bloom’s Taxonomy matrix, indicating the alignment of each chapter activity and application to the level of\nBloom’s it fulfills. • Overarching “big picture” questions from the chapter\n• Topical and cumulative case scenario activities, which present a realistic situation based on the concepts,\nand ask students to respond via writing or another method. These may be adapted and assigned by\ninstructors. Instructor resources require a verified instructor account, which you can apply for when you log in or create\nyour account on openstax.org. Instructor and student resources are typically available within a few months\nafter the book’s initial publication. Take advantage of these resources to supplement your OpenStax book.",
+        "metadata": {
+          "chapter": 0,
+          "chunk_type": "by_paragraph",
+          "char_length": 798,
+          "chapter_title": "Preface"
+        },
+        "score": 0.4561659056298267,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-college-success-p237-para000 | starter/data/College_Success_web.pdf | page 237]\nCreativity doesn't always present itself in the guise of a chart-topping musical hit or other artistic expression. We need creative solutions throughout the workplace—whether board room, emergency room, or classroom. It was no fluke that the 2001 revised Bloom's cognitive taxonomy, originally developed in 1948, placed a new\nword at the apex—create. That is the highest level of thinking skills. As noted in previous chapters, we do all\nneed to use and develop the lower thinking skills that include remembering, applying, and analyzing, but true\nintelligence and successful thinking move beyond these levels to invention. Figure 7.5 Bloom’s Taxonomy is an important learning theory used by psychologists, cognitive scientists,\nand educators to demonstrate levels of thinking.\n\n[openstax-college-success-p47-para000 | starter/data/College_Success_web.pdf | page 47]\nby what they allow you to know or do. When classifying learning in this way, people usually agree on six\ndifferent levels of learning. In this next section we will take a detailed look at each of these. In the table below, the cells in the left column each contain one of the main levels of learning, categorized by\nwhat the learning allows you to do. To the right of each category are the “skill acquired” and a set of real-\nworld examples of what those skills might be as applied to a specific topic. This set of categories is called\nBloom’s Taxonomy, and it is often used as a guide for educators when they are determining what students\nshould learn within a course.",
+    "context_ids": [
+      "openstax-college-success-p237-para000",
+      "openstax-college-success-p47-para000"
+    ],
+    "context_chars": 1626,
+    "elapsed_ms": 36.012500000651926,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "In Chapter 5 on reading strategies, what does the acronym SQ3R represent?",
+    "strategy": "Dense (all-MiniLM-L6-v2)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 173,
+        "evidence": "The title stands for Survey, Question, Read, Recite, Review, and you can use the\nsteps on virtually any assigned passage."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p173-para005",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 173,
+        "text": "The SQ3R Reading Strategy\nYou may have heard of the SQ3R method for active reading in your early education. This valuable technique is\nperfect for college reading. The title stands for Survey, Question, Read, Recite, Review, and you can use the\nsteps on virtually any assigned passage. Designed by Francis Pleasant Robinson in his 1961 book Effective\nStudy, the active reading strategy gives readers a systematic way to work through any reading material. Chapter 5 Reading and Notetaking 163",
+        "metadata": {
+          "chapter": 5,
+          "chunk_type": "by_paragraph",
+          "char_length": 491,
+          "chapter_title": "Reading and Notetaking"
+        },
+        "score": 0.7038820522757817,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "openstax-college-success-p169-para001",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 169,
+        "text": "They include, not always in this order:\n• bringing any prior knowledge about the topic to the reading session,\n• asking yourself pertinent questions, both orally and in writing, about the content you are reading,\n• inferring and/or implying information from what you read,\n• learning unfamiliar discipline-specific terms,\n• evaluating what you are reading, and eventually,\n• applying what you’re reading to other learning and life situations you encounter. Let’s break these steps into manageable chunks, because you are actually doing quite a lot when you read. Figure 5.4 The six elements of recursive reading should be considered as a circular, not linear, process.",
+        "metadata": {
+          "chapter": 5,
+          "chunk_type": "by_paragraph",
+          "char_length": 668,
+          "chapter_title": "Reading and Notetaking"
+        },
+        "score": 0.4512690927212114,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p174-para003",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 174,
+        "text": "If you are\nnot in a place where you can verbalize, such as a library or classroom, you can accomplish this step adequately\nby saying it in your head; however, to get the biggest bang for your buck, try to find a place where you can\nspeak aloud. You may even want to try explaining the content to a friend. Review is a recap. Go back over what you read and add more notes, ensuring you have captured the main\npoints of the passage, identified the supporting evidence and examples, and understood the overall meaning. You may need to repeat some or all of the SQR3 steps during your review depending on the length and\ncomplexity of the material. Before you end your active reading session, write a short (no more than one page\nis optimal) summary of the text you read.",
+        "metadata": {
+          "chapter": 5,
+          "chunk_type": "by_paragraph",
+          "char_length": 766,
+          "chapter_title": "Reading and Notetaking"
+        },
+        "score": 0.4132066892173417,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-college-success-p173-para005 | starter/data/College_Success_web.pdf | page 173]\nThe SQ3R Reading Strategy\nYou may have heard of the SQ3R method for active reading in your early education. This valuable technique is\nperfect for college reading. The title stands for Survey, Question, Read, Recite, Review, and you can use the\nsteps on virtually any assigned passage. Designed by Francis Pleasant Robinson in his 1961 book Effective\nStudy, the active reading strategy gives readers a systematic way to work through any reading material. Chapter 5 Reading and Notetaking 163\n\n[openstax-college-success-p169-para001 | starter/data/College_Success_web.pdf | page 169]\nThey include, not always in this order:\n• bringing any prior knowledge about the topic to the reading session,\n• asking yourself pertinent questions, both orally and in writing, about the content you are reading,\n• inferring and/or implying information from what you read,\n• learning unfamiliar discipline-specific terms,\n• evaluating what you are reading, and eventually,\n• applying what you’re reading to other learning and life situations you encounter. Let’s break these steps into manageable chunks, because you are actually doing quite a lot when you read. Figure 5.4 The six elements of recursive reading should be considered as a circular, not linear, process.\n\n[openstax-college-success-p174-para003 | starter/data/College_Success_web.pdf | page 174]\nIf you are\nnot in a place where you can verbalize, such as a library or classroom, you can accomplish this step adequately\nby saying it in your head; however, to get the biggest bang for your buck, try to find a place where you can\nspeak aloud. You may even want to try explaining the content to a friend. Review is a recap. Go back over what you read and add more notes, ensuring you have captured the main\npoints of the passage, identified the supporting evidence and examples, and understood the overall meaning. You may need to repeat some or all of the SQR3 steps during your review depending on the length and\ncomplexity of the material. Before you end your active reading session, write a short (no more than one page\nis optimal) summary of the text you read.",
+    "context_ids": [
+      "openstax-college-success-p173-para005",
+      "openstax-college-success-p169-para001",
+      "openstax-college-success-p174-para003"
+    ],
+    "context_chars": 2199,
+    "elapsed_ms": 5.101500020828098,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "In Chapter 5, what listening advice is given to avoid transcription traps in lectures?",
+    "strategy": "Dense (all-MiniLM-L6-v2)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 180,
+        "evidence": "Learn to listen for main ideas and distinguish between these main ideas and\ndetails that typically support the ideas."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p198-para003",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 198,
+        "text": "Sanvi’s nursing instructor reminded her that all professions need their personnel to read. They may not all\n• Learn to Listen, Listen to Learn 2: Academic Listening and Note-taking, by Roni S. Lebauer. The main\npoint of this book is to help students get the most from college lectures by watching for clues to\nlecture organization and adapting this information into strong notes. • Study Skills: Do I Really Need this Stuff?, by Steve Piscitelli. Written in a consistently down-to-earth\nmanner, this book will help you with the foundations of strong study skills, including time\nmanagement, effective notetaking, and seeing the big picture.",
+        "metadata": {
+          "chapter": 5,
+          "chunk_type": "by_paragraph",
+          "char_length": 640,
+          "chapter_title": "Reading and Notetaking"
+        },
+        "score": 0.42813059045801394,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p185-para002",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 185,
+        "text": "Now, before you move onto something else, cover the large notes column, and quiz yourself over the\nkey ideas you recorded in the recall column. Repeat this step often as you go along, not just immediately\nbefore an exam, and you will help your memory make the connections between your notes, your textbook\nreading, your in-class work, and assignments that you need to succeed on any quizzes and exams. Chapter 5 Reading and Notetaking 175",
+        "metadata": {
+          "chapter": 5,
+          "chunk_type": "by_paragraph",
+          "char_length": 438,
+          "chapter_title": "Reading and Notetaking"
+        },
+        "score": 0.4012031923956675,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p173-para003",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 173,
+        "text": "You can think of active reading as a\nsort of conversation between you and the text (maybe between you and the author, but you don’t want to get\nthe author’s personality too involved in this metaphor because that may skew your engagement with the text). When you sit down to determine what your different classes expect you to read and you create a reading\nschedule to ensure you complete all the reading, think about when you should read the material strategically,\nnot just how to get it all done. You should read textbook chapters and other reading assignments before you go\ninto a lecture about that information. Don’t wait to see how the lecture goes before you read the material, or\nyou may not understand the information in the lecture.",
+        "metadata": {
+          "chapter": 5,
+          "chunk_type": "by_paragraph",
+          "char_length": 742,
+          "chapter_title": "Reading and Notetaking"
+        },
+        "score": 0.3853265059436366,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-college-success-p198-para003 | starter/data/College_Success_web.pdf | page 198]\nSanvi’s nursing instructor reminded her that all professions need their personnel to read. They may not all\n• Learn to Listen, Listen to Learn 2: Academic Listening and Note-taking, by Roni S. Lebauer. The main\npoint of this book is to help students get the most from college lectures by watching for clues to\nlecture organization and adapting this information into strong notes. • Study Skills: Do I Really Need this Stuff?, by Steve Piscitelli. Written in a consistently down-to-earth\nmanner, this book will help you with the foundations of strong study skills, including time\nmanagement, effective notetaking, and seeing the big picture.\n\n[openstax-college-success-p185-para002 | starter/data/College_Success_web.pdf | page 185]\nNow, before you move onto something else, cover the large notes column, and quiz yourself over the\nkey ideas you recorded in the recall column. Repeat this step often as you go along, not just immediately\nbefore an exam, and you will help your memory make the connections between your notes, your textbook\nreading, your in-class work, and assignments that you need to succeed on any quizzes and exams. Chapter 5 Reading and Notetaking 175\n\n[openstax-college-success-p173-para003 | starter/data/College_Success_web.pdf | page 173]\nYou can think of active reading as a\nsort of conversation between you and the text (maybe between you and the author, but you don’t want to get\nthe author’s personality too involved in this metaphor because that may skew your engagement with the text). When you sit down to determine what your different classes expect you to read and you create a reading\nschedule to ensure you complete all the reading, think about when you should read the material strategically,\nnot just how to get it all done. You should read textbook chapters and other reading assignments before you go\ninto a lecture about that information. Don’t wait to see how the lecture goes before you read the material, or\nyou may not understand the information in the lecture.",
+    "context_ids": [
+      "openstax-college-success-p198-para003",
+      "openstax-college-success-p185-para002",
+      "openstax-college-success-p173-para003"
+    ],
+    "context_chars": 2094,
+    "elapsed_ms": 6.571699981577694,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q21",
+    "split": "dev",
+    "question": "How is metacognition simply defined in the context of cognitive skills?",
+    "strategy": "Dense (all-MiniLM-L6-v2)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 233,
+        "evidence": "metacognition,\nthe practice of thinking about your thinking."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p252-para003",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 252,
+        "text": "Developmental\npsychiatrist John Flavell coined the term metacognition and divided the theory into three processes of\nplanning, tracking, and assessing your own understanding.[2]\n“Becoming aware of your thought processes and using this awareness deliberately is a sign of\nmature thinking.”\nFor example, you may be reading a difficult passage in a textbook on chemistry and recognize that you are not\nfully understanding the meaning of the section you just read or its connection to the rest of the chapter. Students use metacognition when they practice self-awareness and self-assessment. You are the best judge of\nhow well you know a topic or a skill.",
+        "metadata": {
+          "chapter": 7,
+          "chunk_type": "by_paragraph",
+          "char_length": 651,
+          "chapter_title": "Thinking"
+        },
+        "score": 0.7886742630662095,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p253-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 253,
+        "text": "metacognition. You may decide to highlight difficult terms to look up, write a summary of each paragraph in\nas few sentences as you can, or join a peer study group to work on your comprehension. If you know you\nretain material better if you hear it, you may read out loud or watch video tutorials covering the material. These are all examples of thinking about how you think and adapting your behavior based on this\nmetacognition. Likewise, if you periodically assess your progress toward a goal, such as when you check your\ngrades in a course every few weeks during a long semester so you know how well you are doing, this too is\nmetacognition.",
+        "metadata": {
+          "chapter": 7,
+          "chunk_type": "by_paragraph",
+          "char_length": 645,
+          "chapter_title": "Thinking"
+        },
+        "score": 0.6537511830086956,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p254-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 254,
+        "text": "continuing to sabotage sincere goals. Think now of a personal example of a habit you may want to change,\nsuch as smoking, or an attribute such as patience or perseverance you may want to improve in yourself. Can\nyou determine what steps you may need to undertake to change this habit or to develop a stronger awareness\nof the need to change? Using Thought Deliberately\nIf you need to plan, track, and assess your understanding to engage in metacognition, what strategies do you\nneed to employ? Students can use metacognition strategies before, during, and after reading, lectures,\nassignments, and group work. Planning\nStudents can plan and get ready to learn by asking questions such as:\n• What am I supposed to learn in this situation?",
+        "metadata": {
+          "chapter": 7,
+          "chunk_type": "by_paragraph",
+          "char_length": 737,
+          "chapter_title": "Thinking"
+        },
+        "score": 0.5676519513913898,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-college-success-p252-para003 | starter/data/College_Success_web.pdf | page 252]\nDevelopmental\npsychiatrist John Flavell coined the term metacognition and divided the theory into three processes of\nplanning, tracking, and assessing your own understanding.[2]\n“Becoming aware of your thought processes and using this awareness deliberately is a sign of\nmature thinking.”\nFor example, you may be reading a difficult passage in a textbook on chemistry and recognize that you are not\nfully understanding the meaning of the section you just read or its connection to the rest of the chapter. Students use metacognition when they practice self-awareness and self-assessment. You are the best judge of\nhow well you know a topic or a skill.\n\n[openstax-college-success-p253-para000 | starter/data/College_Success_web.pdf | page 253]\nmetacognition. You may decide to highlight difficult terms to look up, write a summary of each paragraph in\nas few sentences as you can, or join a peer study group to work on your comprehension. If you know you\nretain material better if you hear it, you may read out loud or watch video tutorials covering the material. These are all examples of thinking about how you think and adapting your behavior based on this\nmetacognition. Likewise, if you periodically assess your progress toward a goal, such as when you check your\ngrades in a course every few weeks during a long semester so you know how well you are doing, this too is\nmetacognition.\n\n[openstax-college-success-p254-para000 | starter/data/College_Success_web.pdf | page 254]\ncontinuing to sabotage sincere goals. Think now of a personal example of a habit you may want to change,\nsuch as smoking, or an attribute such as patience or perseverance you may want to improve in yourself. Can\nyou determine what steps you may need to undertake to change this habit or to develop a stronger awareness\nof the need to change? Using Thought Deliberately\nIf you need to plan, track, and assess your understanding to engage in metacognition, what strategies do you\nneed to employ? Students can use metacognition strategies before, during, and after reading, lectures,\nassignments, and group work. Planning\nStudents can plan and get ready to learn by asking questions such as:\n• What am I supposed to learn in this situation?",
+    "context_ids": [
+      "openstax-college-success-p252-para003",
+      "openstax-college-success-p253-para000",
+      "openstax-college-success-p254-para000"
+    ],
+    "context_chars": 2307,
+    "elapsed_ms": 40.811499988194555,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q22",
+    "split": "dev",
+    "question": "Why is it appropriate for an undergraduate's near-term academic targets to resemble an itemized checklist?",
+    "strategy": "Dense (all-MiniLM-L6-v2)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 131,
+        "evidence": "short-term goals can absolutely look like a checklist of tasks because their\npurpose is to break the long-term goal down into manageable chunks that are easier to focus on"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p131-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 131,
+        "text": "Figure 4.4 Sunil drafted his goals before meeting with his advisor to discuss them. Sunil worried that his list of short-term goals looked more like a checklist of tasks than anything. His advisor\nreassured him, sharing that short-term goals can absolutely look like a checklist of tasks because their\npurpose is to break the long-term goal down into manageable chunks that are easier to focus on and\ncomplete. His advisor then recommended that Sunil add to his plan an additional note at the end of every\nother semester to “check in” with his advisor to make certain that he was on track. Planning for Adjustments\nYou will recall from the SMART goals goal-setting model that goals should be both measurable and attainable.",
+        "metadata": {
+          "chapter": 4,
+          "chunk_type": "by_paragraph",
+          "char_length": 723,
+          "chapter_title": "Planning Your Academic Pathways"
+        },
+        "score": 0.44043509813881265,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "openstax-college-success-p149-para003",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 149,
+        "text": "Being well-informed, having a clear sense of purpose, and taking the\nnecessary time to make a thoughtful decision will help to remove the anxiety associated with making the\n“right” decision, and help you make the best decision for you. APPLICA TION\nAcademic Planning Readiness Checklist: Review the checklist below and mark each item if you agree. For those you cannot yet answer, consult your instructor, academic advisor, or college website to locate\nthese important details. 1. I know the total number of credits required to graduate from my program. 2. I know the difference between general education, major, and elective classes. 3.",
+        "metadata": {
+          "chapter": 4,
+          "chunk_type": "by_paragraph",
+          "char_length": 637,
+          "chapter_title": "Planning Your Academic Pathways"
+        },
+        "score": 0.38406462169409833,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p243-para003",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 243,
+        "text": "Think of all the thinking that goes into the logistics of a dinner-and-a-movie\ndate—where to eat, what to watch, who to invite, what to wear, popcorn or candy—when choices and\ndecisions are rapid-fire, but we do it relatively successfully all the time. Employers specifically look for candidates with analytical skills because they need to know employees can use\nChapter 7 Thinking 233",
+        "metadata": {
+          "chapter": 7,
+          "chunk_type": "by_paragraph",
+          "char_length": 385,
+          "chapter_title": "Thinking"
+        },
+        "score": 0.3823910540767008,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-college-success-p131-para000 | starter/data/College_Success_web.pdf | page 131]\nFigure 4.4 Sunil drafted his goals before meeting with his advisor to discuss them. Sunil worried that his list of short-term goals looked more like a checklist of tasks than anything. His advisor\nreassured him, sharing that short-term goals can absolutely look like a checklist of tasks because their\npurpose is to break the long-term goal down into manageable chunks that are easier to focus on and\ncomplete. His advisor then recommended that Sunil add to his plan an additional note at the end of every\nother semester to “check in” with his advisor to make certain that he was on track. Planning for Adjustments\nYou will recall from the SMART goals goal-setting model that goals should be both measurable and attainable.\n\n[openstax-college-success-p149-para003 | starter/data/College_Success_web.pdf | page 149]\nBeing well-informed, having a clear sense of purpose, and taking the\nnecessary time to make a thoughtful decision will help to remove the anxiety associated with making the\n“right” decision, and help you make the best decision for you. APPLICA TION\nAcademic Planning Readiness Checklist: Review the checklist below and mark each item if you agree. For those you cannot yet answer, consult your instructor, academic advisor, or college website to locate\nthese important details. 1. I know the total number of credits required to graduate from my program. 2. I know the difference between general education, major, and elective classes. 3.\n\n[openstax-college-success-p243-para003 | starter/data/College_Success_web.pdf | page 243]\nThink of all the thinking that goes into the logistics of a dinner-and-a-movie\ndate—where to eat, what to watch, who to invite, what to wear, popcorn or candy—when choices and\ndecisions are rapid-fire, but we do it relatively successfully all the time. Employers specifically look for candidates with analytical skills because they need to know employees can use\nChapter 7 Thinking 233",
+    "context_ids": [
+      "openstax-college-success-p131-para000",
+      "openstax-college-success-p149-para003",
+      "openstax-college-success-p243-para003"
+    ],
+    "context_chars": 2019,
+    "elapsed_ms": 43.358599999919534,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q23",
+    "split": "dev",
+    "question": "What potential pitfall must learners avoid when creating personalized mnemonic devices?",
+    "strategy": "Dense (all-MiniLM-L6-v2)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 216,
+        "evidence": "You can certainly make up your own mnemonics, but be careful that your reminder isn’t so complex and\nconvoluted that it is more difficult to remember than the information you were relating it to!"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p215-para003",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 215,
+        "text": "Do whatever you do\nover and over for the best results. Using Mnemonics\nMnemonics (pronounced new-monics) are a way to remember things using reminders. Did you learn the\npoints of the compass by remembering NEWS (north, east, west, and south)? Or the notes on the music staff\nas FACE or EGBDF (every good boy does fine)? These are mnemonics. When you’re first learning something\nand you aren’t familiar with the foundational concepts, these help you bring up the information quickly,\nespecially for multistep processes or lists. After you’ve worked in that discipline for a while, you likely don’t\nAN AL Y SIS QUESTION\nWhen are you most liable to multitask? How could you be more aware of this practice and try to\neliminate it, especially when it comes to studying?",
+        "metadata": {
+          "chapter": 6,
+          "chunk_type": "by_paragraph",
+          "char_length": 764,
+          "chapter_title": "Studying, Memory, and Test Taking"
+        },
+        "score": 0.5504197147233432,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p216-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 216,
+        "text": "need the mnemonics, but you probably won’t forget them either. Here are some familiar mnemonics you may find useful:\nFigure 6.8\nYou can certainly make up your own mnemonics, but be careful that your reminder isn’t so complex and\nconvoluted that it is more difficult to remember than the information you were relating it to! Practicing Concept Association\nWhen you study, you’re going to make connections to other things—that’s a good thing. It shows a highly\nintelligent ability to make sense of the world when you can associate like and even somewhat unlike\ncomponents.",
+        "metadata": {
+          "chapter": 6,
+          "chunk_type": "by_paragraph",
+          "char_length": 570,
+          "chapter_title": "Studying, Memory, and Test Taking"
+        },
+        "score": 0.5368333463162972,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "openstax-college-success-p204-para002",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 204,
+        "text": "When you go\ngrocery shopping, do you ever choose a product because you recall an advertising jingle? You see the box of\ncereal and you remember the song on the TV commercial. If that memory causes you to buy that product, the\nadvertising worked. We help our memory along all the time, which is perfectly fine. In fact, we can modify\nthese everyday examples of memory assistance for purposes of studying and test taking. The key is deliberate\nuse of strategies that are not so elaborate that they are too difficult to remember in our short-term memory. A C TIVI T Y\nConsider this list of items. Look at the list for no more than 30 seconds. Then, cover up the list and use\nthe spaces below to complete an activity.",
+        "metadata": {
+          "chapter": 6,
+          "chunk_type": "by_paragraph",
+          "char_length": 713,
+          "chapter_title": "Studying, Memory, and Test Taking"
+        },
+        "score": 0.5219524309815078,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-college-success-p215-para003 | starter/data/College_Success_web.pdf | page 215]\nDo whatever you do\nover and over for the best results. Using Mnemonics\nMnemonics (pronounced new-monics) are a way to remember things using reminders. Did you learn the\npoints of the compass by remembering NEWS (north, east, west, and south)? Or the notes on the music staff\nas FACE or EGBDF (every good boy does fine)? These are mnemonics. When you’re first learning something\nand you aren’t familiar with the foundational concepts, these help you bring up the information quickly,\nespecially for multistep processes or lists. After you’ve worked in that discipline for a while, you likely don’t\nAN AL Y SIS QUESTION\nWhen are you most liable to multitask? How could you be more aware of this practice and try to\neliminate it, especially when it comes to studying?\n\n[openstax-college-success-p216-para000 | starter/data/College_Success_web.pdf | page 216]\nneed the mnemonics, but you probably won’t forget them either. Here are some familiar mnemonics you may find useful:\nFigure 6.8\nYou can certainly make up your own mnemonics, but be careful that your reminder isn’t so complex and\nconvoluted that it is more difficult to remember than the information you were relating it to! Practicing Concept Association\nWhen you study, you’re going to make connections to other things—that’s a good thing. It shows a highly\nintelligent ability to make sense of the world when you can associate like and even somewhat unlike\ncomponents.\n\n[openstax-college-success-p204-para002 | starter/data/College_Success_web.pdf | page 204]\nWhen you go\ngrocery shopping, do you ever choose a product because you recall an advertising jingle? You see the box of\ncereal and you remember the song on the TV commercial. If that memory causes you to buy that product, the\nadvertising worked. We help our memory along all the time, which is perfectly fine. In fact, we can modify\nthese everyday examples of memory assistance for purposes of studying and test taking. The key is deliberate\nuse of strategies that are not so elaborate that they are too difficult to remember in our short-term memory. A C TIVI T Y\nConsider this list of items. Look at the list for no more than 30 seconds. Then, cover up the list and use\nthe spaces below to complete an activity.",
+    "context_ids": [
+      "openstax-college-success-p215-para003",
+      "openstax-college-success-p216-para000",
+      "openstax-college-success-p204-para002"
+    ],
+    "context_chars": 2321,
+    "elapsed_ms": 43.94289999618195,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q24",
+    "split": "dev",
+    "question": "In Chapter 5 on notetaking, what three distinct layout sections are created on a page when utilizing the Cornell Method?",
+    "strategy": "Dense (all-MiniLM-L6-v2)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 183,
+        "evidence": "three sections by drawing a horizontal line across\nyour paper about one to two inches from the bottom of the page (the summary area) and then drawing a\nvertical line to separate the rest of the page above this bottom area, making the left side about two inches (the\nrecall column) and leaving the biggest area to the right of your vertical line (the notes column)."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p183-para001",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 183,
+        "text": "You may want\nto make one page and then copy as many pages as you think you’ll need for any particular class, but one\nadvantage of this system is that you can generate the sections quickly. Because you have divided up your\npage, you may end up using more paper than you would if you were writing on the entire page, but the point\nis not to keep your notes to as few pages as possible. The Cornell Method provides you with a well-organized\nset of notes that will help you study and review your notes as you move through the course. If you are taking\nnotes on your computer, you can still use the Cornell Method in Word or Excel on your own or by using a\ntemplate someone else created. Chapter 5 Reading and Notetaking 173",
+        "metadata": {
+          "chapter": 5,
+          "chunk_type": "by_paragraph",
+          "char_length": 719,
+          "chapter_title": "Reading and Notetaking"
+        },
+        "score": 0.683453091563435,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p186-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 186,
+        "text": "Figure 5.12 This sample set of notes in the Cornell Method is designed to make sense of a large amount of\ninformation. The process of organizing the notes can help you retain the information more effectively than\nless consistent methods. The main advantage of the Cornell Method is that you are setting yourself up to have organized, workable\nnotes. The neat format helps you move into study-mode without needing to re-copy less organized notes or\nmaking sense of a large mass of information you aren’t sure how to process because you can’t remember key\nideas or what you meant. If you write notes in your classes without any sort of system and later come across\nsomething like “Napoleon—short” in the middle of a glob of notes, what can you do at this point? Is that\nimportant?",
+        "metadata": {
+          "chapter": 5,
+          "chunk_type": "by_paragraph",
+          "char_length": 778,
+          "chapter_title": "Reading and Notetaking"
+        },
+        "score": 0.6643856282136547,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p197-para004",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 197,
+        "text": "This is the book that introduced Pauk’s notetaking\nsuggestions we now call the Cornell Method. It is a bit dated (from the 1940s), but still contains\nsome valuable information. Chapter 5 Reading and Notetaking 187",
+        "metadata": {
+          "chapter": 5,
+          "chunk_type": "by_paragraph",
+          "char_length": 213,
+          "chapter_title": "Reading and Notetaking"
+        },
+        "score": 0.6475020743348002,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-college-success-p183-para001 | starter/data/College_Success_web.pdf | page 183]\nYou may want\nto make one page and then copy as many pages as you think you’ll need for any particular class, but one\nadvantage of this system is that you can generate the sections quickly. Because you have divided up your\npage, you may end up using more paper than you would if you were writing on the entire page, but the point\nis not to keep your notes to as few pages as possible. The Cornell Method provides you with a well-organized\nset of notes that will help you study and review your notes as you move through the course. If you are taking\nnotes on your computer, you can still use the Cornell Method in Word or Excel on your own or by using a\ntemplate someone else created. Chapter 5 Reading and Notetaking 173\n\n[openstax-college-success-p186-para000 | starter/data/College_Success_web.pdf | page 186]\nFigure 5.12 This sample set of notes in the Cornell Method is designed to make sense of a large amount of\ninformation. The process of organizing the notes can help you retain the information more effectively than\nless consistent methods. The main advantage of the Cornell Method is that you are setting yourself up to have organized, workable\nnotes. The neat format helps you move into study-mode without needing to re-copy less organized notes or\nmaking sense of a large mass of information you aren’t sure how to process because you can’t remember key\nideas or what you meant. If you write notes in your classes without any sort of system and later come across\nsomething like “Napoleon—short” in the middle of a glob of notes, what can you do at this point? Is that\nimportant?\n\n[openstax-college-success-p197-para004 | starter/data/College_Success_web.pdf | page 197]\nThis is the book that introduced Pauk’s notetaking\nsuggestions we now call the Cornell Method. It is a bit dated (from the 1940s), but still contains\nsome valuable information. Chapter 5 Reading and Notetaking 187",
+    "context_ids": [
+      "openstax-college-success-p183-para001",
+      "openstax-college-success-p186-para000",
+      "openstax-college-success-p197-para004"
+    ],
+    "context_chars": 1984,
+    "elapsed_ms": 7.458599982783198,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  }
+]

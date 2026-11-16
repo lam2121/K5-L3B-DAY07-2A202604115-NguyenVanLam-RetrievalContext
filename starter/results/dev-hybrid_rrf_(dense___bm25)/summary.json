@@ -1,0 +1,14 @@
+{
+  "strategy": "Hybrid RRF (Dense + BM25)",
+  "split": "dev",
+  "n": 19,
+  "hit1": 4,
+  "hit1_rate": "4/19 (21.1%)",
+  "hit3": 13,
+  "hit3_rate": "13/19 (68.4%)",
+  "context_hit": 11,
+  "context_hit_rate": "11/19 (57.9%)",
+  "avg_context_chars": 1902.1,
+  "median_ms": 53.24,
+  "service_cost_usd": 0.0
+}

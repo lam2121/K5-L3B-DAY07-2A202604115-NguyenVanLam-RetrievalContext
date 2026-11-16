@@ -1,0 +1,14 @@
+{
+  "strategy": "Retrieval + Rerank (Dense + Cross-Score)",
+  "split": "test",
+  "n": 6,
+  "hit1": 3,
+  "hit1_rate": "3/6 (50.0%)",
+  "hit3": 5,
+  "hit3_rate": "5/6 (83.3%)",
+  "context_hit": 5,
+  "context_hit_rate": "5/6 (83.3%)",
+  "avg_context_chars": 2040,
+  "median_ms": 66.04,
+  "service_cost_usd": 0.0
+}

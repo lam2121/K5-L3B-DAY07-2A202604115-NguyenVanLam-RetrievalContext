@@ -1,11 +1,18 @@
+# Virtual environment & Python cache
 .venv/
+venv/
+env/
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Sensitive environment variables (API keys)
 .env
 .env.*
 !.env.example
-.codex-log/
 
-# Local datasets and generated output; share permitted artifacts deliberately
-starter/data/
-starter/results/
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.codex-log/
+*.tmp

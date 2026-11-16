@@ -1,0 +1,366 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "What license is the textbook College Success published under, and what does it permit?",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 11,
+        "evidence": "College Success is licensed under a Creative Commons Attribution 4.0 International (CC BY) license, which\nmeans that you can distribute, remix, and build upon the content, as long as you provide attribution to\nOpenStax and its content contributors."
+      }
+    ],
+    "expected_answer": "It is published under a Creative Commons Attribution 4.0 International (CC BY) license, permitting users to distribute, remix, and build upon the content with proper attribution to OpenStax.",
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "What is a syllabus commonly referred to as in college courses?",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 29,
+        "evidence": "A\nsyllabus is often called the “contract of the course” because it contains information about what to\nexpect—from the professor and the student."
+      }
+    ],
+    "expected_answer": "A syllabus is often called the 'contract of the course' because it sets expectations for both professor and student.",
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "How do instructional qualifications and teaching preparation differ between secondary school educators and university professors?",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 31,
+        "evidence": "High School Faculty College Faculty\nOften have degrees or certifications in\nteaching in addition to degrees in subject\nmatter\nMost likely have not even taken a course in teaching as part\nof their graduate program"
+      }
+    ],
+    "expected_answer": "High school faculty typically hold teaching certificates or education degrees, whereas college faculty usually have advanced subject degrees but often have not taken pedagogical training courses.",
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Under what condition can an individual exhibit both fixed and growth mindsets simultaneously?",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 60,
+        "evidence": "People may feel\ngreat ability to grow and learn in some areas, like art and communication, but feel more limited in others, such\nas planning and financials. Recognizing these intersections will help you approach new topics and tasks."
+      }
+    ],
+    "expected_answer": "People often experience intersections of both mindsets across different domains—feeling high growth potential in areas like art or communication, but feeling fixed or limited in planning or financials.",
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "In Chapter 1, what document serves as a roadmap and contract of expectations between instructor and student?",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 29,
+        "evidence": "A\nsyllabus is often called the “contract of the course” because it contains information about what to\nexpect—from the professor and the student. It is meant to be a roadmap for succeeding in the class."
+      }
+    ],
+    "expected_answer": "The syllabus serves as the roadmap and contract of the course.",
+    "filter": {
+      "chapter": 1
+    }
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "How does the textbook define procrastination?",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 92,
+        "evidence": "Simply put, procrastination is the act of delaying some task that needs to be completed. It is something we all\ndo to greater and lesser degrees."
+      }
+    ],
+    "expected_answer": "Procrastination is defined simply as the act of delaying some task that needs to be completed.",
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "What five steps does the SQ3R reading strategy title stand for?",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 173,
+        "evidence": "The title stands for Survey, Question, Read, Recite, Review, and you can use the\nsteps on virtually any assigned passage."
+      }
+    ],
+    "expected_answer": "The SQ3R reading strategy stands for Survey, Question, Read, Recite, Review.",
+    "filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Who created the Cornell Method of notetaking and during which decade was it developed?",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 183,
+        "evidence": "One of the most recognizable notetaking systems is called the Cornell Method, a relatively simple way to take\neffective notes devised by Cornell University education professor Dr. Walter Pauk in the 1940s."
+      }
+    ],
+    "expected_answer": "The Cornell Method was devised by Cornell University education professor Dr. Walter Pauk in the 1940s.",
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Why is attempting to record every word spoken by an instructor during lectures discouraged?",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 180,
+        "evidence": "It is not a good habit to transcribe every single word a speaker utters—even if you have an amazing ability to\ndo that. Most of us don’t have that court-reporter-esque skill level anyway, and if we try, we would end up\nmissing valuable information."
+      }
+    ],
+    "expected_answer": "Students lack court-reporter speed and trying to write everything causes them to miss key concepts and main ideas.",
+    "filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "According to Chapter 3 on time management, what is the definition and common nature of procrastination?",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 92,
+        "evidence": "Simply put, procrastination is the act of delaying some task that needs to be completed. It is something we all\ndo to greater and lesser degrees."
+      }
+    ],
+    "expected_answer": "Procrastination is delaying tasks that must be finished, a habit practiced to varying extents by everyone.",
+    "filter": {
+      "chapter": 3
+    }
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "How much dedicated time on average is estimated for studying for an exam according to college activity guidelines?",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 101,
+        "evidence": "Study for exam Per\nexam\n90\nminutes\n1–2 hours, depending upon complexity of\nmaterial\nTable 3.5 Time on task for common college activities."
+      }
+    ],
+    "expected_answer": "The average estimated time on task is 90 minutes (or 1 to 2 hours depending on material complexity).",
+    "filter": null
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "When does minor procrastination become a serious concern for students?",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 92,
+        "evidence": "For most people, a little minor procrastination is not a cause for great\nconcern. But there are situations where procrastination can become a serious problem with a lot of risk."
+      }
+    ],
+    "expected_answer": "While minor procrastination is normal, it becomes a problem when it leads to chronic delay, severe anxiety, and missed obligations.",
+    "filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "In what pedagogical context is Bloom's Taxonomy utilized by educators?",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 47,
+        "evidence": "Bloom’s Taxonomy, and it is often used as a guide for educators when they are determining what students\nshould learn within a course."
+      }
+    ],
+    "expected_answer": "Bloom's Taxonomy is used as a guide by teachers when defining what learning goals and skills students should acquire in a course.",
+    "filter": null
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "In Chapter 5 on reading strategies, what does the acronym SQ3R represent?",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 173,
+        "evidence": "The title stands for Survey, Question, Read, Recite, Review, and you can use the\nsteps on virtually any assigned passage."
+      }
+    ],
+    "expected_answer": "SQ3R stands for Survey, Question, Read, Recite, Review.",
+    "filter": {
+      "chapter": 5
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "In Chapter 5, what listening advice is given to avoid transcription traps in lectures?",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 180,
+        "evidence": "Learn to listen for main ideas and distinguish between these main ideas and\ndetails that typically support the ideas."
+      }
+    ],
+    "expected_answer": "Students should learn to focus on main ideas and distinctions rather than writing down every utterance.",
+    "filter": {
+      "chapter": 5
+    }
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "What is working memory and when is it utilized according to Chapter 6?",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 204,
+        "evidence": "Working memory is a type of short-term memory, but we use it when we are actively performing a task."
+      }
+    ],
+    "expected_answer": "Working memory is a type of short-term memory that is actively used when performing an active cognitive task.",
+    "filter": null
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "What two core methods are described for improving concentration and effectiveness while studying?",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 212,
+        "evidence": "Two\nmajor and interrelated techniques involve avoiding distractions to the best of your ability and creating a study\nenvironment that works to help you concentrate."
+      }
+    ],
+    "expected_answer": "The two connected techniques are eliminating distractions and establishing a conducive study setting.",
+    "filter": null
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "How has technological advancement impacted interpersonal interaction rules and protocols?",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 268,
+        "evidence": "Technology has created new rules for communication because of the different structures of communication,\neverything from emoji protocols, to truncated words and spelling, to etiquette and how we form\ncommunication networks."
+      }
+    ],
+    "expected_answer": "Technology has reshaped communication rules through emoji conventions, abbreviation patterns, and digital etiquette.",
+    "filter": null
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Under what condition does OpenStax permit remixing and distributing the textbook material?",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 11,
+        "evidence": "which\nmeans that you can distribute, remix, and build upon the content, as long as you provide attribution to\nOpenStax and its content contributors."
+      }
+    ],
+    "expected_answer": "Anyone may distribute or remix the content provided that proper attribution is given to OpenStax and contributors.",
+    "filter": null
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "In Chapter 6 on studying and memory, what two interrelated techniques help students become more effective learners?",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 212,
+        "evidence": "Two\nmajor and interrelated techniques involve avoiding distractions to the best of your ability and creating a study\nenvironment that works to help you concentrate."
+      }
+    ],
+    "expected_answer": "Avoiding distractions and creating an optimal study environment.",
+    "filter": {
+      "chapter": 6
+    }
+  },
+  {
+    "id": "q21",
+    "split": "dev",
+    "question": "How is metacognition simply defined in the context of cognitive skills?",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 233,
+        "evidence": "metacognition,\nthe practice of thinking about your thinking."
+      }
+    ],
+    "expected_answer": "Metacognition is defined as the practice of thinking about your thinking.",
+    "filter": null
+  },
+  {
+    "id": "q22",
+    "split": "dev",
+    "question": "Why is it appropriate for an undergraduate's near-term academic targets to resemble an itemized checklist?",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 131,
+        "evidence": "short-term goals can absolutely look like a checklist of tasks because their\npurpose is to break the long-term goal down into manageable chunks that are easier to focus on"
+      }
+    ],
+    "expected_answer": "Short-term goals function to break down broader long-term goals into smaller, manageable chunks that are easier to focus on.",
+    "filter": null
+  },
+  {
+    "id": "q23",
+    "split": "dev",
+    "question": "What potential pitfall must learners avoid when creating personalized mnemonic devices?",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 216,
+        "evidence": "You can certainly make up your own mnemonics, but be careful that your reminder isn’t so complex and\nconvoluted that it is more difficult to remember than the information you were relating it to!"
+      }
+    ],
+    "expected_answer": "They must be cautious not to make the reminder so complex and convoluted that it is harder to recall than the original information.",
+    "filter": null
+  },
+  {
+    "id": "q24",
+    "split": "dev",
+    "question": "In Chapter 5 on notetaking, what three distinct layout sections are created on a page when utilizing the Cornell Method?",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 183,
+        "evidence": "three sections by drawing a horizontal line across\nyour paper about one to two inches from the bottom of the page (the summary area) and then drawing a\nvertical line to separate the rest of the page above this bottom area, making the left side about two inches (the\nrecall column) and leaving the biggest area to the right of your vertical line (the notes column)."
+      }
+    ],
+    "expected_answer": "The summary area at the bottom, the recall column on the left, and the notes column on the right.",
+    "filter": {
+      "chapter": 5
+    }
+  },
+  {
+    "id": "q25",
+    "split": "test",
+    "question": "In Chapter 3 on time management, what do the five SMART goal attributes represent, and why are they considered desirable?",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 112,
+        "evidence": "Measurable, Attainable, Relevant, and Time-bound. The\nreason these are all desirable traits for your goals is because they not only help you plan how to meet the goal,\nbut they can also contribute to your decision-making processes during the planning stage."
+      }
+    ],
+    "expected_answer": "SMART represents Specific, Measurable, Attainable, Relevant, and Time-bound; they are desirable because they guide execution planning and aid decision-making.",
+    "filter": {
+      "chapter": 3
+    }
+  }
+]

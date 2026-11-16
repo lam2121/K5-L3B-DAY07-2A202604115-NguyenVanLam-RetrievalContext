@@ -1,0 +1,14 @@
+{
+  "strategy": "Dense (all-MiniLM-L6-v2)",
+  "split": "test",
+  "n": 6,
+  "hit1": 2,
+  "hit1_rate": "2/6 (33.3%)",
+  "hit3": 4,
+  "hit3_rate": "4/6 (66.7%)",
+  "context_hit": 4,
+  "context_hit_rate": "4/6 (66.7%)",
+  "avg_context_chars": 2044,
+  "median_ms": 36.9,
+  "service_cost_usd": 0.0
+}

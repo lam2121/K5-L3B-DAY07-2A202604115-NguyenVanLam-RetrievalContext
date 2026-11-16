@@ -1,0 +1,14 @@
+{
+  "strategy": "TF-IDF/BM25 (Lexical)",
+  "split": "dev",
+  "n": 19,
+  "hit1": 4,
+  "hit1_rate": "4/19 (21.1%)",
+  "hit3": 10,
+  "hit3_rate": "10/19 (52.6%)",
+  "context_hit": 10,
+  "context_hit_rate": "10/19 (52.6%)",
+  "avg_context_chars": 1831.2,
+  "median_ms": 16.19,
+  "service_cost_usd": 0.0
+}

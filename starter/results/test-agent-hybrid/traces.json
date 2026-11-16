@@ -1,0 +1,714 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "question": "What is working memory and when is it utilized according to Chapter 6?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Working memory is a type of short-term memory that is utilized when we are actively performing a task, and it provides access to whatever information we have stored in our memory that helps us complete the task [openstax-college-success-p204-para000].",
+    "citations": [
+      "openstax-college-success-p204-para000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "What is working memory and when is it utilized according to Chapter 6?",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-college-success-p203-para003",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 203,
+            "text": "Despite much research and\nexploration, a complete understanding of human memory does not exist.”[2]\nAN AL Y SIS QUESTION\nTake a few minutes to list ways you create memories on a daily basis. Do you think about how you make\nmemories? Do you do anything that helps you keep track of your memories? 1 NCBI. “What are the differences between long-term, short-term, and working memory?” https://www.ncbi.nlm.nih.gov/pmc/articles/\nPMC2657600/\n2 Sumrall, William, et. al. “A Review of Memory Theory.” International Journal of Humanities and Social Science, 2016. Vol. 6. No. 5. Chapter 6 Studying, Memory, and Test Taking 193",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 618,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.03252247488101534,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-college-success-p204-para000",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 204,
+            "text": "Working Memory\nWorking memory is a type of short-term memory, but we use it when we are actively performing a task. For\nexample, nursing student Marilyn needs to use her knowledge of chemical reactions to suggest appropriate\nprescriptions in various medical case studies. She does not have to recall every single fact she learned in years\nof chemistry classes, but she does need to have a working memory of certain chemicals and how they work\nwith others. To ensure she can make these connections, Marilyn will have to review and study the relevant\nchemical details for the types of drug interactions she will recommend in the case studies. In working memory, you have access to whatever information you have stored in your memory that helps you\ncomplete the task you are performing.",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 783,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.032266458495966696,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-college-success-p203-para001",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 203,
+            "text": "Nelson Cowan is one researcher who is working to explain what we do know about memory. His article “What\nAre the Differences between Long-Term, Short-Term, and Working Memory?” breaks down the different types\nof memory and what happens when we recall thoughts and ideas. When we remember something, we actually\ndo quite a lot of thinking.[1]\nWe go through three basic steps when we remember ideas or images: we encode, store, and retrieve that\ninformation. Encoding is how we first perceive information through our senses, such as when we smell a lovely\nflower or a putrid trash bin. Both make an impression on our minds through our sense of smell and probably\nour vision. Our brains encode, or label, this content in short-term memory in case we want to think about it\nagain.",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 776,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.031754032258064516,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[openstax-college-success-p203-para003 | starter/data/College_Success_web.pdf | page 203]\nDespite much research and\nexploration, a complete understanding of human memory does not exist.”[2]\nAN AL Y SIS QUESTION\nTake a few minutes to list ways you create memories on a daily basis. Do you think about how you make\nmemories? Do you do anything that helps you keep track of your memories? 1 NCBI. “What are the differences between long-term, short-term, and working memory?” https://www.ncbi.nlm.nih.gov/pmc/articles/\nPMC2657600/\n2 Sumrall, William, et. al. “A Review of Memory Theory.” International Journal of Humanities and Social Science, 2016. Vol. 6. No. 5. Chapter 6 Studying, Memory, and Test Taking 193\n\n[openstax-college-success-p204-para000 | starter/data/College_Success_web.pdf | page 204]\nWorking Memory\nWorking memory is a type of short-term memory, but we use it when we are actively performing a task. For\nexample, nursing student Marilyn needs to use her knowledge of chemical reactions to suggest appropriate\nprescriptions in various medical case studies. She does not have to recall every single fact she learned in years\nof chemistry classes, but she does need to have a working memory of certain chemicals and how they work\nwith others. To ensure she can make these connections, Marilyn will have to review and study the relevant\nchemical details for the types of drug interactions she will recommend in the case studies. In working memory, you have access to whatever information you have stored in your memory that helps you\ncomplete the task you are performing.\n\n[openstax-college-success-p203-para001 | starter/data/College_Success_web.pdf | page 203]\nNelson Cowan is one researcher who is working to explain what we do know about memory. His article “What\nAre the Differences between Long-Term, Short-Term, and Working Memory?” breaks down the different types\nof memory and what happens when we recall thoughts and ideas. When we remember something, we actually\ndo quite a lot of thinking.[1]\nWe go through three basic steps when we remember ideas or images: we encode, store, and retrieve that\ninformation. Encoding is how we first perceive information through our senses, such as when we smell a lovely\nflower or a putrid trash bin. Both make an impression on our minds through our sense of smell and probably\nour vision. Our brains encode, or label, this content in short-term memory in case we want to think about it\nagain.",
+        "context_ids": [
+          "openstax-college-success-p203-para003",
+          "openstax-college-success-p204-para000",
+          "openstax-college-success-p203-para001"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 1941.77
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "What two core methods are described for improving concentration and effectiveness while studying?",
+    "answerable": true,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "What two core methods are described for improving concentration and effectiveness while studying?",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-college-success-p229-para002",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 229,
+            "text": "Choose a topic from the list below and create an annotated bibliography that\nwould direct further research. • the importance of memory in learning new material\n• strategies to increase memory\n• strategies to increase the effectiveness of studying\n• test anxiety\nChapter 6 Studying, Memory, and Test Taking 219",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 309,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.032266458495966696,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-college-success-p202-para000",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 202,
+            "text": "About this Chapter\nBy the time you finish this chapter, you should be able to do the following:\n• Outline the importance of memory when studying, and note some opportunities to strengthen memory. • Discuss specific ways to increase the effectiveness of studying. • Articulate test-taking strategies that minimize anxiety and maximize results. Kerri didn’t need to study in high school. She made good grades, and her friends considered her lucky\nbecause she never seemed to sweat exams or cram. In reality, Kerri did her studying during school hours, took\nexcellent notes in class, asked great questions, and read the material before class meetings—all of these are\nexcellent strategies. Kerri just seemed to do them without much fuss.",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 734,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.0293236301369863,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-college-success-p214-para003",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 214,
+            "text": "A C TIVI T Y\nDescribe every element in your ideal study environment and explain why it’s there as well as how it will\nmake more efficient use of your time, limit distractions, or in some other way strengthen your ability to\nstudy. After you have described your ideal study environment, think about how you can adapt that environment\nif you cannot be in your favorite place to study. How do you make your own space in the library, a student\nlounge, or a dedicated space on campus for student studying? 204 Chapter 6 Studying, Memory, and Test Taking\nThis OpenStax book is available for free at http://cnx.org/content/col30990/1.7",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 628,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.027972027972027972,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[openstax-college-success-p229-para002 | starter/data/College_Success_web.pdf | page 229]\nChoose a topic from the list below and create an annotated bibliography that\nwould direct further research. • the importance of memory in learning new material\n• strategies to increase memory\n• strategies to increase the effectiveness of studying\n• test anxiety\nChapter 6 Studying, Memory, and Test Taking 219\n\n[openstax-college-success-p202-para000 | starter/data/College_Success_web.pdf | page 202]\nAbout this Chapter\nBy the time you finish this chapter, you should be able to do the following:\n• Outline the importance of memory when studying, and note some opportunities to strengthen memory. • Discuss specific ways to increase the effectiveness of studying. • Articulate test-taking strategies that minimize anxiety and maximize results. Kerri didn’t need to study in high school. She made good grades, and her friends considered her lucky\nbecause she never seemed to sweat exams or cram. In reality, Kerri did her studying during school hours, took\nexcellent notes in class, asked great questions, and read the material before class meetings—all of these are\nexcellent strategies. Kerri just seemed to do them without much fuss.\n\n[openstax-college-success-p214-para003 | starter/data/College_Success_web.pdf | page 214]\nA C TIVI T Y\nDescribe every element in your ideal study environment and explain why it’s there as well as how it will\nmake more efficient use of your time, limit distractions, or in some other way strengthen your ability to\nstudy. After you have described your ideal study environment, think about how you can adapt that environment\nif you cannot be in your favorite place to study. How do you make your own space in the library, a student\nlounge, or a dedicated space on campus for student studying? 204 Chapter 6 Studying, Memory, and Test Taking\nThis OpenStax book is available for free at http://cnx.org/content/col30990/1.7",
+        "context_ids": [
+          "openstax-college-success-p229-para002",
+          "openstax-college-success-p202-para000",
+          "openstax-college-success-p214-para003"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "core methods for improving concentration and effectiveness while studying",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-college-success-p229-para002",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 229,
+            "text": "Choose a topic from the list below and create an annotated bibliography that\nwould direct further research. • the importance of memory in learning new material\n• strategies to increase memory\n• strategies to increase the effectiveness of studying\n• test anxiety\nChapter 6 Studying, Memory, and Test Taking 219",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 309,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.03177805800756621,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-college-success-p202-para000",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 202,
+            "text": "About this Chapter\nBy the time you finish this chapter, you should be able to do the following:\n• Outline the importance of memory when studying, and note some opportunities to strengthen memory. • Discuss specific ways to increase the effectiveness of studying. • Articulate test-taking strategies that minimize anxiety and maximize results. Kerri didn’t need to study in high school. She made good grades, and her friends considered her lucky\nbecause she never seemed to sweat exams or cram. In reality, Kerri did her studying during school hours, took\nexcellent notes in class, asked great questions, and read the material before class meetings—all of these are\nexcellent strategies. Kerri just seemed to do them without much fuss.",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 734,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.03021353930031804,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-college-success-p219-para003",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 219,
+            "text": "They may fall over and feel insecure, but usually,\nthey learn to make the machine go. Most of us employ multiple methods of study all the time. You usually only\nrun into trouble if you stubbornly rely on just one way to learn or study and the material you’re studying or the\ntask you want to accomplish doesn’t lend itself to that preference. You can practice specific strategies to help\nyou learn in your preferred learning approach. Can you think of a time when the way you usually study a\nsituation didn’t work? Chapter 6 Studying, Memory, and Test Taking 209",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 562,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.027884615384615386,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[openstax-college-success-p229-para002 | starter/data/College_Success_web.pdf | page 229]\nChoose a topic from the list below and create an annotated bibliography that\nwould direct further research. • the importance of memory in learning new material\n• strategies to increase memory\n• strategies to increase the effectiveness of studying\n• test anxiety\nChapter 6 Studying, Memory, and Test Taking 219\n\n[openstax-college-success-p202-para000 | starter/data/College_Success_web.pdf | page 202]\nAbout this Chapter\nBy the time you finish this chapter, you should be able to do the following:\n• Outline the importance of memory when studying, and note some opportunities to strengthen memory. • Discuss specific ways to increase the effectiveness of studying. • Articulate test-taking strategies that minimize anxiety and maximize results. Kerri didn’t need to study in high school. She made good grades, and her friends considered her lucky\nbecause she never seemed to sweat exams or cram. In reality, Kerri did her studying during school hours, took\nexcellent notes in class, asked great questions, and read the material before class meetings—all of these are\nexcellent strategies. Kerri just seemed to do them without much fuss.\n\n[openstax-college-success-p214-para003 | starter/data/College_Success_web.pdf | page 214]\nA C TIVI T Y\nDescribe every element in your ideal study environment and explain why it’s there as well as how it will\nmake more efficient use of your time, limit distractions, or in some other way strengthen your ability to\nstudy. After you have described your ideal study environment, think about how you can adapt that environment\nif you cannot be in your favorite place to study. How do you make your own space in the library, a student\nlounge, or a dedicated space on campus for student studying? 204 Chapter 6 Studying, Memory, and Test Taking\nThis OpenStax book is available for free at http://cnx.org/content/col30990/1.7\n\n[openstax-college-success-p219-para003 | starter/data/College_Success_web.pdf | page 219]\nThey may fall over and feel insecure, but usually,\nthey learn to make the machine go. Most of us employ multiple methods of study all the time. You usually only\nrun into trouble if you stubbornly rely on just one way to learn or study and the material you’re studying or the\ntask you want to accomplish doesn’t lend itself to that preference. You can practice specific strategies to help\nyou learn in your preferred learning approach. Can you think of a time when the way you usually study a\nsituation didn’t work? Chapter 6 Studying, Memory, and Test Taking 209",
+        "context_ids": [
+          "openstax-college-success-p229-para002",
+          "openstax-college-success-p202-para000",
+          "openstax-college-success-p214-para003",
+          "openstax-college-success-p219-para003"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 8581.12
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "How has technological advancement impacted interpersonal interaction rules and protocols?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Technological advancement has impacted interpersonal interaction rules and protocols by creating new rules for communication, such as emoji protocols, truncated words and spelling, and etiquette, due to the different structures of communication [openstax-college-success-p268-para000]. Additionally, various social media platforms have their own set of rules and limitations, changing the ways we transfer ideas and information, and interact with others [openstax-college-success-p279-para001].",
+    "citations": [
+      "openstax-college-success-p268-para000",
+      "openstax-college-success-p279-para001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "How has technological advancement impacted interpersonal interaction rules and protocols?",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-college-success-p267-para001",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 267,
+            "text": "Within this chapter, however, you will be\nlooking deeper into the “process” of communication and how infinitely complex it really is. To start with, let’s\ntake a look at both traditional and the newest forms of communication and see if you can determine rules for\neach. A C TIVI T Y\nIn your opinion, what are the rules for different forms of communication? List the rules or guidelines\nrelated to each communication form listed in the table below. An example of a rule for the telephone\nmight be identifying yourself when you call, in case the person didn’t recognize your number. Form of Communication Rules for This Form\nFace-to-face\nPhone\nPrinted letters\nEmail\nTexting\nInstant messaging/group chat\nSocial media\nWere you able to discern different rules for the various forms of communication?",
+            "metadata": {
+              "chapter": 8,
+              "chunk_type": "by_paragraph",
+              "char_length": 794,
+              "chapter_title": "Communicating"
+            },
+            "score": 0.031024531024531024,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-college-success-p268-para000",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 268,
+            "text": "Variables of Communication\nTechnology has created new rules for communication because of the different structures of communication,\neverything from emoji protocols, to truncated words and spelling, to etiquette and how we form\ncommunication networks. AAMOF it is important to understand communication. However, BTAIM, you might\nthink it is a CWOT. FWIW this chapter will help you navigate the myriad ways of communicating. SLAP?",
+            "metadata": {
+              "chapter": 8,
+              "chunk_type": "by_paragraph",
+              "char_length": 428,
+              "chapter_title": "Communicating"
+            },
+            "score": 0.03047794966520434,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-college-success-p279-para001",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 279,
+            "text": "Evolving Our Strategies to Match Our Evolving Technologies\nCommunication has changed because of the way we are using technology. Yes, we still write and talk, but\nwhere and how? There are myriad social media platforms that you can use for communication, from Snapchat\nto Twitter, each with its own set of rules and limitations. These platforms have completely changed many of\nthe ways we transfer ideas and information, find romantic partners, keep in touch with friends and family,\nconnect with our professors and classmates, make plans with teammates, look for employment, and so much\nmore. When using a device for communication, there are fewer nonverbal cues we can pick up on, only what the\nother person is posting or showing.",
+            "metadata": {
+              "chapter": 8,
+              "chunk_type": "by_paragraph",
+              "char_length": 731,
+              "chapter_title": "Communicating"
+            },
+            "score": 0.030330882352941176,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[openstax-college-success-p267-para001 | starter/data/College_Success_web.pdf | page 267]\nWithin this chapter, however, you will be\nlooking deeper into the “process” of communication and how infinitely complex it really is. To start with, let’s\ntake a look at both traditional and the newest forms of communication and see if you can determine rules for\neach. A C TIVI T Y\nIn your opinion, what are the rules for different forms of communication? List the rules or guidelines\nrelated to each communication form listed in the table below. An example of a rule for the telephone\nmight be identifying yourself when you call, in case the person didn’t recognize your number. Form of Communication Rules for This Form\nFace-to-face\nPhone\nPrinted letters\nEmail\nTexting\nInstant messaging/group chat\nSocial media\nWere you able to discern different rules for the various forms of communication?\n\n[openstax-college-success-p268-para000 | starter/data/College_Success_web.pdf | page 268]\nVariables of Communication\nTechnology has created new rules for communication because of the different structures of communication,\neverything from emoji protocols, to truncated words and spelling, to etiquette and how we form\ncommunication networks. AAMOF it is important to understand communication. However, BTAIM, you might\nthink it is a CWOT. FWIW this chapter will help you navigate the myriad ways of communicating. SLAP?\n\n[openstax-college-success-p279-para001 | starter/data/College_Success_web.pdf | page 279]\nEvolving Our Strategies to Match Our Evolving Technologies\nCommunication has changed because of the way we are using technology. Yes, we still write and talk, but\nwhere and how? There are myriad social media platforms that you can use for communication, from Snapchat\nto Twitter, each with its own set of rules and limitations. These platforms have completely changed many of\nthe ways we transfer ideas and information, find romantic partners, keep in touch with friends and family,\nconnect with our professors and classmates, make plans with teammates, look for employment, and so much\nmore. When using a device for communication, there are fewer nonverbal cues we can pick up on, only what the\nother person is posting or showing.",
+        "context_ids": [
+          "openstax-college-success-p267-para001",
+          "openstax-college-success-p268-para000",
+          "openstax-college-success-p279-para001"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 1633.69
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "Under what condition does OpenStax permit remixing and distributing the textbook material?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "OpenStax permits remixing and distributing the textbook material under the condition that attribution is provided to OpenStax and its content contributors, as stated in the Creative Commons Attribution 4.0 International (CC BY) license [openstax-college-success-p11-para001].",
+    "citations": [
+      "openstax-college-success-p11-para001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Under what condition does OpenStax permit remixing and distributing the textbook material?",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-college-success-p11-para000",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 11,
+            "text": "Welcome to College Success, an OpenStax resource. This textbook was written to increase student access to\nhigh-quality learning materials, maintaining highest standards of academic rigor at little to no cost. About OpenStax\nOpenStax is a nonprofit based at Rice University, and it’s our mission to improve student access to education. Our first openly licensed college textbook was published in 2012, and our library has since scaled to over 35\nbooks for college and AP® courses used by hundreds of thousands of students. OpenStax Tutor, our low-cost\npersonalized learning tool, is being piloted in college courses throughout the country.",
+            "metadata": {
+              "chapter": 0,
+              "chunk_type": "by_paragraph",
+              "char_length": 638,
+              "chapter_title": "Preface"
+            },
+            "score": 0.03125763125763126,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-college-success-p11-para001",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 11,
+            "text": "Through our\npartnerships with philanthropic foundations and our alliance with other educational resource organizations,\nOpenStax is breaking down the most common barriers to learning and empowering students and instructors\nto succeed. About OpenStax Resources\nCustomization\nCollege Success is licensed under a Creative Commons Attribution 4.0 International (CC BY) license, which\nmeans that you can distribute, remix, and build upon the content, as long as you provide attribution to\nOpenStax and its content contributors. Because our books are openly licensed, you are free to use the entire book or pick and choose the sections\nthat are most relevant to the needs of your course.",
+            "metadata": {
+              "chapter": 0,
+              "chunk_type": "by_paragraph",
+              "char_length": 681,
+              "chapter_title": "Preface"
+            },
+            "score": 0.030886196246139225,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-college-success-p18-para002",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 18,
+            "text": "Visit office hours, make appointments, and schedule meetings with stakeholders\nso that you are not just buried under the sheaf of papers on someone’s desk.”\n—Mohammed Khalid, University of Maryland\nSTUDEN T PROFILE\n8 Chapter 1 Exploring College\nThis OpenStax book is available for free at http://cnx.org/content/col30990/1.7",
+            "metadata": {
+              "chapter": 1,
+              "chunk_type": "by_paragraph",
+              "char_length": 324,
+              "chapter_title": "Exploring College"
+            },
+            "score": 0.027809742999616416,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[openstax-college-success-p11-para000 | starter/data/College_Success_web.pdf | page 11]\nWelcome to College Success, an OpenStax resource. This textbook was written to increase student access to\nhigh-quality learning materials, maintaining highest standards of academic rigor at little to no cost. About OpenStax\nOpenStax is a nonprofit based at Rice University, and it’s our mission to improve student access to education. Our first openly licensed college textbook was published in 2012, and our library has since scaled to over 35\nbooks for college and AP® courses used by hundreds of thousands of students. OpenStax Tutor, our low-cost\npersonalized learning tool, is being piloted in college courses throughout the country.\n\n[openstax-college-success-p11-para001 | starter/data/College_Success_web.pdf | page 11]\nThrough our\npartnerships with philanthropic foundations and our alliance with other educational resource organizations,\nOpenStax is breaking down the most common barriers to learning and empowering students and instructors\nto succeed. About OpenStax Resources\nCustomization\nCollege Success is licensed under a Creative Commons Attribution 4.0 International (CC BY) license, which\nmeans that you can distribute, remix, and build upon the content, as long as you provide attribution to\nOpenStax and its content contributors. Because our books are openly licensed, you are free to use the entire book or pick and choose the sections\nthat are most relevant to the needs of your course.\n\n[openstax-college-success-p18-para002 | starter/data/College_Success_web.pdf | page 18]\nVisit office hours, make appointments, and schedule meetings with stakeholders\nso that you are not just buried under the sheaf of papers on someone’s desk.”\n—Mohammed Khalid, University of Maryland\nSTUDEN T PROFILE\n8 Chapter 1 Exploring College\nThis OpenStax book is available for free at http://cnx.org/content/col30990/1.7",
+        "context_ids": [
+          "openstax-college-success-p11-para000",
+          "openstax-college-success-p11-para001",
+          "openstax-college-success-p18-para002"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 7701.82
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "In Chapter 6 on studying and memory, what two interrelated techniques help students become more effective learners?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Two interrelated techniques that help students become more effective learners are avoiding distractions and creating a study environment that works to help you concentrate [openstax-college-success-p212-para000].",
+    "citations": [
+      "openstax-college-success-p212-para000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "In Chapter 6 on studying and memory, what two interrelated techniques help students become more effective learners?",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-college-success-p212-para000",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 212,
+            "text": "Preparing to Study\nStudying is hard work, but you can still learn some techniques to help you be a more effective learner. Two\nmajor and interrelated techniques involve avoiding distractions to the best of your ability and creating a study\nenvironment that works to help you concentrate. Avoiding Distractions\nWe have always had distractions—video games, television shows, movies, music, friends—even housecleaning\ncan distract us from doing something else we need to do, like study for an exam. That may seem extreme, but\nsometimes vacuuming is the preferred activity to buckling down and working through calculus problems! Cell\nphones, tablets, and portable computers that literally bring a world of possibilities to us anywhere have\nbrought distraction to an entirely new level.",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 781,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.031544957774465976,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-college-success-p229-para002",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 229,
+            "text": "Choose a topic from the list below and create an annotated bibliography that\nwould direct further research. • the importance of memory in learning new material\n• strategies to increase memory\n• strategies to increase the effectiveness of studying\n• test anxiety\nChapter 6 Studying, Memory, and Test Taking 219",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 309,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.031099324975891997,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-college-success-p211-para002",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 211,
+            "text": "• What are learning preferences and strategies, and how can you leverage those to your advantage? Figure 6.5\n9 Brown, Peter, et. al. Make It Stick: The Science of Successful Learning. Brown, Roediger, Daniel, 2014. Chapter 6 Studying, Memory, and Test Taking 201",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 262,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.02946912242686891,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[openstax-college-success-p212-para000 | starter/data/College_Success_web.pdf | page 212]\nPreparing to Study\nStudying is hard work, but you can still learn some techniques to help you be a more effective learner. Two\nmajor and interrelated techniques involve avoiding distractions to the best of your ability and creating a study\nenvironment that works to help you concentrate. Avoiding Distractions\nWe have always had distractions—video games, television shows, movies, music, friends—even housecleaning\ncan distract us from doing something else we need to do, like study for an exam. That may seem extreme, but\nsometimes vacuuming is the preferred activity to buckling down and working through calculus problems! Cell\nphones, tablets, and portable computers that literally bring a world of possibilities to us anywhere have\nbrought distraction to an entirely new level.\n\n[openstax-college-success-p229-para002 | starter/data/College_Success_web.pdf | page 229]\nChoose a topic from the list below and create an annotated bibliography that\nwould direct further research. • the importance of memory in learning new material\n• strategies to increase memory\n• strategies to increase the effectiveness of studying\n• test anxiety\nChapter 6 Studying, Memory, and Test Taking 219\n\n[openstax-college-success-p211-para002 | starter/data/College_Success_web.pdf | page 211]\n• What are learning preferences and strategies, and how can you leverage those to your advantage? Figure 6.5\n9 Brown, Peter, et. al. Make It Stick: The Science of Successful Learning. Brown, Roediger, Daniel, 2014. Chapter 6 Studying, Memory, and Test Taking 201",
+        "context_ids": [
+          "openstax-college-success-p212-para000",
+          "openstax-college-success-p229-para002",
+          "openstax-college-success-p211-para002"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 2379.97
+  },
+  {
+    "query_id": "q25",
+    "split": "test",
+    "question": "In Chapter 3 on time management, what do the five SMART goal attributes represent, and why are they considered desirable?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "The five SMART goal attributes represent Specific, Measurable, Attainable, Relevant, and Time-bound. They are considered desirable because they help plan how to meet the goal and contribute to decision-making processes during the planning stage [openstax-college-success-p112-para002].",
+    "citations": [
+      "openstax-college-success-p112-para002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "In Chapter 3 on time management, what do the five SMART goal attributes represent, and why are they considered desirable?",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-college-success-p113-para000",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 113,
+            "text": "In the following table you can see some examples of goals that do and do not follow the SMART system. As\nyou read each one, think about what elements make them SMART or how you might change those that are\nnot. Goal Is it\nSMART? I am going to be rich\nsomeday. No There is nothing really specific, measurable, or time-bound in this\ngoal. I will graduate with my\ndegree, on time. Yes The statement calls out specific, measureable, and time-bound\ndetails. The other attributes of attainable and relevant are\nimplied. I am going to save\nenough money to buy a\nnewer car by June. Yes All SMART attributes are covered in this goal. I would like to do well in\nall my courses next\nsemester.",
+            "metadata": {
+              "chapter": 3,
+              "chunk_type": "by_paragraph",
+              "char_length": 680,
+              "chapter_title": "Managing Your Time and Priorities"
+            },
+            "score": 0.03252247488101534,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-college-success-p113-para001",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 113,
+            "text": "No While this is clearly time-bound and meets most of the SMART\ngoal attributes, it is not specific or measurable without defining\nwhat “do well” means. I am going to start being\na nicer person. No While most of the SMART attributes are implied, there is nothing\nreally measurable in this goal. I will earn at least a 3.0\nGPA in all my courses\nnext semester. Yes All of the SMART attributes are present in this goal. I am going to start being\nmore organized. No While most of the SMART attributes are implied, there is nothing\nreally measurable in this goal. Table 3.6\nMake an Action Plan\nLike anything else, making a step-by-step action plan of how you will attain your goals is the best way to make\ncertain you achieve them.",
+            "metadata": {
+              "chapter": 3,
+              "chunk_type": "by_paragraph",
+              "char_length": 726,
+              "chapter_title": "Managing Your Time and Priorities"
+            },
+            "score": 0.032266458495966696,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-college-success-p112-para002",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 112,
+            "text": "In this case, the word smart is not only a clever description of the type of goal,\nbut it is also an acronym that stands for Specific, Measurable, Attainable, Relevant, and Time-bound. The\nreason these are all desirable traits for your goals is because they not only help you plan how to meet the goal,\nbut they can also contribute to your decision-making processes during the planning stage. What does it mean to create SMART goals? • Specific—For a goal to be specific, it must be defined enough to actually determine the goal. A goal of get\na good job when I graduate is too general. It doesn’t define what a good job is. In fact, it doesn’t even\nnecessarily include a job in your chosen profession.",
+            "metadata": {
+              "chapter": 3,
+              "chunk_type": "by_paragraph",
+              "char_length": 702,
+              "chapter_title": "Managing Your Time and Priorities"
+            },
+            "score": 0.03149801587301587,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[openstax-college-success-p113-para000 | starter/data/College_Success_web.pdf | page 113]\nIn the following table you can see some examples of goals that do and do not follow the SMART system. As\nyou read each one, think about what elements make them SMART or how you might change those that are\nnot. Goal Is it\nSMART? I am going to be rich\nsomeday. No There is nothing really specific, measurable, or time-bound in this\ngoal. I will graduate with my\ndegree, on time. Yes The statement calls out specific, measureable, and time-bound\ndetails. The other attributes of attainable and relevant are\nimplied. I am going to save\nenough money to buy a\nnewer car by June. Yes All SMART attributes are covered in this goal. I would like to do well in\nall my courses next\nsemester.\n\n[openstax-college-success-p113-para001 | starter/data/College_Success_web.pdf | page 113]\nNo While this is clearly time-bound and meets most of the SMART\ngoal attributes, it is not specific or measurable without defining\nwhat “do well” means. I am going to start being\na nicer person. No While most of the SMART attributes are implied, there is nothing\nreally measurable in this goal. I will earn at least a 3.0\nGPA in all my courses\nnext semester. Yes All of the SMART attributes are present in this goal. I am going to start being\nmore organized. No While most of the SMART attributes are implied, there is nothing\nreally measurable in this goal. Table 3.6\nMake an Action Plan\nLike anything else, making a step-by-step action plan of how you will attain your goals is the best way to make\ncertain you achieve them.\n\n[openstax-college-success-p112-para002 | starter/data/College_Success_web.pdf | page 112]\nIn this case, the word smart is not only a clever description of the type of goal,\nbut it is also an acronym that stands for Specific, Measurable, Attainable, Relevant, and Time-bound. The\nreason these are all desirable traits for your goals is because they not only help you plan how to meet the goal,\nbut they can also contribute to your decision-making processes during the planning stage. What does it mean to create SMART goals? • Specific—For a goal to be specific, it must be defined enough to actually determine the goal. A goal of get\na good job when I graduate is too general. It doesn’t define what a good job is. In fact, it doesn’t even\nnecessarily include a job in your chosen profession.",
+        "context_ids": [
+          "openstax-college-success-p113-para000",
+          "openstax-college-success-p113-para001",
+          "openstax-college-success-p112-para002"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 1419.77
+  },
+  {
+    "query_id": "u_test_01",
+    "split": "test",
+    "question": "What is the minimum IELTS band score required for international students to waive the introductory college English course?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "What is the minimum IELTS band score required for international students to waive the introductory college English course?",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-college-success-p149-para004",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 149,
+            "text": "I know whether I am required to take preparatory or developmental courses in math and English,\nand whether these courses will count among my total credits toward my degree. 4. I am aware of the special requirements of my major (if any) and the prerequisites I must complete. 5. I am aware of the minimum entry requirements for my desired career field and know whether I\nshould be preparing to plan for a graduate degree as well. Chapter 4 Planning Your Academic Pathways 139",
+            "metadata": {
+              "chapter": 4,
+              "chunk_type": "by_paragraph",
+              "char_length": 474,
+              "chapter_title": "Planning Your Academic Pathways"
+            },
+            "score": 0.032266458495966696,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-college-success-p139-para000",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 139,
+            "text": "that students, particularly those students who are undecided about their major, are able to explore different\nprograms without exceeding the total number of credits required to graduate with a bachelor’s degree. In\nother cases, students may have taken all of their major courses and fulfilled their general education\nrequirements but still need additional credits to fulfill the minimum to graduate. The additional courses taken\nto meet the total credit requirement (if necessary) are considered electives. Graduate Degrees\nAccording to United States Census data published in 2018, 13.1 percent of the U.S.",
+            "metadata": {
+              "chapter": 4,
+              "chunk_type": "by_paragraph",
+              "char_length": 606,
+              "chapter_title": "Planning Your Academic Pathways"
+            },
+            "score": 0.030536130536130537,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-college-success-p135-para001",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 135,
+            "text": "Credits relate to the calculated hours during a\ncourse that a student spends interacting with the instructor and/or the course material through class time,\nlaboratory time, online discussions, homework, etc. Courses at all degree levels are typically assigned a value\nof one to six credits, although students often need to complete a developmental education course or two,\noften in English or math. These requirements, which cost as much as typical college courses but do not grant\ncollege credit, are meant to provide some basic information students may have missed in high school but that\nwill be necessary to keep up in college-level coursework.",
+            "metadata": {
+              "chapter": 4,
+              "chunk_type": "by_paragraph",
+              "char_length": 648,
+              "chapter_title": "Planning Your Academic Pathways"
+            },
+            "score": 0.030117753623188408,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[openstax-college-success-p149-para004 | starter/data/College_Success_web.pdf | page 149]\nI know whether I am required to take preparatory or developmental courses in math and English,\nand whether these courses will count among my total credits toward my degree. 4. I am aware of the special requirements of my major (if any) and the prerequisites I must complete. 5. I am aware of the minimum entry requirements for my desired career field and know whether I\nshould be preparing to plan for a graduate degree as well. Chapter 4 Planning Your Academic Pathways 139\n\n[openstax-college-success-p139-para000 | starter/data/College_Success_web.pdf | page 139]\nthat students, particularly those students who are undecided about their major, are able to explore different\nprograms without exceeding the total number of credits required to graduate with a bachelor’s degree. In\nother cases, students may have taken all of their major courses and fulfilled their general education\nrequirements but still need additional credits to fulfill the minimum to graduate. The additional courses taken\nto meet the total credit requirement (if necessary) are considered electives. Graduate Degrees\nAccording to United States Census data published in 2018, 13.1 percent of the U.S.\n\n[openstax-college-success-p135-para001 | starter/data/College_Success_web.pdf | page 135]\nCredits relate to the calculated hours during a\ncourse that a student spends interacting with the instructor and/or the course material through class time,\nlaboratory time, online discussions, homework, etc. Courses at all degree levels are typically assigned a value\nof one to six credits, although students often need to complete a developmental education course or two,\noften in English or math. These requirements, which cost as much as typical college courses but do not grant\ncollege credit, are meant to provide some basic information students may have missed in high school but that\nwill be necessary to keep up in college-level coursework.",
+        "context_ids": [
+          "openstax-college-success-p149-para004",
+          "openstax-college-success-p139-para000",
+          "openstax-college-success-p135-para001"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "elapsed_ms": 1692.89
+  },
+  {
+    "query_id": "u_test_02",
+    "split": "test",
+    "question": "What is the standard monthly campus parking fee for student bicycles and motor vehicles?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "What is the standard monthly campus parking fee for student bicycles and motor vehicles?",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-college-success-p242-para001",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 242,
+            "text": "Creative Process Applied to a Sample Campus Activity\nCreative Process Step Description and Notes\nProblem to Solve or Item/Work to\nCreate\nCreate a new logo for our Commuter Student Association\nRequirements and Needs • Will be used on Insta/Twitter, merch, print\n• Must incorporate school colors but be readable in grayscale\n• Must be understandable at large and small sizes (computer/\nphone)\nParameters and Limitations • Cannot look like other logos on campus\n• Cannot use photos-illustration only\n• Timeline: 7 weeks (in time for next year's college catalog)\n• Budget: $450\nInspiration and Ideas • Look at Commuter Association logos from other colleges. • Look at city and state transit logos. • Go to library to look at our school's old yearbooks.",
+            "metadata": {
+              "chapter": 7,
+              "chunk_type": "by_paragraph",
+              "char_length": 748,
+              "chapter_title": "Thinking"
+            },
+            "score": 0.030798389007344232,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-college-success-p29-para002",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 29,
+            "text": "Understanding that office hours are for you to ask your professor questions and the syllabus is the guide for\nwhat you will be doing in the class can make a big difference in your transition to college. The table on\nCommon College Terms, has a brief list of other words that you will want to know when you hear them on\ncampus. Common College Terms, What They Mean, and Why You Need to Know\nTerm What It Means Why You Need to Know\nAttendance\npolicy\nA policy that describes the\nattendance and absence\nexpectations for a class\nProfessors will have different attendance expectations. Read\nyour syllabus to determine which ones penalize you if you\nmiss too many classes.",
+            "metadata": {
+              "chapter": 1,
+              "chunk_type": "by_paragraph",
+              "char_length": 665,
+              "chapter_title": "Exploring College"
+            },
+            "score": 0.028205128205128206,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-college-success-p243-para000",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 243,
+            "text": "Creative Process Applied to a Sample Campus Activity\nCreative Process Step Description and Notes\nResources/Knowledge • Graphic design\n• Copyright info (consult student govt)\n• Market research\nDissemination and Brainstorming • Create a survey for all our commuters\n• Launch a contest for ideas and submissions? • Share drafts with advisor for approval. • Talk to graphic design club? Implementation Plan • Samples needed in 3 weeks. From there:\n• 1 week for survey feedback\n• 1 week for improvement\n• 1 week for additional feedback on final candidates\n• 1 week for finalization and approval\nReflection and Revision • Ask all new club members in Fall for feedback. • Consider improving logo during Spring semester next year.",
+            "metadata": {
+              "chapter": 7,
+              "chunk_type": "by_paragraph",
+              "char_length": 722,
+              "chapter_title": "Thinking"
+            },
+            "score": 0.027598020555767037,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[openstax-college-success-p242-para001 | starter/data/College_Success_web.pdf | page 242]\nCreative Process Applied to a Sample Campus Activity\nCreative Process Step Description and Notes\nProblem to Solve or Item/Work to\nCreate\nCreate a new logo for our Commuter Student Association\nRequirements and Needs • Will be used on Insta/Twitter, merch, print\n• Must incorporate school colors but be readable in grayscale\n• Must be understandable at large and small sizes (computer/\nphone)\nParameters and Limitations • Cannot look like other logos on campus\n• Cannot use photos-illustration only\n• Timeline: 7 weeks (in time for next year's college catalog)\n• Budget: $450\nInspiration and Ideas • Look at Commuter Association logos from other colleges. • Look at city and state transit logos. • Go to library to look at our school's old yearbooks.\n\n[openstax-college-success-p29-para002 | starter/data/College_Success_web.pdf | page 29]\nUnderstanding that office hours are for you to ask your professor questions and the syllabus is the guide for\nwhat you will be doing in the class can make a big difference in your transition to college. The table on\nCommon College Terms, has a brief list of other words that you will want to know when you hear them on\ncampus. Common College Terms, What They Mean, and Why You Need to Know\nTerm What It Means Why You Need to Know\nAttendance\npolicy\nA policy that describes the\nattendance and absence\nexpectations for a class\nProfessors will have different attendance expectations. Read\nyour syllabus to determine which ones penalize you if you\nmiss too many classes.\n\n[openstax-college-success-p243-para000 | starter/data/College_Success_web.pdf | page 243]\nCreative Process Applied to a Sample Campus Activity\nCreative Process Step Description and Notes\nResources/Knowledge • Graphic design\n• Copyright info (consult student govt)\n• Market research\nDissemination and Brainstorming • Create a survey for all our commuters\n• Launch a contest for ideas and submissions? • Share drafts with advisor for approval. • Talk to graphic design club? Implementation Plan • Samples needed in 3 weeks. From there:\n• 1 week for survey feedback\n• 1 week for improvement\n• 1 week for additional feedback on final candidates\n• 1 week for finalization and approval\nReflection and Revision • Ask all new club members in Fall for feedback. • Consider improving logo during Spring semester next year.",
+        "context_ids": [
+          "openstax-college-success-p242-para001",
+          "openstax-college-success-p29-para002",
+          "openstax-college-success-p243-para000"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "campus parking fee for student bicycles and motor vehicles",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-college-success-p242-para001",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 242,
+            "text": "Creative Process Applied to a Sample Campus Activity\nCreative Process Step Description and Notes\nProblem to Solve or Item/Work to\nCreate\nCreate a new logo for our Commuter Student Association\nRequirements and Needs • Will be used on Insta/Twitter, merch, print\n• Must incorporate school colors but be readable in grayscale\n• Must be understandable at large and small sizes (computer/\nphone)\nParameters and Limitations • Cannot look like other logos on campus\n• Cannot use photos-illustration only\n• Timeline: 7 weeks (in time for next year's college catalog)\n• Budget: $450\nInspiration and Ideas • Look at Commuter Association logos from other colleges. • Look at city and state transit logos. • Go to library to look at our school's old yearbooks.",
+            "metadata": {
+              "chapter": 7,
+              "chunk_type": "by_paragraph",
+              "char_length": 748,
+              "chapter_title": "Thinking"
+            },
+            "score": 0.0315136476426799,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-college-success-p38-para000",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 38,
+            "text": "Issues, Campus Resources, and Potential Outcomes\nType Issue Campus\nResource\nPotential Outcome\nHealth You have felt extremely tired over the\npast two days and now you have a\ncough. The campus\nhealth center\nA licensed professional can\nexamine you and provide care. Social You haven’t found a group to belong to. Your classmates seem to be going in\ndifferent directions and your roommate\nhas different interests. Student\norganizations\nand interest\ngroups\nBecoming a member of a group\non campus can help you make\nnew friends. Financial Your scholarship and student loan no\nlonger cover your college expenses. You\nare not sure how to afford next\nsemester. Financial aid\noffice\nA financial aid counselor can\nprovide you with information\nabout your options for meeting\nyour college expenses.",
+            "metadata": {
+              "chapter": 1,
+              "chunk_type": "by_paragraph",
+              "char_length": 784,
+              "chapter_title": "Exploring College"
+            },
+            "score": 0.030886196246139225,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "openstax-college-success-p243-para000",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 243,
+            "text": "Creative Process Applied to a Sample Campus Activity\nCreative Process Step Description and Notes\nResources/Knowledge • Graphic design\n• Copyright info (consult student govt)\n• Market research\nDissemination and Brainstorming • Create a survey for all our commuters\n• Launch a contest for ideas and submissions? • Share drafts with advisor for approval. • Talk to graphic design club? Implementation Plan • Samples needed in 3 weeks. From there:\n• 1 week for survey feedback\n• 1 week for improvement\n• 1 week for additional feedback on final candidates\n• 1 week for finalization and approval\nReflection and Revision • Ask all new club members in Fall for feedback. • Consider improving logo during Spring semester next year.",
+            "metadata": {
+              "chapter": 7,
+              "chunk_type": "by_paragraph",
+              "char_length": 722,
+              "chapter_title": "Thinking"
+            },
+            "score": 0.029418126757516764,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[openstax-college-success-p242-para001 | starter/data/College_Success_web.pdf | page 242]\nCreative Process Applied to a Sample Campus Activity\nCreative Process Step Description and Notes\nProblem to Solve or Item/Work to\nCreate\nCreate a new logo for our Commuter Student Association\nRequirements and Needs • Will be used on Insta/Twitter, merch, print\n• Must incorporate school colors but be readable in grayscale\n• Must be understandable at large and small sizes (computer/\nphone)\nParameters and Limitations • Cannot look like other logos on campus\n• Cannot use photos-illustration only\n• Timeline: 7 weeks (in time for next year's college catalog)\n• Budget: $450\nInspiration and Ideas • Look at Commuter Association logos from other colleges. • Look at city and state transit logos. • Go to library to look at our school's old yearbooks.\n\n[openstax-college-success-p29-para002 | starter/data/College_Success_web.pdf | page 29]\nUnderstanding that office hours are for you to ask your professor questions and the syllabus is the guide for\nwhat you will be doing in the class can make a big difference in your transition to college. The table on\nCommon College Terms, has a brief list of other words that you will want to know when you hear them on\ncampus. Common College Terms, What They Mean, and Why You Need to Know\nTerm What It Means Why You Need to Know\nAttendance\npolicy\nA policy that describes the\nattendance and absence\nexpectations for a class\nProfessors will have different attendance expectations. Read\nyour syllabus to determine which ones penalize you if you\nmiss too many classes.\n\n[openstax-college-success-p243-para000 | starter/data/College_Success_web.pdf | page 243]\nCreative Process Applied to a Sample Campus Activity\nCreative Process Step Description and Notes\nResources/Knowledge • Graphic design\n• Copyright info (consult student govt)\n• Market research\nDissemination and Brainstorming • Create a survey for all our commuters\n• Launch a contest for ideas and submissions? • Share drafts with advisor for approval. • Talk to graphic design club? Implementation Plan • Samples needed in 3 weeks. From there:\n• 1 week for survey feedback\n• 1 week for improvement\n• 1 week for additional feedback on final candidates\n• 1 week for finalization and approval\nReflection and Revision • Ask all new club members in Fall for feedback. • Consider improving logo during Spring semester next year.",
+        "context_ids": [
+          "openstax-college-success-p242-para001",
+          "openstax-college-success-p29-para002",
+          "openstax-college-success-p243-para000"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "elapsed_ms": 2750.67
+  }
+]

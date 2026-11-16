@@ -1,0 +1,457 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "question": "What is working memory and when is it utilized according to Chapter 6?",
+    "strategy": "TF-IDF/BM25 (Lexical)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 204,
+        "evidence": "Working memory is a type of short-term memory, but we use it when we are actively performing a task."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p203-para003",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 203,
+        "text": "Despite much research and\nexploration, a complete understanding of human memory does not exist.”[2]\nAN AL Y SIS QUESTION\nTake a few minutes to list ways you create memories on a daily basis. Do you think about how you make\nmemories? Do you do anything that helps you keep track of your memories? 1 NCBI. “What are the differences between long-term, short-term, and working memory?” https://www.ncbi.nlm.nih.gov/pmc/articles/\nPMC2657600/\n2 Sumrall, William, et. al. “A Review of Memory Theory.” International Journal of Humanities and Social Science, 2016. Vol. 6. No. 5. Chapter 6 Studying, Memory, and Test Taking 193",
+        "metadata": {
+          "chapter": 6,
+          "chunk_type": "by_paragraph",
+          "char_length": 618,
+          "chapter_title": "Studying, Memory, and Test Taking"
+        },
+        "score": 14.020360497152176,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p203-para001",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 203,
+        "text": "Nelson Cowan is one researcher who is working to explain what we do know about memory. His article “What\nAre the Differences between Long-Term, Short-Term, and Working Memory?” breaks down the different types\nof memory and what happens when we recall thoughts and ideas. When we remember something, we actually\ndo quite a lot of thinking.[1]\nWe go through three basic steps when we remember ideas or images: we encode, store, and retrieve that\ninformation. Encoding is how we first perceive information through our senses, such as when we smell a lovely\nflower or a putrid trash bin. Both make an impression on our minds through our sense of smell and probably\nour vision. Our brains encode, or label, this content in short-term memory in case we want to think about it\nagain.",
+        "metadata": {
+          "chapter": 6,
+          "chunk_type": "by_paragraph",
+          "char_length": 776,
+          "chapter_title": "Studying, Memory, and Test Taking"
+        },
+        "score": 13.719229434553593,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p204-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 204,
+        "text": "Working Memory\nWorking memory is a type of short-term memory, but we use it when we are actively performing a task. For\nexample, nursing student Marilyn needs to use her knowledge of chemical reactions to suggest appropriate\nprescriptions in various medical case studies. She does not have to recall every single fact she learned in years\nof chemistry classes, but she does need to have a working memory of certain chemicals and how they work\nwith others. To ensure she can make these connections, Marilyn will have to review and study the relevant\nchemical details for the types of drug interactions she will recommend in the case studies. In working memory, you have access to whatever information you have stored in your memory that helps you\ncomplete the task you are performing.",
+        "metadata": {
+          "chapter": 6,
+          "chunk_type": "by_paragraph",
+          "char_length": 783,
+          "chapter_title": "Studying, Memory, and Test Taking"
+        },
+        "score": 12.858776005149005,
+        "strategy": "bm25",
+        "hit": true
+      }
+    ],
+    "context": "[openstax-college-success-p203-para003 | starter/data/College_Success_web.pdf | page 203]\nDespite much research and\nexploration, a complete understanding of human memory does not exist.”[2]\nAN AL Y SIS QUESTION\nTake a few minutes to list ways you create memories on a daily basis. Do you think about how you make\nmemories? Do you do anything that helps you keep track of your memories? 1 NCBI. “What are the differences between long-term, short-term, and working memory?” https://www.ncbi.nlm.nih.gov/pmc/articles/\nPMC2657600/\n2 Sumrall, William, et. al. “A Review of Memory Theory.” International Journal of Humanities and Social Science, 2016. Vol. 6. No. 5. Chapter 6 Studying, Memory, and Test Taking 193\n\n[openstax-college-success-p203-para001 | starter/data/College_Success_web.pdf | page 203]\nNelson Cowan is one researcher who is working to explain what we do know about memory. His article “What\nAre the Differences between Long-Term, Short-Term, and Working Memory?” breaks down the different types\nof memory and what happens when we recall thoughts and ideas. When we remember something, we actually\ndo quite a lot of thinking.[1]\nWe go through three basic steps when we remember ideas or images: we encode, store, and retrieve that\ninformation. Encoding is how we first perceive information through our senses, such as when we smell a lovely\nflower or a putrid trash bin. Both make an impression on our minds through our sense of smell and probably\nour vision. Our brains encode, or label, this content in short-term memory in case we want to think about it\nagain.",
+    "context_ids": [
+      "openstax-college-success-p203-para003",
+      "openstax-college-success-p203-para001"
+    ],
+    "context_chars": 1576,
+    "elapsed_ms": 18.432200013194233,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "What two core methods are described for improving concentration and effectiveness while studying?",
+    "strategy": "TF-IDF/BM25 (Lexical)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 212,
+        "evidence": "Two\nmajor and interrelated techniques involve avoiding distractions to the best of your ability and creating a study\nenvironment that works to help you concentrate."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p229-para002",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 229,
+        "text": "Choose a topic from the list below and create an annotated bibliography that\nwould direct further research. • the importance of memory in learning new material\n• strategies to increase memory\n• strategies to increase the effectiveness of studying\n• test anxiety\nChapter 6 Studying, Memory, and Test Taking 219",
+        "metadata": {
+          "chapter": 6,
+          "chunk_type": "by_paragraph",
+          "char_length": 309,
+          "chapter_title": "Studying, Memory, and Test Taking"
+        },
+        "score": 12.44214402810133,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p32-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 32,
+        "text": "described above, the relationships you will have with your professors will be some of the most important. But\nthey won’t be the only relationships you will be cultivating while in college. Consider the Figure on You and\nYour Relationships during College and think about how you will go about expanding your network while you\nare completing your degree.",
+        "metadata": {
+          "chapter": 1,
+          "chunk_type": "by_paragraph",
+          "char_length": 352,
+          "chapter_title": "Exploring College"
+        },
+        "score": 11.190862322640985,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p179-para001",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 179,
+        "text": "5.3 Taking Notes\nEstimated completion time: 21 minutes. Questions to consider:\n• How can you prepare to take notes to maximize the effectiveness of the experience? • What are some specific strategies you can employ for better notetaking? • Why is annotating your notes after the notetaking session a critical step to follow? Beyond providing a record of the information you are reading or hearing, notes help you organize the ideas\nand help you make meaning out of something about which you may not be familiar, so notetaking and\nreading are two compatible skill sets. Taking notes also helps you stay focused on the question at hand.",
+        "metadata": {
+          "chapter": 5,
+          "chunk_type": "by_paragraph",
+          "char_length": 634,
+          "chapter_title": "Reading and Notetaking"
+        },
+        "score": 11.016904511414943,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-college-success-p229-para002 | starter/data/College_Success_web.pdf | page 229]\nChoose a topic from the list below and create an annotated bibliography that\nwould direct further research. • the importance of memory in learning new material\n• strategies to increase memory\n• strategies to increase the effectiveness of studying\n• test anxiety\nChapter 6 Studying, Memory, and Test Taking 219\n\n[openstax-college-success-p32-para000 | starter/data/College_Success_web.pdf | page 32]\ndescribed above, the relationships you will have with your professors will be some of the most important. But\nthey won’t be the only relationships you will be cultivating while in college. Consider the Figure on You and\nYour Relationships during College and think about how you will go about expanding your network while you\nare completing your degree.\n\n[openstax-college-success-p179-para001 | starter/data/College_Success_web.pdf | page 179]\n5.3 Taking Notes\nEstimated completion time: 21 minutes. Questions to consider:\n• How can you prepare to take notes to maximize the effectiveness of the experience? • What are some specific strategies you can employ for better notetaking? • Why is annotating your notes after the notetaking session a critical step to follow? Beyond providing a record of the information you are reading or hearing, notes help you organize the ideas\nand help you make meaning out of something about which you may not be familiar, so notetaking and\nreading are two compatible skill sets. Taking notes also helps you stay focused on the question at hand.",
+    "context_ids": [
+      "openstax-college-success-p229-para002",
+      "openstax-college-success-p32-para000",
+      "openstax-college-success-p179-para001"
+    ],
+    "context_chars": 1567,
+    "elapsed_ms": 15.470599988475442,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "How has technological advancement impacted interpersonal interaction rules and protocols?",
+    "strategy": "TF-IDF/BM25 (Lexical)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 268,
+        "evidence": "Technology has created new rules for communication because of the different structures of communication,\neverything from emoji protocols, to truncated words and spelling, to etiquette and how we form\ncommunication networks."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p268-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 268,
+        "text": "Variables of Communication\nTechnology has created new rules for communication because of the different structures of communication,\neverything from emoji protocols, to truncated words and spelling, to etiquette and how we form\ncommunication networks. AAMOF it is important to understand communication. However, BTAIM, you might\nthink it is a CWOT. FWIW this chapter will help you navigate the myriad ways of communicating. SLAP?",
+        "metadata": {
+          "chapter": 8,
+          "chunk_type": "by_paragraph",
+          "char_length": 428,
+          "chapter_title": "Communicating"
+        },
+        "score": 17.19975558076972,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "openstax-college-success-p267-para002",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 267,
+        "text": "Do you find yourself\n2 Sommerville, Joseph. The Five Keys to Interpersonal Success. 2004. 3 In Merriam-Webster online dictionary: https://www.merriam-webster.com/dictionary/communication\n4 Definitions of Communication. Communication Theory.Org. https://www.communicationtheory.org/definitions-of-communication/\nChapter 8 Communicating 257",
+        "metadata": {
+          "chapter": 8,
+          "chunk_type": "by_paragraph",
+          "char_length": 338,
+          "chapter_title": "Communicating"
+        },
+        "score": 8.948163303600568,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p267-para001",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 267,
+        "text": "Within this chapter, however, you will be\nlooking deeper into the “process” of communication and how infinitely complex it really is. To start with, let’s\ntake a look at both traditional and the newest forms of communication and see if you can determine rules for\neach. A C TIVI T Y\nIn your opinion, what are the rules for different forms of communication? List the rules or guidelines\nrelated to each communication form listed in the table below. An example of a rule for the telephone\nmight be identifying yourself when you call, in case the person didn’t recognize your number. Form of Communication Rules for This Form\nFace-to-face\nPhone\nPrinted letters\nEmail\nTexting\nInstant messaging/group chat\nSocial media\nWere you able to discern different rules for the various forms of communication?",
+        "metadata": {
+          "chapter": 8,
+          "chunk_type": "by_paragraph",
+          "char_length": 794,
+          "chapter_title": "Communicating"
+        },
+        "score": 8.708840432421118,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-college-success-p268-para000 | starter/data/College_Success_web.pdf | page 268]\nVariables of Communication\nTechnology has created new rules for communication because of the different structures of communication,\neverything from emoji protocols, to truncated words and spelling, to etiquette and how we form\ncommunication networks. AAMOF it is important to understand communication. However, BTAIM, you might\nthink it is a CWOT. FWIW this chapter will help you navigate the myriad ways of communicating. SLAP?\n\n[openstax-college-success-p267-para002 | starter/data/College_Success_web.pdf | page 267]\nDo you find yourself\n2 Sommerville, Joseph. The Five Keys to Interpersonal Success. 2004. 3 In Merriam-Webster online dictionary: https://www.merriam-webster.com/dictionary/communication\n4 Definitions of Communication. Communication Theory.Org. https://www.communicationtheory.org/definitions-of-communication/\nChapter 8 Communicating 257\n\n[openstax-college-success-p267-para001 | starter/data/College_Success_web.pdf | page 267]\nWithin this chapter, however, you will be\nlooking deeper into the “process” of communication and how infinitely complex it really is. To start with, let’s\ntake a look at both traditional and the newest forms of communication and see if you can determine rules for\neach. A C TIVI T Y\nIn your opinion, what are the rules for different forms of communication? List the rules or guidelines\nrelated to each communication form listed in the table below. An example of a rule for the telephone\nmight be identifying yourself when you call, in case the person didn’t recognize your number. Form of Communication Rules for This Form\nFace-to-face\nPhone\nPrinted letters\nEmail\nTexting\nInstant messaging/group chat\nSocial media\nWere you able to discern different rules for the various forms of communication?",
+    "context_ids": [
+      "openstax-college-success-p268-para000",
+      "openstax-college-success-p267-para002",
+      "openstax-college-success-p267-para001"
+    ],
+    "context_chars": 1834,
+    "elapsed_ms": 14.630099991336465,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "Under what condition does OpenStax permit remixing and distributing the textbook material?",
+    "strategy": "TF-IDF/BM25 (Lexical)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 11,
+        "evidence": "which\nmeans that you can distribute, remix, and build upon the content, as long as you provide attribution to\nOpenStax and its content contributors."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p167-para004",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 167,
+        "text": "To finish the\nnovel spread out over two weeks, Marta needs to read a little under an hour a day to accomplish this goal. Calculating your reading rate in this manner does not take into account days where you’re too distracted and\nyou have to reread passages or days when you just aren’t in the mood to read. And your reading rate will likely\nvary depending on how dense the content you’re reading is (e.g., a complex textbook vs. a comic book). Your\npace may slow down somewhat if you are not very interested in what the text is about. What this method will\nChapter 5 Reading and Notetaking 157",
+        "metadata": {
+          "chapter": 5,
+          "chunk_type": "by_paragraph",
+          "char_length": 594,
+          "chapter_title": "Reading and Notetaking"
+        },
+        "score": 11.845486084986858,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p175-para003",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 175,
+        "text": "You can also take the anonymous What Students Say (https://openstax.org/l/collegesurvey1-5) surveys\nto add your voice to this textbook. Your responses will be included in updates. Students offered their views on these questions, and the results are displayed in the graphs below. What is the most influential factor in how thoroughly you read the material for a given course? Chapter 5 Reading and Notetaking 165",
+        "metadata": {
+          "chapter": 5,
+          "chunk_type": "by_paragraph",
+          "char_length": 412,
+          "chapter_title": "Reading and Notetaking"
+        },
+        "score": 11.306873252105671,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p12-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 12,
+        "text": "Format\nYou can access this textbook for free in web view or PDF through openstax.org, and for a low cost in print. About College Success\nCollege Success is designed to meet the course needs of a one-semester course, workshop, or seminar for first\nyear experience or college transition students. FYE programs vary greatly according to institution, so the\ntextbook has been developed to cover the most common concepts, and the open license and flexible formats\nprovide many opportunities for coordinators, instructional designers, and faculty to tailor the material for their\nneeds. This book is an invitation—an invitation to students to step boldly into their college experience. College Success\naddresses the evolving challenges and opportunities of today’s diverse students.",
+        "metadata": {
+          "chapter": 0,
+          "chunk_type": "by_paragraph",
+          "char_length": 776,
+          "chapter_title": "Preface"
+        },
+        "score": 9.33022483550285,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-college-success-p167-para004 | starter/data/College_Success_web.pdf | page 167]\nTo finish the\nnovel spread out over two weeks, Marta needs to read a little under an hour a day to accomplish this goal. Calculating your reading rate in this manner does not take into account days where you’re too distracted and\nyou have to reread passages or days when you just aren’t in the mood to read. And your reading rate will likely\nvary depending on how dense the content you’re reading is (e.g., a complex textbook vs. a comic book). Your\npace may slow down somewhat if you are not very interested in what the text is about. What this method will\nChapter 5 Reading and Notetaking 157\n\n[openstax-college-success-p175-para003 | starter/data/College_Success_web.pdf | page 175]\nYou can also take the anonymous What Students Say (https://openstax.org/l/collegesurvey1-5) surveys\nto add your voice to this textbook. Your responses will be included in updates. Students offered their views on these questions, and the results are displayed in the graphs below. What is the most influential factor in how thoroughly you read the material for a given course? Chapter 5 Reading and Notetaking 165\n\n[openstax-college-success-p12-para000 | starter/data/College_Success_web.pdf | page 12]\nFormat\nYou can access this textbook for free in web view or PDF through openstax.org, and for a low cost in print. About College Success\nCollege Success is designed to meet the course needs of a one-semester course, workshop, or seminar for first\nyear experience or college transition students. FYE programs vary greatly according to institution, so the\ntextbook has been developed to cover the most common concepts, and the open license and flexible formats\nprovide many opportunities for coordinators, instructional designers, and faculty to tailor the material for their\nneeds. This book is an invitation—an invitation to students to step boldly into their college experience. College Success\naddresses the evolving challenges and opportunities of today’s diverse students.",
+    "context_ids": [
+      "openstax-college-success-p167-para004",
+      "openstax-college-success-p175-para003",
+      "openstax-college-success-p12-para000"
+    ],
+    "context_chars": 2054,
+    "elapsed_ms": 16.612200008239597,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "In Chapter 6 on studying and memory, what two interrelated techniques help students become more effective learners?",
+    "strategy": "TF-IDF/BM25 (Lexical)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 212,
+        "evidence": "Two\nmajor and interrelated techniques involve avoiding distractions to the best of your ability and creating a study\nenvironment that works to help you concentrate."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p212-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 212,
+        "text": "Preparing to Study\nStudying is hard work, but you can still learn some techniques to help you be a more effective learner. Two\nmajor and interrelated techniques involve avoiding distractions to the best of your ability and creating a study\nenvironment that works to help you concentrate. Avoiding Distractions\nWe have always had distractions—video games, television shows, movies, music, friends—even housecleaning\ncan distract us from doing something else we need to do, like study for an exam. That may seem extreme, but\nsometimes vacuuming is the preferred activity to buckling down and working through calculus problems! Cell\nphones, tablets, and portable computers that literally bring a world of possibilities to us anywhere have\nbrought distraction to an entirely new level.",
+        "metadata": {
+          "chapter": 6,
+          "chunk_type": "by_paragraph",
+          "char_length": 781,
+          "chapter_title": "Studying, Memory, and Test Taking"
+        },
+        "score": 22.801670549419196,
+        "strategy": "bm25",
+        "hit": true
+      },
+      {
+        "id": "openstax-college-success-p205-para003",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 205,
+        "text": "\"The Magical Number Seven, Plus or Minus Two: Some Limits on Our capacity for Processing Information.\" Psychological\nReview, 1956. Chapter 6 Studying, Memory, and Test Taking 195",
+        "metadata": {
+          "chapter": 6,
+          "chunk_type": "by_paragraph",
+          "char_length": 178,
+          "chapter_title": "Studying, Memory, and Test Taking"
+        },
+        "score": 18.751202636391962,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p209-para003",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 209,
+        "text": "Students offered their views on these questions, and the results are displayed in the graphs below. Which of the following is your most common method of studying? 8 Medina, John. Brain Rules. 2018, Pear Press. Chapter 6 Studying, Memory, and Test Taking 199",
+        "metadata": {
+          "chapter": 6,
+          "chunk_type": "by_paragraph",
+          "char_length": 257,
+          "chapter_title": "Studying, Memory, and Test Taking"
+        },
+        "score": 17.572620810140513,
+        "strategy": "bm25",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-college-success-p212-para000 | starter/data/College_Success_web.pdf | page 212]\nPreparing to Study\nStudying is hard work, but you can still learn some techniques to help you be a more effective learner. Two\nmajor and interrelated techniques involve avoiding distractions to the best of your ability and creating a study\nenvironment that works to help you concentrate. Avoiding Distractions\nWe have always had distractions—video games, television shows, movies, music, friends—even housecleaning\ncan distract us from doing something else we need to do, like study for an exam. That may seem extreme, but\nsometimes vacuuming is the preferred activity to buckling down and working through calculus problems! Cell\nphones, tablets, and portable computers that literally bring a world of possibilities to us anywhere have\nbrought distraction to an entirely new level.\n\n[openstax-college-success-p205-para003 | starter/data/College_Success_web.pdf | page 205]\n\"The Magical Number Seven, Plus or Minus Two: Some Limits on Our capacity for Processing Information.\" Psychological\nReview, 1956. Chapter 6 Studying, Memory, and Test Taking 195\n\n[openstax-college-success-p209-para003 | starter/data/College_Success_web.pdf | page 209]\nStudents offered their views on these questions, and the results are displayed in the graphs below. Which of the following is your most common method of studying? 8 Medina, John. Brain Rules. 2018, Pear Press. Chapter 6 Studying, Memory, and Test Taking 199",
+    "context_ids": [
+      "openstax-college-success-p212-para000",
+      "openstax-college-success-p205-para003",
+      "openstax-college-success-p209-para003"
+    ],
+    "context_chars": 1490,
+    "elapsed_ms": 3.009900014149025,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q25",
+    "split": "test",
+    "question": "In Chapter 3 on time management, what do the five SMART goal attributes represent, and why are they considered desirable?",
+    "strategy": "TF-IDF/BM25 (Lexical)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 112,
+        "evidence": "Measurable, Attainable, Relevant, and Time-bound. The\nreason these are all desirable traits for your goals is because they not only help you plan how to meet the goal,\nbut they can also contribute to your decision-making processes during the planning stage."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p113-para001",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 113,
+        "text": "No While this is clearly time-bound and meets most of the SMART\ngoal attributes, it is not specific or measurable without defining\nwhat “do well” means. I am going to start being\na nicer person. No While most of the SMART attributes are implied, there is nothing\nreally measurable in this goal. I will earn at least a 3.0\nGPA in all my courses\nnext semester. Yes All of the SMART attributes are present in this goal. I am going to start being\nmore organized. No While most of the SMART attributes are implied, there is nothing\nreally measurable in this goal. Table 3.6\nMake an Action Plan\nLike anything else, making a step-by-step action plan of how you will attain your goals is the best way to make\ncertain you achieve them.",
+        "metadata": {
+          "chapter": 3,
+          "chunk_type": "by_paragraph",
+          "char_length": 726,
+          "chapter_title": "Managing Your Time and Priorities"
+        },
+        "score": 27.645194540473,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p113-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 113,
+        "text": "In the following table you can see some examples of goals that do and do not follow the SMART system. As\nyou read each one, think about what elements make them SMART or how you might change those that are\nnot. Goal Is it\nSMART? I am going to be rich\nsomeday. No There is nothing really specific, measurable, or time-bound in this\ngoal. I will graduate with my\ndegree, on time. Yes The statement calls out specific, measureable, and time-bound\ndetails. The other attributes of attainable and relevant are\nimplied. I am going to save\nenough money to buy a\nnewer car by June. Yes All SMART attributes are covered in this goal. I would like to do well in\nall my courses next\nsemester.",
+        "metadata": {
+          "chapter": 3,
+          "chunk_type": "by_paragraph",
+          "char_length": 680,
+          "chapter_title": "Managing Your Time and Priorities"
+        },
+        "score": 25.22500609752841,
+        "strategy": "bm25",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p112-para002",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 112,
+        "text": "In this case, the word smart is not only a clever description of the type of goal,\nbut it is also an acronym that stands for Specific, Measurable, Attainable, Relevant, and Time-bound. The\nreason these are all desirable traits for your goals is because they not only help you plan how to meet the goal,\nbut they can also contribute to your decision-making processes during the planning stage. What does it mean to create SMART goals? • Specific—For a goal to be specific, it must be defined enough to actually determine the goal. A goal of get\na good job when I graduate is too general. It doesn’t define what a good job is. In fact, it doesn’t even\nnecessarily include a job in your chosen profession.",
+        "metadata": {
+          "chapter": 3,
+          "chunk_type": "by_paragraph",
+          "char_length": 702,
+          "chapter_title": "Managing Your Time and Priorities"
+        },
+        "score": 22.034020820775883,
+        "strategy": "bm25",
+        "hit": true
+      }
+    ],
+    "context": "[openstax-college-success-p113-para001 | starter/data/College_Success_web.pdf | page 113]\nNo While this is clearly time-bound and meets most of the SMART\ngoal attributes, it is not specific or measurable without defining\nwhat “do well” means. I am going to start being\na nicer person. No While most of the SMART attributes are implied, there is nothing\nreally measurable in this goal. I will earn at least a 3.0\nGPA in all my courses\nnext semester. Yes All of the SMART attributes are present in this goal. I am going to start being\nmore organized. No While most of the SMART attributes are implied, there is nothing\nreally measurable in this goal. Table 3.6\nMake an Action Plan\nLike anything else, making a step-by-step action plan of how you will attain your goals is the best way to make\ncertain you achieve them.\n\n[openstax-college-success-p113-para000 | starter/data/College_Success_web.pdf | page 113]\nIn the following table you can see some examples of goals that do and do not follow the SMART system. As\nyou read each one, think about what elements make them SMART or how you might change those that are\nnot. Goal Is it\nSMART? I am going to be rich\nsomeday. No There is nothing really specific, measurable, or time-bound in this\ngoal. I will graduate with my\ndegree, on time. Yes The statement calls out specific, measureable, and time-bound\ndetails. The other attributes of attainable and relevant are\nimplied. I am going to save\nenough money to buy a\nnewer car by June. Yes All SMART attributes are covered in this goal. I would like to do well in\nall my courses next\nsemester.\n\n[openstax-college-success-p112-para002 | starter/data/College_Success_web.pdf | page 112]\nIn this case, the word smart is not only a clever description of the type of goal,\nbut it is also an acronym that stands for Specific, Measurable, Attainable, Relevant, and Time-bound. The\nreason these are all desirable traits for your goals is because they not only help you plan how to meet the goal,\nbut they can also contribute to your decision-making processes during the planning stage. What does it mean to create SMART goals? • Specific—For a goal to be specific, it must be defined enough to actually determine the goal. A goal of get\na good job when I graduate is too general. It doesn’t define what a good job is. In fact, it doesn’t even\nnecessarily include a job in your chosen profession.",
+    "context_ids": [
+      "openstax-college-success-p113-para001",
+      "openstax-college-success-p113-para000",
+      "openstax-college-success-p112-para002"
+    ],
+    "context_chars": 2382,
+    "elapsed_ms": 3.3239999902434647,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  }
+]

@@ -1,0 +1,456 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "question": "What is working memory and when is it utilized according to Chapter 6?",
+    "strategy": "Dense (all-MiniLM-L6-v2)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 204,
+        "evidence": "Working memory is a type of short-term memory, but we use it when we are actively performing a task."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p204-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 204,
+        "text": "Working Memory\nWorking memory is a type of short-term memory, but we use it when we are actively performing a task. For\nexample, nursing student Marilyn needs to use her knowledge of chemical reactions to suggest appropriate\nprescriptions in various medical case studies. She does not have to recall every single fact she learned in years\nof chemistry classes, but she does need to have a working memory of certain chemicals and how they work\nwith others. To ensure she can make these connections, Marilyn will have to review and study the relevant\nchemical details for the types of drug interactions she will recommend in the case studies. In working memory, you have access to whatever information you have stored in your memory that helps you\ncomplete the task you are performing.",
+        "metadata": {
+          "chapter": 6,
+          "chunk_type": "by_paragraph",
+          "char_length": 783,
+          "chapter_title": "Studying, Memory, and Test Taking"
+        },
+        "score": 0.7978450296241784,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "openstax-college-success-p203-para003",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 203,
+        "text": "Despite much research and\nexploration, a complete understanding of human memory does not exist.”[2]\nAN AL Y SIS QUESTION\nTake a few minutes to list ways you create memories on a daily basis. Do you think about how you make\nmemories? Do you do anything that helps you keep track of your memories? 1 NCBI. “What are the differences between long-term, short-term, and working memory?” https://www.ncbi.nlm.nih.gov/pmc/articles/\nPMC2657600/\n2 Sumrall, William, et. al. “A Review of Memory Theory.” International Journal of Humanities and Social Science, 2016. Vol. 6. No. 5. Chapter 6 Studying, Memory, and Test Taking 193",
+        "metadata": {
+          "chapter": 6,
+          "chunk_type": "by_paragraph",
+          "char_length": 618,
+          "chapter_title": "Studying, Memory, and Test Taking"
+        },
+        "score": 0.6561783383127328,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p204-para001",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 204,
+        "text": "For instance, when you begin to study an assignment, you certainly\nneed to read the directions, but you must also remember that in class your professor reduced the number of\nproblem sets the written instructions indicated you needed to finish. This was an oral addition to the written\nassignment. The change to the instructions is what you bring up in working memory when you complete the\nassignment. Short-Term Memory\nShort-term memory is a very handy thing. It helps us remember where we set our keys or where we left off on\na project the day before. Think about all the aids we employ to help us with short-term memory: you may hang\nyour keys in a particular place each evening so you know exactly where they are supposed to be.",
+        "metadata": {
+          "chapter": 6,
+          "chunk_type": "by_paragraph",
+          "char_length": 731,
+          "chapter_title": "Studying, Memory, and Test Taking"
+        },
+        "score": 0.5871586616149347,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-college-success-p204-para000 | starter/data/College_Success_web.pdf | page 204]\nWorking Memory\nWorking memory is a type of short-term memory, but we use it when we are actively performing a task. For\nexample, nursing student Marilyn needs to use her knowledge of chemical reactions to suggest appropriate\nprescriptions in various medical case studies. She does not have to recall every single fact she learned in years\nof chemistry classes, but she does need to have a working memory of certain chemicals and how they work\nwith others. To ensure she can make these connections, Marilyn will have to review and study the relevant\nchemical details for the types of drug interactions she will recommend in the case studies. In working memory, you have access to whatever information you have stored in your memory that helps you\ncomplete the task you are performing.\n\n[openstax-college-success-p203-para003 | starter/data/College_Success_web.pdf | page 203]\nDespite much research and\nexploration, a complete understanding of human memory does not exist.”[2]\nAN AL Y SIS QUESTION\nTake a few minutes to list ways you create memories on a daily basis. Do you think about how you make\nmemories? Do you do anything that helps you keep track of your memories? 1 NCBI. “What are the differences between long-term, short-term, and working memory?” https://www.ncbi.nlm.nih.gov/pmc/articles/\nPMC2657600/\n2 Sumrall, William, et. al. “A Review of Memory Theory.” International Journal of Humanities and Social Science, 2016. Vol. 6. No. 5. Chapter 6 Studying, Memory, and Test Taking 193",
+    "context_ids": [
+      "openstax-college-success-p204-para000",
+      "openstax-college-success-p203-para003"
+    ],
+    "context_chars": 1583,
+    "elapsed_ms": 39.350800012471154,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "What two core methods are described for improving concentration and effectiveness while studying?",
+    "strategy": "Dense (all-MiniLM-L6-v2)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 212,
+        "evidence": "Two\nmajor and interrelated techniques involve avoiding distractions to the best of your ability and creating a study\nenvironment that works to help you concentrate."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p217-para002",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 217,
+        "text": "Three Effective Study Strategies\nThere are more than three study strategies, but focusing on the most effective strategies will make an\nenormous difference in how well you will be able to demonstrate learning (also known as “acing your tests”). Here is a brief overview of each of the three strategies:\n• Spacing—This has to do with when you study. Hint: Don’t cram; study over a period of days, preferably\nwith “breaks” in between. • Interleaving—This has to do with what you study. Hint: Don’t study just one type of content, topic,\nchapter, or unit at a time; instead, mix up the content when you study. • Practice testing—This has to do with how you study. Hint: Don’t just reread content. You must quiz or test\nyour ability to retrieve the information from your brain.",
+        "metadata": {
+          "chapter": 6,
+          "chunk_type": "by_paragraph",
+          "char_length": 773,
+          "chapter_title": "Studying, Memory, and Test Taking"
+        },
+        "score": 0.6477631529065141,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p212-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 212,
+        "text": "Preparing to Study\nStudying is hard work, but you can still learn some techniques to help you be a more effective learner. Two\nmajor and interrelated techniques involve avoiding distractions to the best of your ability and creating a study\nenvironment that works to help you concentrate. Avoiding Distractions\nWe have always had distractions—video games, television shows, movies, music, friends—even housecleaning\ncan distract us from doing something else we need to do, like study for an exam. That may seem extreme, but\nsometimes vacuuming is the preferred activity to buckling down and working through calculus problems! Cell\nphones, tablets, and portable computers that literally bring a world of possibilities to us anywhere have\nbrought distraction to an entirely new level.",
+        "metadata": {
+          "chapter": 6,
+          "chunk_type": "by_paragraph",
+          "char_length": 781,
+          "chapter_title": "Studying, Memory, and Test Taking"
+        },
+        "score": 0.6383926608737278,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "openstax-college-success-p229-para002",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 229,
+        "text": "Choose a topic from the list below and create an annotated bibliography that\nwould direct further research. • the importance of memory in learning new material\n• strategies to increase memory\n• strategies to increase the effectiveness of studying\n• test anxiety\nChapter 6 Studying, Memory, and Test Taking 219",
+        "metadata": {
+          "chapter": 6,
+          "chunk_type": "by_paragraph",
+          "char_length": 309,
+          "chapter_title": "Studying, Memory, and Test Taking"
+        },
+        "score": 0.575935772764778,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-college-success-p217-para002 | starter/data/College_Success_web.pdf | page 217]\nThree Effective Study Strategies\nThere are more than three study strategies, but focusing on the most effective strategies will make an\nenormous difference in how well you will be able to demonstrate learning (also known as “acing your tests”). Here is a brief overview of each of the three strategies:\n• Spacing—This has to do with when you study. Hint: Don’t cram; study over a period of days, preferably\nwith “breaks” in between. • Interleaving—This has to do with what you study. Hint: Don’t study just one type of content, topic,\nchapter, or unit at a time; instead, mix up the content when you study. • Practice testing—This has to do with how you study. Hint: Don’t just reread content. You must quiz or test\nyour ability to retrieve the information from your brain.\n\n[openstax-college-success-p212-para000 | starter/data/College_Success_web.pdf | page 212]\nPreparing to Study\nStudying is hard work, but you can still learn some techniques to help you be a more effective learner. Two\nmajor and interrelated techniques involve avoiding distractions to the best of your ability and creating a study\nenvironment that works to help you concentrate. Avoiding Distractions\nWe have always had distractions—video games, television shows, movies, music, friends—even housecleaning\ncan distract us from doing something else we need to do, like study for an exam. That may seem extreme, but\nsometimes vacuuming is the preferred activity to buckling down and working through calculus problems! Cell\nphones, tablets, and portable computers that literally bring a world of possibilities to us anywhere have\nbrought distraction to an entirely new level.\n\n[openstax-college-success-p229-para002 | starter/data/College_Success_web.pdf | page 229]\nChoose a topic from the list below and create an annotated bibliography that\nwould direct further research. • the importance of memory in learning new material\n• strategies to increase memory\n• strategies to increase the effectiveness of studying\n• test anxiety\nChapter 6 Studying, Memory, and Test Taking 219",
+    "context_ids": [
+      "openstax-college-success-p217-para002",
+      "openstax-college-success-p212-para000",
+      "openstax-college-success-p229-para002"
+    ],
+    "context_chars": 2137,
+    "elapsed_ms": 39.24499999266118,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "How has technological advancement impacted interpersonal interaction rules and protocols?",
+    "strategy": "Dense (all-MiniLM-L6-v2)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 268,
+        "evidence": "Technology has created new rules for communication because of the different structures of communication,\neverything from emoji protocols, to truncated words and spelling, to etiquette and how we form\ncommunication networks."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p280-para001",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 280,
+        "text": "In this way\nyour communication with others will be positive and allow you to be productive in all aspects of your life. AN AL Y SIS QUESTION\nTechnology has definitely had an effect on our society. Think about how it has this effect. • Is that cell phone in your pocket something that has made life better? • Are we empowering those who most often don’t have access to power in our society? • Or are we further alienating them? • Does the ability to access global communications create people who are more open and free with\ntheir ideas? • Is an email to a colleague in another country more significant than a snail mail letter? • Are there any new platforms or apps that you are reluctant to try? GE T CONNEC TED\nInformation is processed and transferred faster than ever.",
+        "metadata": {
+          "chapter": 8,
+          "chunk_type": "by_paragraph",
+          "char_length": 771,
+          "chapter_title": "Communicating"
+        },
+        "score": 0.5687563022437852,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p271-para002",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 271,
+        "text": "Questions to Consider:\n• Is technology vital to your ability to communicate well? • Are there rules to follow when using communication technology? • How do you take control of your online communication? “Now we know that once computers connected us to each other, once we became tethered to\nthe network, we really didn’t need to keep computers busy. They keep us busy.”\n— Sherry Turkle[7]\nIs Technology Vital to Your Ability to Communicate Well? Over a billion people use chat rooms, mailing lists, instant messengers, social network services, newsgroups,\ngames, wikis, blogs, and more in order to share social relationships and organize collective action. Everything\nis connected: people, information, events, and places, all the more so with the advent of online social media.",
+        "metadata": {
+          "chapter": 8,
+          "chunk_type": "by_paragraph",
+          "char_length": 778,
+          "chapter_title": "Communicating"
+        },
+        "score": 0.5536512079162065,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p272-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 272,
+        "text": "inventions, and trying to do so is perhaps only a step backward in an evolutionary sense. Therefore it is\nimportant that we learn to adapt our behavior to include the new inventions. Technology, after all, is an\nextension of the human mind, and the new technologies are only tools we have created over years of\nfashioning new ways to do things. We continue to move from simple to complex tools. Advancements of technology go hand in hand with\nchanges in communication options. The telegraph was replaced with landlines, those went out of style as the\ncordless phone became available, and this phone eventually morphed to a cell phone. When the Internet\nbecame accessible by cell phone, cell phones became devices that revolutionized personal communication.",
+        "metadata": {
+          "chapter": 8,
+          "chunk_type": "by_paragraph",
+          "char_length": 756,
+          "chapter_title": "Communicating"
+        },
+        "score": 0.5437172804746087,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-college-success-p280-para001 | starter/data/College_Success_web.pdf | page 280]\nIn this way\nyour communication with others will be positive and allow you to be productive in all aspects of your life. AN AL Y SIS QUESTION\nTechnology has definitely had an effect on our society. Think about how it has this effect. • Is that cell phone in your pocket something that has made life better? • Are we empowering those who most often don’t have access to power in our society? • Or are we further alienating them? • Does the ability to access global communications create people who are more open and free with\ntheir ideas? • Is an email to a colleague in another country more significant than a snail mail letter? • Are there any new platforms or apps that you are reluctant to try? GE T CONNEC TED\nInformation is processed and transferred faster than ever.\n\n[openstax-college-success-p271-para002 | starter/data/College_Success_web.pdf | page 271]\nQuestions to Consider:\n• Is technology vital to your ability to communicate well? • Are there rules to follow when using communication technology? • How do you take control of your online communication? “Now we know that once computers connected us to each other, once we became tethered to\nthe network, we really didn’t need to keep computers busy. They keep us busy.”\n— Sherry Turkle[7]\nIs Technology Vital to Your Ability to Communicate Well? Over a billion people use chat rooms, mailing lists, instant messengers, social network services, newsgroups,\ngames, wikis, blogs, and more in order to share social relationships and organize collective action. Everything\nis connected: people, information, events, and places, all the more so with the advent of online social media.",
+    "context_ids": [
+      "openstax-college-success-p280-para001",
+      "openstax-college-success-p271-para002"
+    ],
+    "context_chars": 1731,
+    "elapsed_ms": 35.53609998198226,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "Under what condition does OpenStax permit remixing and distributing the textbook material?",
+    "strategy": "Dense (all-MiniLM-L6-v2)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 11,
+        "evidence": "which\nmeans that you can distribute, remix, and build upon the content, as long as you provide attribution to\nOpenStax and its content contributors."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p11-para001",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 11,
+        "text": "Through our\npartnerships with philanthropic foundations and our alliance with other educational resource organizations,\nOpenStax is breaking down the most common barriers to learning and empowering students and instructors\nto succeed. About OpenStax Resources\nCustomization\nCollege Success is licensed under a Creative Commons Attribution 4.0 International (CC BY) license, which\nmeans that you can distribute, remix, and build upon the content, as long as you provide attribution to\nOpenStax and its content contributors. Because our books are openly licensed, you are free to use the entire book or pick and choose the sections\nthat are most relevant to the needs of your course.",
+        "metadata": {
+          "chapter": 0,
+          "chunk_type": "by_paragraph",
+          "char_length": 681,
+          "chapter_title": "Preface"
+        },
+        "score": 0.6588505938176411,
+        "strategy": "dense",
+        "hit": true
+      },
+      {
+        "id": "openstax-college-success-p11-para002",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 11,
+        "text": "Feel free to remix the content by assigning your students\ncertain chapters and sections in your syllabus, in the order that you prefer. You can even provide a direct link\nin your syllabus to the sections in the web view of your book. Instructors also have the option of creating a customized version of their OpenStax book. The custom version\ncan be made available to students in low-cost print or digital form through their campus bookstore. Visit the\nInstructor Resources section of your book page on openstax.org for more information. Art Attribution in College Success\nIn College Success, most art contains attribution to its title, creator or rights holder, host platform, and license\nwithin the caption.",
+        "metadata": {
+          "chapter": 0,
+          "chunk_type": "by_paragraph",
+          "char_length": 709,
+          "chapter_title": "Preface"
+        },
+        "score": 0.6380772975489905,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p11-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 11,
+        "text": "Welcome to College Success, an OpenStax resource. This textbook was written to increase student access to\nhigh-quality learning materials, maintaining highest standards of academic rigor at little to no cost. About OpenStax\nOpenStax is a nonprofit based at Rice University, and it’s our mission to improve student access to education. Our first openly licensed college textbook was published in 2012, and our library has since scaled to over 35\nbooks for college and AP® courses used by hundreds of thousands of students. OpenStax Tutor, our low-cost\npersonalized learning tool, is being piloted in college courses throughout the country.",
+        "metadata": {
+          "chapter": 0,
+          "chunk_type": "by_paragraph",
+          "char_length": 638,
+          "chapter_title": "Preface"
+        },
+        "score": 0.6312768084449276,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-college-success-p11-para001 | starter/data/College_Success_web.pdf | page 11]\nThrough our\npartnerships with philanthropic foundations and our alliance with other educational resource organizations,\nOpenStax is breaking down the most common barriers to learning and empowering students and instructors\nto succeed. About OpenStax Resources\nCustomization\nCollege Success is licensed under a Creative Commons Attribution 4.0 International (CC BY) license, which\nmeans that you can distribute, remix, and build upon the content, as long as you provide attribution to\nOpenStax and its content contributors. Because our books are openly licensed, you are free to use the entire book or pick and choose the sections\nthat are most relevant to the needs of your course.\n\n[openstax-college-success-p11-para002 | starter/data/College_Success_web.pdf | page 11]\nFeel free to remix the content by assigning your students\ncertain chapters and sections in your syllabus, in the order that you prefer. You can even provide a direct link\nin your syllabus to the sections in the web view of your book. Instructors also have the option of creating a customized version of their OpenStax book. The custom version\ncan be made available to students in low-cost print or digital form through their campus bookstore. Visit the\nInstructor Resources section of your book page on openstax.org for more information. Art Attribution in College Success\nIn College Success, most art contains attribution to its title, creator or rights holder, host platform, and license\nwithin the caption.\n\n[openstax-college-success-p11-para000 | starter/data/College_Success_web.pdf | page 11]\nWelcome to College Success, an OpenStax resource. This textbook was written to increase student access to\nhigh-quality learning materials, maintaining highest standards of academic rigor at little to no cost. About OpenStax\nOpenStax is a nonprofit based at Rice University, and it’s our mission to improve student access to education. Our first openly licensed college textbook was published in 2012, and our library has since scaled to over 35\nbooks for college and AP® courses used by hundreds of thousands of students. OpenStax Tutor, our low-cost\npersonalized learning tool, is being piloted in college courses throughout the country.",
+    "context_ids": [
+      "openstax-college-success-p11-para001",
+      "openstax-college-success-p11-para002",
+      "openstax-college-success-p11-para000"
+    ],
+    "context_chars": 2296,
+    "elapsed_ms": 38.25620000134222,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "In Chapter 6 on studying and memory, what two interrelated techniques help students become more effective learners?",
+    "strategy": "Dense (all-MiniLM-L6-v2)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 212,
+        "evidence": "Two\nmajor and interrelated techniques involve avoiding distractions to the best of your ability and creating a study\nenvironment that works to help you concentrate."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p229-para002",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 229,
+        "text": "Choose a topic from the list below and create an annotated bibliography that\nwould direct further research. • the importance of memory in learning new material\n• strategies to increase memory\n• strategies to increase the effectiveness of studying\n• test anxiety\nChapter 6 Studying, Memory, and Test Taking 219",
+        "metadata": {
+          "chapter": 6,
+          "chunk_type": "by_paragraph",
+          "char_length": 309,
+          "chapter_title": "Studying, Memory, and Test Taking"
+        },
+        "score": 0.6726698206577557,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p215-para002",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 215,
+        "text": "You can make the most of\nthe memory you have by making some conscious decisions about how you study and prepare for exams. Incorporate these ideas into your study sessions:\nPracticing effective memorization is when you use a trick, technique, or strategy to recall something—for\nanother class, an exam, or even to bring up an acquaintance’s name in a social situation. Really whatever\nworks for you to recall information is a good tool to have. You can create your own quizzes and tests to go\nover material from class. You can use mnemonics to jog your memory. You can work in groups to develop\nunique ways to remember complex information. Whatever methods you choose to enhance your memory,\nkeep in mind that repetition is one of the most effective tools in any memory strategy.",
+        "metadata": {
+          "chapter": 6,
+          "chunk_type": "by_paragraph",
+          "char_length": 779,
+          "chapter_title": "Studying, Memory, and Test Taking"
+        },
+        "score": 0.6689533467768962,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p217-para002",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 217,
+        "text": "Three Effective Study Strategies\nThere are more than three study strategies, but focusing on the most effective strategies will make an\nenormous difference in how well you will be able to demonstrate learning (also known as “acing your tests”). Here is a brief overview of each of the three strategies:\n• Spacing—This has to do with when you study. Hint: Don’t cram; study over a period of days, preferably\nwith “breaks” in between. • Interleaving—This has to do with what you study. Hint: Don’t study just one type of content, topic,\nchapter, or unit at a time; instead, mix up the content when you study. • Practice testing—This has to do with how you study. Hint: Don’t just reread content. You must quiz or test\nyour ability to retrieve the information from your brain.",
+        "metadata": {
+          "chapter": 6,
+          "chunk_type": "by_paragraph",
+          "char_length": 773,
+          "chapter_title": "Studying, Memory, and Test Taking"
+        },
+        "score": 0.6667953354288431,
+        "strategy": "dense",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-college-success-p229-para002 | starter/data/College_Success_web.pdf | page 229]\nChoose a topic from the list below and create an annotated bibliography that\nwould direct further research. • the importance of memory in learning new material\n• strategies to increase memory\n• strategies to increase the effectiveness of studying\n• test anxiety\nChapter 6 Studying, Memory, and Test Taking 219\n\n[openstax-college-success-p215-para002 | starter/data/College_Success_web.pdf | page 215]\nYou can make the most of\nthe memory you have by making some conscious decisions about how you study and prepare for exams. Incorporate these ideas into your study sessions:\nPracticing effective memorization is when you use a trick, technique, or strategy to recall something—for\nanother class, an exam, or even to bring up an acquaintance’s name in a social situation. Really whatever\nworks for you to recall information is a good tool to have. You can create your own quizzes and tests to go\nover material from class. You can use mnemonics to jog your memory. You can work in groups to develop\nunique ways to remember complex information. Whatever methods you choose to enhance your memory,\nkeep in mind that repetition is one of the most effective tools in any memory strategy.\n\n[openstax-college-success-p217-para002 | starter/data/College_Success_web.pdf | page 217]\nThree Effective Study Strategies\nThere are more than three study strategies, but focusing on the most effective strategies will make an\nenormous difference in how well you will be able to demonstrate learning (also known as “acing your tests”). Here is a brief overview of each of the three strategies:\n• Spacing—This has to do with when you study. Hint: Don’t cram; study over a period of days, preferably\nwith “breaks” in between. • Interleaving—This has to do with what you study. Hint: Don’t study just one type of content, topic,\nchapter, or unit at a time; instead, mix up the content when you study. • Practice testing—This has to do with how you study. Hint: Don’t just reread content. You must quiz or test\nyour ability to retrieve the information from your brain.",
+    "context_ids": [
+      "openstax-college-success-p229-para002",
+      "openstax-college-success-p215-para002",
+      "openstax-college-success-p217-para002"
+    ],
+    "context_chars": 2135,
+    "elapsed_ms": 4.851099976804107,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q25",
+    "split": "test",
+    "question": "In Chapter 3 on time management, what do the five SMART goal attributes represent, and why are they considered desirable?",
+    "strategy": "Dense (all-MiniLM-L6-v2)",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 112,
+        "evidence": "Measurable, Attainable, Relevant, and Time-bound. The\nreason these are all desirable traits for your goals is because they not only help you plan how to meet the goal,\nbut they can also contribute to your decision-making processes during the planning stage."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-college-success-p113-para000",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 113,
+        "text": "In the following table you can see some examples of goals that do and do not follow the SMART system. As\nyou read each one, think about what elements make them SMART or how you might change those that are\nnot. Goal Is it\nSMART? I am going to be rich\nsomeday. No There is nothing really specific, measurable, or time-bound in this\ngoal. I will graduate with my\ndegree, on time. Yes The statement calls out specific, measureable, and time-bound\ndetails. The other attributes of attainable and relevant are\nimplied. I am going to save\nenough money to buy a\nnewer car by June. Yes All SMART attributes are covered in this goal. I would like to do well in\nall my courses next\nsemester.",
+        "metadata": {
+          "chapter": 3,
+          "chunk_type": "by_paragraph",
+          "char_length": 680,
+          "chapter_title": "Managing Your Time and Priorities"
+        },
+        "score": 0.6872798674877725,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p113-para001",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 113,
+        "text": "No While this is clearly time-bound and meets most of the SMART\ngoal attributes, it is not specific or measurable without defining\nwhat “do well” means. I am going to start being\na nicer person. No While most of the SMART attributes are implied, there is nothing\nreally measurable in this goal. I will earn at least a 3.0\nGPA in all my courses\nnext semester. Yes All of the SMART attributes are present in this goal. I am going to start being\nmore organized. No While most of the SMART attributes are implied, there is nothing\nreally measurable in this goal. Table 3.6\nMake an Action Plan\nLike anything else, making a step-by-step action plan of how you will attain your goals is the best way to make\ncertain you achieve them.",
+        "metadata": {
+          "chapter": 3,
+          "chunk_type": "by_paragraph",
+          "char_length": 726,
+          "chapter_title": "Managing Your Time and Priorities"
+        },
+        "score": 0.6015779784186244,
+        "strategy": "dense",
+        "hit": false
+      },
+      {
+        "id": "openstax-college-success-p112-para002",
+        "source_id": "openstax-college-success",
+        "source": "starter/data/College_Success_web.pdf",
+        "page": 112,
+        "text": "In this case, the word smart is not only a clever description of the type of goal,\nbut it is also an acronym that stands for Specific, Measurable, Attainable, Relevant, and Time-bound. The\nreason these are all desirable traits for your goals is because they not only help you plan how to meet the goal,\nbut they can also contribute to your decision-making processes during the planning stage. What does it mean to create SMART goals? • Specific—For a goal to be specific, it must be defined enough to actually determine the goal. A goal of get\na good job when I graduate is too general. It doesn’t define what a good job is. In fact, it doesn’t even\nnecessarily include a job in your chosen profession.",
+        "metadata": {
+          "chapter": 3,
+          "chunk_type": "by_paragraph",
+          "char_length": 702,
+          "chapter_title": "Managing Your Time and Priorities"
+        },
+        "score": 0.5805579820062028,
+        "strategy": "dense",
+        "hit": true
+      }
+    ],
+    "context": "[openstax-college-success-p113-para000 | starter/data/College_Success_web.pdf | page 113]\nIn the following table you can see some examples of goals that do and do not follow the SMART system. As\nyou read each one, think about what elements make them SMART or how you might change those that are\nnot. Goal Is it\nSMART? I am going to be rich\nsomeday. No There is nothing really specific, measurable, or time-bound in this\ngoal. I will graduate with my\ndegree, on time. Yes The statement calls out specific, measureable, and time-bound\ndetails. The other attributes of attainable and relevant are\nimplied. I am going to save\nenough money to buy a\nnewer car by June. Yes All SMART attributes are covered in this goal. I would like to do well in\nall my courses next\nsemester.\n\n[openstax-college-success-p113-para001 | starter/data/College_Success_web.pdf | page 113]\nNo While this is clearly time-bound and meets most of the SMART\ngoal attributes, it is not specific or measurable without defining\nwhat “do well” means. I am going to start being\na nicer person. No While most of the SMART attributes are implied, there is nothing\nreally measurable in this goal. I will earn at least a 3.0\nGPA in all my courses\nnext semester. Yes All of the SMART attributes are present in this goal. I am going to start being\nmore organized. No While most of the SMART attributes are implied, there is nothing\nreally measurable in this goal. Table 3.6\nMake an Action Plan\nLike anything else, making a step-by-step action plan of how you will attain your goals is the best way to make\ncertain you achieve them.\n\n[openstax-college-success-p112-para002 | starter/data/College_Success_web.pdf | page 112]\nIn this case, the word smart is not only a clever description of the type of goal,\nbut it is also an acronym that stands for Specific, Measurable, Attainable, Relevant, and Time-bound. The\nreason these are all desirable traits for your goals is because they not only help you plan how to meet the goal,\nbut they can also contribute to your decision-making processes during the planning stage. What does it mean to create SMART goals? • Specific—For a goal to be specific, it must be defined enough to actually determine the goal. A goal of get\na good job when I graduate is too general. It doesn’t define what a good job is. In fact, it doesn’t even\nnecessarily include a job in your chosen profession.",
+    "context_ids": [
+      "openstax-college-success-p113-para000",
+      "openstax-college-success-p113-para001",
+      "openstax-college-success-p112-para002"
+    ],
+    "context_chars": 2382,
+    "elapsed_ms": 6.168400024762377,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  }
+]

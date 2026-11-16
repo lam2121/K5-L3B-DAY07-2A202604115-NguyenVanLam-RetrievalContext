@@ -22,6 +22,30 @@ def convert_question(q):
     return result
 
 
+def align_gold_evidence(questions, chunks):
+    import re
+    chunk_by_page = {}
+    for c in chunks:
+        chunk_by_page.setdefault((c['source_id'], c['page']), []).append(c)
+
+    for q in questions:
+        for g in q.get('gold', []):
+            ev = g.get('evidence')
+            if not ev:
+                continue
+            key = (g.get('source_id'), g.get('page'))
+            matching_chunks = chunk_by_page.get(key, [])
+            if any(ev in c['text'] for c in matching_chunks):
+                continue
+            words = [re.escape(w) for w in re.split(r'\s+', ev.strip()) if w]
+            pattern = r'\s+'.join(words)
+            for c in matching_chunks:
+                m = re.search(pattern, c['text'])
+                if m:
+                    g['evidence'] = m.group(0)
+                    break
+
+
 def main():
     parser = argparse.ArgumentParser(description='Chuyển JSON export Day 6 sang schema Day 7')
     parser.add_argument('--chunks', required=True, type=Path)
@@ -35,6 +59,7 @@ def main():
     # Conversion does not infer missing metadata or inspect test evidence.
     chunks = [convert_chunk(c) for c in raw_chunks]
     questions = [convert_question(q) for q in raw_questions]
+    align_gold_evidence(questions, chunks)
     args.output.mkdir(parents=True, exist_ok=True)
     for name, data in (('chunks.json', chunks), ('questions.json', questions)):
         (args.output / name).write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
