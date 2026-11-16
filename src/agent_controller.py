@@ -197,7 +197,7 @@ class AnthropicController:
         if not self.api_key:
             raise ValueError("ANTHROPIC_API_KEY is not set.")
         self.client = anthropic.Anthropic(api_key=self.api_key)
-        self.model = model or os.getenv("LLM_MODEL", "claude-3-5-haiku-20241022")
+        self.model = model or os.getenv("LLM_MODEL", "claude-haiku-5-5")
         self.fallback_model = fallback_model or os.getenv("FALLBACK_LLM_MODEL", "claude-3-haiku-20240307")
 
     def decide(self, question: str, history: list[dict[str, Any]]) -> dict[str, Any]:
@@ -348,7 +348,7 @@ def get_controller(model: str | None = None, fallback_model: str | None = None, 
     if provider == "anthropic" or (anthropic_key and not provider):
         print("[Controller] Using Anthropic Direct API")
         return AnthropicController(
-            model=model or os.getenv("LLM_MODEL", "claude-3-5-haiku-20241022"),
+            model=model or os.getenv("LLM_MODEL", "claude-haiku-5-5"),
             fallback_model=fallback_model or os.getenv("FALLBACK_LLM_MODEL", "claude-3-haiku-20240307")
         )
     print("[Controller] Using OpenRouter API")

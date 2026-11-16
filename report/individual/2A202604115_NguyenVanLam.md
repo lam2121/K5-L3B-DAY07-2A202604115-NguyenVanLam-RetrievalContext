@@ -21,7 +21,7 @@
   - Embedding Model: `sentence-transformers/all-MiniLM-L6-v2` (phiên bản chuẩn HuggingFace), số chiều vector: **384 dimensions**, khoảng cách cosine distance.
 
 - **Agent model, cách chạy và phân chia dev/test:**
-  - Agent Model: Sử dụng LLM controller thật kết nối qua OpenRouter API với model chính là **`meta-llama/llama-3.3-70b-instruct`** (và model dự phòng fallback: `nvidia/nemotron-3.5-super-vl:free`).
+  - Agent Model: Sử dụng LLM controller thật kết nối qua OpenRouter API với model chính là **`meta-llama/llama-3.3-70b-instruct`** (và model dự phòng fallback: `nvidia/nemotron-3.5-super-vl:free`) cho phần cơ bản. Đối với phần **Thử thách nâng cao (Advanced Challenge)**, hệ thống sử dụng trực tiếp **Anthropic Claude 5.5 Haiku** (`claude-haiku-5-5`) kết nối qua Anthropic Messages API với cơ chế xử lý ThinkingBlock chuyên sâu.
   - Bộ điều khiển Controller: Được cấu hình trong `src/agent_controller.py`, ép chuẩn cấu trúc JSON Output (`response_format={"type": "json_object"}`), tự động xử lý Rate Limit (HTTP 429) và lỗi máy chủ mạng với cơ chế thử lại (exponential backoff 3 lần: 2s, 4s, 8s).
   - Phân chia Benchmark: Tổng cộng 29 ca kiểm thử (theo `data/converted/agent_cases.json`):
     - **Dev Split:** 21 câu (19 câu có bằng chứng `q01`–`q15`, `q21`–`q24` + 2 câu không có bằng chứng `u_dev_01`, `u_dev_02`).
@@ -163,7 +163,7 @@
 
 - **3. Kiến trúc Retrieval & Agent Controller:**
   - *Advanced Hybrid Retriever (`src/advanced_retriever.py`):* Kết hợp thuật toán xếp hạng tương hỗ **Reciprocal Rank Fusion (RRF, $k=60$)** giữa Dense Cosine Similarity (biểu diễn ngữ nghĩa) và BM25 Okapi (truy xuất từ khóa/mã hiệu bảng/hình). Tích hợp cơ chế **Entity Mention Boosting** tự động tăng hạng cho các chunk có mã định danh thực thể (như `Figure 7.7`, `Table 4.2`, `Map 6.1`).
-  - *Controller & ThinkingBlock Extraction (`src/agent_controller.py`):* Sử dụng **Anthropic Claude 3.5 Haiku** (`AnthropicController`), hỗ trợ bóc tách khối suy luận mở rộng (`ThinkingBlock`) và khối văn bản (`TextBlock`), tích hợp hàm chuẩn hóa `normalize_action()` đảm bảo 100% trích dẫn `[chunk-id]` khớp chính xác với ngữ cảnh tích lũy, loại bỏ hoàn toàn hiện tượng citation không hợp lệ.
+  - *Controller & ThinkingBlock Extraction (`src/agent_controller.py`):* Sử dụng **Anthropic Claude 5.5 Haiku** (`claude-haiku-5-5`, triển khai tại `AnthropicController`), hỗ trợ bóc tách khối suy luận mở rộng (`ThinkingBlock`) và khối văn bản (`TextBlock`), tích hợp hàm chuẩn hóa `normalize_action()` đảm bảo 100% trích dẫn `[chunk-id]` khớp chính xác với ngữ cảnh tích lũy, loại bỏ hoàn toàn hiện tượng citation không hợp lệ.
 
 - **4. Thiết kế Bộ Benchmark Độc lập (`data/advanced/benchmark_advanced.json`):**
   - Được xây dựng thủ công độc lập đối chiếu trực tiếp từ PDF gốc, chia thành 2 tập Dev và Test riêng biệt không trùng lặp:
