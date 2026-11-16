@@ -89,11 +89,13 @@
 | Cấu hình / split | Tool use | Số lượt gọi | Grounded answer 0/1/2 và trung bình | Citation hợp lệ | Câu có citation | Abstention đúng | Từ chối nhầm |
 |---|---|---|---|---|---|---|---|
 | dev-agent-baseline (budget=800, dense) | 21/21 (100%) | 29 | 0: 7, 1: 0, 2: 12 (tb: 1.26 / 2.0) | 12/12 (100%) | 12/12 (100%) | 2/2 (100%) | 7/19 (36.8%) |
+| dev-agent-rerank-800 (budget=800, rerank) | 21/21 (100%) | 29 | 0: 7, 1: 0, 2: 12 (tb: 1.26 / 2.0) | 12/12 (100%) | 12/12 (100%) | 2/2 (100%) | 7/19 (36.8%) |
 | dev-agent-bm25 (budget=3200, bm25) | 21/21 (100%) | 26 | 0: 6, 1: 0, 2: 13 (tb: 1.37 / 2.0) | 17/17 (100%) | 13/13 (100%) | 2/2 (100%) | 6/19 (31.6%) |
 | dev-agent-rerank (budget=3200, rerank) | 21/21 (100%) | 25 | 0: 5, 1: 0, 2: 14 (tb: 1.47 / 2.0) | 17/17 (100%) | 14/14 (100%) | 2/2 (100%) | 5/19 (26.3%) |
 | dev-agent-hybrid (budget=3200, hybrid) | 21/21 (100%) | 26 | 0: 4, 1: 0, 2: 15 (tb: 1.58 / 2.0) | 20/20 (100%) | 15/15 (100%) | 2/2 (100%) | 4/19 (21.1%) |
 | dev-agent-improved (budget=3200, dense) | 21/21 (100%) | 24 | 0: 4, 1: 0, 2: 15 (tb: 1.58 / 2.0) | 21/21 (100%) | 15/15 (100%) | 2/2 (100%) | 4/19 (21.1%) |
 | test-agent-baseline (budget=800, dense) | 8/8 (100%) | 13 | 0: 4, 1: 0, 2: 2 (tb: 0.67 / 2.0) | 2/2 (100%) | 2/2 (100%) | 2/2 (100%) | 4/6 (66.7%) |
+| test-agent-rerank-800 (budget=800, rerank) | 8/8 (100%) | 12 | 0: 4, 1: 0, 2: 2 (tb: 0.67 / 2.0) | 2/2 (100%) | 2/2 (100%) | 2/2 (100%) | 4/6 (66.7%) |
 | test-agent-bm25 (budget=3200, bm25) | 8/8 (100%) | 10 | 0: 2, 1: 0, 2: 4 (tb: 1.33 / 2.0) | 4/4 (100%) | 4/4 (100%) | 2/2 (100%) | 2/6 (33.3%) |
 | test-agent-hybrid (budget=3200, hybrid) | 8/8 (100%) | 10 | 0: 1, 1: 0, 2: 5 (tb: 1.67 / 2.0) | 6/6 (100%) | 5/5 (100%) | 2/2 (100%) | 1/6 (16.7%) |
 | **test-agent-rerank (budget=3200, rerank)** | **8/8 (100%)** | **9** | **0: 0, 1: 0, 2: 6 (tb: 2.00 / 2.0)** | **8/8 (100%)** | **6/6 (100%)** | **2/2 (100%)** | **0/6 (0.0%)** |
@@ -112,8 +114,8 @@
 
 - **Đường dẫn trace, nhãn, lệnh chạy, thời gian và chi phí:**
   - Thư mục lưu trữ kết quả và audit:
-    - Dev Runs: `starter/results/dev-agent-baseline/`, `dev-agent-improved/`, `dev-agent-bm25/`, `dev-agent-hybrid/`, `dev-agent-rerank/` (đầy đủ `traces.json`, `reviews.json`, `summary.json`).
-    - Test Runs: `starter/results/test-agent-baseline/`, `test-agent-improved/`, `test-agent-bm25/`, `test-agent-hybrid/`, `test-agent-rerank/` (đầy đủ `traces.json`, `reviews.json`, `summary.json`).
+    - Dev Runs: `starter/results/dev-agent-baseline/`, `dev-agent-rerank-800/`, `dev-agent-improved/`, `dev-agent-bm25/`, `dev-agent-hybrid/`, `dev-agent-rerank/` (đầy đủ `traces.json`, `reviews.json`, `summary.json`).
+    - Test Runs: `starter/results/test-agent-baseline/`, `test-agent-rerank-800/`, `test-agent-improved/`, `test-agent-bm25/`, `test-agent-hybrid/`, `test-agent-rerank/` (đầy đủ `traces.json`, `reviews.json`, `summary.json`).
   - Lệnh thực thi tái lập đánh giá Agent cho các phương pháp:
     ```bash
     # Chạy Agent với Dense Improved (budget 3200)
@@ -132,10 +134,11 @@
 
 - **Kết quả trước/sau, ví dụ lỗi, đánh đổi và giới hạn:**
   - *So sánh tương quan giữa các phương pháp trên Agent:*
+    - **Rerank chưa cải thiện (`dev/test-agent-rerank-800`, budget=800, max_searches=2):** Hiệu suất ngang bằng Baseline Dense — Dev đạt Grounded Answer 1.26/2.0 (12/19), Test chỉ đạt 0.67/2.0 (2/6), False Abstention lên tới 36.8% (dev) và 66.7% (test). Nguyên nhân: budget 800 ký tự chỉ chứa được 1 chunk duy nhất, vô hiệu hóa lợi thế reranking khi bằng chứng nằm ở Rank 2 hoặc 3.
     - **BM25 Lexical (`test-agent-bm25`):** Đạt điểm Grounded Answer 1.33/2.0 (4/6 câu đạt điểm 2), gặp khó khăn khi người dùng diễn đạt câu hỏi bằng từ đồng nghĩa khác từ ngữ trong sách, dẫn tới từ chối nhầm 2/6 câu (33.3%).
     - **Hybrid RRF (`test-agent-hybrid`):** Nâng điểm Grounded Answer lên 1.67/2.0 (5/6 câu đạt điểm 2), từ chối nhầm giảm xuống chỉ còn 1/6 câu (16.7%).
-    - **Dense & Retrieval + Rerank (`test-agent-improved` & `test-agent-rerank`):** Đạt **điểm số tuyệt đối 2.00 / 2.00 (100% Grounded Answer)**: 6/6 câu hỏi có đáp án đều được trả lời chính xác, trích dẫn chuẩn xác (**100% Citation Validity**), hoàn toàn không từ chối nhầm (**0/6 câu, 0.0% False Abstention**) và 2/2 câu unanswerable đều được từ chối an toàn (**100% Abstention**).
-  - *Độ tin cậy của Citation:* Tỷ lệ Citation Validity đạt **100% tuyệt đối** trên toàn bộ 10 cấu hình thử nghiệm — hoàn toàn không xảy ra hiện tượng hallucination.
+    - **Dense & Retrieval + Rerank cải thiện (`test-agent-improved` & `test-agent-rerank`):** Đạt **điểm số tuyệt đối 2.00 / 2.00 (100% Grounded Answer)**: 6/6 câu hỏi có đáp án đều được trả lời chính xác, trích dẫn chuẩn xác (**100% Citation Validity**), hoàn toàn không từ chối nhầm (**0/6 câu, 0.0% False Abstention**) và 2/2 câu unanswerable đều được từ chối an toàn (**100% Abstention**). So với bản chưa cải thiện (rerank-800), Grounded Answer tăng từ 0.67 lên **2.00/2.0** và False Abstention giảm từ 66.7% xuống **0.0%**.
+  - *Độ tin cậy của Citation:* Tỷ lệ Citation Validity đạt **100% tuyệt đối** trên toàn bộ 12 cấu hình thử nghiệm — hoàn toàn không xảy ra hiện tượng hallucination.
   - *Đánh đổi (Trade-offs):* Model Llama-3.3-70B có chi phí nhỏ (~$0.01) so với model miễn phí, nhưng mang lại khả năng đọc hiểu ngữ cảnh phức tạp và tuân thủ định dạng trích dẫn `[chunk-id]` vượt trội hơn hẳn, loại bỏ hoàn toàn các lỗi `invalid_or_missing_citations`. Phương pháp Rerank tốn thêm ~25ms tính điểm chéo nhưng giúp đẩy thứ hạng trích dẫn chính xác lên Top-1 (Hit@1 = 50.0%).
 
 ---

@@ -1,0 +1,794 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "question": "What is working memory and when is it utilized according to Chapter 6?",
+    "answerable": true,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "What is working memory and when is it utilized according to Chapter 6?",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-college-success-p204-para000",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 204,
+            "text": "Working Memory\nWorking memory is a type of short-term memory, but we use it when we are actively performing a task. For\nexample, nursing student Marilyn needs to use her knowledge of chemical reactions to suggest appropriate\nprescriptions in various medical case studies. She does not have to recall every single fact she learned in years\nof chemistry classes, but she does need to have a working memory of certain chemicals and how they work\nwith others. To ensure she can make these connections, Marilyn will have to review and study the relevant\nchemical details for the types of drug interactions she will recommend in the case studies. In working memory, you have access to whatever information you have stored in your memory that helps you\ncomplete the task you are performing.",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 783,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.84822517336766,
+            "strategy": "retrieval_rerank"
+          },
+          {
+            "id": "openstax-college-success-p203-para003",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 203,
+            "text": "Despite much research and\nexploration, a complete understanding of human memory does not exist.”[2]\nAN AL Y SIS QUESTION\nTake a few minutes to list ways you create memories on a daily basis. Do you think about how you make\nmemories? Do you do anything that helps you keep track of your memories? 1 NCBI. “What are the differences between long-term, short-term, and working memory?” https://www.ncbi.nlm.nih.gov/pmc/articles/\nPMC2657600/\n2 Sumrall, William, et. al. “A Review of Memory Theory.” International Journal of Humanities and Social Science, 2016. Vol. 6. No. 5. Chapter 6 Studying, Memory, and Test Taking 193",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 618,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.6630933759651316,
+            "strategy": "retrieval_rerank"
+          },
+          {
+            "id": "openstax-college-success-p203-para001",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 203,
+            "text": "Nelson Cowan is one researcher who is working to explain what we do know about memory. His article “What\nAre the Differences between Long-Term, Short-Term, and Working Memory?” breaks down the different types\nof memory and what happens when we recall thoughts and ideas. When we remember something, we actually\ndo quite a lot of thinking.[1]\nWe go through three basic steps when we remember ideas or images: we encode, store, and retrieve that\ninformation. Encoding is how we first perceive information through our senses, such as when we smell a lovely\nflower or a putrid trash bin. Both make an impression on our minds through our sense of smell and probably\nour vision. Our brains encode, or label, this content in short-term memory in case we want to think about it\nagain.",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 776,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.6130693647449454,
+            "strategy": "retrieval_rerank"
+          }
+        ],
+        "context": "[openstax-college-success-p203-para003 | starter/data/College_Success_web.pdf | page 203]\nDespite much research and\nexploration, a complete understanding of human memory does not exist.”[2]\nAN AL Y SIS QUESTION\nTake a few minutes to list ways you create memories on a daily basis. Do you think about how you make\nmemories? Do you do anything that helps you keep track of your memories? 1 NCBI. “What are the differences between long-term, short-term, and working memory?” https://www.ncbi.nlm.nih.gov/pmc/articles/\nPMC2657600/\n2 Sumrall, William, et. al. “A Review of Memory Theory.” International Journal of Humanities and Social Science, 2016. Vol. 6. No. 5. Chapter 6 Studying, Memory, and Test Taking 193",
+        "context_ids": [
+          "openstax-college-success-p203-para003"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "working memory definition and utilization in Chapter 6",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-college-success-p204-para000",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 204,
+            "text": "Working Memory\nWorking memory is a type of short-term memory, but we use it when we are actively performing a task. For\nexample, nursing student Marilyn needs to use her knowledge of chemical reactions to suggest appropriate\nprescriptions in various medical case studies. She does not have to recall every single fact she learned in years\nof chemistry classes, but she does need to have a working memory of certain chemicals and how they work\nwith others. To ensure she can make these connections, Marilyn will have to review and study the relevant\nchemical details for the types of drug interactions she will recommend in the case studies. In working memory, you have access to whatever information you have stored in your memory that helps you\ncomplete the task you are performing.",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 783,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.7737751099660575,
+            "strategy": "retrieval_rerank"
+          },
+          {
+            "id": "openstax-college-success-p203-para003",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 203,
+            "text": "Despite much research and\nexploration, a complete understanding of human memory does not exist.”[2]\nAN AL Y SIS QUESTION\nTake a few minutes to list ways you create memories on a daily basis. Do you think about how you make\nmemories? Do you do anything that helps you keep track of your memories? 1 NCBI. “What are the differences between long-term, short-term, and working memory?” https://www.ncbi.nlm.nih.gov/pmc/articles/\nPMC2657600/\n2 Sumrall, William, et. al. “A Review of Memory Theory.” International Journal of Humanities and Social Science, 2016. Vol. 6. No. 5. Chapter 6 Studying, Memory, and Test Taking 193",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 618,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.6588569921848328,
+            "strategy": "retrieval_rerank"
+          },
+          {
+            "id": "openstax-college-success-p204-para001",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 204,
+            "text": "For instance, when you begin to study an assignment, you certainly\nneed to read the directions, but you must also remember that in class your professor reduced the number of\nproblem sets the written instructions indicated you needed to finish. This was an oral addition to the written\nassignment. The change to the instructions is what you bring up in working memory when you complete the\nassignment. Short-Term Memory\nShort-term memory is a very handy thing. It helps us remember where we set our keys or where we left off on\na project the day before. Think about all the aids we employ to help us with short-term memory: you may hang\nyour keys in a particular place each evening so you know exactly where they are supposed to be.",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 731,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.42627351916718526,
+            "strategy": "retrieval_rerank"
+          }
+        ],
+        "context": "[openstax-college-success-p203-para003 | starter/data/College_Success_web.pdf | page 203]\nDespite much research and\nexploration, a complete understanding of human memory does not exist.”[2]\nAN AL Y SIS QUESTION\nTake a few minutes to list ways you create memories on a daily basis. Do you think about how you make\nmemories? Do you do anything that helps you keep track of your memories? 1 NCBI. “What are the differences between long-term, short-term, and working memory?” https://www.ncbi.nlm.nih.gov/pmc/articles/\nPMC2657600/\n2 Sumrall, William, et. al. “A Review of Memory Theory.” International Journal of Humanities and Social Science, 2016. Vol. 6. No. 5. Chapter 6 Studying, Memory, and Test Taking 193",
+        "context_ids": [
+          "openstax-college-success-p203-para003"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 2024.05
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "What two core methods are described for improving concentration and effectiveness while studying?",
+    "answerable": true,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "What two core methods are described for improving concentration and effectiveness while studying?",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-college-success-p212-para000",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 212,
+            "text": "Preparing to Study\nStudying is hard work, but you can still learn some techniques to help you be a more effective learner. Two\nmajor and interrelated techniques involve avoiding distractions to the best of your ability and creating a study\nenvironment that works to help you concentrate. Avoiding Distractions\nWe have always had distractions—video games, television shows, movies, music, friends—even housecleaning\ncan distract us from doing something else we need to do, like study for an exam. That may seem extreme, but\nsometimes vacuuming is the preferred activity to buckling down and working through calculus problems! Cell\nphones, tablets, and portable computers that literally bring a world of possibilities to us anywhere have\nbrought distraction to an entirely new level.",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 781,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.5590864475086942,
+            "strategy": "retrieval_rerank"
+          },
+          {
+            "id": "openstax-college-success-p217-para002",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 217,
+            "text": "Three Effective Study Strategies\nThere are more than three study strategies, but focusing on the most effective strategies will make an\nenormous difference in how well you will be able to demonstrate learning (also known as “acing your tests”). Here is a brief overview of each of the three strategies:\n• Spacing—This has to do with when you study. Hint: Don’t cram; study over a period of days, preferably\nwith “breaks” in between. • Interleaving—This has to do with what you study. Hint: Don’t study just one type of content, topic,\nchapter, or unit at a time; instead, mix up the content when you study. • Practice testing—This has to do with how you study. Hint: Don’t just reread content. You must quiz or test\nyour ability to retrieve the information from your brain.",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 773,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.5093335439983738,
+            "strategy": "retrieval_rerank"
+          },
+          {
+            "id": "openstax-college-success-p229-para002",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 229,
+            "text": "Choose a topic from the list below and create an annotated bibliography that\nwould direct further research. • the importance of memory in learning new material\n• strategies to increase memory\n• strategies to increase the effectiveness of studying\n• test anxiety\nChapter 6 Studying, Memory, and Test Taking 219",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 309,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.3870051317928782,
+            "strategy": "retrieval_rerank"
+          }
+        ],
+        "context": "[openstax-college-success-p229-para002 | starter/data/College_Success_web.pdf | page 229]\nChoose a topic from the list below and create an annotated bibliography that\nwould direct further research. • the importance of memory in learning new material\n• strategies to increase memory\n• strategies to increase the effectiveness of studying\n• test anxiety\nChapter 6 Studying, Memory, and Test Taking 219",
+        "context_ids": [
+          "openstax-college-success-p229-para002"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "improving concentration and effectiveness while studying methods",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-college-success-p212-para000",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 212,
+            "text": "Preparing to Study\nStudying is hard work, but you can still learn some techniques to help you be a more effective learner. Two\nmajor and interrelated techniques involve avoiding distractions to the best of your ability and creating a study\nenvironment that works to help you concentrate. Avoiding Distractions\nWe have always had distractions—video games, television shows, movies, music, friends—even housecleaning\ncan distract us from doing something else we need to do, like study for an exam. That may seem extreme, but\nsometimes vacuuming is the preferred activity to buckling down and working through calculus problems! Cell\nphones, tablets, and portable computers that literally bring a world of possibilities to us anywhere have\nbrought distraction to an entirely new level.",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 781,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.5591675815332874,
+            "strategy": "retrieval_rerank"
+          },
+          {
+            "id": "openstax-college-success-p217-para002",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 217,
+            "text": "Three Effective Study Strategies\nThere are more than three study strategies, but focusing on the most effective strategies will make an\nenormous difference in how well you will be able to demonstrate learning (also known as “acing your tests”). Here is a brief overview of each of the three strategies:\n• Spacing—This has to do with when you study. Hint: Don’t cram; study over a period of days, preferably\nwith “breaks” in between. • Interleaving—This has to do with what you study. Hint: Don’t study just one type of content, topic,\nchapter, or unit at a time; instead, mix up the content when you study. • Practice testing—This has to do with how you study. Hint: Don’t just reread content. You must quiz or test\nyour ability to retrieve the information from your brain.",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 773,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.4234575561984984,
+            "strategy": "retrieval_rerank"
+          },
+          {
+            "id": "openstax-college-success-p229-para002",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 229,
+            "text": "Choose a topic from the list below and create an annotated bibliography that\nwould direct further research. • the importance of memory in learning new material\n• strategies to increase memory\n• strategies to increase the effectiveness of studying\n• test anxiety\nChapter 6 Studying, Memory, and Test Taking 219",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 309,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.3409627174687528,
+            "strategy": "retrieval_rerank"
+          }
+        ],
+        "context": "[openstax-college-success-p229-para002 | starter/data/College_Success_web.pdf | page 229]\nChoose a topic from the list below and create an annotated bibliography that\nwould direct further research. • the importance of memory in learning new material\n• strategies to increase memory\n• strategies to increase the effectiveness of studying\n• test anxiety\nChapter 6 Studying, Memory, and Test Taking 219",
+        "context_ids": [
+          "openstax-college-success-p229-para002"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 1907.55
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "How has technological advancement impacted interpersonal interaction rules and protocols?",
+    "answerable": true,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "How has technological advancement impacted interpersonal interaction rules and protocols?",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-college-success-p279-para001",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 279,
+            "text": "Evolving Our Strategies to Match Our Evolving Technologies\nCommunication has changed because of the way we are using technology. Yes, we still write and talk, but\nwhere and how? There are myriad social media platforms that you can use for communication, from Snapchat\nto Twitter, each with its own set of rules and limitations. These platforms have completely changed many of\nthe ways we transfer ideas and information, find romantic partners, keep in touch with friends and family,\nconnect with our professors and classmates, make plans with teammates, look for employment, and so much\nmore. When using a device for communication, there are fewer nonverbal cues we can pick up on, only what the\nother person is posting or showing.",
+            "metadata": {
+              "chapter": 8,
+              "chunk_type": "by_paragraph",
+              "char_length": 731,
+              "chapter_title": "Communicating"
+            },
+            "score": 0.5799046526990836,
+            "strategy": "retrieval_rerank"
+          },
+          {
+            "id": "openstax-college-success-p280-para001",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 280,
+            "text": "In this way\nyour communication with others will be positive and allow you to be productive in all aspects of your life. AN AL Y SIS QUESTION\nTechnology has definitely had an effect on our society. Think about how it has this effect. • Is that cell phone in your pocket something that has made life better? • Are we empowering those who most often don’t have access to power in our society? • Or are we further alienating them? • Does the ability to access global communications create people who are more open and free with\ntheir ideas? • Is an email to a colleague in another country more significant than a snail mail letter? • Are there any new platforms or apps that you are reluctant to try? GE T CONNEC TED\nInformation is processed and transferred faster than ever.",
+            "metadata": {
+              "chapter": 8,
+              "chunk_type": "by_paragraph",
+              "char_length": 771,
+              "chapter_title": "Communicating"
+            },
+            "score": 0.5596354042626857,
+            "strategy": "retrieval_rerank"
+          },
+          {
+            "id": "openstax-college-success-p271-para002",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 271,
+            "text": "Questions to Consider:\n• Is technology vital to your ability to communicate well? • Are there rules to follow when using communication technology? • How do you take control of your online communication? “Now we know that once computers connected us to each other, once we became tethered to\nthe network, we really didn’t need to keep computers busy. They keep us busy.”\n— Sherry Turkle[7]\nIs Technology Vital to Your Ability to Communicate Well? Over a billion people use chat rooms, mailing lists, instant messengers, social network services, newsgroups,\ngames, wikis, blogs, and more in order to share social relationships and organize collective action. Everything\nis connected: people, information, events, and places, all the more so with the advent of online social media.",
+            "metadata": {
+              "chapter": 8,
+              "chunk_type": "by_paragraph",
+              "char_length": 778,
+              "chapter_title": "Communicating"
+            },
+            "score": 0.5087597559479318,
+            "strategy": "retrieval_rerank"
+          }
+        ],
+        "context": "",
+        "context_ids": []
+      },
+      {
+        "event": "search",
+        "query": "technological advancement impact on interpersonal interaction",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-college-success-p280-para001",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 280,
+            "text": "In this way\nyour communication with others will be positive and allow you to be productive in all aspects of your life. AN AL Y SIS QUESTION\nTechnology has definitely had an effect on our society. Think about how it has this effect. • Is that cell phone in your pocket something that has made life better? • Are we empowering those who most often don’t have access to power in our society? • Or are we further alienating them? • Does the ability to access global communications create people who are more open and free with\ntheir ideas? • Is an email to a colleague in another country more significant than a snail mail letter? • Are there any new platforms or apps that you are reluctant to try? GE T CONNEC TED\nInformation is processed and transferred faster than ever.",
+            "metadata": {
+              "chapter": 8,
+              "chunk_type": "by_paragraph",
+              "char_length": 771,
+              "chapter_title": "Communicating"
+            },
+            "score": 0.503979485553878,
+            "strategy": "retrieval_rerank"
+          },
+          {
+            "id": "openstax-college-success-p280-para000",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 280,
+            "text": "Socialization is an integral part of human behavior, and over time new technologies have made networking\nand communication more complex. The tools you have available for communication within your networks are\npowerful and fulfilling, but they can also stand in the way of real-time thinking, doing, relating, and\ncommunicating. The past twenty years have seen an explosion in new tools and means of communication, but\nthe next twenty may see similarly rapid growth and change. Adaptability may be as important a skill as any\nmethod specific to a certain platform. The key is mindfully participating and knowing when to use and when\nnot to use the new technological tools available to us, which may require learning and acceptance.",
+            "metadata": {
+              "chapter": 8,
+              "chunk_type": "by_paragraph",
+              "char_length": 730,
+              "chapter_title": "Communicating"
+            },
+            "score": 0.39884803751060394,
+            "strategy": "retrieval_rerank"
+          },
+          {
+            "id": "openstax-college-success-p271-para002",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 271,
+            "text": "Questions to Consider:\n• Is technology vital to your ability to communicate well? • Are there rules to follow when using communication technology? • How do you take control of your online communication? “Now we know that once computers connected us to each other, once we became tethered to\nthe network, we really didn’t need to keep computers busy. They keep us busy.”\n— Sherry Turkle[7]\nIs Technology Vital to Your Ability to Communicate Well? Over a billion people use chat rooms, mailing lists, instant messengers, social network services, newsgroups,\ngames, wikis, blogs, and more in order to share social relationships and organize collective action. Everything\nis connected: people, information, events, and places, all the more so with the advent of online social media.",
+            "metadata": {
+              "chapter": 8,
+              "chunk_type": "by_paragraph",
+              "char_length": 778,
+              "chapter_title": "Communicating"
+            },
+            "score": 0.357465224849201,
+            "strategy": "retrieval_rerank"
+          }
+        ],
+        "context": "",
+        "context_ids": []
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 1799.57
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "Under what condition does OpenStax permit remixing and distributing the textbook material?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "OpenStax permits remixing and distributing the textbook material under the condition that attribution is provided to OpenStax and its content contributors, as stated in the Creative Commons Attribution 4.0 International (CC BY) license [openstax-college-success-p11-para001].",
+    "citations": [
+      "openstax-college-success-p11-para001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Under what condition does OpenStax permit remixing and distributing the textbook material?",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-college-success-p11-para001",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 11,
+            "text": "Through our\npartnerships with philanthropic foundations and our alliance with other educational resource organizations,\nOpenStax is breaking down the most common barriers to learning and empowering students and instructors\nto succeed. About OpenStax Resources\nCustomization\nCollege Success is licensed under a Creative Commons Attribution 4.0 International (CC BY) license, which\nmeans that you can distribute, remix, and build upon the content, as long as you provide attribution to\nOpenStax and its content contributors. Because our books are openly licensed, you are free to use the entire book or pick and choose the sections\nthat are most relevant to the needs of your course.",
+            "metadata": {
+              "chapter": 0,
+              "chunk_type": "by_paragraph",
+              "char_length": 681,
+              "chapter_title": "Preface"
+            },
+            "score": 0.6149240794647391,
+            "strategy": "retrieval_rerank"
+          },
+          {
+            "id": "openstax-college-success-p11-para000",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 11,
+            "text": "Welcome to College Success, an OpenStax resource. This textbook was written to increase student access to\nhigh-quality learning materials, maintaining highest standards of academic rigor at little to no cost. About OpenStax\nOpenStax is a nonprofit based at Rice University, and it’s our mission to improve student access to education. Our first openly licensed college textbook was published in 2012, and our library has since scaled to over 35\nbooks for college and AP® courses used by hundreds of thousands of students. OpenStax Tutor, our low-cost\npersonalized learning tool, is being piloted in college courses throughout the country.",
+            "metadata": {
+              "chapter": 0,
+              "chunk_type": "by_paragraph",
+              "char_length": 638,
+              "chapter_title": "Preface"
+            },
+            "score": 0.5300067537997452,
+            "strategy": "retrieval_rerank"
+          },
+          {
+            "id": "openstax-college-success-p11-para003",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 11,
+            "text": "For art that is openly licensed, anyone may reuse the art as long as they provide the same\nattribution to its original source. Some art has been provided through permissions and should only be used\nwith the attribution or limitations provided in the credit. If art contains no attribution credit, it may be reused\nwithout attribution. Errata\nAll OpenStax textbooks undergo a rigorous review process. However, like any professional-grade textbook,\nerrors sometimes occur. Since our books are web based, we can make updates periodically when deemed\npedagogically necessary. If you have a correction to suggest, submit it through the link on your book page on\nopenstax.org. Subject matter experts review all errata suggestions.",
+            "metadata": {
+              "chapter": 0,
+              "chunk_type": "by_paragraph",
+              "char_length": 724,
+              "chapter_title": "Preface"
+            },
+            "score": 0.49945769320699207,
+            "strategy": "retrieval_rerank"
+          }
+        ],
+        "context": "[openstax-college-success-p11-para001 | starter/data/College_Success_web.pdf | page 11]\nThrough our\npartnerships with philanthropic foundations and our alliance with other educational resource organizations,\nOpenStax is breaking down the most common barriers to learning and empowering students and instructors\nto succeed. About OpenStax Resources\nCustomization\nCollege Success is licensed under a Creative Commons Attribution 4.0 International (CC BY) license, which\nmeans that you can distribute, remix, and build upon the content, as long as you provide attribution to\nOpenStax and its content contributors. Because our books are openly licensed, you are free to use the entire book or pick and choose the sections\nthat are most relevant to the needs of your course.",
+        "context_ids": [
+          "openstax-college-success-p11-para001"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 1499.57
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "In Chapter 6 on studying and memory, what two interrelated techniques help students become more effective learners?",
+    "answerable": true,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "In Chapter 6 on studying and memory, what two interrelated techniques help students become more effective learners?",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-college-success-p229-para002",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 229,
+            "text": "Choose a topic from the list below and create an annotated bibliography that\nwould direct further research. • the importance of memory in learning new material\n• strategies to increase memory\n• strategies to increase the effectiveness of studying\n• test anxiety\nChapter 6 Studying, Memory, and Test Taking 219",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 309,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.7204545454545453,
+            "strategy": "retrieval_rerank"
+          },
+          {
+            "id": "openstax-college-success-p212-para000",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 212,
+            "text": "Preparing to Study\nStudying is hard work, but you can still learn some techniques to help you be a more effective learner. Two\nmajor and interrelated techniques involve avoiding distractions to the best of your ability and creating a study\nenvironment that works to help you concentrate. Avoiding Distractions\nWe have always had distractions—video games, television shows, movies, music, friends—even housecleaning\ncan distract us from doing something else we need to do, like study for an exam. That may seem extreme, but\nsometimes vacuuming is the preferred activity to buckling down and working through calculus problems! Cell\nphones, tablets, and portable computers that literally bring a world of possibilities to us anywhere have\nbrought distraction to an entirely new level.",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 781,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.6154220598312982,
+            "strategy": "retrieval_rerank"
+          },
+          {
+            "id": "openstax-college-success-p215-para002",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 215,
+            "text": "You can make the most of\nthe memory you have by making some conscious decisions about how you study and prepare for exams. Incorporate these ideas into your study sessions:\nPracticing effective memorization is when you use a trick, technique, or strategy to recall something—for\nanother class, an exam, or even to bring up an acquaintance’s name in a social situation. Really whatever\nworks for you to recall information is a good tool to have. You can create your own quizzes and tests to go\nover material from class. You can use mnemonics to jog your memory. You can work in groups to develop\nunique ways to remember complex information. Whatever methods you choose to enhance your memory,\nkeep in mind that repetition is one of the most effective tools in any memory strategy.",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 779,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.5887144943493108,
+            "strategy": "retrieval_rerank"
+          }
+        ],
+        "context": "[openstax-college-success-p229-para002 | starter/data/College_Success_web.pdf | page 229]\nChoose a topic from the list below and create an annotated bibliography that\nwould direct further research. • the importance of memory in learning new material\n• strategies to increase memory\n• strategies to increase the effectiveness of studying\n• test anxiety\nChapter 6 Studying, Memory, and Test Taking 219",
+        "context_ids": [
+          "openstax-college-success-p229-para002"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Chapter 6 studying and memory techniques",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-college-success-p203-para003",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 203,
+            "text": "Despite much research and\nexploration, a complete understanding of human memory does not exist.”[2]\nAN AL Y SIS QUESTION\nTake a few minutes to list ways you create memories on a daily basis. Do you think about how you make\nmemories? Do you do anything that helps you keep track of your memories? 1 NCBI. “What are the differences between long-term, short-term, and working memory?” https://www.ncbi.nlm.nih.gov/pmc/articles/\nPMC2657600/\n2 Sumrall, William, et. al. “A Review of Memory Theory.” International Journal of Humanities and Social Science, 2016. Vol. 6. No. 5. Chapter 6 Studying, Memory, and Test Taking 193",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 618,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.7818673453740984,
+            "strategy": "retrieval_rerank"
+          },
+          {
+            "id": "openstax-college-success-p229-para002",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 229,
+            "text": "Choose a topic from the list below and create an annotated bibliography that\nwould direct further research. • the importance of memory in learning new material\n• strategies to increase memory\n• strategies to increase the effectiveness of studying\n• test anxiety\nChapter 6 Studying, Memory, and Test Taking 219",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 309,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.6524054965439786,
+            "strategy": "retrieval_rerank"
+          },
+          {
+            "id": "openstax-college-success-p215-para002",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 215,
+            "text": "You can make the most of\nthe memory you have by making some conscious decisions about how you study and prepare for exams. Incorporate these ideas into your study sessions:\nPracticing effective memorization is when you use a trick, technique, or strategy to recall something—for\nanother class, an exam, or even to bring up an acquaintance’s name in a social situation. Really whatever\nworks for you to recall information is a good tool to have. You can create your own quizzes and tests to go\nover material from class. You can use mnemonics to jog your memory. You can work in groups to develop\nunique ways to remember complex information. Whatever methods you choose to enhance your memory,\nkeep in mind that repetition is one of the most effective tools in any memory strategy.",
+            "metadata": {
+              "chapter": 6,
+              "chunk_type": "by_paragraph",
+              "char_length": 779,
+              "chapter_title": "Studying, Memory, and Test Taking"
+            },
+            "score": 0.6166469284680339,
+            "strategy": "retrieval_rerank"
+          }
+        ],
+        "context": "[openstax-college-success-p229-para002 | starter/data/College_Success_web.pdf | page 229]\nChoose a topic from the list below and create an annotated bibliography that\nwould direct further research. • the importance of memory in learning new material\n• strategies to increase memory\n• strategies to increase the effectiveness of studying\n• test anxiety\nChapter 6 Studying, Memory, and Test Taking 219",
+        "context_ids": [
+          "openstax-college-success-p229-para002"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 2311.56
+  },
+  {
+    "query_id": "q25",
+    "split": "test",
+    "question": "In Chapter 3 on time management, what do the five SMART goal attributes represent, and why are they considered desirable?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "The five SMART goal attributes represent Specific, Measurable, Achievable (or Attainable), Relevant, and Time-bound. They are considered desirable because they provide a clear and actionable plan for achieving a goal. For example, the goal 'I will graduate with my degree, on time' is considered SMART because it is specific, measurable, and time-bound, with the other attributes implied [openstax-college-success-p113-para000].",
+    "citations": [
+      "openstax-college-success-p113-para000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "In Chapter 3 on time management, what do the five SMART goal attributes represent, and why are they considered desirable?",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-college-success-p113-para000",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 113,
+            "text": "In the following table you can see some examples of goals that do and do not follow the SMART system. As\nyou read each one, think about what elements make them SMART or how you might change those that are\nnot. Goal Is it\nSMART? I am going to be rich\nsomeday. No There is nothing really specific, measurable, or time-bound in this\ngoal. I will graduate with my\ndegree, on time. Yes The statement calls out specific, measureable, and time-bound\ndetails. The other attributes of attainable and relevant are\nimplied. I am going to save\nenough money to buy a\nnewer car by June. Yes All SMART attributes are covered in this goal. I would like to do well in\nall my courses next\nsemester.",
+            "metadata": {
+              "chapter": 3,
+              "chunk_type": "by_paragraph",
+              "char_length": 680,
+              "chapter_title": "Managing Your Time and Priorities"
+            },
+            "score": 0.7659090909090909,
+            "strategy": "retrieval_rerank"
+          },
+          {
+            "id": "openstax-college-success-p112-para002",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 112,
+            "text": "In this case, the word smart is not only a clever description of the type of goal,\nbut it is also an acronym that stands for Specific, Measurable, Attainable, Relevant, and Time-bound. The\nreason these are all desirable traits for your goals is because they not only help you plan how to meet the goal,\nbut they can also contribute to your decision-making processes during the planning stage. What does it mean to create SMART goals? • Specific—For a goal to be specific, it must be defined enough to actually determine the goal. A goal of get\na good job when I graduate is too general. It doesn’t define what a good job is. In fact, it doesn’t even\nnecessarily include a job in your chosen profession.",
+            "metadata": {
+              "chapter": 3,
+              "chunk_type": "by_paragraph",
+              "char_length": 702,
+              "chapter_title": "Managing Your Time and Priorities"
+            },
+            "score": 0.5725888917260047,
+            "strategy": "retrieval_rerank"
+          },
+          {
+            "id": "openstax-college-success-p113-para001",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 113,
+            "text": "No While this is clearly time-bound and meets most of the SMART\ngoal attributes, it is not specific or measurable without defining\nwhat “do well” means. I am going to start being\na nicer person. No While most of the SMART attributes are implied, there is nothing\nreally measurable in this goal. I will earn at least a 3.0\nGPA in all my courses\nnext semester. Yes All of the SMART attributes are present in this goal. I am going to start being\nmore organized. No While most of the SMART attributes are implied, there is nothing\nreally measurable in this goal. Table 3.6\nMake an Action Plan\nLike anything else, making a step-by-step action plan of how you will attain your goals is the best way to make\ncertain you achieve them.",
+            "metadata": {
+              "chapter": 3,
+              "chunk_type": "by_paragraph",
+              "char_length": 726,
+              "chapter_title": "Managing Your Time and Priorities"
+            },
+            "score": 0.5321864759181372,
+            "strategy": "retrieval_rerank"
+          }
+        ],
+        "context": "[openstax-college-success-p113-para000 | starter/data/College_Success_web.pdf | page 113]\nIn the following table you can see some examples of goals that do and do not follow the SMART system. As\nyou read each one, think about what elements make them SMART or how you might change those that are\nnot. Goal Is it\nSMART? I am going to be rich\nsomeday. No There is nothing really specific, measurable, or time-bound in this\ngoal. I will graduate with my\ndegree, on time. Yes The statement calls out specific, measureable, and time-bound\ndetails. The other attributes of attainable and relevant are\nimplied. I am going to save\nenough money to buy a\nnewer car by June. Yes All SMART attributes are covered in this goal. I would like to do well in\nall my courses next\nsemester.",
+        "context_ids": [
+          "openstax-college-success-p113-para000"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 3653.19
+  },
+  {
+    "query_id": "u_test_01",
+    "split": "test",
+    "question": "What is the minimum IELTS band score required for international students to waive the introductory college English course?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "What is the minimum IELTS band score required for international students to waive the introductory college English course?",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-college-success-p149-para004",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 149,
+            "text": "I know whether I am required to take preparatory or developmental courses in math and English,\nand whether these courses will count among my total credits toward my degree. 4. I am aware of the special requirements of my major (if any) and the prerequisites I must complete. 5. I am aware of the minimum entry requirements for my desired career field and know whether I\nshould be preparing to plan for a graduate degree as well. Chapter 4 Planning Your Academic Pathways 139",
+            "metadata": {
+              "chapter": 4,
+              "chunk_type": "by_paragraph",
+              "char_length": 474,
+              "chapter_title": "Planning Your Academic Pathways"
+            },
+            "score": 0.7332535608577494,
+            "strategy": "retrieval_rerank"
+          },
+          {
+            "id": "openstax-college-success-p138-para001",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 138,
+            "text": "English composition\nHumanities courses that study our beliefs and the expression of our beliefs such as literature, philosophy,\npolitics, art, or religious studies\nSocial science courses that study our behavior such as psychology, sociology, anthropology, or economics\nLaboratory science courses such as biology, chemistry, physics, and environmental science\nMathematics\nTechnology or computer skills\nForeign language, diversity, or global studies courses that provide introduction to different cultures or\nglobal social issues and promote cultural awareness\nCollege success or first-year experience courses that provide introduction to your specific institution,\ndiscuss college-level expectations and skills, and/or provide assistance with academic and career planning\nTable 4.4 General Education Categories.",
+            "metadata": {
+              "chapter": 4,
+              "chunk_type": "by_paragraph",
+              "char_length": 810,
+              "chapter_title": "Planning Your Academic Pathways"
+            },
+            "score": 0.5019110312833615,
+            "strategy": "retrieval_rerank"
+          },
+          {
+            "id": "openstax-college-success-p139-para000",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 139,
+            "text": "that students, particularly those students who are undecided about their major, are able to explore different\nprograms without exceeding the total number of credits required to graduate with a bachelor’s degree. In\nother cases, students may have taken all of their major courses and fulfilled their general education\nrequirements but still need additional credits to fulfill the minimum to graduate. The additional courses taken\nto meet the total credit requirement (if necessary) are considered electives. Graduate Degrees\nAccording to United States Census data published in 2018, 13.1 percent of the U.S.",
+            "metadata": {
+              "chapter": 4,
+              "chunk_type": "by_paragraph",
+              "char_length": 606,
+              "chapter_title": "Planning Your Academic Pathways"
+            },
+            "score": 0.35681663629902416,
+            "strategy": "retrieval_rerank"
+          }
+        ],
+        "context": "[openstax-college-success-p149-para004 | starter/data/College_Success_web.pdf | page 149]\nI know whether I am required to take preparatory or developmental courses in math and English,\nand whether these courses will count among my total credits toward my degree. 4. I am aware of the special requirements of my major (if any) and the prerequisites I must complete. 5. I am aware of the minimum entry requirements for my desired career field and know whether I\nshould be preparing to plan for a graduate degree as well. Chapter 4 Planning Your Academic Pathways 139",
+        "context_ids": [
+          "openstax-college-success-p149-para004"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "elapsed_ms": 1327.8
+  },
+  {
+    "query_id": "u_test_02",
+    "split": "test",
+    "question": "What is the standard monthly campus parking fee for student bicycles and motor vehicles?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "What is the standard monthly campus parking fee for student bicycles and motor vehicles?",
+        "filter": null,
+        "results": [
+          {
+            "id": "openstax-college-success-p85-para004",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 85,
+            "text": "Not only will you pay for\nadditional tuition, textbooks, and other fees associated with going to school, but if you are using student\nloans, you will also accumulate interest on those loans. On average this would come to an extra $12,557 in\nactual costs and $6,040 in interest at a public university, or $18,992 in tuition and fees and $7,823 in interest\n(over 10 years) at a private school. That's a lot of extra cost to you! “In the long run, just two extra semesters of college can cost you almost $150,000.”\nWhile a loss of $26,815 may seem like a lot of money, it pales in comparison to the other financial areas\nimpacted by a single extra year in school.",
+            "metadata": {
+              "chapter": 3,
+              "chunk_type": "by_paragraph",
+              "char_length": 660,
+              "chapter_title": "Managing Your Time and Priorities"
+            },
+            "score": 0.5456318587527706,
+            "strategy": "retrieval_rerank"
+          },
+          {
+            "id": "openstax-college-success-p13-para002",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 13,
+            "text": "OpenStax will periodically update\nthese estimates based on user feedback. As with all other elements of the text, these estimates may be\nadjusted by instructors (or deleted completely) based on addition or removal of material or activities. Additional Resources\nStudent and Instructor Resources\nWe’ve compiled additional resources for both students and instructors, including Getting Started Guides,\nlecture slides, and a Test Bank. The most robust of these is the Instructor Resource Manual, developed by author Amy Baldwin based on\nextensive experience and requests from faculty reviewers and survey respondents.",
+            "metadata": {
+              "chapter": 0,
+              "chunk_type": "by_paragraph",
+              "char_length": 614,
+              "chapter_title": "Preface"
+            },
+            "score": 0.42213043342361667,
+            "strategy": "retrieval_rerank"
+          },
+          {
+            "id": "openstax-college-success-p242-para001",
+            "source_id": "openstax-college-success",
+            "source": "starter/data/College_Success_web.pdf",
+            "page": 242,
+            "text": "Creative Process Applied to a Sample Campus Activity\nCreative Process Step Description and Notes\nProblem to Solve or Item/Work to\nCreate\nCreate a new logo for our Commuter Student Association\nRequirements and Needs • Will be used on Insta/Twitter, merch, print\n• Must incorporate school colors but be readable in grayscale\n• Must be understandable at large and small sizes (computer/\nphone)\nParameters and Limitations • Cannot look like other logos on campus\n• Cannot use photos-illustration only\n• Timeline: 7 weeks (in time for next year's college catalog)\n• Budget: $450\nInspiration and Ideas • Look at Commuter Association logos from other colleges. • Look at city and state transit logos. • Go to library to look at our school's old yearbooks.",
+            "metadata": {
+              "chapter": 7,
+              "chunk_type": "by_paragraph",
+              "char_length": 748,
+              "chapter_title": "Thinking"
+            },
+            "score": 0.38785455549725023,
+            "strategy": "retrieval_rerank"
+          }
+        ],
+        "context": "[openstax-college-success-p85-para004 | starter/data/College_Success_web.pdf | page 85]\nNot only will you pay for\nadditional tuition, textbooks, and other fees associated with going to school, but if you are using student\nloans, you will also accumulate interest on those loans. On average this would come to an extra $12,557 in\nactual costs and $6,040 in interest at a public university, or $18,992 in tuition and fees and $7,823 in interest\n(over 10 years) at a private school. That's a lot of extra cost to you! “In the long run, just two extra semesters of college can cost you almost $150,000.”\nWhile a loss of $26,815 may seem like a lot of money, it pales in comparison to the other financial areas\nimpacted by a single extra year in school.",
+        "context_ids": [
+          "openstax-college-success-p85-para004"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "elapsed_ms": 1498.17
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "cases": 21,
+  "provider_errors": 0,
+  "tool_use": {
+    "n": 21,
+    "N": 21
+  },
+  "grounded_answer": {
+    "0": 7,
+    "1": 0,
+    "2": 12,
+    "N": 19,
+    "mean": 1.263157894736842
+  },
+  "citation_validity": {
+    "n": 12,
+    "N": 12
+  },
+  "answer_citation_coverage": {
+    "n": 12,
+    "N": 12
+  },
+  "abstention": {
+    "n": 2,
+    "N": 2
+  },
+  "false_abstention": {
+    "n": 7,
+    "N": 19
+  }
+}
