@@ -139,6 +139,24 @@ python src/run_agent_eval.py --split test --config hybrid --retriever hybrid --b
 python src/run_agent_eval.py --split test --config rerank --retriever rerank --budget 3200 --max-searches 4
 ```
 
+#### C. Đường dẫn kết quả Trace và Đánh giá chi tiết (Traces, Summary & Reviews):
+
+Toàn bộ kết quả thực thi từng tool call, log tương tác, trích dẫn bằng chứng và bảng điểm đánh giá định lượng cho cả 6 cấu hình Agent được lưu trữ đầy đủ tại thư mục `starter/results/`:
+
+| Cấu hình Agent | Tập Dev (21 câu) | Tập Test (8 câu) | Các tệp tin chi tiết trong thư mục |
+|---|---|---|---|
+| **1. Baseline Agent** *(Dense, budget=800, max=2)* | [`starter/results/dev-agent-baseline/`](starter/results/dev-agent-baseline/) | [`starter/results/test-agent-baseline/`](starter/results/test-agent-baseline/) | [`traces.json`](starter/results/test-agent-baseline/traces.json) · [`summary.json`](starter/results/test-agent-baseline/summary.json) · [`reviews.json`](starter/results/test-agent-baseline/reviews.json) |
+| **2. Improved Dense** *(Dense, budget=3200, max=4)* | [`starter/results/dev-agent-improved/`](starter/results/dev-agent-improved/) | [`starter/results/test-agent-improved/`](starter/results/test-agent-improved/) | [`traces.json`](starter/results/test-agent-improved/traces.json) · [`summary.json`](starter/results/test-agent-improved/summary.json) · [`reviews.json`](starter/results/test-agent-improved/reviews.json) |
+| **3. Lexical Agent** *(BM25, budget=3200, max=4)* | [`starter/results/dev-agent-bm25/`](starter/results/dev-agent-bm25/) | [`starter/results/test-agent-bm25/`](starter/results/test-agent-bm25/) | [`traces.json`](starter/results/test-agent-bm25/traces.json) · [`summary.json`](starter/results/test-agent-bm25/summary.json) · [`reviews.json`](starter/results/test-agent-bm25/reviews.json) |
+| **4. Hybrid RRF** *(Dense + BM25, budget=3200, max=4)* | [`starter/results/dev-agent-hybrid/`](starter/results/dev-agent-hybrid/) | [`starter/results/test-agent-hybrid/`](starter/results/test-agent-hybrid/) | [`traces.json`](starter/results/test-agent-hybrid/traces.json) · [`summary.json`](starter/results/test-agent-hybrid/summary.json) · [`reviews.json`](starter/results/test-agent-hybrid/reviews.json) |
+| **5. Rerank Agent** *(Dense + Cross-Score, budget=3200)* | [`starter/results/dev-agent-rerank/`](starter/results/dev-agent-rerank/) | [`starter/results/test-agent-rerank/`](starter/results/test-agent-rerank/) | [`traces.json`](starter/results/test-agent-rerank/traces.json) · [`summary.json`](starter/results/test-agent-rerank/summary.json) · [`reviews.json`](starter/results/test-agent-rerank/reviews.json) |
+| **6. Rerank-800** *(Cấu hình đánh đổi budget=800)* | [`starter/results/dev-agent-rerank-800/`](starter/results/dev-agent-rerank-800/) | [`starter/results/test-agent-rerank-800/`](starter/results/test-agent-rerank-800/) | [`traces.json`](starter/results/test-agent-rerank-800/traces.json) · [`summary.json`](starter/results/test-agent-rerank-800/summary.json) · [`reviews.json`](starter/results/test-agent-rerank-800/reviews.json) |
+
+**Ý nghĩa các file trong mỗi thư mục kết quả:**
+- `traces.json`: Nhật ký tương tác chi tiết từng query — gồm câu hỏi, từng lượt gọi tool `search()`, tham số tìm kiếm, nội dung context nhận về, quá trình suy luận (reasoning thinking), câu trả lời, mảng trích dẫn `citations`, độ trễ và số token.
+- `summary.json`: Bảng tổng hợp các chỉ số định lượng: `grounded_answer` (điểm trung bình /2.0), `citation_validity` (tỷ lệ trích dẫn hợp lệ), `abstention` (tỷ lệ từ chối đúng), `false_abstention` (tỷ lệ từ chối sai) và `tool_use`.
+- `reviews.json`: Chi tiết chấm điểm từng câu hỏi theo chuẩn rubric (`answer_grade: 0/1/2`, `citation_support: [True/False]`, `abstention_correct: True/False`).
+
 ---
 
 ### 5. Xem kết quả trực quan trên Interactive Dashboard

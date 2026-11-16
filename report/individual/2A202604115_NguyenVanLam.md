@@ -113,9 +113,9 @@
 | `q25` | Answerable (test) | Call `search` gom được chunk `openstax-college-success-p112-para002` định nghĩa thuộc tính SMART. | "The five SMART goal attributes represent Specific, Measurable, Attainable, Relevant, and Time-bound. These attributes are considered desirable because they help with planning and decision-making processes during the goal-planning stage [openstax-college-success-p112-para002]." | **Grade 2**: Trả lời chính xác, trích dẫn chuẩn xác định nghĩa SMART goals. |
 
 - **Đường dẫn trace, nhãn, lệnh chạy, thời gian và chi phí:**
-  - Thư mục lưu trữ kết quả và audit:
-    - Dev Runs: `starter/results/dev-agent-baseline/`, `dev-agent-rerank-800/`, `dev-agent-improved/`, `dev-agent-bm25/`, `dev-agent-hybrid/`, `dev-agent-rerank/` (đầy đủ `traces.json`, `reviews.json`, `summary.json`).
-    - Test Runs: `starter/results/test-agent-baseline/`, `test-agent-rerank-800/`, `test-agent-improved/`, `test-agent-bm25/`, `test-agent-hybrid/`, `test-agent-rerank/` (đầy đủ `traces.json`, `reviews.json`, `summary.json`).
+  - Thư mục lưu trữ kết quả và audit (gồm `traces.json`, `reviews.json`, `summary.json` cho từng cấu hình):
+    - Dev Runs: [`dev-agent-baseline/`](../../starter/results/dev-agent-baseline/), [`dev-agent-improved/`](../../starter/results/dev-agent-improved/), [`dev-agent-bm25/`](../../starter/results/dev-agent-bm25/), [`dev-agent-hybrid/`](../../starter/results/dev-agent-hybrid/), [`dev-agent-rerank/`](../../starter/results/dev-agent-rerank/), [`dev-agent-rerank-800/`](../../starter/results/dev-agent-rerank-800/)
+    - Test Runs: [`test-agent-baseline/`](../../starter/results/test-agent-baseline/), [`test-agent-improved/`](../../starter/results/test-agent-improved/), [`test-agent-bm25/`](../../starter/results/test-agent-bm25/), [`test-agent-hybrid/`](../../starter/results/test-agent-hybrid/), [`test-agent-rerank/`](../../starter/results/test-agent-rerank/), [`test-agent-rerank-800/`](../../starter/results/test-agent-rerank-800/)
   - Lệnh thực thi tái lập đánh giá Agent cho các phương pháp:
     ```bash
     # Chạy Agent với Dense Improved (budget 3200)
