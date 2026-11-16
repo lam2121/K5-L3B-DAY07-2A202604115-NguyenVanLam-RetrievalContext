@@ -3,9 +3,22 @@
 Thư mục này chứa mã nguồn cài đặt và đánh giá toàn diện cho hệ thống Agentic RAG Day 7:
 
 - **`agent_controller.py`**:
-  - Tích hợp LLM Controller thực tế qua OpenRouter API (mặc định model `meta-llama/llama-3.3-70b-instruct`, fallback: `nvidia/nemotron-3.5-super-vl:free`).
-  - Ép chuẩn cấu trúc đầu ra JSON (`response_format={"type": "json_object"}`), parse action `search` hoặc `answer`.
-  - Cơ chế xử lý Rate Limit (HTTP 429) và lỗi mạng với exponential backoff 3 lần (2s, 4s, 8s).
+  - Tích hợp LLM Controller thực tế hỗ trợ đa nhà cung cấp: **Anthropic Direct API (mặc định model `claude-haiku-5-5`)**, Google Gemini API (`gemini-2.5-flash`), OpenRouter, Groq, và Ollama.
+  - Hỗ trợ bóc tách khối suy luận mở rộng (`ThinkingBlock`) và trích xuất khối văn bản (`TextBlock`) từ Claude 5.5.
+  - Chuẩn hóa đầu ra JSON và hàm `normalize_action()` đảm bảo 100% trích dẫn `[chunk-id]` khớp chính xác với ngữ cảnh tích lũy.
+  - Cơ chế xử lý Rate Limit (HTTP 429) và lỗi mạng với exponential backoff.
+
+- **`advanced_index.py`**:
+  - Trích xuất cấu trúc và index đa phương thức toàn diện cho tài liệu *World Development Report 2025* (408 trang, 3.473 chunks).
+  - Tự động bóc tách 49 bảng biểu Markdown, cắt ảnh 170 hình ảnh/biểu đồ kèm bounding box tọa độ pixel thực tế, vector hóa embedding 384 chiều (`all-MiniLM-L6-v2`).
+
+- **`advanced_retriever.py`**:
+  - Bộ truy xuất nâng cao kết hợp Reciprocal Rank Fusion (RRF, $k=60$) giữa Dense Cosine Similarity và BM25 Okapi.
+  - Tích hợp cơ chế **Entity Mention Boosting** tự động tăng hạng cho các chunk có mã định danh thực thể (như `Figure 7.7`, `Table 4.2`, `Map 6.1`).
+
+- **`run_advanced_eval.py`**:
+  - CLI đánh giá toàn diện Agent trên bộ benchmark WDR 2025 (Dev 18 câu, Test 30 câu gồm Table, Diagram, Chart, Multi-hop, Text, Unanswerable).
+  - Tự động chấm điểm, tính toán tỷ lệ đạt theo từng nhóm câu hỏi và xuất kết quả `summary.json`, `traces.json`, `reviews.json`.
 
 - **`retrievers.py`**:
   - Cài đặt 4 phương pháp retrieval:

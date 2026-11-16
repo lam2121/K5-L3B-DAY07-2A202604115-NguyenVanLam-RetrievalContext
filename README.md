@@ -174,9 +174,6 @@ python src/run_advanced_eval.py --split dev
 
 # 3. Chạy đánh giá toàn diện trên tập Test (30 câu — Đạt 93.3% >= 90%):
 python src/run_advanced_eval.py --split test
-
-# 4. (Tùy chọn) Tái tạo lại giao diện HTML tương tác tra cứu dẫn chứng PDF:
-python src/generate_advanced_viewer.py
 ```
 
 #### C. Xem kết quả đánh giá và Trực quan hóa:
