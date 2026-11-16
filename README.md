@@ -40,7 +40,8 @@ Nộp code, cách chạy, cấu hình, benchmark, trace và [báo cáo](report/i
 - **MSSV:** 2A202604115
 - **Lớp:** K5-L3B
 - **Báo cáo cá nhân chi tiết:** [`report/individual/2A202604115_NguyenVanLam.md`](report/individual/2A202604115_NguyenVanLam.md)
-- **Interactive Dashboard:** [`benchmark_viewer.html`](benchmark_viewer.html)
+- **Interactive Dashboard (Day 7):** [`benchmark_viewer.html`](benchmark_viewer.html)
+- **Advanced Explorer (WDR 2025):** [`advanced_viewer.html`](advanced_viewer.html)
 
 ---
 
@@ -148,3 +149,41 @@ Mở trực tiếp file [`benchmark_viewer.html`](benchmark_viewer.html) bằng 
 - Xem song song chi tiết từng câu: Query, Ground Truth Evidence và Top Chunks được truy xuất bởi từng phương pháp.
 - **Trình chiếu trang PDF gốc tích hợp:** Render hình ảnh trang sách thực tế từ `results/pdf_pages/` với bounding box màu vàng phát sáng bao quanh đoạn bằng chứng chuẩn.
 - Inspector xem chi tiết từng lượt tool call, reasoning thought, câu trả lời, độ trễ và chi phí của Agent.
+
+---
+
+### 6. Hướng dẫn chạy Thử thách Nâng cao (Advanced Challenge — WDR 2025)
+
+Thử thách nâng cao sử dụng tài liệu thực tế **World Development Report 2025: Standards for Development** (408 trang, 3.473 chunks đa phương thức: văn bản, 49 bảng biểu, 170 hình ảnh/biểu đồ, 5 bản đồ) và hệ thống Agentic Multimodal RAG kết hợp Claude 5.5 Haiku, đạt **28/30 câu Test (93.3%)** $\ge 90\%$, đủ điều kiện đạt tối đa **15/15 điểm bonus**.
+
+#### A. Cấu hình Model trong `.env`
+Mở file `.env` tại thư mục gốc và cấu hình API key (hỗ trợ cả Anthropic Claude 5.5 Haiku trực tiếp hoặc Google Gemini):
+```env
+ANTHROPIC_API_KEY=your_anthropic_api_key_here
+ANTHROPIC_MODEL=claude-haiku-5-5
+```
+
+#### B. Các lệnh thực thi Thử thách Nâng cao:
+```bash
+# 1. (Tùy chọn) Tái lập Index Multimodal từ file PDF gốc 408 trang
+# Pipeline tự động phân tích layout, trích xuất bảng Markdown, cắt ảnh diagram/chart và sinh embedding:
+python src/advanced_index.py
+
+# 2. Chạy đánh giá trên tập Dev (18 câu — Đạt 94.4%):
+python src/run_advanced_eval.py --split dev
+
+# 3. Chạy đánh giá toàn diện trên tập Test (30 câu — Đạt 93.3% >= 90%):
+python src/run_advanced_eval.py --split test
+
+# 4. (Tùy chọn) Tái tạo lại giao diện HTML tương tác tra cứu dẫn chứng PDF:
+python src/generate_advanced_viewer.py
+```
+
+#### C. Xem kết quả đánh giá và Trực quan hóa:
+- **Dữ liệu Trace và Đánh giá chi tiết:**
+  - Tập Dev: [`starter/results/advanced-dev/summary.json`](starter/results/advanced-dev/summary.json) & [`traces.json`](starter/results/advanced-dev/traces.json)
+  - Tập Test: [`starter/results/advanced-test/summary.json`](starter/results/advanced-test/summary.json) & [`traces.json`](starter/results/advanced-test/traces.json)
+- **Advanced Challenge Explorer:** Mở trực tiếp file [`advanced_viewer.html`](advanced_viewer.html) bằng trình duyệt web để:
+  - Xem chi tiết 30 câu hỏi theo từng nhóm: *Table, Image/Diagram, Chart, Multi-hop, Text, Unanswerable*.
+  - Kiểm tra execution trace, reasoning, prompt, thời gian và trích dẫn `[chunk-id]`.
+  - **Trình chiếu trang PDF gốc đối chiếu:** Hiển thị trực quan trang PDF tương ứng với bounding box màu vàng phát sáng bao quanh đúng vùng dữ liệu trích dẫn của Agent và dữ liệu chuẩn, hỗ trợ tab chuyển đổi trang cho câu hỏi đa bước (multi-hop).
